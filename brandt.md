@@ -27,13 +27,13 @@ If you know how to make pull requests Git/GitHub, you are welcome to make your c
 ## remaining tasks
 
 ```
-progress: 18 / 1154 tasks complete (~2%)
+progress: 18 / 1154 tasks complete (~1.5%)
 [=                                                 ]
 ```
 
-- [x] confirm copyright status of original work (def public domain in US because it was published in 1928)
-- [x] figure out license for project (maybe Creative Commons)
-- [x] determine format for transcribed content to allow collaboration
+- [x] confirm copyright status of original work (def public domain in US because it was published in 1928) (Feb 9)
+- [x] figure out license for project (Feb 9)
+- [x] determine format for transcribed content to allow collaboration (Feb 9)
   - [x] transcribe text from Chapter 1
   - [x] build MVP (prototype) using transcribed text
 - [ ] document toolset for transcribing content with help of automation
@@ -41,8 +41,8 @@ progress: 18 / 1154 tasks complete (~2%)
   - [ ] document free pinyin transcription tools to allow collaborators to easily contribute
   - [ ] document file formats
 - user interface
-  - [x] display text with English translation and gloss
-  - [x] display character definitions on click
+  - [x] display text with English translation and gloss (Feb 9)
+  - [x] display character definitions on click (Feb 9)
   - [ ] display lesson notes in popover
   - [ ] in popover: highlight reading/definition according to gloss, if present
   - [ ] display correct character readings via gloss, if present
@@ -50,20 +50,20 @@ progress: 18 / 1154 tasks complete (~2%)
   - [ ] make build script to aggregate lexicon + make text file to be checked into repo to track changes
 - Lesson 1, Text 1
   - transcribe content
-    - [x] prepare images of Chinese text + English translation for OCR
-    - [x] use OCR on cropped images
-    - [x] proofread OCR results
-    - [x] transcribe Vocabulary section (Võ Khắc Phú Cường)
-    - [x] transcribe Notes section (Võ Khắc Phú Cường)
+    - [x] prepare images of Chinese text + English translation for OCR (Feb 9)
+    - [x] use OCR on cropped images (Feb 9)
+    - [x] proofread OCR results (Feb 9)
+    - [x] transcribe Vocabulary section (Feb 9 Võ Khắc Phú Cường)
+    - [x] transcribe Notes section (Feb 9 Võ Khắc Phú Cường)
     - [x] proofread
   - format content
-    - [x] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
-    - [x] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md)) (Feb 9)
+    - [x] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv)) (Feb 9)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
-    - [x] get Vietnamese readings for Vocabulary section (Võ Khắc Phú Cường)
-    - [x] align transcribed Chinese + English sentences
-    - [x] write Chinese -> English gloss
+    - [x] get Vietnamese readings for Vocabulary section (Feb 9 Võ Khắc Phú Cường)
+    - [x] align transcribed Chinese + English sentences (Feb 9)
+    - [x] write Chinese -> English gloss (Feb 9)
 - Lesson 1, Text 2
   - transcribe content
     - [ ] prepare images of Chinese text + English translation for OCR
