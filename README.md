@@ -8,7 +8,7 @@ The current focus is to transcribe + format the content of the 1927 textbook _In
 
 ## texts &nbsp;&nbsp;[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-The following license information applies to the texts in the [texts]('./texts') folder.
+The following license information applies to the texts in the [texts](./texts) folder.
 
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
