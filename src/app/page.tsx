@@ -4,7 +4,7 @@ import { getTextsIdsAndTitles } from "./texts/files";
 export default function Home() {
   const textsIdsAndTitles = getTextsIdsAndTitles();
   return (
-    <main className="min-h-screen max-w-screen-lg margin-auto padding-4 p-24">
+    <main className="min-h-screen max-w-screen-lg m-auto padding-4 p-24">
       <div className="mb-4 text-center">
         <h1 className="font-bold">Introduction to Literary Chinese</h1>
         <p className="text-sm">Adapted from the 1927 book by J. Brandt</p>

@@ -2,6 +2,8 @@
 
 Adapted from the 1927 book by J. Brandt
 
+Transcribed with help from 武克富強 (Võ Khắc Phú Cường)
+
 ---
 
 吉凶
@@ -14,7 +16,7 @@ be crow flock_together courtyard tree stretch neck and sing
 
 {c:兒叱之}。
 (A) boy hooted at them.
-boy hoot them
+boy hoot_at them
 
 父曰。是何害。
 (His) father asked (lit. said), "What (is) the harm (in) this?"

@@ -40,26 +40,27 @@ export function ChineseWithPopover({
 
         const id = `text-${char}-${i}`;
 
+        if (!vocab[char]) {
+          return <span key={i}>{char}</span>;
+        }
         let rubyText: string | null = null;
         if (displayOptions.ruby === "en")
-          rubyText = gloss?.[i]?.replace(/_/g, " ") || null;
-        if (!rubyText)
+          rubyText = gloss?.[glossIndex]?.replace(/_/g, " ") || null;
+        else
           rubyText =
             displayOptions?.ruby && vocab[char]
               ? vocab[char][0][displayOptions.ruby]
               : null;
 
         return (
-          <button
+          <span
             key={i}
-            type="button"
-            className={
-              popover.refs.domReference.current?.id === id
-                ? "bg-blue-500/20"
-                : "bg-background"
-            }
             {...popover.getReferenceProps({
-              className: "relative",
+              className: `relative cursor:pointer hover:bg-background ${
+                popover.refs.domReference.current?.id === id
+                  ? "bg-blue-500/20"
+                  : ""
+              }`,
               onClick: (e) => {
                 popover.refs.setReference(e.currentTarget);
                 setChar(char);
@@ -74,10 +75,10 @@ export function ChineseWithPopover({
             ) : (
               char
             )}
-          </button>
+          </span>
         );
       })}
-      {popover.open && (
+      {popover.open && popoverChar && vocab[popoverChar] && (
         <FloatingPortal>
           <FloatingFocusManager context={popover.context} modal={popover.modal}>
             <div
