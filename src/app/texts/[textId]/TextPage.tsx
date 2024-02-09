@@ -23,7 +23,7 @@ export default function TextPage({
     <main className="flex min-h-screen flex-col max-w-lg m-auto p-4">
       <div className="mb-4 text-center">
         <h2 className="font-bold">{text.frontmatter.title}</h2>
-        <p className="text-sm">{text.frontmatter.description}</p>
+        <Markdown className="text-sm">{text.frontmatter.description}</Markdown>
       </div>
 
       <form className="mb-4 text-sm border-1 border border-foreground/25 rounded p-2 ">
