@@ -10,7 +10,7 @@ auspicious unlucky
 
 有鴉{a:集庭樹}。{b:引頸而鳴}。
 There were (some) crows (who) flocked together (in a) court-yard (upon a) tree and cawed (lit. sang) stretching (their) necks.
-be crow flock_together courtyard tree stretch neck sing
+be crow flock_together courtyard tree stretch neck and sing
 
 {c:兒叱之}。
 (A) boy hooted at them.
@@ -26,7 +26,7 @@ boy speak frequent hear people say magpie sing auspicious crow sing unlucky
 
 今{d:鳴者}{e:鴉也}。故叱之。
 Today the crows have been cawing, therefore I have hooted at them."
-now sing that_which crow final_particle
+now sing that_which crow final_particle therefore hoot_at them
 
 父曰。{f:人之智識}。{g:遠勝於鳥}。
 The father said, "Man's knowledge and experience (are) much higher than (those of) birds,

@@ -1,25 +1,21 @@
 # revamping Introduction to Literary Chinese by Brandt
 
-goals:
+## goals:
 
 1. Transcribe most everything from the original text.
-
-- literary Chinese passages (some Mandarin translations given in earlier chapters; we will consider these low-priority)
-- English translations of passages
-- vocabulary notes (in English)
-
+   - literary Chinese passages (some Mandarin translations given in earlier chapters; we will consider these low-priority)
+   - English translations of passages
+   - vocabulary notes (in English)
 2. Add some content
-
-- line up original Chinese + English translations sentence-by-sentence
-- character-by-character English glosses
-- full pinyin readings for characters in all passages
-- full Middle Chinese transcription for characters in for all passages
-- any other readings from other traditions
-- maybe audio content for e.g. Mandarin, Cantonese
-
+   - line up original Chinese + English translations sentence-by-sentence
+   - character-by-character English glosses
+   - full pinyin readings for characters in all passages
+   - full Middle Chinese transcription for characters in for all passages
+   - any other readings from other traditions
+   - maybe audio content for e.g. Mandarin, Cantonese
 3. Synthesize it all into a user-friendly interface
 
-steps:
+## steps:
 
 - [x] confirm copyright status of original work (def public domain in US because it was published in 1928)
 - [x] figure out license for project (maybe Creative Commons)
@@ -27,10 +23,8 @@ steps:
   - [x] transcribe text from Chapter 1
   - [x] build MVP (prototype) using transcribed text
 - [ ] document toolset for transcribing content with help of automation
-
   - [ ] document free OCR tools to allow collaborators to easily contribute
   - [ ] document free pinyin transcription tools to allow collaborators to easily contribute
-
 - Lesson 1, Text 1
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
@@ -39,9 +33,12 @@ steps:
     - [x] transcribe Vocabulary section
     - [x] transcribe Notes section
     - [x] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [x] align transcribed Chinese + English sentences
     - [x] write Chinese -> English gloss
 - Lesson 1, Text 2
@@ -52,10 +49,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 1, Text 3
   - transcribe content
@@ -65,10 +64,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 2, Text 1
   - transcribe content
@@ -78,10 +79,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 2, Text 2
   - transcribe content
@@ -91,10 +94,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 2, Text 3
   - transcribe content
@@ -104,10 +109,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 3, Text 1
   - transcribe content
@@ -117,10 +124,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 3, Text 2
   - transcribe content
@@ -130,10 +139,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 3, Text 3
   - transcribe content
@@ -143,10 +154,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 4, Text 1
   - transcribe content
@@ -156,10 +169,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 4, Text 2
   - transcribe content
@@ -169,10 +184,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 4, Text 3
   - transcribe content
@@ -182,10 +199,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 5, Text 1
   - transcribe content
@@ -195,10 +214,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 5, Text 2
   - transcribe content
@@ -208,10 +229,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 5, Text 3
   - transcribe content
@@ -221,10 +244,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 6, Text 1
   - transcribe content
@@ -234,10 +259,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 6, Text 2
   - transcribe content
@@ -247,10 +274,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 6, Text 3
   - transcribe content
@@ -260,10 +289,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 7, Text 1
   - transcribe content
@@ -273,10 +304,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 7, Text 2
   - transcribe content
@@ -286,10 +319,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 7, Text 3
   - transcribe content
@@ -299,10 +334,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 8, Text 1
   - transcribe content
@@ -312,10 +349,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 8, Text 2
   - transcribe content
@@ -325,10 +364,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 8, Text 3
   - transcribe content
@@ -338,10 +379,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 9, Text 1
   - transcribe content
@@ -351,10 +394,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 9, Text 2
   - transcribe content
@@ -364,10 +409,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 9, Text 3
   - transcribe content
@@ -377,10 +424,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 10, Text 1
   - transcribe content
@@ -390,10 +439,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 10, Text 2
   - transcribe content
@@ -403,10 +454,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 10, Text 3
   - transcribe content
@@ -416,10 +469,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 11, Text 1
   - transcribe content
@@ -429,10 +484,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 11, Text 2
   - transcribe content
@@ -442,10 +499,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 11, Text 3
   - transcribe content
@@ -455,10 +514,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 12, Text 1
   - transcribe content
@@ -468,10 +529,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 12, Text 2
   - transcribe content
@@ -481,10 +544,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 12, Text 3
   - transcribe content
@@ -494,10 +559,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 12, Text 4
   - transcribe content
@@ -507,10 +574,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 13, Text 1
   - transcribe content
@@ -520,10 +589,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 13, Text 2
   - transcribe content
@@ -533,10 +604,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 13, Text 3
   - transcribe content
@@ -546,10 +619,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 13, Text 4
   - transcribe content
@@ -559,10 +634,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 14, Text 1
   - transcribe content
@@ -572,10 +649,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 14, Text 2
   - transcribe content
@@ -585,10 +664,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 14, Text 3
   - transcribe content
@@ -598,10 +679,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 14, Text 4
   - transcribe content
@@ -611,10 +694,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 15, Text 1
   - transcribe content
@@ -624,10 +709,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 15, Text 2
   - transcribe content
@@ -637,10 +724,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 15, Text 3
   - transcribe content
@@ -650,10 +739,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 16, Text 1
   - transcribe content
@@ -663,10 +754,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 16, Text 2
   - transcribe content
@@ -676,10 +769,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 16, Text 3
   - transcribe content
@@ -689,10 +784,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 17, Text 1
   - transcribe content
@@ -702,10 +799,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 17, Text 2
   - transcribe content
@@ -715,10 +814,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 17, Text 3
   - transcribe content
@@ -728,10 +829,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 18, Text 1
   - transcribe content
@@ -741,10 +844,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 18, Text 2
   - transcribe content
@@ -754,10 +859,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 18, Text 3
   - transcribe content
@@ -767,10 +874,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 19, Text 1
   - transcribe content
@@ -780,10 +889,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 19, Text 2
   - transcribe content
@@ -793,10 +904,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 19, Text 3
   - transcribe content
@@ -806,10 +919,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 20, Text 1
   - transcribe content
@@ -819,10 +934,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 20, Text 2
   - transcribe content
@@ -832,10 +949,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 20, Text 3
   - transcribe content
@@ -845,10 +964,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 21, Text 1
   - transcribe content
@@ -858,10 +979,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 21, Text 2
   - transcribe content
@@ -871,10 +994,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 21, Text 3
   - transcribe content
@@ -884,10 +1009,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 22, Text 1
   - transcribe content
@@ -897,10 +1024,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 22, Text 2
   - transcribe content
@@ -910,10 +1039,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 22, Text 3
   - transcribe content
@@ -923,10 +1054,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 23, Text 1
   - transcribe content
@@ -936,10 +1069,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 23, Text 2
   - transcribe content
@@ -949,10 +1084,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 23, Text 3
   - transcribe content
@@ -962,10 +1099,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 24, Text 1
   - transcribe content
@@ -975,10 +1114,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 24, Text 2
   - transcribe content
@@ -988,10 +1129,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 24, Text 3
   - transcribe content
@@ -1001,10 +1144,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 25, Text 1
   - transcribe content
@@ -1014,10 +1159,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 25, Text 2
   - transcribe content
@@ -1027,10 +1174,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 25, Text 3
   - transcribe content
@@ -1040,10 +1189,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 26, Text 1
   - transcribe content
@@ -1053,10 +1204,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 26, Text 2
   - transcribe content
@@ -1066,10 +1219,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 26, Text 3
   - transcribe content
@@ -1079,10 +1234,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 27, Text 1
   - transcribe content
@@ -1092,10 +1249,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 27, Text 2
   - transcribe content
@@ -1105,10 +1264,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 27, Text 3
   - transcribe content
@@ -1118,10 +1279,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 28, Text 1
   - transcribe content
@@ -1131,10 +1294,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 28, Text 2
   - transcribe content
@@ -1144,10 +1309,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 28, Text 3
   - transcribe content
@@ -1157,10 +1324,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 29, Text 1
   - transcribe content
@@ -1170,10 +1339,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 29, Text 2
   - transcribe content
@@ -1183,10 +1354,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 29, Text 3
   - transcribe content
@@ -1196,10 +1369,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 30, Text 1
   - transcribe content
@@ -1209,10 +1384,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 30, Text 2
   - transcribe content
@@ -1222,10 +1399,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 30, Text 3
   - transcribe content
@@ -1235,10 +1414,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 31, Text 2
   - transcribe content
@@ -1248,10 +1429,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 32, Text 2
   - transcribe content
@@ -1261,10 +1444,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 33, Text 2
   - transcribe content
@@ -1274,10 +1459,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 34, Text 2
   - transcribe content
@@ -1287,10 +1474,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 35, Text 2
   - transcribe content
@@ -1300,10 +1489,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 36, Text 2
   - transcribe content
@@ -1313,10 +1504,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 37, Text 2
   - transcribe content
@@ -1326,10 +1519,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 38, Text 2
   - transcribe content
@@ -1339,10 +1534,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 39, Text 2
   - transcribe content
@@ -1352,10 +1549,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 40, Text 1
   - transcribe content
@@ -1365,10 +1564,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 40, Text 2
   - transcribe content
@@ -1378,10 +1579,12 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
 - Lesson 40, Text 3
   - transcribe content
@@ -1391,8 +1594,10 @@ steps:
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
+  - format content
+    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
-    - [ ] use automated tool to get pinyin readings
-    - [ ] proofread automatic pinyin transcription
-    - [ ] align transcribed Chinese + English sentences
+    - [ ] get Mandarin pinyin readings for Vocabulary section
+    - [ ] get Vietnamese readings for Vocabulary section
     - [ ] write Chinese -> English gloss
