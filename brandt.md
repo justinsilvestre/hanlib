@@ -15,7 +15,16 @@
    - maybe audio content for e.g. Mandarin, Cantonese
 3. Synthesize it all into a user-friendly interface
 
-## steps:
+## how to contribute
+
+If you're interested in contributing, thanks!
+
+Please have a look below to see what tasks are remaining. The bulk of the work is **transcribing the text from the original book**, so help in that area would be especially appreciated. If you are planning to make a contribution, or already have some transcribed text from the book, please send me an email: justinsilvestre AT gmail DOT com. If you would like credit, let me know the name I should use.
+
+The next biggest task is **formatting the content**. The lesson pages [like this](https://justinsilvestre.github.io/hanlib/texts/brandt-ch01-1) are generated automatically using specially formatted text files (for the [main lesson text/notes](./texts/brandt-ch01-1.passage.md) and [the vocabulary sections](./texts/brandt-ch01-1.vocab.tsv))
+If you know how to make pull requests Git/GitHub, you are welcome to make your contribution via a pull request. Otherwise, feel free to send me an email with any new/updated files at justinsilvestre AT gmail DOT com. Don't forget to include the name you would like me to use in order to give you proper credit. I will try to integrate your changes next time I am free.
+
+## remaining tasks
 
 - [x] confirm copyright status of original work (def public domain in US because it was published in 1928)
 - [x] figure out license for project (maybe Creative Commons)
@@ -25,20 +34,29 @@
 - [ ] document toolset for transcribing content with help of automation
   - [ ] document free OCR tools to allow collaborators to easily contribute
   - [ ] document free pinyin transcription tools to allow collaborators to easily contribute
+  - [ ] document file formats
+- user interface
+  - [x] display text with English translation and gloss
+  - [x] display character definitions on click
+  - [ ] display lesson notes in popover
+  - [ ] in popover: highlight reading/definition according to gloss, if present
+  - [ ] display correct character readings via gloss, if present
+  - [ ] enable character definitions for characters first seen in other passages
+  - [ ] make build script to aggregate lexicon + make text file to be checked into repo to track changes
 - Lesson 1, Text 1
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
     - [x] use OCR on cropped images
     - [x] proofread OCR results
-    - [x] transcribe Vocabulary section
-    - [x] transcribe Notes section
+    - [x] transcribe Vocabulary section (Võ Khắc Phú Cường)
+    - [x] transcribe Notes section (Võ Khắc Phú Cường)
     - [x] proofread
   - format content
-    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [x] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
-    - [ ] get Vietnamese readings for Vocabulary section
+    - [x] get Vietnamese readings for Vocabulary section (Võ Khắc Phú Cường)
     - [x] align transcribed Chinese + English sentences
     - [x] write Chinese -> English gloss
 - Lesson 1, Text 2

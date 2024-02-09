@@ -1,8 +1,10 @@
 const punctuationRegex =
-  /。|，|？|！|；|：|、|「|」|『|』|（|）|《|》|〈|〉|﹁|﹂|﹃|﹄|【|】|〔|〕/g;
+  /[。，？！；：、「」『』（）《》〈〉﹁﹂﹃﹄【】〔〕]+/;
+const punctuationRegexG =
+  /[。，？！；：、「」『』（）《》〈〉﹁﹂﹃﹄【】〔〕]+/g;
 
 export function normalizeText(text: string) {
-  return text.replaceAll(punctuationRegex, "");
+  return text.replaceAll(punctuationRegexG, "");
 }
 
 export function textIsPunctuation(text: string) {
