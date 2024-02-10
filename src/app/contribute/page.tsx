@@ -1,6 +1,6 @@
-import { getTextsIds, getPassage } from "../files";
+import { getTextsIds, getPassage } from "@/app/texts/files";
+import TextPage from "../texts/[textId]/TextPage";
 
-import TextPage from "./TextPage";
 export async function generateStaticParams() {
   const textIds = getTextsIds();
   return textIds.map((textId) => ({ textId: textId }));

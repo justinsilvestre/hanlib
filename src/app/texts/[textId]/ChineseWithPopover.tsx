@@ -5,13 +5,13 @@ import {
   FloatingFocusManager,
   FloatingPortal,
 } from "@floating-ui/react";
-import { TextVocab } from "../Text";
+import { PassageVocab } from "../Passage";
 import { usePopover } from "./Popover";
 import { useState } from "react";
 import { textIsPunctuation } from "./punctuation";
 
 export type DisplayOptions = {
-  ruby: null | "vi" | "en";
+  ruby: null | "en" | "vi" | "jyutping" | "pinyin";
   translation: boolean;
 };
 
@@ -22,7 +22,7 @@ export function ChineseWithPopover({
   gloss,
 }: {
   text: string;
-  vocab: TextVocab;
+  vocab: PassageVocab;
   displayOptions: DisplayOptions;
   gloss: string[] | null;
 }) {
@@ -49,7 +49,7 @@ export function ChineseWithPopover({
         else
           rubyText =
             displayOptions?.ruby && vocab[char]
-              ? vocab[char][0][displayOptions.ruby]
+              ? vocab[char]![0][displayOptions.ruby]
               : null;
 
         return (
