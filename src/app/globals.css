@@ -10,24 +10,18 @@
   --background-hex: #ebebeb;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255 255 255;
-    --background-start-rgb: 0 0 0;
-    --background-end-rgb: 0 0 0;
-    --background-rgb: 0 0 0;
-    --background-hex: #000000;
-  }
+body.dark {
+  --foreground-rgb: 255 255 255;
+  --background-start-rgb: 0 0 0;
+  --background-end-rgb: 0 0 0;
+  --background-rgb: 0 0 0;
+  --background-hex: #000000;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  transition: all 0.5s ease;
+  background: rgb(var(--background-rgb));
 }
 
 @layer utilities {
