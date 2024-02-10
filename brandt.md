@@ -27,7 +27,7 @@ If you know how to make pull requests Git/GitHub, you are welcome to make your c
 ## remaining tasks
 
 ```
-progress: 37 / 1154 tasks complete (~3.2%)
+progress: 41 / 4143 tasks complete (~1%)
 [=                                                 ]
 ```
 
@@ -62,6 +62,7 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [x] get Vietnamese readings for Vocabulary section (Feb 9 Võ Khắc Phú Cường)
+    - [x] get Cantonese readings for Vocabulary section (Feb 10 R.K. Christenson)
     - [x] align transcribed Chinese + English sentences (Feb 9)
     - [x] write Chinese -> English gloss (Feb 9)
 - Lesson 1, Text 2
@@ -78,6 +79,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 1, Text 3
   - transcribe content
@@ -93,6 +96,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 2, Text 1
   - transcribe content
@@ -108,6 +113,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 2, Text 2
   - transcribe content
@@ -123,6 +130,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 2, Text 3
   - transcribe content
@@ -138,6 +147,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 3, Text 1
   - transcribe content
@@ -153,6 +164,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 3, Text 2
   - transcribe content
@@ -168,6 +181,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 3, Text 3
   - transcribe content
@@ -183,6 +198,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 4, Text 1
   - transcribe content
@@ -198,6 +215,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 4, Text 2
   - transcribe content
@@ -213,6 +232,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 4, Text 3
   - transcribe content
@@ -228,6 +249,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 5, Text 1
   - transcribe content
@@ -243,6 +266,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 5, Text 2
   - transcribe content
@@ -258,6 +283,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 5, Text 3
   - transcribe content
@@ -273,6 +300,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 6, Text 1
   - transcribe content
@@ -288,6 +317,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 6, Text 2
   - transcribe content
@@ -303,6 +334,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 6, Text 3
   - transcribe content
@@ -318,6 +351,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 7, Text 1
   - transcribe content
@@ -333,6 +368,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 7, Text 2
   - transcribe content
@@ -348,6 +385,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 7, Text 3
   - transcribe content
@@ -363,6 +402,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 8, Text 1
   - transcribe content
@@ -378,6 +419,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 8, Text 2
   - transcribe content
@@ -393,6 +436,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 8, Text 3
   - transcribe content
@@ -408,6 +453,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 9, Text 1
   - transcribe content
@@ -423,6 +470,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 9, Text 2
   - transcribe content
@@ -438,6 +487,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 9, Text 3
   - transcribe content
@@ -453,6 +504,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 10, Text 1
   - transcribe content
@@ -468,6 +521,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 10, Text 2
   - transcribe content
@@ -483,6 +538,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 10, Text 3
   - transcribe content
@@ -498,6 +555,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 11, Text 1
   - transcribe content
@@ -513,6 +572,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 11, Text 2
   - transcribe content
@@ -528,6 +589,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 11, Text 3
   - transcribe content
@@ -543,6 +606,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 12, Text 1
   - transcribe content
@@ -558,6 +623,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 12, Text 2
   - transcribe content
@@ -573,6 +640,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 12, Text 3
   - transcribe content
@@ -588,6 +657,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 12, Text 4
   - transcribe content
@@ -603,6 +674,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 13, Text 1
   - transcribe content
@@ -618,6 +691,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 13, Text 2
   - transcribe content
@@ -633,6 +708,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 13, Text 3
   - transcribe content
@@ -648,6 +725,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 13, Text 4
   - transcribe content
@@ -663,6 +742,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 14, Text 1
   - transcribe content
@@ -678,6 +759,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 14, Text 2
   - transcribe content
@@ -693,6 +776,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 14, Text 3
   - transcribe content
@@ -708,6 +793,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 14, Text 4
   - transcribe content
@@ -723,6 +810,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 15, Text 1
   - transcribe content
@@ -738,6 +827,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 15, Text 2
   - transcribe content
@@ -753,6 +844,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 15, Text 3
   - transcribe content
@@ -768,6 +861,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 16, Text 1
   - transcribe content
@@ -783,6 +878,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 16, Text 2
   - transcribe content
@@ -798,6 +895,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 16, Text 3
   - transcribe content
@@ -813,6 +912,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 17, Text 1
   - transcribe content
@@ -828,6 +929,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 17, Text 2
   - transcribe content
@@ -843,6 +946,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 17, Text 3
   - transcribe content
@@ -858,6 +963,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 18, Text 1
   - transcribe content
@@ -873,6 +980,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 18, Text 2
   - transcribe content
@@ -888,6 +997,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 18, Text 3
   - transcribe content
@@ -903,6 +1014,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 19, Text 1
   - transcribe content
@@ -918,6 +1031,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 19, Text 2
   - transcribe content
@@ -933,6 +1048,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 19, Text 3
   - transcribe content
@@ -948,6 +1065,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 20, Text 1
   - transcribe content
@@ -963,6 +1082,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 20, Text 2
   - transcribe content
@@ -978,6 +1099,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 20, Text 3
   - transcribe content
@@ -993,6 +1116,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 21, Text 1
   - transcribe content
@@ -1008,6 +1133,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 21, Text 2
   - transcribe content
@@ -1023,6 +1150,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 21, Text 3
   - transcribe content
@@ -1038,6 +1167,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 22, Text 1
   - transcribe content
@@ -1053,6 +1184,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 22, Text 2
   - transcribe content
@@ -1068,6 +1201,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 22, Text 3
   - transcribe content
@@ -1083,6 +1218,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 23, Text 1
   - transcribe content
@@ -1098,6 +1235,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 23, Text 2
   - transcribe content
@@ -1113,6 +1252,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 23, Text 3
   - transcribe content
@@ -1128,6 +1269,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 24, Text 1
   - transcribe content
@@ -1143,6 +1286,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 24, Text 2
   - transcribe content
@@ -1158,6 +1303,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 24, Text 3
   - transcribe content
@@ -1173,6 +1320,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 25, Text 1
   - transcribe content
@@ -1188,6 +1337,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 25, Text 2
   - transcribe content
@@ -1203,6 +1354,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 25, Text 3
   - transcribe content
@@ -1218,6 +1371,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 26, Text 1
   - transcribe content
@@ -1233,6 +1388,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 26, Text 2
   - transcribe content
@@ -1248,6 +1405,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 26, Text 3
   - transcribe content
@@ -1263,6 +1422,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 27, Text 1
   - transcribe content
@@ -1278,6 +1439,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 27, Text 2
   - transcribe content
@@ -1293,6 +1456,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 27, Text 3
   - transcribe content
@@ -1308,6 +1473,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 28, Text 1
   - transcribe content
@@ -1323,6 +1490,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 28, Text 2
   - transcribe content
@@ -1338,6 +1507,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 28, Text 3
   - transcribe content
@@ -1353,6 +1524,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 29, Text 1
   - transcribe content
@@ -1368,6 +1541,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 29, Text 2
   - transcribe content
@@ -1383,6 +1558,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 29, Text 3
   - transcribe content
@@ -1398,6 +1575,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 30, Text 1
   - transcribe content
@@ -1413,6 +1592,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 30, Text 2
   - transcribe content
@@ -1428,6 +1609,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 30, Text 3
   - transcribe content
@@ -1443,6 +1626,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 31, Text 2
   - transcribe content
@@ -1458,6 +1643,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 32, Text 2
   - transcribe content
@@ -1473,6 +1660,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 33, Text 2
   - transcribe content
@@ -1488,6 +1677,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 34, Text 2
   - transcribe content
@@ -1503,6 +1694,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 35, Text 2
   - transcribe content
@@ -1518,6 +1711,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 36, Text 2
   - transcribe content
@@ -1533,6 +1728,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 37, Text 2
   - transcribe content
@@ -1548,6 +1745,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 38, Text 2
   - transcribe content
@@ -1563,6 +1762,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 39, Text 2
   - transcribe content
@@ -1578,6 +1779,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 40, Text 1
   - transcribe content
@@ -1593,6 +1796,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 40, Text 2
   - transcribe content
@@ -1608,6 +1813,8 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 40, Text 3
   - transcribe content
@@ -1623,4 +1830,6 @@ progress: 37 / 1154 tasks complete (~3.2%)
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
+    - [ ] get Cantonese readings for Vocabulary section
+    - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
