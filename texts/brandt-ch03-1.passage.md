@@ -28,7 +28,7 @@ On his feet are stretched spurs, (that is) chivalry.
 司晨。不失時。信也。
 He observes without delay the morning, (that is) trustworthiness.
 
-今之人。能具此五德者。實不多親。
+今之人。能具此五德者。實不多覯。
 (Among) present men those who possess (lit. to prepare) these five virtues are very few indeed (lit. not many to be seen).
 
 ---
