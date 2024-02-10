@@ -2,7 +2,7 @@
 
 Adapted from the 1927 book by J. Brandt
 
-Transcribed with help from 武克富強 (Võ Khắc Phú Cường)
+Transcribed with help from 武克富強/Võ Khắc Phú Cường (main text, Vietnamese readings) and R.K. Christenson (Cantonese readings).
 
 ---
 
