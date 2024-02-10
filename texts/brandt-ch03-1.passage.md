@@ -1,4 +1,4 @@
-# Introduction to Literary Chinese - Lesson 3, Text
+# Introduction to Literary Chinese - Lesson 3, Text 1
 
 Adapted from the 1927 book by J. Brandt
 
