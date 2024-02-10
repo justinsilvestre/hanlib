@@ -50,7 +50,7 @@ and-still_more (still_more) bird exclamatory_particle
 
 The use of the prepositions "upon" and "in" can be easily deduced from the connection; while in the spoken version of the story the prepositions are clearly indicated:
 
-聚在院內樹上
+`聚在院內樹上`
 
 This simple example demonstrates to what extent the written style differs from the spoken language. The latter created for hearing and having comparatively poor phonetic reserve, must inevitably have recourse to more complicated combinations. The written style, which takes into account the eyesight of the reader, can express any conception in a much shorter and laconical way leaving, the reader to deduce the meaning from the connection or by the aid of various particles which play a very important part in the written language.
 

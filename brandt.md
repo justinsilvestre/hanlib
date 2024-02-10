@@ -27,7 +27,7 @@ If you know how to make pull requests Git/GitHub, you are welcome to make your c
 ## remaining tasks
 
 ```
-progress: 18 / 1154 tasks complete (~1.5%)
+progress: 37 / 1154 tasks complete (~3.2%)
 [=                                                 ]
 ```
 
@@ -46,7 +46,7 @@ progress: 18 / 1154 tasks complete (~1.5%)
   - [ ] display lesson notes in popover
   - [ ] in popover: highlight reading/definition according to gloss, if present
   - [ ] display correct character readings via gloss, if present
-  - [ ] enable character definitions for characters first seen in other passages
+  - [x] enable character definitions for characters first seen in other passages
   - [ ] make build script to aggregate lexicon + make text file to be checked into repo to track changes
 - Lesson 1, Text 1
   - transcribe content
@@ -66,14 +66,14 @@ progress: 18 / 1154 tasks complete (~1.5%)
     - [x] write Chinese -> English gloss (Feb 9)
 - Lesson 1, Text 2
   - transcribe content
-    - [ ] prepare images of Chinese text + English translation for OCR
-    - [ ] use OCR on cropped images
-    - [ ] proofread OCR results
+    - [x] prepare images of Chinese text + English translation for OCR
+    - [x] use OCR on cropped images
+    - [x] proofread OCR results
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
-    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [x] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
     - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
@@ -81,14 +81,14 @@ progress: 18 / 1154 tasks complete (~1.5%)
     - [ ] write Chinese -> English gloss
 - Lesson 1, Text 3
   - transcribe content
-    - [ ] prepare images of Chinese text + English translation for OCR
-    - [ ] use OCR on cropped images
-    - [ ] proofread OCR results
+    - [x] prepare images of Chinese text + English translation for OCR
+    - [x] use OCR on cropped images
+    - [x] proofread OCR results
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
-    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [x] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
     - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
@@ -96,14 +96,14 @@ progress: 18 / 1154 tasks complete (~1.5%)
     - [ ] write Chinese -> English gloss
 - Lesson 2, Text 1
   - transcribe content
-    - [ ] prepare images of Chinese text + English translation for OCR
-    - [ ] use OCR on cropped images
-    - [ ] proofread OCR results
+    - [x] prepare images of Chinese text + English translation for OCR
+    - [x] use OCR on cropped images
+    - [x] proofread OCR results
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
-    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [x] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
     - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
@@ -111,9 +111,9 @@ progress: 18 / 1154 tasks complete (~1.5%)
     - [ ] write Chinese -> English gloss
 - Lesson 2, Text 2
   - transcribe content
-    - [ ] prepare images of Chinese text + English translation for OCR
-    - [ ] use OCR on cropped images
-    - [ ] proofread OCR results
+    - [x] prepare images of Chinese text + English translation for OCR
+    - [x] use OCR on cropped images
+    - [x] proofread OCR results
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
@@ -126,9 +126,9 @@ progress: 18 / 1154 tasks complete (~1.5%)
     - [ ] write Chinese -> English gloss
 - Lesson 2, Text 3
   - transcribe content
-    - [ ] prepare images of Chinese text + English translation for OCR
-    - [ ] use OCR on cropped images
-    - [ ] proofread OCR results
+    - [x] prepare images of Chinese text + English translation for OCR
+    - [x] use OCR on cropped images
+    - [x] proofread OCR results
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread

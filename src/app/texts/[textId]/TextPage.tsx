@@ -2,7 +2,7 @@
 
 import Markdown from "markdown-to-jsx";
 import markdownCss from "./markdown.module.css";
-import { Text, TextVocab } from "../Text";
+import { Passage, PassageVocab } from "../Passage";
 import { ChineseWithPopover, DisplayOptions } from "./ChineseWithPopover";
 import { useState } from "react";
 import { normalizeText } from "./punctuation";
@@ -11,8 +11,8 @@ export default function TextPage({
   text,
   vocab,
 }: {
-  text: Text;
-  vocab: TextVocab;
+  text: Passage;
+  vocab: PassageVocab;
 }) {
   const notesWithHeadings: { id: string; heading: string }[] = [];
   const [displayOptions, setDisplayOptions] = useState<DisplayOptions>({
@@ -27,48 +27,43 @@ export default function TextPage({
       </div>
 
       <form className="mb-4 text-sm border-1 border border-foreground/25 rounded p-2 ">
-        <div className="mb-2">
-          <input
-            type="radio"
+        <div className="mb-2 flex-row gap-2 flex">
+          <RubyRadioInputAndLabel
+            id="ruby-jyutping"
+            value="jyutping"
+            checked={displayOptions.ruby === "jyutping"}
+            onChange={() =>
+              setDisplayOptions((opts) => ({ ...opts, ruby: "jyutping" }))
+            }
+            label="Cantonese Jyutping"
+          />
+          <RubyRadioInputAndLabel
+            id="ruby-pinyin"
+            value="pinyin"
+            checked={displayOptions.ruby === "pinyin"}
+            onChange={() =>
+              setDisplayOptions((opts) => ({ ...opts, ruby: "pinyin" }))
+            }
+            label="Hanyu Pinyin"
+          />
+          <RubyRadioInputAndLabel
             id="ruby-vi"
-            name="ruby"
             value="vi"
             checked={displayOptions.ruby === "vi"}
             onChange={() =>
               setDisplayOptions((opts) => ({ ...opts, ruby: "vi" }))
             }
+            label="Vietnamese"
           />
-          <label htmlFor="ruby-vi" className="ml-1">
-            Vietnamese
-          </label>
-          <input
-            type="radio"
-            id="ruby-en"
-            name="ruby"
-            value="en"
-            className="ml-4"
-            checked={displayOptions.ruby === "en"}
-            onChange={() =>
-              setDisplayOptions((opts) => ({ ...opts, ruby: "en" }))
-            }
-          />
-          <label htmlFor="ruby-en" className="ml-1">
-            English gloss
-          </label>
-          <input
-            type="radio"
+          <RubyRadioInputAndLabel
             id="ruby-null"
-            name="ruby"
             value="null"
-            className="ml-4"
             checked={displayOptions.ruby === null}
             onChange={() =>
               setDisplayOptions((opts) => ({ ...opts, ruby: null }))
             }
+            label="none"
           />
-          <label htmlFor="ruby-null" className="ml-1">
-            none
-          </label>
         </div>
         <div>
           <input
@@ -209,7 +204,7 @@ function NotesChinese({
   gloss,
 }: {
   children: string;
-  vocab: TextVocab;
+  vocab: PassageVocab;
   displayOptions: DisplayOptions;
   gloss: string[] | null;
 }) {
@@ -221,6 +216,36 @@ function NotesChinese({
         displayOptions={displayOptions}
         gloss={gloss}
       />
+    </span>
+  );
+}
+
+function RubyRadioInputAndLabel({
+  id,
+  value,
+  checked,
+  onChange,
+  label,
+}: {
+  id: string;
+  value: string;
+  checked: boolean;
+  onChange: () => void;
+  label: string;
+}) {
+  return (
+    <span>
+      <input
+        type="radio"
+        id={id}
+        name="ruby"
+        value={value}
+        checked={checked}
+        onChange={onChange}
+      />
+      <label htmlFor={id} className="ml-1">
+        {label}
+      </label>
     </span>
   );
 }

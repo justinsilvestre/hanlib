@@ -1,64 +1,41 @@
 import fs from "fs";
 import path from "path";
 
-import { Text, TextVocab } from "./Text";
+import { Passage as Passage, PassageVocab } from "./Passage";
+import {
+  parsePassage,
+  parsePassageVocabList,
+  parseFrontmatterText,
+} from "./Passage";
 
 const textsDirectory = path.resolve(process.cwd(), "texts");
-export const getText = (textId: string) => {
-  console.log("getting page");
-  const passageFileContents = path.resolve(
-    textsDirectory,
-    `${textId}.passage.md`
-  );
-  const [frontmatterText, body, notesText] = fs
-    .readFileSync(passageFileContents, "utf8")
-    .split(/\s*\n\s*---+\s*\n\s*/);
-  const lines = body.split(/\n\n+/).map((line) => {
-    const [chinese, english, gloss] = line.split("\n");
-    return {
-      chinese,
-      english,
-      gloss: gloss || null,
-    };
-  });
-  const notes: Record<string, string> = {};
-  if (notesText) {
-    const noteSections = [
-      ...notesText.trim().matchAll(/# ([a-z])\s*\n\n([^#]+)(?=# |$)/g),
-    ];
-    for (const [_, noteId, noteText] of noteSections) {
-      notes[noteId] = noteText;
-    }
-  }
 
-  const vocabFilepath = path.resolve(textsDirectory, `${textId}.vocab.tsv`);
-  const vocabFileContents = fs.existsSync(vocabFilepath)
-    ? fs.readFileSync(vocabFilepath, "utf8")
+export const getPassageFileContents = (textId: string) => {
+  const passageFilePath = path.resolve(textsDirectory, `${textId}.passage.md`);
+  return fs.readFileSync(passageFilePath, "utf8");
+};
+export const getPassageVocabFileContents = (textId: string) => {
+  const vocabFilePath = path.resolve(textsDirectory, `${textId}.vocab.tsv`);
+  return fs.existsSync(vocabFilePath)
+    ? fs.readFileSync(vocabFilePath, "utf8")
     : null;
-  const vocab: TextVocab = {};
-  if (vocabFileContents) {
-    const lines = vocabFileContents.split("\n").slice(1);
-    for (const line of lines) {
-      const [chinese, vi, en] = line.split("\t");
-      vocab[chinese] ||= [];
-      vocab[chinese].push({ en, vi });
-    }
-  }
-  const text: Text = {
-    frontmatter: parseFrontmatterText(frontmatterText),
-    lines,
-    notes,
-  };
-  return { text, vocab };
 };
 
-function parseFrontmatterText(frontmatterText: string) {
-  const lines = frontmatterText.split("\n");
-  return {
-    title: lines[0].replace("# ", ""),
-    description: lines.slice(1).join("\n"),
-  };
-}
+export const getPassage = (textId: string) => {
+  const passageFileContents = getPassageFileContents(textId);
+  const passage: Passage = parsePassage(passageFileContents);
+
+  const vocabJsonPath = path.resolve(
+    process.cwd(),
+    "prebuild",
+    `${textId}.vocab.json`
+  );
+  const vocab: PassageVocab = JSON.parse(
+    fs.readFileSync(vocabJsonPath, "utf8")
+  );
+
+  return { text: passage, vocab };
+};
 
 export function getTextsIds() {
   const filenames = fs.readdirSync(textsDirectory);
