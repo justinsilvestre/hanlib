@@ -9,6 +9,10 @@ import { PassageVocab } from "../Passage";
 import { usePopover } from "./Popover";
 import { useState } from "react";
 import { textIsPunctuation } from "./punctuation";
+import {
+  findEntryMatchingEnKeywords,
+  toEnMatchKeyword,
+} from "@/app/lexiconEntryEnKeywords";
 
 export type DisplayOptions = {
   ruby: null | "en" | "vi" | "jyutping" | "pinyin";
@@ -28,6 +32,7 @@ export function ChineseWithPopover({
 }) {
   const popover = usePopover();
   const [popoverChar, setChar] = useState<string | null>(null);
+  const [popoverCharGloss, setCharGloss] = useState<string | null>(null);
 
   let glossedChars = 0;
 
@@ -40,16 +45,31 @@ export function ChineseWithPopover({
 
         const id = `text-${char}-${i}`;
 
-        if (!vocab[char]) {
+        const entries = vocab[char];
+
+        if (!entries?.length) {
           return <span key={i}>{char}</span>;
         }
+
+        const enGloss = gloss?.[glossIndex]?.replace(/_/g, " ") || null;
+
+        const soleEntry = entries.length === 1 ? entries[0] : null;
+
+        const matchingEntry = enGloss
+          ? findEntryMatchingEnKeywords(entries, [enGloss])
+          : null;
+
         let rubyText: string | null = null;
-        if (displayOptions.ruby === "en")
-          rubyText = gloss?.[glossIndex]?.replace(/_/g, " ") || null;
+        if (displayOptions.ruby === "en") rubyText = enGloss;
         else
           rubyText =
-            displayOptions?.ruby && vocab[char]
-              ? vocab[char]![0][displayOptions.ruby]
+            displayOptions?.ruby && (matchingEntry || soleEntry)
+              ? (matchingEntry || soleEntry
+                  ? [matchingEntry || soleEntry!]
+                  : entries
+                )
+                  .map((e) => e[displayOptions.ruby!])
+                  .join(" / ")
               : null;
 
         return (
@@ -64,13 +84,17 @@ export function ChineseWithPopover({
               onClick: (e) => {
                 popover.refs.setReference(e.currentTarget);
                 setChar(char);
+                setCharGloss(enGloss);
               },
             })}
           >
             {rubyText ? (
               <ruby id={id}>
                 {char}
-                <rt className="text-[0.40em] mr-[0.40em]">{rubyText}</rt>
+                <rt className="text-[0.40em] mr-[0.40em]">
+                  {rubyText}
+                  {!soleEntry && !matchingEntry ? "*" : ""}
+                </rt>
               </ruby>
             ) : (
               char
@@ -78,41 +102,102 @@ export function ChineseWithPopover({
           </span>
         );
       })}
-      {popover.open && popoverChar && vocab[popoverChar] && (
-        <FloatingPortal>
-          <FloatingFocusManager context={popover.context} modal={popover.modal}>
-            <div
-              ref={popover.refs.setFloating}
-              style={{
-                ...popover.floatingStyles,
-                filter:
-                  "drop-shadow(1px 1px 2px rgb(var(--foreground-rgb) / 0.4))",
-              }}
-              aria-labelledby={popover.labelId}
-              aria-describedby={popover.descriptionId}
-              {...popover.getFloatingProps()}
-            >
-              <FloatingArrow
-                ref={popover.arrowRef}
-                context={popover.context}
-                style={{
-                  fill: "rgba(var(--background-rgb))",
-                }}
-                fill="blue"
-              />
-              <div className="bg-background max-w-[10rem]">
-                {popoverChar &&
-                  vocab[popoverChar]?.map((entry, i) => (
-                    <div key={i} className="p-1 rounded">
-                      <b>{entry.vi}</b>{" "}
-                      <span className="text-sm">{entry.en}</span>
-                    </div>
-                  ))}
-              </div>
-            </div>
-          </FloatingFocusManager>
-        </FloatingPortal>
-      )}
+      {popover.open &&
+        popoverChar &&
+        vocab[popoverChar] &&
+        PopoverDictionaryContent(popover, popoverChar, vocab, popoverCharGloss)}
     </span>
+  );
+}
+
+function PopoverDictionaryContent(
+  popover: ReturnType<typeof usePopover>,
+  popoverChar: string,
+  vocab: PassageVocab,
+  enGloss: string | null
+) {
+  return (
+    <FloatingPortal>
+      <FloatingFocusManager context={popover.context} modal={popover.modal}>
+        <div
+          ref={popover.refs.setFloating}
+          style={{
+            ...popover.floatingStyles,
+            filter: "drop-shadow(1px 1px 2px rgb(var(--foreground-rgb) / 0.4))",
+          }}
+          aria-labelledby={popover.labelId}
+          aria-describedby={popover.descriptionId}
+          {...popover.getFloatingProps()}
+        >
+          <FloatingArrow
+            ref={popover.arrowRef}
+            context={popover.context}
+            style={{
+              fill: "rgba(var(--background-rgb))",
+            }}
+            fill="blue"
+          />
+          <div className="bg-background max-w-[10rem]">
+            {popoverChar &&
+              vocab[popoverChar]?.map((entry, i, entries) => {
+                const enDefinitionSegmentsCount =
+                  entry.en?.split(/[,;]/).length || 0;
+
+                return (
+                  <div key={i} className="p-1 rounded">
+                    {[entry.jyutping, entry.pinyin, entry.vi]
+                      .filter((e) => e)
+                      .map((e, i, readings) => (
+                        <span key={i}>
+                          <b>{e}</b>
+                          {i < readings.length - 1 ? " / " : " "}
+                        </span>
+                      ))}
+                    <span className="text-sm">
+                      {entry.en
+                        ?.split("; ")
+                        .map(
+                          (semicolonSegment, semicolonI, semicolonSegments) => {
+                            const commaSegments = semicolonSegment.split(", ");
+                            return (
+                              <span key={semicolonSegment}>
+                                {commaSegments.map(
+                                  (commaSegment, commaI, commaSegments) => {
+                                    const segmentKeyword =
+                                      toEnMatchKeyword(commaSegment);
+
+                                    return (
+                                      <span
+                                        key={commaSegment}
+                                        className={`${
+                                          segmentKeyword === enGloss &&
+                                          enDefinitionSegmentsCount > 1
+                                            ? "bg-yellow-400/10 border-yellow-400 border text-foreground"
+                                            : ""
+                                        }`}
+                                      >
+                                        {commaSegment}
+                                        {commaI < commaSegments.length - 1
+                                          ? ", "
+                                          : ""}
+                                      </span>
+                                    );
+                                  }
+                                )}
+                                {semicolonI < semicolonSegments.length - 1
+                                  ? "; "
+                                  : ""}
+                              </span>
+                            );
+                          }
+                        )}
+                    </span>
+                  </div>
+                );
+              })}
+          </div>
+        </div>
+      </FloatingFocusManager>
+    </FloatingPortal>
   );
 }

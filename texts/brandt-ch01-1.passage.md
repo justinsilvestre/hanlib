@@ -24,7 +24,7 @@ father speak this what harm
 
 兒曰。常聞人言。鵲鳴吉。鴉鳴凶。
 (The) boy said, "(I) have often heard people say (that when a) magpie chatters, (it brings) good luck, (and when a) crow caws, (it brings) bad luck.
-boy speak frequent hear people say magpie sing auspicious crow sing unlucky
+boy speak frequent hear person say magpie sing auspicious crow sing unlucky
 
 今{d:鳴者}{e:鴉也}。故叱之。
 Today the crows have been cawing, therefore I have hooted at them."

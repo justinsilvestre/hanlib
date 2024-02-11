@@ -12,6 +12,11 @@ import {
 } from "@/app/texts/files";
 import * as fs from "fs";
 import * as path from "path";
+import {
+  getEntryEnKeywords,
+  findEntryMatchingEnKeywords,
+  toEnMatchKeyword,
+} from "./lexiconEntryEnKeywords";
 
 const prebuildDirectoryPath = path.join(process.cwd(), "prebuild");
 
@@ -76,9 +81,7 @@ function mergeLexiconEntries(
   const merged: LexiconEntry[] = [...a];
   for (const entry of b) {
     const bEntryEnKeywords = getEntryEnKeywords(entry);
-    const matchingEntry = merged.find((e) =>
-      getEntryEnKeywords(e).some((k) => bEntryEnKeywords.includes(k))
-    );
+    const matchingEntry = findEntryMatchingEnKeywords(merged, bEntryEnKeywords);
     if (matchingEntry) {
       matchingEntry.en = mergeEntryEnKeywords(matchingEntry, entry);
       matchingEntry.jyutping = mergeEntryPronunciation(
@@ -99,18 +102,7 @@ function mergeLexiconEntries(
   return merged;
 }
 
-function getEntryEnKeywords(entry: LexiconEntry): string[] {
-  return entry.en?.split(/[,;]/).map((s) => toEnMatchKeyword(s)) || [];
-}
-function toEnMatchKeyword(s: string): string {
-  return s.trim().replace(/^(an? |to |the )/, "");
-}
-
 function mergeEntryEnKeywords(a: LexiconEntry, b: LexiconEntry): string {
-  // const aKeywords = getEntryEnKeywords(a);
-  // const bKeywords = getEntryEnKeywords(b);
-  // const mergedKeywords = [...new Set([...aKeywords, ...bKeywords])].join(', ');
-  // return mergedKeywords;
   const mergedSegments =
     a.en
       ?.split(";")

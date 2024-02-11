@@ -44,8 +44,8 @@ progress: 81 / 4143 tasks complete (~1.9%)
   - [x] display text with English translation and gloss (Feb 9)
   - [x] display character definitions on click (Feb 9)
   - [ ] display lesson notes in popover
-  - [ ] in popover: highlight reading/definition according to gloss, if present
-  - [ ] display correct character readings via gloss, if present
+  - [x] in popover: highlight reading/definition according to gloss, if present
+  - [x] display correct character readings via gloss, if present
   - [x] enable character definitions for characters first seen in other passages
   - [ ] make build script to aggregate lexicon + make text file to be checked into repo to track changes
 - Lesson 1, Text 1
