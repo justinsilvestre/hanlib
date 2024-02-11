@@ -41,8 +41,7 @@ Here 之 is a sign of the possessive case: "the shadow of your body".
 
 # b
 
-Here 皆 is used as an equalizing part which
-indicates that a quality, a ??? or an action relates to two or several objects to the same extent.
+Here 皆 is used as an equalizing part which indicates that a quality, a state or an action relates to two or several objects to the same extent.
 
 **Similar examples**.
 - `人人皆知` All men know that.
@@ -51,7 +50,7 @@ indicates that a quality, a ??? or an action relates to two or several objects t
 
 # c
 
-Here is used as a consequential particle
+Here 乃 is used as a consequential particle.
 
 **Similar examples**.
 - `乃可` It will then do.
