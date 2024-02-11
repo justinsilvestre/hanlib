@@ -25,7 +25,6 @@ Hurriedly he entered (the house), (and) told (his) elder sister.
 (His) sister said, "It (is) the shadow of your body.
 
 汝立燈前。行日下。{b:皆有影}。
-
 (When) you are standing before a lamp, (or) going under the sun, there always is a shadow.
 
 何忘之耶。
