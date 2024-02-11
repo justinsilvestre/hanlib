@@ -63,13 +63,11 @@ export function ChineseWithPopover({
         if (displayOptions.ruby === "en") rubyText = enGloss;
         else
           rubyText =
-            displayOptions?.ruby && (matchingEntry || soleEntry)
-              ? (matchingEntry || soleEntry
-                  ? [matchingEntry || soleEntry!]
-                  : entries
-                )
-                  .map((e) => e[displayOptions.ruby!])
-                  .join(" / ")
+            displayOptions?.ruby &&
+            (matchingEntry || soleEntry || entries.length)
+              ? (matchingEntry || soleEntry || entries[0])?.[
+                  displayOptions.ruby!
+                ]
               : null;
         const className = `relative cursor:pointer hover:bg-yellow-400/40`;
         return (
