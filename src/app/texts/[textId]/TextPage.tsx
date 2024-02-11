@@ -21,9 +21,31 @@ export default function TextPage({
   });
   return (
     <main className="flex min-h-screen flex-col max-w-lg m-auto p-4">
-      <div className="mb-4 text-center">
-        <h2 className="font-bold">{text.frontmatter.title}</h2>
-        <Markdown className="text-sm">{text.frontmatter.description}</Markdown>
+      <div className="mb-4">
+        <h2 className="font-bold text-center">{text.frontmatter.title}</h2>
+
+        <Markdown
+          className={`text-sm ${markdownCss.markdown}`}
+          options={{
+            overrides: {
+              center: {
+                component: (props) => (
+                  <div className="text-center text-sm">{props.children}</div>
+                ),
+              },
+              code: {
+                component: NotesChinese,
+                props: {
+                  vocab,
+                  displayOptions,
+                  gloss: null,
+                },
+              },
+            },
+          }}
+        >
+          {text.frontmatter.description}
+        </Markdown>
       </div>
 
       <form className="mb-4 text-sm border-1 border border-foreground/25 rounded p-2 ">
@@ -209,7 +231,7 @@ function NotesChinese({
   gloss: string[] | null;
 }) {
   return (
-    <span className="text-2xl block">
+    <span className="text-2xl">
       <ChineseWithPopover
         text={children}
         vocab={vocab}

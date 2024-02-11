@@ -1,8 +1,8 @@
 # Introduction to Literary Chinese - Lesson 1, Text 2
 
-Adapted from the 1927 book by J. Brandt
+<center>Adapted from the 1927 book by J. Brandt</center>
 
-Transcribed by 武克富強 (Võ Khắc Phú Cường)
+<center>Transcribed by 武克富強 (Võ Khắc Phú Cường)</center>
 
 ---
 

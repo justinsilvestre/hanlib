@@ -1,6 +1,6 @@
 # Introduction to Literary Chinese - Lesson 3, Text 2
 
-Adapted from the 1927 book by J. Brandt
+<center>Adapted from the 1927 book by J. Brandt</center>
 
 ---
 

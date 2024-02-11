@@ -27,7 +27,7 @@ If you know how to make pull requests Git/GitHub, you are welcome to make your c
 ## remaining tasks
 
 ```
-progress: 72 / 4143 tasks complete (~1.7%)
+progress: 81 / 4143 tasks complete (~1.9%)
 [=                                                 ]
 ```
 
@@ -205,52 +205,52 @@ progress: 72 / 4143 tasks complete (~1.7%)
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
     - [x] use OCR on cropped images
-    - [ ] proofread OCR results
+    - [x] proofread OCR results
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
-    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [x] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
     - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
     - [ ] get Cantonese readings for Vocabulary section
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 4, Text 2
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
     - [x] use OCR on cropped images
-    - [ ] proofread OCR results
+    - [x] proofread OCR results
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
-    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [x] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
     - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
     - [ ] get Cantonese readings for Vocabulary section
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 4, Text 3
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
     - [x] use OCR on cropped images
-    - [ ] proofread OCR results
+    - [x] proofread OCR results
     - [ ] transcribe Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
-    - [ ] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
+    - [x] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
     - [ ] create `.vocab.tsv` according to established format ([example](./texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] get Mandarin pinyin readings for Vocabulary section
     - [ ] get Vietnamese readings for Vocabulary section
     - [ ] get Cantonese readings for Vocabulary section
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 5, Text 1
   - transcribe content

@@ -1,10 +1,10 @@
 # Introduction to Literary Chinese - Lesson 3, Text 3
 
-Adapted from the 1927 book by J. Brandt
+<center>Adapted from the 1927 book by J. Brandt</center>
 
 ## Grammatical section.
 
-PARTICLES OF THE WENLI STYLE.
+<center>PARTICLES OF THE WENLI STYLE.</center>
 
 Even in the perusal of the first three lessons of the present course the reader could hardly have failed to notice the variety of so called "empty words" (`虚字`) let us call them "particles") and the important part they play in the structure of the written style.
 
@@ -12,9 +12,7 @@ The Chinese themselves pay no little attention to these particles, and there are
 
 In the present course the particles are distributed in separate categories in accordance with their particular grammatical use.
 
-### 1. Particles of qualification (lit. of weight)
-
-`分量字`
+### 1. `分量字` Particles of qualification (lit. of weight)
 
 These particles indicate the degree of quality, state, or action, and are divided into the following four categories:
 
@@ -29,11 +27,13 @@ Intensifying particles indicate the increase of the degree of quality, state, or
 
 These particles are:
 
-`愈` `更` `益` `尤`
+<center>`愈` `更` `益` `尤`</center>
+
+#### Examples of using the intensifying particles:
 
 ---
 
-1 愈
+1 愈久
 1 - Still longer.
 
 2 愈加
@@ -43,8 +43,7 @@ These particles are:
 3 - The sooner, the better.
 
 4 愈多愈不
-
-1 - The more he has, the more dissatisfied he is.
+4 - The more he has, the more dissatisfied he is.
 
 5 更要
 5 - Still more important.

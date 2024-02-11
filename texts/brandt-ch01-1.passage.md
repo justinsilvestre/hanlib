@@ -1,8 +1,8 @@
 # Introduction to Literary Chinese - Lesson 1, Text 1
 
-Adapted from the 1927 book by J. Brandt
+<center>Adapted from the 1927 book by J. Brandt</center>
 
-Transcribed with help from 武克富強/Võ Khắc Phú Cường (main text, Vietnamese readings) and R.K. Christenson (Cantonese readings).
+<center>Transcribed with help from 武克富強/Võ Khắc Phú Cường (main text, Vietnamese readings) and R.K. Christenson (Cantonese readings).</center>
 
 ---
 
