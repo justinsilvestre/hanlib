@@ -71,12 +71,13 @@ export function ChineseWithPopover({
                   .map((e) => e[displayOptions.ruby!])
                   .join(" / ")
               : null;
-
+        const className = `relative cursor:pointer hover:bg-yellow-400/40`;
         return (
           <span
             key={i}
+            className="relative cursor:pointer hover:bg-yellow-400/40"
             {...popover.getReferenceProps({
-              className: `relative cursor:pointer hover:bg-background ${
+              className: `${className} ${
                 popover.refs.domReference.current?.id === id
                   ? "bg-blue-500/20"
                   : ""
@@ -172,7 +173,7 @@ function PopoverDictionaryContent(
                                         className={`${
                                           segmentKeyword === enGloss &&
                                           enDefinitionSegmentsCount > 1
-                                            ? "bg-yellow-400/10 border-yellow-400 border text-foreground"
+                                            ? "bg-yellow-400/10 border-yellow-400/50 border text-foreground"
                                             : ""
                                         }`}
                                       >
