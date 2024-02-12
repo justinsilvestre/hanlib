@@ -4,7 +4,7 @@ import Markdown from "markdown-to-jsx";
 import markdownCss from "./markdown.module.css";
 import { Passage, PassageVocab } from "../Passage";
 import { ChineseWithPopover, DisplayOptions } from "./ChineseWithPopover";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { normalizeText } from "./punctuation";
 
 export default function TextPage({
@@ -15,10 +15,7 @@ export default function TextPage({
   vocab: PassageVocab;
 }) {
   const notesWithHeadings: { id: string; heading: string }[] = [];
-  const [displayOptions, setDisplayOptions] = useState<DisplayOptions>({
-    ruby: "vi",
-    translation: true,
-  });
+  const [displayOptions, setDisplayOptions] = useDisplayOptions();
   return (
     <main className="flex min-h-screen flex-col max-w-lg m-auto p-4">
       <div className="mb-4">
@@ -49,7 +46,7 @@ export default function TextPage({
       </div>
 
       <form className="mb-4 text-sm border-1 border border-foreground/25 rounded p-2 ">
-        <div className="mb-2 flex-row gap-2 flex">
+        <div className="mb-2 flex-row flex-wrap justify-around gap-2 flex">
           <RubyRadioInputAndLabel
             id="ruby-jyutping"
             value="jyutping"
@@ -69,14 +66,24 @@ export default function TextPage({
             label="Hanyu Pinyin"
           />
           <RubyRadioInputAndLabel
+            id="ruby-kr"
+            value="kr"
+            checked={displayOptions.ruby === "kr"}
+            onChange={() =>
+              setDisplayOptions((opts) => ({ ...opts, ruby: "kr" }))
+            }
+            label="Sino-Korean"
+          />
+          <RubyRadioInputAndLabel
             id="ruby-vi"
             value="vi"
             checked={displayOptions.ruby === "vi"}
             onChange={() =>
               setDisplayOptions((opts) => ({ ...opts, ruby: "vi" }))
             }
-            label="Vietnamese"
+            label="Sino-Vietnamese"
           />
+
           <RubyRadioInputAndLabel
             id="ruby-null"
             value="null"
@@ -217,6 +224,31 @@ export default function TextPage({
       )}
     </main>
   );
+}
+
+function useDisplayOptions() {
+  const [displayOptions, setDisplayOptions] = useState<DisplayOptions>(() =>
+    globalThis.window && localStorage.getItem("displayOptions")
+      ? JSON.parse(localStorage.getItem("displayOptions") as string)
+      : {
+          ruby: "vi",
+          translation: true,
+        }
+  );
+  const initialized = useRef(false);
+  useEffect(() => {
+    if (!initialized.current) {
+      const localStorageDisplayOptions = localStorage.getItem("displayOptions");
+      if (localStorageDisplayOptions) {
+        setDisplayOptions(JSON.parse(localStorageDisplayOptions));
+      }
+      initialized.current = true;
+    } else {
+      localStorage.setItem("displayOptions", JSON.stringify(displayOptions));
+    }
+  }, [displayOptions]);
+
+  return [displayOptions, setDisplayOptions] as const;
 }
 
 function NotesChinese({

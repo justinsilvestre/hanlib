@@ -14,12 +14,18 @@ export type LexiconEntry = Record<VocabEntryPronunciationKey, string | null>;
 
 export type PassageVocab = Partial<Record<string, LexiconEntry[]>>;
 
-export type VocabEntryPronunciationKey = "vi" | "jyutping" | "pinyin" | "en";
+export type VocabEntryPronunciationKey =
+  | "vi"
+  | "jyutping"
+  | "pinyin"
+  | "en"
+  | "kr";
 export const vocabFileColumns = [
   { heading: "Vietnamese", key: "vi" },
   { heading: "Jyutping", key: "jyutping" },
   { heading: "English", key: "en" },
   { heading: "Hanyu Pinyin", key: "pinyin" },
+  { heading: "Korean", key: "kr" },
 ] as const;
 
 export function parsePassageVocabList(vocabFileContents: string | null) {

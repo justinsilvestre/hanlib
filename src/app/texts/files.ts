@@ -14,8 +14,11 @@ export const getPassageFileContents = (textId: string) => {
   const passageFilePath = path.resolve(textsDirectory, `${textId}.passage.md`);
   return fs.readFileSync(passageFilePath, "utf8");
 };
+
+export const getPassageVocabFilePath = (textId: string) =>
+  path.resolve(textsDirectory, `${textId}.vocab.tsv`);
 export const getPassageVocabFileContents = (textId: string) => {
-  const vocabFilePath = path.resolve(textsDirectory, `${textId}.vocab.tsv`);
+  const vocabFilePath = getPassageVocabFilePath(textId);
   return fs.existsSync(vocabFilePath)
     ? fs.readFileSync(vocabFilePath, "utf8")
     : null;

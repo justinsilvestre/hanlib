@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@floating-ui/react": "^0.26.9",
+    "@silvestre/cjk-unihan": "^0.0.3-0",
     "markdown-to-jsx": "^7.4.1",
     "next": "14.1.0",
     "react": "^18",

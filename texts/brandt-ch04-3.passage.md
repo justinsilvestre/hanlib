@@ -61,7 +61,7 @@ These particles are:
 15 各省教案同時並起
 15 - Missionary cases occurred in all the provinces at the same time.
 
-16 一切兵器槪屬違禁。不准販運
+16 一切兵器概屬違禁。不准販運
 16 - Weapons of war of every kind are contraband,and trade in them is not allowed.
 
 17 萬邦咸寕

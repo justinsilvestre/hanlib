@@ -5,9 +5,13 @@ import {
   FloatingFocusManager,
   FloatingPortal,
 } from "@floating-ui/react";
-import { PassageVocab } from "../Passage";
+import {
+  LexiconEntry,
+  PassageVocab,
+  VocabEntryPronunciationKey,
+} from "../Passage";
 import { usePopover } from "./Popover";
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import { textIsPunctuation } from "./punctuation";
 import {
   findEntryMatchingEnKeywords,
@@ -15,7 +19,7 @@ import {
 } from "@/app/lexiconEntryEnKeywords";
 
 export type DisplayOptions = {
-  ruby: null | "en" | "vi" | "jyutping" | "pinyin";
+  ruby: null | VocabEntryPronunciationKey;
   translation: boolean;
 };
 
@@ -69,6 +73,7 @@ export function ChineseWithPopover({
                   displayOptions.ruby!
                 ]
               : null;
+
         const className = `relative cursor:pointer hover:bg-yellow-400/40`;
         return (
           <span
@@ -87,17 +92,15 @@ export function ChineseWithPopover({
               },
             })}
           >
-            {rubyText ? (
-              <ruby id={id}>
-                {char}
-                <rt className="text-[0.40em] mr-[0.40em]">
-                  {rubyText}
-                  {!soleEntry && !matchingEntry ? "*" : ""}
-                </rt>
-              </ruby>
-            ) : (
-              char
-            )}
+            <Suspense fallback={char}></Suspense>
+            <RubyText
+              enGloss={enGloss}
+              char={char}
+              soleEntry={soleEntry}
+              matchingEntry={matchingEntry || null}
+              displayOptions={displayOptions}
+              firstEntry={entries[0]}
+            />
           </span>
         );
       })}
@@ -144,7 +147,7 @@ function PopoverDictionaryContent(
 
                 return (
                   <div key={i} className="p-1 rounded">
-                    {[entry.jyutping, entry.pinyin, entry.vi]
+                    {[entry.jyutping, entry.pinyin, entry.kr, entry.vi]
                       .filter((e) => e)
                       .map((e, i, readings) => (
                         <span key={i}>
@@ -198,5 +201,43 @@ function PopoverDictionaryContent(
         </div>
       </FloatingFocusManager>
     </FloatingPortal>
+  );
+}
+
+function RubyText({
+  char,
+  enGloss,
+  displayOptions,
+  soleEntry,
+  matchingEntry,
+  firstEntry,
+}: {
+  char: string;
+  enGloss: string | null;
+  displayOptions: DisplayOptions;
+  soleEntry: LexiconEntry | null;
+  matchingEntry: LexiconEntry | null;
+  firstEntry: LexiconEntry | null;
+}) {
+  if (typeof window === "undefined")
+    throw Error("This component is client-only");
+  let rubyText: string | undefined | null = null;
+  if (displayOptions.ruby === "en") rubyText = enGloss;
+  else
+    rubyText =
+      displayOptions?.ruby && (matchingEntry || soleEntry || firstEntry)
+        ? (matchingEntry || soleEntry || firstEntry)?.[displayOptions.ruby!]
+        : null;
+
+  return rubyText ? (
+    <ruby>
+      {char}
+      <rt className="text-[0.40em] mr-[0.40em]">
+        {rubyText}
+        {!soleEntry && !matchingEntry ? "*" : ""}
+      </rt>
+    </ruby>
+  ) : (
+    char
   );
 }
