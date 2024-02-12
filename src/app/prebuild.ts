@@ -66,12 +66,6 @@ async function fillInMissingReadingsInTsvs() {
       (char) => !registeredChars.has(char)
     );
 
-    if (textId === "brandt-ch01-3")
-      console.log({
-        passageChars: [...passageChars].join(" "),
-        registeredChars: [...registeredChars].join(" "),
-      });
-
     const featuredChars = new Set(
       Object.keys(vocab).concat(isBrandtPassage ? newCharsInPassage : [])
     );

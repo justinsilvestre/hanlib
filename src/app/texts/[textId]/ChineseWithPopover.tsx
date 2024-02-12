@@ -5,11 +5,7 @@ import {
   FloatingFocusManager,
   FloatingPortal,
 } from "@floating-ui/react";
-import {
-  LexiconEntry,
-  PassageVocab,
-  VocabEntryPronunciationKey,
-} from "../Passage";
+import { PassageVocab, VocabEntryPronunciationKey } from "../Passage";
 import { usePopover } from "./Popover";
 import { Suspense, useState } from "react";
 import { textIsPunctuation } from "./punctuation";
@@ -17,6 +13,11 @@ import {
   findEntryMatchingEnKeywords,
   toEnMatchKeyword,
 } from "@/app/lexiconEntryEnKeywords";
+import dynamic from "next/dynamic";
+
+const RubyText = dynamic(() => import("./RubyText").then((r) => r.RubyText), {
+  ssr: false,
+});
 
 export type DisplayOptions = {
   ruby: null | VocabEntryPronunciationKey;
@@ -92,15 +93,17 @@ export function ChineseWithPopover({
               },
             })}
           >
-            <Suspense fallback={char}></Suspense>
-            <RubyText
-              enGloss={enGloss}
-              char={char}
-              soleEntry={soleEntry}
-              matchingEntry={matchingEntry || null}
-              displayOptions={displayOptions}
-              firstEntry={entries[0]}
-            />
+            <ruby>
+              {char}
+              <RubyText
+                enGloss={enGloss}
+                char={char}
+                soleEntry={soleEntry}
+                matchingEntry={matchingEntry || null}
+                displayOptions={displayOptions}
+                firstEntry={entries[0] || null}
+              />
+            </ruby>
           </span>
         );
       })}
@@ -201,43 +204,5 @@ function PopoverDictionaryContent(
         </div>
       </FloatingFocusManager>
     </FloatingPortal>
-  );
-}
-
-function RubyText({
-  char,
-  enGloss,
-  displayOptions,
-  soleEntry,
-  matchingEntry,
-  firstEntry,
-}: {
-  char: string;
-  enGloss: string | null;
-  displayOptions: DisplayOptions;
-  soleEntry: LexiconEntry | null;
-  matchingEntry: LexiconEntry | null;
-  firstEntry: LexiconEntry | null;
-}) {
-  if (typeof window === "undefined")
-    throw Error("This component is client-only");
-  let rubyText: string | undefined | null = null;
-  if (displayOptions.ruby === "en") rubyText = enGloss;
-  else
-    rubyText =
-      displayOptions?.ruby && (matchingEntry || soleEntry || firstEntry)
-        ? (matchingEntry || soleEntry || firstEntry)?.[displayOptions.ruby!]
-        : null;
-
-  return rubyText ? (
-    <ruby>
-      {char}
-      <rt className="text-[0.40em] mr-[0.40em]">
-        {rubyText}
-        {!soleEntry && !matchingEntry ? "*" : ""}
-      </rt>
-    </ruby>
-  ) : (
-    char
   );
 }
