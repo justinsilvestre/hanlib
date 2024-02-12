@@ -53,7 +53,11 @@ export function ChineseWithPopover({
         const entries = vocab[char];
 
         if (!entries?.length) {
-          return <span key={i}>{char}</span>;
+          return (
+            <span key={i} className="font-brush">
+              {char}
+            </span>
+          );
         }
 
         const enGloss = gloss?.[glossIndex]?.replace(/_/g, " ") || null;
@@ -94,7 +98,7 @@ export function ChineseWithPopover({
             })}
           >
             <ruby>
-              {char}
+              <span className="font-brush">{char}</span>
               <RubyText
                 enGloss={enGloss}
                 char={char}
