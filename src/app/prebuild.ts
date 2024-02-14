@@ -45,7 +45,8 @@ function aggregateVocabulary() {
 
   const lexicon = textsIds.reduce((lexicon, textId) => {
     const vocabFileContents = getPassageVocabFileContents(textId);
-    const vocab = parsePassageVocabList(vocabFileContents);
+
+    const vocab = parsePassageVocabList(textId, vocabFileContents);
     return mergeVocab(lexicon, vocab);
   }, {} as PassageVocab);
   return lexicon;
@@ -58,7 +59,7 @@ async function fillInMissingReadingsInTsvs() {
     const isBrandtPassage = textId.startsWith("brandt-");
     if (isBrandtPassage) brandtPassagesVisited += 1;
     const vocabFileContents = getPassageVocabFileContents(textId);
-    const vocab = parsePassageVocabList(vocabFileContents);
+    const vocab = parsePassageVocabList(textId, vocabFileContents);
     const passage = parsePassage(getPassageFileContents(textId));
     const passageChars = getPassageChars(passage);
 
@@ -168,7 +169,7 @@ function getEmbeddedChineseSegments(text: string) {
 function writePassageVocabularyJsons(lexicon: PassageVocab) {
   for (const textId of getTextsIds()) {
     const vocabFileContents = getPassageVocabFileContents(textId);
-    const vocab = parsePassageVocabList(vocabFileContents);
+    const vocab = parsePassageVocabList(textId, vocabFileContents);
     const passage = parsePassage(getPassageFileContents(textId));
 
     const vocabJsonPath = path.join(

@@ -2,11 +2,7 @@ import fs from "fs";
 import path from "path";
 
 import { Passage as Passage, PassageVocab } from "./Passage";
-import {
-  parsePassage,
-  parsePassageVocabList,
-  parseFrontmatterText,
-} from "./Passage";
+import { parsePassage, parseFrontmatterText } from "./Passage";
 
 const textsDirectory = path.resolve(process.cwd(), "texts");
 

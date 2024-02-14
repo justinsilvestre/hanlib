@@ -28,12 +28,15 @@ export const vocabFileColumns = [
   { heading: "Korean", key: "kr" },
 ] as const;
 
-export function parsePassageVocabList(vocabFileContents: string | null) {
+export function parsePassageVocabList(
+  textId: string,
+  vocabFileContents: string | null
+) {
   const vocab: PassageVocab = {};
   if (vocabFileContents) {
     const lines = vocabFileContents.split("\n");
 
-    const [, ...columnHeaders] = lines[0].split("\t");
+    const [, ...columnHeaders] = lines[0].trim().split("\t");
     const invalidColumnHeaders = columnHeaders.filter(
       (columnHeader) =>
         !vocabFileColumns.some(
@@ -41,10 +44,11 @@ export function parsePassageVocabList(vocabFileContents: string | null) {
         )
     );
     if (invalidColumnHeaders.length) {
+      console.log(vocabFileContents);
       throw new Error(
-        `Invalid vocab file (invalid column headers: ${invalidColumnHeaders.join(
+        `Invalid vocab file for ${textId} (invalid column headers: "${invalidColumnHeaders.join(
           ", "
-        )}. should be one of ${vocabFileColumns
+        )}" should be one of ${vocabFileColumns
           .map((vocabFileColumn) => vocabFileColumn.heading)
           .join(", ")})`
       );
@@ -56,7 +60,8 @@ export function parsePassageVocabList(vocabFileContents: string | null) {
         return { key: vocabFileColumn.key, index };
       });
 
-    for (const line of lines.slice(1)) {
+    for (const rawLine of lines.slice(1)) {
+      const line = rawLine.trim();
       const [chinese, ...columns] = line.split("\t");
       const vocabEntry = {} as Record<
         VocabEntryPronunciationKey,

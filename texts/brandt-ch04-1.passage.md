@@ -32,7 +32,7 @@ A net cannot stop it, and it is impossible to haul it with a hook.
 Your presence in Ch'i is similar to the abode of the sea-monster in water.
 
 君若善治齊。
-If you govern Ch'i in the proper, Ch'i will become strong, and what sorrow could you way have?
+If you govern Ch'i in the proper way, Ch'i will become strong, and what sorrow could you have?
 
 齊强。君又何憂焉。若一旦齊亡。雖築薛之城。使高於天。猶之無益也。
 (But) if one day Ch'i perishes, (then) even if you should build (lit. cause) the walls of Hsüeh higher than the sky, still it would not be of any use to you."

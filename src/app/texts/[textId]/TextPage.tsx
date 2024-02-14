@@ -41,7 +41,7 @@ export default function TextPage({
             },
           }}
         >
-          {text.frontmatter.description}
+          {toCurlyQuotes(text.frontmatter.description)}
         </Markdown>
       </div>
 
@@ -177,7 +177,9 @@ export default function TextPage({
                 );
               })}
               {displayOptions.translation && (
-                <div className="text-sm mt-2">{line.english}</div>
+                <div className="text-sm mt-2">
+                  {toCurlyQuotes(line.english)}
+                </div>
               )}
             </section>
           );
@@ -302,4 +304,8 @@ function RubyRadioInputAndLabel({
       </label>
     </span>
   );
+}
+
+function toCurlyQuotes(text: string) {
+  return text.replace(/(?<=^|\s)"/g, "“").replace(/"/g, "”");
 }
