@@ -17,3 +17,16 @@ The following license information applies to the texts in the [texts](./texts) f
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
+## development
+
+To run the app locally:
+
+1. Install packages from the repository root directory
+   > npm install
+2. Run prebuild script
+   > npm run prebuild
+3. Run Next.js dev server
+   > npm run dev
+
+After making changes to the files in the `texts/` directory, you may need to **run the prebuild script again**.
