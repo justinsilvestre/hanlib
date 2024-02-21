@@ -17,10 +17,6 @@ export function RubyText({
   matchingEntry: LexiconEntry | null;
   firstEntry: LexiconEntry | null;
 }) {
-  if (!globalThis.window)
-    throw new Promise((res) => {
-      if (globalThis.window) res(null);
-    });
   let rubyText: string | undefined | null = null;
   if (displayOptions.ruby === "en") rubyText = enGloss;
   else

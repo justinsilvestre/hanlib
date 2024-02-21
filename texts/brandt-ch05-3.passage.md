@@ -4,7 +4,7 @@
 
 ## Grammatical section.
 
-#### B. `高等` Superlative particles
+#### C. `高等` Superlative particles
 
 The superlative particles indicate the highest degree of a quality, state, or action.
 
