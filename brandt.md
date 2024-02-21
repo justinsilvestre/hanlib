@@ -27,8 +27,8 @@ If you know how to make pull requests Git/GitHub, you are welcome to make your c
 ## remaining tasks
 
 ```
-progress: 134 / 1384 tasks complete (~9.6%)
-[====                                             ]
+progress: 138 / 1384 tasks complete (~10%)
+[=====                                             ]
 ```
 
 - [x] confirm copyright status of original work (def public domain in US because it was published in 1928) (Feb 9)
