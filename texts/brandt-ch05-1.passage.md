@@ -38,6 +38,6 @@ One day without it makes one hungry; three days without it makes one ill; seven 
 If there is rice, the people are quiet; if there is no rice, the country (lit. under the sky) revolts.
 
 以功用較之。豈不愈於彼乎。
-If we compare them in accordance with (their) utility, is it not better than the pearl ?"
+If we compare them in accordance with (their) utility, is it not better than the pearl?"
 
 ---
