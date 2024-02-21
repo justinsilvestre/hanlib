@@ -70,7 +70,7 @@ These particles are:
 18 幼長咸集
 18 - Old and young, all assembled together.
 
-19 天下之人悉聽肸言
+19 天下之人悉聽朕言
 19 - Listen all to our words!
 
 ---

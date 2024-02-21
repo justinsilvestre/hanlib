@@ -1,7 +1,7 @@
 const punctuationRegex =
-  /[。，？！；：、「」『』（）《》〈〉﹁﹂﹃﹄【】〔〕a-zA-Z\s0-9\-:{}\,;\.()]+/;
+  /[。，？！；：、「」『』（）《》〈〉﹁﹂﹃﹄【】〔〕a-zA-Z\s0-9①-⑳-㊿\-:{}\,;\.()]+/;
 const punctuationRegexG =
-  /[。，？！；：、「」『』（）《》〈〉﹁﹂﹃﹄【】〔〕a-zA-Z\s0-9\-:{}\,;\.()]+/g;
+  /[。，？！；：、「」『』（）《》〈〉﹁﹂﹃﹄【】〔〕a-zA-Z\s0-9①-⑳-㊿\-:{}\,;\.()]+/g;
 
 export function normalizeText(text: string) {
   return text.replaceAll(punctuationRegexG, "");
