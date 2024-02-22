@@ -6,13 +6,13 @@
 
 <center>THE COMPARATIVE PARTICLES.</center>
 
-The following are the particles which are used in com- parative constructions.
+The following are the particles which are used in comparative constructions.
 
 ### A. Single particles:
 
 <center>`比` `較` `於` `平`</center>
 
-The single particles are used when two or many objects are compared and when one object is represented as more preferable to another or many others. The meaning of these particles cor- responds to the English "than".
+The single particles are used when two or many objects are compared and when one object is represented as more preferable to another or many others. The meaning of these particles corresponds to the English "than".
 
 ### B. Compound particles:
 
@@ -32,7 +32,7 @@ The combinations:
 
 mean: "as compared with... it is better (or 'there is nothing equal' etc.)"
 
-When it is only stated that an object, state or action is more preferable without comparing it with any other, the particles: 不如 不若, 寧, are used. These particles correspond to the English expressions:&mdash;"better", "it is better".
+When it is only stated that an object, state or action is more preferable without comparing it with any other, the particles: 不如 不若, 寧, are used. These particles correspond to the English expressions: "better", "it is better".
 
 ### Examples of using the comparative particles
 
@@ -45,7 +45,7 @@ The ships built by foreigners are more solid than the Chinese ships (lit. China)
 The timber from the foreign hills is more substantial than (the timber) from the interior.
 
 ③ 漢之爲患較江爲尤甚
-The trouble caused by the Han is still greater (尤芒) than (c) (that caused by) the Yang-tzu (is an ex- pletive).
+The trouble caused by the Han is still greater (尤芒) than (c) (that caused by) the Yang-tzu (is an expletive).
 
 ④ 此時進口之船較之岸邊房屋則高
 At this time the vessels that enter the port are higher than the houses on the banks. (☑ is a sign of the participle),
@@ -84,7 +84,7 @@ I would rather have my life shortened ten years than suffer poverty in my old ag
 Better be a dog, in times of general peace than a man in the midst of civil wars.
 
 ⑯ 寧可爲窮人補破衣。不可與富人爲妾
-Better mend the torn clothes of a pauper than be the con- cubine of a rich man.
+Better mend the torn clothes of a pauper than be the concubine of a rich man.
 
 ⑰ 與其遲到。不如不到。
 Better not come at all than come late.

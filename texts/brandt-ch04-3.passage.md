@@ -16,61 +16,61 @@ These particles are:
 
 ---
 
-1 四海之内皆兄弟也
-1 - All within the four seas are brothers.
+① 海之内皆兄弟也
+All within the four seas are brothers.
 
-2 寸土皆是王地
-2 - Every inch of ground is the emperor's.
+② 土皆是王地
+Every inch of ground is the emperor's.
 
-3 老少皆在
-3 - Old and young, all are there.
+③ 少皆在
+Old and young, all are there.
 
-4 自古皆有死
-4 - From of old, death has been the lot of all men.
+④ 古皆有死
+From of old, death has been the lot of all men.
 
-5 各商均有益
-5 - All the merchants will profit.
+⑤ 商均有益
+All the merchants will profit.
 
-6 田禾均遭淹沒
-6 - Fields and grain, all were drowned.
+⑥ 禾均遭淹沒
+Fields and grain, all were drowned.
 
-7 生意之人均不敢來城買賣
-7 - All the men of commerce (merchants) do not dare to come to the city to trade.
+⑦ 意之人均不敢來城買賣
+All the men of commerce (merchants) do not dare to come to the city to trade.
 
-8 泰西各國俱無此例
-8 - No western nations have this law.
+⑧ 西各國俱無此例
+No western nations have this law.
 
-9 民教俱各相安
-9 - The common people and the converts were all on friendly terms.
+⑨ 教俱各相安
+The common people and the converts were all on friendly terms.
 
-10 禾苗俱在水中
-10 - The sprouts of grain are covered by the flood (lit. all are in water).
+⑩ 禾苗俱在水中
+The sprouts of grain are covered by the flood (lit. all are in water).
 
-11 晝夜等長
-11 - Day and night are of equal length.
+⑪ 晝夜等長
+Day and night are of equal length.
 
-12 不等
-12 - Not of the same kind.
+⑫ 不等
+Not of the same kind.
 
-13 並重
-13 - Equally heavy.
+⑬ 並重
+Equally heavy.
 
-14 並頭與足
-14 - Both head and feet.
+⑭ 並頭與足
+Both head and feet.
 
-15 各省教案同時並起
-15 - Missionary cases occurred in all the provinces at the same time.
+⑮ 各省教案同時並起
+Missionary cases occurred in all the provinces at the same time.
 
-16 一切兵器概屬違禁。不准販運
-16 - Weapons of war of every kind are contraband,and trade in them is not allowed.
+⑯ 一切兵器概屬違禁。不准販運
+Weapons of war of every kind are contraband,and trade in them is not allowed.
 
-17 萬邦咸寕
-17 - All nations are at peace.
+⑰ 萬邦咸寕
+All nations are at peace.
 
-18 幼長咸集
-18 - Old and young, all assembled together.
+⑱ 幼長咸集
+Old and young, all assembled together.
 
-19 天下之人悉聽朕言
-19 - Listen all to our words!
+⑲ 天下之人悉聽朕言
+Listen all to our words!
 
 ---

@@ -33,40 +33,40 @@ These particles are:
 
 ---
 
-1 愈久
-1 - Still longer.
+① 愈久
+Still longer.
 
-2 愈加
-2 - Still more; further.
+② 愈加
+Still more; further.
 
-3 愈速愈妙
-3 - The sooner, the better.
+③ 愈速愈妙
+The sooner, the better.
 
-4 愈多愈不
-4 - The more he has, the more dissatisfied he is.
+④ 愈多愈不
+The more he has, the more dissatisfied he is.
 
-5 更要
-5 - Still more important.
+⑤ 更要
+Still more important.
 
-6 更有一件
-6 - There is still one more point.
+⑥ 更有一件
+There is still one more point.
 
-7 益多
-7 - Still more.
+⑦ 益多
+Still more.
 
-8 多多益善
-8 - The more the better.
+⑧ 多多益善
+The more the better.
 
-9 尤異
-9 - More strange.
+⑨ 尤異
+More strange.
 
-10 尤可怪
-10 - Still more extraordinary.
+⑩ 尤可怪
+Still more extraordinary.
 
-11 尤爲緊要
-11 - Still more important.
+⑪ 尤爲緊要
+Still more important.
 
-12 尤不足觀
-12 - Still more unworthy to be looked at.
+⑫ 尤不足觀
+Still more unworthy to be looked at.
 
 ---

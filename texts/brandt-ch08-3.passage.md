@@ -47,10 +47,10 @@ Things which have passed before the eyes, one still fears that they are not true
 My park contains (only) forty square "li", and people still look on it as large. How is this?
 
 ⑩ 天作孽猶可違。自作孽不可活。
-When Heaven sends down calamities, it it still possible to escape them. When we occasion the calamities our- selves, it is not possible any longer to live
+When Heaven sends down calamities, it it still possible to escape them. When we occasion the calamities ourselves, it is not possible any longer to live
 
 ⑪ 明知故犯
-To be quite aware (of what one is doing) and yet to com- mit crime.
+To be quite aware (of what one is doing) and yet to commit crime.
 
 ⑫ 故蹈前徹
 Still to walk in the old ways (of wickedness).

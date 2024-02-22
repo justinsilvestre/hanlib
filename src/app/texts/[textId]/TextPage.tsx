@@ -17,17 +17,17 @@ export default function TextPage({
   const notesWithHeadings: { id: string; heading: string }[] = [];
   const [displayOptions, setDisplayOptions] = useDisplayOptions();
   return (
-    <main className="flex min-h-screen flex-col max-w-lg m-auto p-4">
+    <main className="flex min-h-screen flex-col max-w-xl m-auto p-4">
       <div className="mb-4">
         <h2 className="font-bold text-center">{text.frontmatter.title}</h2>
 
         <Markdown
-          className={`text-sm ${markdownCss.markdown}`}
+          className={` ${markdownCss.markdown}`}
           options={{
             overrides: {
               center: {
                 component: (props) => (
-                  <div className="text-center text-sm">{props.children}</div>
+                  <div className="text-center ">{props.children}</div>
                 ),
               },
               code: {
@@ -45,7 +45,7 @@ export default function TextPage({
         </Markdown>
       </div>
 
-      <form className="mb-4 text-sm border-1 border border-foreground/25 rounded p-2 ">
+      <form className="mb-4  border-1 border border-foreground/25 rounded p-2 ">
         <div className="mb-2 flex-row flex-wrap justify-around gap-2 flex">
           <RubyRadioInputAndLabel
             id="ruby-jyutping"
@@ -149,7 +149,10 @@ export default function TextPage({
             <section key={i} className="mb-4">
               {chineseSegments.map(({ noteId, text, gloss }, segmentIndex) => {
                 return (
-                  <div key={segmentIndex} className="text-3xl inline">
+                  <div
+                    key={segmentIndex}
+                    className="text-4xl inline leading-relaxed"
+                  >
                     <span
                       className={
                         noteId
@@ -166,7 +169,7 @@ export default function TextPage({
                     </span>
                     {noteId && (
                       <a
-                        className="text-blue-500 align-super text-xs"
+                        className="text-blue-500 align-super text-sm"
                         href={`#note-${noteId}`}
                         id={`noteref-${noteId}`}
                       >
@@ -177,9 +180,7 @@ export default function TextPage({
                 );
               })}
               {displayOptions.translation && (
-                <div className="text-sm mt-2">
-                  {toCurlyQuotes(line.english)}
-                </div>
+                <div className=" mt-2">{toCurlyQuotes(line.english)}</div>
               )}
             </section>
           );
@@ -188,7 +189,7 @@ export default function TextPage({
 
       {notesWithHeadings.length > 0 && (
         <section>
-          <h3 className="font-bold mb-4 text-xl text-center">Notes</h3>
+          <h3 className="font-bold mb-4 text-2xl text-center">Notes</h3>
           {notesWithHeadings.map(({ id: noteId, heading }, i) => {
             return (
               <div
@@ -196,7 +197,7 @@ export default function TextPage({
                 className="mb-4 border-1 border p-2 rounded border-foreground border-opacity-50"
                 id={`note-${noteId}`}
               >
-                <h3 className="text-xl mb-4">
+                <h3 className="text-2xl mb-4">
                   <a className="text-blue-500" href={`#noteref-${noteId}`}>
                     [{noteId}]
                   </a>{" "}
@@ -265,7 +266,7 @@ function NotesChinese({
   gloss: string[] | null;
 }) {
   return (
-    <span className="text-2xl">
+    <span className="text-3xl">
       <ChineseWithPopover
         text={children}
         vocab={vocab}

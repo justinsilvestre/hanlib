@@ -162,7 +162,7 @@ function PopoverDictionaryContent(
                           {i < readings.length - 1 ? " / " : " "}
                         </span>
                       ))}
-                    <span className="text-sm">
+                    <span className="">
                       {entry.en
                         ?.split("; ")
                         .map(
