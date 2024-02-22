@@ -8,39 +8,39 @@
 
 吉凶
 Lucky and Bad Omens
-auspicious unlucky
+auspicious[:lucky] [and] unlucky[:bad_omens]
 
 有鴉{a:集庭樹}。{b:引頸而鳴}。
 There were (some) crows (who) flocked together (in a) court-yard (upon a) tree and cawed (lit. sang) stretching (their) necks.
-be crow flock_together courtyard tree stretch neck and sing
+`be[:there_were] [some] crow[s] [who] flock[ed]_together [in a] courtyard [upon a] tree [and] 2stretch 4[their] neck[s] 3and[:~ing] 1sing (caw[ed]).`
 
 {c:兒叱之}。
 (A) boy hooted at them.
-boy hoot_at them
+`[A] boy hoot[ed]_at them.`
 
 父曰。是何害。
 (His) father asked (lit. said), "What (is) the harm (in) this?"
-father speak this what harm
+`[His] father speak[:asked], 2[in] this "w[-W]hat 1[is the] harm?"`
 
 兒曰。常聞人言。鵲鳴吉。鴉鳴凶。
 (The) boy said, "(I) have often heard people say (that when a) magpie chatters, (it brings) good luck, (and when a) crow caws, (it brings) bad luck.
-boy speak frequent hear person say magpie sing auspicious crow sing unlucky
+`[The] boy speak[:said], "[I have] frequent[:often] hear[d] person[:people] say [that when a] magpie sing[:chatters], [it is] auspicious[:good_luck], [and when a] crow sing[:caws], [it is] unlucky[:bad_luck].`
 
 今{d:鳴者}{e:鴉也}。故叱之。
 Today the crows have been cawing, therefore I have hooted at them."
-now sing that_which crow final_particle therefore hoot_at them
+`now[:Today] 4[are] sing[ing] 3that_which[:that] 2[the] crow[s] 1final_particle[:it_is], therefore [I have] hoot[ed]_at them."`
 
 父曰。{f:人之智識}。{g:遠勝於鳥}。
 The father said, "Man's knowledge and experience (are) much higher than (those of) birds,
-father speak man of wisdom-know (knowledge_and_experience) distant excel than bird
+`[The] father speak[:said], "m[-~M]an of[:~'s] wisdom-know (knowledge_and_experience) [are] distant[:much] excel[:higher] than [those of] bird[s].`
 
 尚不能預知吉凶。
 Yet he cannot foresee good luck and ill luck.
-still not be_able beforehand-know (foresee) auspicious unlucky
+`still[:Yet] [he] 2[~]not 1be_able[:can] beforehand-know (foresee) auspicious[:good_luck] [and] unlucky[:ill_luck].`
 
 而況鳥乎。
 Still more the birds are not able to do it."
-and-still_more (still_more) bird exclamatory_particle
+`and-still_more (s[-S]till_more) [the] bird[s] [are not able to do it] exclamatory_particle (~\!) [\"]`
 
 ---
 

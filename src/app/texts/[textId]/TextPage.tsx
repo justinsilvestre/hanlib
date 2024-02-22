@@ -3,9 +3,15 @@
 import Markdown from "markdown-to-jsx";
 import markdownCss from "./markdown.module.css";
 import { Passage, PassageVocab } from "../Passage";
-import { ChineseWithPopover, DisplayOptions } from "./ChineseWithPopover";
-import { useEffect, useRef, useState } from "react";
+import {
+  ChineseWithPopover,
+  DisplayOptions,
+  LATEST_DISPLAY_OPTIONS_VERSION,
+} from "./ChineseWithPopover";
+import { ReactNode, useEffect, useRef, useState } from "react";
 import { normalizeText } from "./punctuation";
+import { parseGloss } from "./parseGloss";
+import { GlossDocument, TranslationElement } from "@/app/glossUtils";
 
 export default function TextPage({
   text,
@@ -16,6 +22,25 @@ export default function TextPage({
 }) {
   const notesWithHeadings: { id: string; heading: string }[] = [];
   const [displayOptions, setDisplayOptions] = useDisplayOptions();
+  const [highlightedCharactersRange, setHighlightedCharactersRange] = useState<{
+    lineIndex: number;
+    startCharacterIndex: number;
+    endCharacterIndex: number;
+  } | null>(null);
+  const getSetHoveredCharacterLocation =
+    (lineIndex: number) =>
+    (
+      characterRange: {
+        startCharacterIndex: number;
+        endCharacterIndex: number;
+      } | null
+    ) => {
+      console.log(characterRange);
+      setHighlightedCharactersRange(
+        characterRange === null ? null : { lineIndex, ...characterRange }
+      );
+    };
+
   return (
     <main className="flex min-h-screen flex-col max-w-xl m-auto p-4">
       <div className="mb-4">
@@ -94,29 +119,49 @@ export default function TextPage({
             label="none"
           />
         </div>
-        <div>
-          <input
-            type="checkbox"
-            id="translation"
-            checked={displayOptions.translation}
-            onChange={() =>
-              setDisplayOptions((opts) => ({
-                ...opts,
-                translation: !opts.translation,
-              }))
-            }
-          />
-          <label htmlFor="translation" className="ml-1">
-            English translation
-          </label>
+        <div className="mb-2 flex-row flex-wrap justify-around gap-2 flex border-solid border-t border-foreground/25 pt-2">
+          <span>
+            <input
+              type="radio"
+              id="translation-gloss"
+              name="translation"
+              value="gloss"
+              checked={displayOptions.translation === "gloss"}
+              onChange={() =>
+                setDisplayOptions((opts) => ({ ...opts, translation: "gloss" }))
+              }
+            />
+            <label htmlFor="translation-gloss" className="ml-1">
+              Gloss-translation
+            </label>
+          </span>
+          <span>
+            <input
+              type="radio"
+              id="translation-idiomatic"
+              name="translation"
+              value="idiomatic"
+              checked={displayOptions.translation === "idiomatic"}
+              onChange={() =>
+                setDisplayOptions((opts) => ({
+                  ...opts,
+                  translation: "idiomatic",
+                }))
+              }
+            />
+            <label htmlFor="translation-idiomatic" className="ml-1">
+              Idiomatic translation
+            </label>
+          </span>
         </div>
       </form>
 
       <section className="mb-4">
-        {text.lines.map((line, i) => {
-          const lineGloss = line.gloss
-            ?.replaceAll(/\([^)]+\)/g, "")
-            .split(/ +|-/);
+        {text.lines.map((line, lineIndex) => {
+          const glossText = line.gloss?.replaceAll(/^`|`$/g, "") || null;
+
+          const gloss = parseGloss(glossText);
+          let charactersProcessed = 0;
           const chineseSegments = line.chinese
             .split(/(?={)|(?<=})/)
             .reduce((segments, segment) => {
@@ -126,61 +171,121 @@ export default function TextPage({
               if (noteId) notesWithHeadings.push({ id: noteId, heading: text });
 
               const normalizedText = normalizeText(text);
-              const glossedSoFar = segments.reduce(
-                (acc, { normalizedText }) => acc + normalizedText.length,
-                0
-              );
-              const gloss =
-                lineGloss?.slice(
-                  glossedSoFar,
-                  glossedSoFar + normalizedText.length
-                ) || null;
 
               segments.push({
                 noteId,
                 text,
                 normalizedText,
-                gloss,
+                gloss: gloss.result || null,
+                segmentStartingCharacterIndexInLine: charactersProcessed,
               });
+              charactersProcessed += normalizedText.length;
+
               return segments;
-            }, [] as { noteId: string | null; text: string; normalizedText: string; gloss: string[] | null }[]);
+            }, [] as { noteId: string | null; text: string; normalizedText: string; gloss: GlossDocument | null; segmentStartingCharacterIndexInLine: number }[]);
 
           return (
-            <section key={i} className="mb-4">
-              {chineseSegments.map(({ noteId, text, gloss }, segmentIndex) => {
-                return (
-                  <div
-                    key={segmentIndex}
-                    className="text-4xl inline leading-relaxed"
-                  >
-                    <span
-                      className={
-                        noteId
-                          ? `border-b-blue-500 border-dotted border-b-2`
-                          : ""
-                      }
+            <section key={lineIndex} className="mb-4">
+              {chineseSegments.map(
+                (
+                  { noteId, text, gloss, segmentStartingCharacterIndexInLine },
+                  segmentIndex
+                ) => {
+                  return (
+                    <div
+                      key={segmentIndex}
+                      className="text-4xl inline leading-relaxed"
                     >
-                      <ChineseWithPopover
-                        text={text}
-                        vocab={vocab}
-                        displayOptions={displayOptions}
-                        gloss={gloss}
-                      />
-                    </span>
-                    {noteId && (
-                      <a
-                        className="text-blue-500 align-super text-sm"
-                        href={`#note-${noteId}`}
-                        id={`noteref-${noteId}`}
+                      <span
+                        className={
+                          noteId
+                            ? `border-b-blue-500 border-dotted border-b-2`
+                            : ""
+                        }
                       >
-                        [{noteId}]
-                      </a>
-                    )}
-                  </div>
-                );
-              })}
-              {displayOptions.translation && (
+                        <ChineseWithPopover
+                          text={text}
+                          vocab={vocab}
+                          displayOptions={displayOptions}
+                          gloss={gloss}
+                          highlightedCharactersRange={
+                            highlightedCharactersRange?.lineIndex === lineIndex
+                              ? highlightedCharactersRange
+                              : null
+                          }
+                          segmentStartingCharacterIndexInLine={
+                            segmentStartingCharacterIndexInLine
+                          }
+                          setHighlightedCharactersRange={getSetHoveredCharacterLocation(
+                            lineIndex
+                          )}
+                        />
+                      </span>
+                      {noteId && (
+                        <a
+                          className="text-blue-500 align-super text-sm"
+                          href={`#note-${noteId}`}
+                          id={`noteref-${noteId}`}
+                        >
+                          [{noteId}]
+                        </a>
+                      )}
+                    </div>
+                  );
+                }
+              )}
+              {(!gloss.result ||
+                displayOptions.translation === "idiomatic") && (
                 <div className=" mt-2">{toCurlyQuotes(line.english)}</div>
+              )}
+              {displayOptions.translation === "gloss" && gloss.result && (
+                <div className="mt-2 text-lg">
+                  {gloss.result
+                    .getTranslation()
+                    ?.renderTranslation<ReactNode, ReactNode[]>({
+                      combineElements: (base, addition) =>
+                        base.concat(addition),
+                      mapTranslationElementFn: (
+                        element,
+                        leadingSpace,
+                        capitalizedTranslation,
+                        translationElementIndex
+                      ) => {
+                        const highlightTargetRange =
+                          (element.type === "CharacterGloss" && {
+                            startCharacterIndex: element.characterIndex,
+                            endCharacterIndex: element.characterIndex,
+                          }) ||
+                          (element.type === "CompoundGloss" && {
+                            startCharacterIndex: element.characterIndexes[0],
+                            endCharacterIndex: element.characterIndexes.at(-1)!,
+                          });
+
+                        const highlighted =
+                          highlightedCharactersRange &&
+                          lineIndex === highlightedCharactersRange.lineIndex &&
+                          highlightTargetRange &&
+                          highlightTargetRange.startCharacterIndex >=
+                            highlightedCharactersRange.startCharacterIndex &&
+                          highlightTargetRange.endCharacterIndex <=
+                            highlightedCharactersRange.endCharacterIndex;
+                        return (
+                          <GlossElement
+                            translationElementIndex={translationElementIndex}
+                            element={element}
+                            leadingSpace={leadingSpace}
+                            capitalizedTranslation={capitalizedTranslation}
+                            highlighted={!!highlighted}
+                            highlightTargetRange={highlightTargetRange || null}
+                            setHoveredCharacterLocation={getSetHoveredCharacterLocation(
+                              lineIndex
+                            )}
+                          />
+                        );
+                      },
+                      base: [] as ReactNode[],
+                    }) || ""}
+                </div>
               )}
             </section>
           );
@@ -229,15 +334,91 @@ export default function TextPage({
   );
 }
 
-function useDisplayOptions() {
-  const [displayOptions, setDisplayOptions] = useState<DisplayOptions>(() =>
-    globalThis.window && localStorage.getItem("displayOptions")
-      ? JSON.parse(localStorage.getItem("displayOptions") as string)
-      : {
-          ruby: "vi",
-          translation: true,
+function GlossElement({
+  translationElementIndex,
+  element,
+  leadingSpace,
+  capitalizedTranslation,
+  highlighted,
+  setHoveredCharacterLocation,
+  highlightTargetRange,
+}: {
+  translationElementIndex: number;
+  element: TranslationElement;
+  leadingSpace: string;
+  capitalizedTranslation: {
+    type: "Padding" | "EndPunctuation" | "GlossComponent";
+    text: string;
+  }[];
+  highlighted: boolean;
+  setHoveredCharacterLocation: (
+    characterRange: {
+      startCharacterIndex: number;
+      endCharacterIndex: number;
+    } | null
+  ) => void;
+  highlightTargetRange: {
+    startCharacterIndex: number;
+    endCharacterIndex: number;
+  } | null;
+}) {
+  return (
+    <span key={String(translationElementIndex)}>
+      {leadingSpace}
+      {capitalizedTranslation.map((segment, segmentIndex) => {
+        if (segment.type === "Padding" || segment.type === "EndPunctuation") {
+          return (
+            <span key={segmentIndex} className=" font-extralight">
+              {segment.text}
+            </span>
+          );
         }
+        return (
+          <span
+            key={segmentIndex}
+            className={`${
+              highlighted && segment.type === "GlossComponent"
+                ? "bg-yellow-200"
+                : ""
+            }`}
+            onMouseEnter={
+              segment.type === "GlossComponent" && highlightTargetRange
+                ? () => {
+                    setHoveredCharacterLocation({
+                      startCharacterIndex:
+                        highlightTargetRange.startCharacterIndex,
+                      endCharacterIndex:
+                        highlightTargetRange?.endCharacterIndex,
+                    });
+                  }
+                : undefined
+            }
+            onMouseLeave={() => {
+              setHoveredCharacterLocation(null);
+            }}
+          >
+            {segment.text}
+          </span>
+        );
+      })}
+    </span>
   );
+}
+
+function useDisplayOptions() {
+  const [displayOptions, setDisplayOptions] = useState<DisplayOptions>(() => {
+    const storedString =
+      globalThis.window && localStorage.getItem("displayOptions");
+    const parsed = storedString ? JSON.parse(storedString) : null;
+    if (parsed?.version === LATEST_DISPLAY_OPTIONS_VERSION) {
+      return parsed;
+    }
+    return {
+      ruby: "vi",
+      translation: "gloss",
+      version: LATEST_DISPLAY_OPTIONS_VERSION,
+    };
+  });
   const initialized = useRef(false);
   useEffect(() => {
     if (!initialized.current) {
@@ -263,7 +444,7 @@ function NotesChinese({
   children: string;
   vocab: PassageVocab;
   displayOptions: DisplayOptions;
-  gloss: string[] | null;
+  gloss: GlossDocument | null;
 }) {
   return (
     <span className="text-3xl">
