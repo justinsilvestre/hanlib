@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import TextPage from "../texts/[textId]/TextPage";
 import { Passage, PassageVocab, parsePassage } from "../texts/Passage";
 
@@ -14,16 +14,13 @@ export function ContributePage({ lexicon }: { lexicon: PassageVocab }) {
   });
 
   const [text, setText] = useState("");
-  const [errors, setErrors] = useState<string[]>([]);
-  const handleTextChange: React.ChangeEventHandler<HTMLTextAreaElement> = (
-    e
-  ) => {
-    setText(e.target.value);
+  function updateTextAndParse(newText: string) {
+    setText(newText);
     try {
-      const passage = parsePassage(e.target.value);
+      const passage = parsePassage(newText);
       setPassage(passage);
       setErrors([]);
-      console.log(e.target.value);
+      console.log(newText);
     } catch (e) {
       console.error(e);
 
@@ -33,6 +30,25 @@ export function ContributePage({ lexicon }: { lexicon: PassageVocab }) {
         setErrors([String(e)]);
       }
     }
+  }
+  const initialized = useRef(false);
+  useEffect(() => {
+    if (!initialized.current) {
+      const text = localStorage.getItem("text");
+      if (text) {
+        updateTextAndParse(text);
+      }
+      initialized.current = true;
+    } else {
+      localStorage.setItem("text", text);
+    }
+  }, [text]);
+
+  const [errors, setErrors] = useState<string[]>([]);
+  const handleTextChange: React.ChangeEventHandler<HTMLTextAreaElement> = (
+    e
+  ) => {
+    updateTextAndParse(e.target.value);
   };
 
   return (
@@ -48,7 +64,7 @@ export function ContributePage({ lexicon }: { lexicon: PassageVocab }) {
         <textarea
           name="text"
           id="text"
-          className="w-full h-64 text-black"
+          className="w-full h-full text-black"
           value={text}
           onChange={handleTextChange}
           placeholder="Enter text here"
