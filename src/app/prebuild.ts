@@ -24,8 +24,7 @@ import {
 // @ts-expect-error no typings
 import unihan from "@silvestre/cjk-unihan";
 import { normalizeText } from "./texts/[textId]/punctuation";
-
-const prebuildDirectoryPath = path.join(process.cwd(), "prebuild");
+import { prebuildDirectoryPath, lexiconFilePath } from "./texts/files";
 
 if (!fs.existsSync(prebuildDirectoryPath)) {
   fs.mkdirSync(prebuildDirectoryPath);
@@ -33,7 +32,6 @@ if (!fs.existsSync(prebuildDirectoryPath)) {
 
 fillInMissingReadingsInTsvs().then(() => {
   const lexicon = aggregateVocabulary();
-  const lexiconFilePath = path.join(prebuildDirectoryPath, "lexicon.json");
   fs.writeFileSync(lexiconFilePath, JSON.stringify(lexicon, null, 2));
   console.log(`Wrote lexicon to ${lexiconFilePath}`);
   writePassageVocabularyJsons(lexicon);

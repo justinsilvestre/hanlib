@@ -35,7 +35,6 @@ export default function TextPage({
         endCharacterIndex: number;
       } | null
     ) => {
-      console.log(characterRange);
       setHighlightedCharactersRange(
         characterRange === null ? null : { lineIndex, ...characterRange }
       );
@@ -66,7 +65,7 @@ export default function TextPage({
             },
           }}
         >
-          {toCurlyQuotes(text.frontmatter.description)}
+          {toCurlyQuotes(text.frontmatter.description || "")}
         </Markdown>
       </div>
 
@@ -223,7 +222,7 @@ export default function TextPage({
                       </span>
                       {noteId && (
                         <a
-                          className="text-blue-500 align-super text-sm"
+                          className="text-blue-500/50 align-super text-sm"
                           href={`#note-${noteId}`}
                           id={`noteref-${noteId}`}
                         >
@@ -236,10 +235,10 @@ export default function TextPage({
               )}
               {(!gloss.result ||
                 displayOptions.translation === "idiomatic") && (
-                <div className=" mt-2">{toCurlyQuotes(line.english)}</div>
+                <div className="">{toCurlyQuotes(line.english)}</div>
               )}
               {displayOptions.translation === "gloss" && gloss.result && (
-                <div className="mt-2 text-lg">
+                <div className="text-lg">
                   {gloss.result
                     .getTranslation()
                     ?.renderTranslation<ReactNode, ReactNode[]>({
@@ -378,7 +377,7 @@ function GlossElement({
             key={segmentIndex}
             className={`${
               highlighted && segment.type === "GlossComponent"
-                ? "bg-yellow-200"
+                ? "bg-yellow-500/50"
                 : ""
             }`}
             onMouseEnter={

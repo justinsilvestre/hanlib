@@ -12,7 +12,7 @@ person[:Man's] s[-S]hadow
 
 新月初上。
 The new moon had just risen.
-[The] new moon [had] first rise[n].
+[The] new moon [had] just rise[n].
 
 兒行廊下。似有一人隨其後。
 A boy was passing under a veranda, (and) it seemed (to him) that somebody (lit. one man) was following him.

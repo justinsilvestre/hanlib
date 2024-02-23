@@ -59,3 +59,5 @@ export function getTextsIdsAndTitles() {
     });
   return textIdsAndTitles;
 }
+export const prebuildDirectoryPath = path.join(process.cwd(), "prebuild");
+export const lexiconFilePath = path.join(prebuildDirectoryPath, "lexicon.json");
