@@ -164,7 +164,7 @@ export default function TextPage({
           const chineseSegments = line.chinese
             .split(/(?={)|(?<=})/)
             .reduce((segments, segment) => {
-              const [noteId, text] = segment.startsWith("{")
+              const [noteId, text = ""] = segment.startsWith("{")
                 ? segment.slice(1, -1).split(":")
                 : [null, segment];
               if (noteId) notesWithHeadings.push({ id: noteId, heading: text });
