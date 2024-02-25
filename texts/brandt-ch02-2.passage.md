@@ -36,6 +36,7 @@ Suddenly she flew away (and) came back carrying a stone in her beak (which) she 
 (Thus) she went and came back more than ten times.
 `[thus she] go[:went] [and] return (come_back[:came_back]) 2ten 1surplus[:more_than] time[s].
 `
+
 石積水升。鴉渴遂解。
 (When) the stones were piled up, the water had risen (and) then the crow quenched (her) thirst.
 `[when the] stone[s] [were_]pile[d]_up, [the] water [had_]rise[n] [and the] crow['s] thirst [was] then get_rid_of[:quenched].`

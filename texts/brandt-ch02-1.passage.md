@@ -42,7 +42,7 @@ By mistake he trod on the pitfall, fell into it (and) hurt his leg.
 
 既出。人指牆上書告之。
 When he was dragged out, somebody pointed to the inscription on the wall (and) told him (about it).
-`once [he was dragged] out, person[:somebody] point[ed] [to the] 3[the] wall 2top (on) 1[the] write[-ing] [and] tell[:told] him [about it].`
+`once [he was dragged] out, person[:somebody] point_at[:pointed_to] 3[the] wall 2top (on) 1[the] write[-ing] [and] tell[:told] him [about it].`
 
 乃嘆曰。
 The villager then said with a sigh,
@@ -50,6 +50,6 @@ The villager then said with a sigh,
 
 吾苟知書豈。至此哉。
 "If I had been able to read (lit. if I knew characters), how could this have happened (to me)!"
-`"3I 2if [only] 4know[:knew] [how to] 5write 1[~]o[-O]h, 2reach[:come_to] 3this 1how [could it have]?"`
+`"3I 2if [only] 4know-written_characters (be_able_to_read[:had_been_able_to_read]) 1[~]o[-O]h, 2reach[:come_to] 3this 1how [could it have]?"`
 
 ---
