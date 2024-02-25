@@ -13,10 +13,10 @@ A diviner was sitting at the cross-ways of four roads and was telling fortunes (
 忽其子奔告曰。
 Suddenly his son ran up in haste and cried (lit. said),
 
-吾家爲人所刧。家具盡。
+吾家爲人所刧。家具盡喪。
 "Our house has been robbed by somebody, (and) the household effects are all gone!"
 
-喪卜者倉惶失措。
+卜者倉惶失措。
 The fortune-teller was quite taken aback (by the news).
 
 有調之者曰。

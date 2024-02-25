@@ -102,7 +102,7 @@ progress: 174 / 1384 tasks complete (~12.6%)
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
     - [x] align transcribed Chinese + English sentences
-    - [ ] write Chinese -> English gloss
+    - [x] write Chinese -> English gloss
 - Lesson 2, Text 1
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
@@ -119,7 +119,7 @@ progress: 174 / 1384 tasks complete (~12.6%)
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
     - [x] align transcribed Chinese + English sentences
-    - [ ] write Chinese -> English gloss
+    - [x] write Chinese -> English gloss
 - Lesson 2, Text 2
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
@@ -136,7 +136,7 @@ progress: 174 / 1384 tasks complete (~12.6%)
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
     - [x] align transcribed Chinese + English sentences
-    - [ ] write Chinese -> English gloss
+    - [x] write Chinese -> English gloss
 - Lesson 2, Text 3
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
@@ -153,7 +153,7 @@ progress: 174 / 1384 tasks complete (~12.6%)
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
     - [x] align transcribed Chinese + English sentences
-    - [ ] write Chinese -> English gloss
+    - [x] write Chinese -> English gloss
 - Lesson 3, Text 1
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR

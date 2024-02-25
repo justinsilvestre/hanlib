@@ -270,6 +270,7 @@ export default function TextPage({
                             highlightedCharactersRange.endCharacterIndex;
                         return (
                           <GlossElement
+                            key={String(translationElementIndex)}
                             translationElementIndex={translationElementIndex}
                             element={element}
                             leadingSpace={leadingSpace}
@@ -367,7 +368,7 @@ function GlossElement({
       {capitalizedTranslation.map((segment, segmentIndex) => {
         if (segment.type === "Padding" || segment.type === "EndPunctuation") {
           return (
-            <span key={segmentIndex} className=" font-extralight">
+            <span key={segmentIndex} className="italic font-extralight">
               {segment.text}
             </span>
           );

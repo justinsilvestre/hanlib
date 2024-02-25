@@ -20,7 +20,7 @@ A boy was passing under a veranda, (and) it seemed (to him) that somebody (lit. 
 
 不敢回顧。
 The boy did not dare to look back.
-[The] boy [did_]not dare [to] 2back 1look.
+[The boy] [did_]not dare [to] 2back 1look.
 
 急入告姊。
 Hurriedly he entered (the house), (and) told (his) elder sister.

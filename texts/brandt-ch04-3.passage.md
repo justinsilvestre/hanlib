@@ -25,7 +25,7 @@ Every inch of ground is the emperor's.
 ③ 少皆在
 Old and young, all are there.
 
-④ 古皆有死
+④ 自古皆有死
 From of old, death has been the lot of all men.
 
 ⑤ 商均有益
@@ -34,13 +34,13 @@ All the merchants will profit.
 ⑥ 禾均遭淹沒
 Fields and grain, all were drowned.
 
-⑦ 意之人均不敢來城買賣
+⑦ 生意之人均不敢來城買賣
 All the men of commerce (merchants) do not dare to come to the city to trade.
 
 ⑧ 西各國俱無此例
 No western nations have this law.
 
-⑨ 教俱各相安
+⑨ 民教俱各相安
 The common people and the converts were all on friendly terms.
 
 ⑩ 禾苗俱在水中
