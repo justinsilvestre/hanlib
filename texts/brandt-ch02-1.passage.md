@@ -30,26 +30,26 @@ big[:in_big_characters] [they] write[:wrote] 2[a] wall 1top (upon) speak[:saying
 
 鄉人不識字者。過牆下。
 A villager who was an illiterate man was passing under that wall.
-[a] village-person (villager) [who was an] not[:il] know-written*character ([~]literate) that_which (one[:man]) go ([was*]pass[ing]) 2[that] wall 1under.
+`[a] village-person (villager) [who was an] not[:il] know-written_character ([~]literate) that_which (one[:man]) go ([was_]pass[ing]) 2[that] wall 1under.`
 
 誤蹴之。墜阱傷足。
 By mistake he trod on the pitfall, fell into it (and) hurt his leg.
-[by] mistake [he] tread_on[:trod_on] it, fall_down[:fell] [into the] pitfall [and] hurt [his] leg.
+`[by] mistake [he] tread_on[:trod_on] it, fall_down[:fell] [into the] pitfall [and] hurt [his] leg.`
 
 大呼求援。
 (He) shouted loudly for help.
-[he] 2loud[ly] 1shout[ed] beg[:for] assist[:help].
+`[he] 2loud[ly] 1shout[ed] beg[:for] assist[:help].`
 
-旣出。人指牆上書告之。
+既出。人指牆上書告之。
 When he was dragged out, somebody pointed to the inscription on the wall (and) told him (about it).
-once [he was dragged] out, person[:somebody] point[ed] [to the] 3[the] wall 2top (on) 1[the] write[-ing] [and] tell[:told] him [about it].
+`once [he was dragged] out, person[:somebody] point[ed] [to the] 3[the] wall 2top (on) 1[the] write[-ing] [and] tell[:told] him [about it].`
 
 乃嘆曰。
 The villager then said with a sigh,
-then [the villager] sigh[ed], speak[:saying],
+`then [the villager] sigh[ed], speak[:saying],`
 
 吾苟知書豈。至此哉。
 "If I had been able to read (lit. if I knew characters), how could this have happened (to me)!"
-"3I 2if [only] 4know[:knew] [how to] 5write 1[~]o[-O]h, 2reach[:come_to] 3this 1how [could it have]?"
+`"3I 2if [only] 4know[:knew] [how to] 5write 1[~]o[-O]h, 2reach[:come_to] 3this 1how [could it have]?"`
 
 ---
