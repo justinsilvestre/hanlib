@@ -28,7 +28,7 @@ export const LATEST_DISPLAY_OPTIONS_VERSION = 1;
 
 export type DisplayOptions = {
   ruby: null | VocabEntryPronunciationKey;
-  translation: "gloss" | "idiomatic";
+  translation: null | "gloss" | "idiomatic";
   version: number;
 };
 

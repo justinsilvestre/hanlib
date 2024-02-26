@@ -13,5 +13,5 @@ export default async function TextRoute({
 }) {
   const { text, vocab } = await getPassage(textId);
 
-  return <TextPage text={text} vocab={vocab} />;
+  return <TextPage passageId={textId} passage={text} vocab={vocab} />;
 }

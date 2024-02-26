@@ -19,11 +19,7 @@ export const getPassageVocabFileContents = (textId: string) => {
     ? fs.readFileSync(vocabFilePath, "utf8")
     : null;
 };
-
-export const getPassage = (textId: string) => {
-  const passageFileContents = getPassageFileContents(textId);
-  const passage: Passage = parsePassage(passageFileContents);
-
+export function getPassageVocab(textId: string) {
   const vocabJsonPath = path.resolve(
     process.cwd(),
     "prebuild",
@@ -32,6 +28,14 @@ export const getPassage = (textId: string) => {
   const vocab: PassageVocab = JSON.parse(
     fs.readFileSync(vocabJsonPath, "utf8")
   );
+  return vocab;
+}
+
+export const getPassage = (textId: string) => {
+  const passageFileContents = getPassageFileContents(textId);
+  const passage: Passage = parsePassage(passageFileContents);
+
+  const vocab: PassageVocab = getPassageVocab(textId);
 
   return { text: passage, vocab };
 };

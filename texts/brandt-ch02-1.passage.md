@@ -14,7 +14,7 @@ There was a tiger in the mountains who devoured men and cattle.
 
 獵人謀捕虎。設阱以伺之。
 Hunters planned to catch him, (and) laid a pit-fall in order to waylay him.
-`hunt-person (hunter[s]) plot[ted] [to] catch [the] tiger, [and] lay[-id] [a] pit\-fall in_order_to way\-lay [him].`
+`hunt-person (hunter[s]) plot[ted] [to] catch [the] tiger, [and] lay[-id] [a] pit\-fall in_order_to way\-lay him.`
 
 大書牆上曰。
 Upon a wall (near by) they wrote in big characters as follows.
