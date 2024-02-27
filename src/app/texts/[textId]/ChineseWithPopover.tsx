@@ -18,6 +18,7 @@ import {
   CharacterGloss,
   DocumentCharacter,
   GlossDocument,
+  GlossedTermComponent,
 } from "@/app/glossUtils";
 
 const RubyText = dynamic(() => import("./RubyText").then((r) => r.RubyText), {
@@ -60,6 +61,12 @@ export function ChineseWithPopover({
 
   let glossedChars = 0;
 
+  const { components: termComponents, indexes: termComponentsIndexes } =
+    gloss?.getTermComponents() || {
+      components: [],
+      indexes: new Map<GlossedTermComponent, number>(),
+    };
+
   return (
     <span className="relative">
       {Array.from(text, (char, i) => {
@@ -91,34 +98,22 @@ export function ChineseWithPopover({
 
         const characterGloss =
           characterIndexInLine != null
-            ? gloss?.characters[characterIndexInLine]
+            ? termComponents?.[characterIndexInLine]
             : null;
-        const glossLemma = characterGloss?.character.getLemma() || null;
+        const glossLemma = characterGloss?.parent.getLemma() || null;
 
-        const highlightRange = characterGloss?.character.compoundLocation
+        const highlightRange = characterGloss
           ? {
-              startCharacterIndex: gloss!.characters.findIndex(
-                (c) =>
-                  c.character ===
-                  gloss!.getCompound(characterGloss.character.compoundLocation!)
-                    .components[0]
-              ),
-
-              endCharacterIndex: gloss!.characters.findIndex(
-                (c) =>
-                  c.character ===
-                  gloss!.getCompound(characterGloss.character.compoundLocation!)
-                    .components[
-                    gloss!.getCompound(
-                      characterGloss.character.compoundLocation!
-                    ).components.length - 1
-                  ]
-              ),
+              startCharacterIndex: termComponentsIndexes.get(
+                characterGloss.parent.components[0]
+              )!,
+              endCharacterIndex: termComponentsIndexes.get(
+                characterGloss.parent.components[
+                  characterGloss.parent.components.length - 1
+                ]
+              )!,
             }
-          : {
-              startCharacterIndex: characterIndexInLine!,
-              endCharacterIndex: characterIndexInLine!,
-            };
+          : {};
 
         const soleEntry = entries.length === 1 ? entries[0] : null;
         const matchingEntry = glossLemma

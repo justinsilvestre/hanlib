@@ -32,7 +32,7 @@ Hurriedly he entered (the house), (and) told (his) elder sister.
 
 汝立燈前。行日下。{b:皆有影}。
 (When) you are standing before a lamp, (or) going under the sun, there always is a shadow.
-`[When] you [are_]stand[ing] 2[a] lamp 1before, [or] go[ing] 2[the] sun 1under, 2every[where] 1be[:there_is] [a] shadow.`
+`[When] you [are_]stand[ing] 2[a] lamp 1before, [or] go[ing] 2[the] sun 1under, 2every[where] be[:there_is] 1[a] shadow.`
 
 何忘之耶。
 How is it that you forget it?"

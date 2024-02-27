@@ -1,7 +1,7 @@
 "use client";
 import { Passage, PassageVocab } from "../Passage";
 import { ChineseWithPopover, DisplayOptions } from "./ChineseWithPopover";
-import { ReactNode, useState } from "react";
+import { useState } from "react";
 import { normalizeText } from "./punctuation";
 import { parseGloss } from "./parseGloss";
 import { GlossDocument, TranslationElement } from "@/app/glossUtils";
@@ -42,6 +42,7 @@ export function PassageBody({
           const glossText = line.gloss?.replaceAll(/^`|`$/g, "") || null;
 
           const gloss = parseGloss(glossText);
+          const glossComponents = gloss.result?.getTermComponents();
           let charactersProcessed = 0;
           const chineseSegments = line.chinese
             .split(/(?={)|(?<=})/)
@@ -122,25 +123,20 @@ export function PassageBody({
               {displayOptions.translation === "gloss" && gloss.result && (
                 <div className="text-lg">
                   {gloss.result
-                    .getTranslation()
-                    ?.renderTranslation<ReactNode, ReactNode[]>({
-                      combineElements: (base, addition) =>
-                        base.concat(addition),
-                      mapTranslationElementFn: (
-                        element,
-                        leadingSpace,
-                        capitalizedTranslation,
-                        translationElementIndex
-                      ) => {
-                        const highlightTargetRange =
-                          (element.type === "CharacterGloss" && {
-                            startCharacterIndex: element.characterIndex,
-                            endCharacterIndex: element.characterIndex,
-                          }) ||
-                          (element.type === "CompoundGloss" && {
-                            startCharacterIndex: element.characterIndexes[0],
-                            endCharacterIndex: element.characterIndexes.at(-1)!,
-                          });
+                    .renderTranslation()
+                    .translationElements.map(
+                      (element, translationElementIndex) => {
+                        const highlightTargetRange = element.glossElement
+                          .elementType === "GlossedTerm" && {
+                          startCharacterIndex: glossComponents!.indexes.get(
+                            element.glossElement.components[0]
+                          )!,
+                          endCharacterIndex: glossComponents!.indexes.get(
+                            element.glossElement.components[
+                              element.glossElement.components.length - 1
+                            ]
+                          )!,
+                        };
 
                         const highlighted =
                           highlightedCharactersRange &&
@@ -151,12 +147,10 @@ export function PassageBody({
                           highlightTargetRange.endCharacterIndex <=
                             highlightedCharactersRange.endCharacterIndex;
                         return (
-                          <GlossElement
+                          <GlossElementDisplay
                             key={String(translationElementIndex)}
+                            translationElement={element}
                             translationElementIndex={translationElementIndex}
-                            element={element}
-                            leadingSpace={leadingSpace}
-                            capitalizedTranslation={capitalizedTranslation}
                             highlighted={!!highlighted}
                             highlightTargetRange={highlightTargetRange || null}
                             setHoveredCharacterLocation={getSetHoveredCharacterLocation(
@@ -164,9 +158,8 @@ export function PassageBody({
                             )}
                           />
                         );
-                      },
-                      base: [] as ReactNode[],
-                    }) || ""}
+                      }
+                    )}
                 </div>
               )}
             </section>
@@ -183,22 +176,15 @@ export function PassageBody({
   );
 }
 
-export function GlossElement({
+export function GlossElementDisplay({
+  translationElement,
   translationElementIndex,
-  element,
-  leadingSpace,
-  capitalizedTranslation,
   highlighted,
   setHoveredCharacterLocation,
   highlightTargetRange,
 }: {
+  translationElement: TranslationElement;
   translationElementIndex: number;
-  element: TranslationElement;
-  leadingSpace: string;
-  capitalizedTranslation: {
-    type: "Padding" | "EndPunctuation" | "GlossComponent";
-    text: string;
-  }[];
   highlighted: boolean;
   setHoveredCharacterLocation: (
     characterRange: {
@@ -211,27 +197,22 @@ export function GlossElement({
     endCharacterIndex: number;
   } | null;
 }) {
+  const [, leadingSpace, textWithoutLeadingSpace] =
+    translationElement.renderedText.match(/^(\s*)(.*)/)!;
   return (
     <span key={String(translationElementIndex)}>
-      {leadingSpace}
-      {capitalizedTranslation.map((segment, segmentIndex) => {
-        if (segment.type === "Padding" || segment.type === "EndPunctuation") {
-          return (
-            <span key={segmentIndex} className="italic font-extralight">
-              {segment.text}
-            </span>
-          );
-        }
-        return (
+      {translationElement.glossElement.elementType === "Padding" && (
+        <span className="italic font-extralight">
+          {translationElement.renderedText}
+        </span>
+      )}
+      {translationElement.glossElement.elementType === "GlossedTerm" && (
+        <>
+          {leadingSpace}
           <span
-            key={segmentIndex}
-            className={`${
-              highlighted && segment.type === "GlossComponent"
-                ? "bg-yellow-500/50"
-                : ""
-            }`}
+            className={`${highlighted ? "bg-yellow-500/50" : ""}`}
             onMouseEnter={
-              segment.type === "GlossComponent" && highlightTargetRange
+              highlightTargetRange
                 ? () => {
                     setHoveredCharacterLocation({
                       startCharacterIndex:
@@ -246,10 +227,10 @@ export function GlossElement({
               setHoveredCharacterLocation(null);
             }}
           >
-            {segment.text}
+            {textWithoutLeadingSpace}
           </span>
-        );
-      })}
+        </>
+      )}
     </span>
   );
 }
