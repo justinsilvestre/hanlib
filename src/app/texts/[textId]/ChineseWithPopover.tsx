@@ -14,12 +14,7 @@ import {
   toEnMatchKeyword,
 } from "@/app/lexiconEntryEnKeywords";
 import dynamic from "next/dynamic";
-import {
-  CharacterGloss,
-  DocumentCharacter,
-  GlossDocument,
-  GlossedTermComponent,
-} from "@/app/glossUtils";
+import { GlossDocument, GlossedTermComponent } from "@/app/glossUtils";
 
 const RubyText = dynamic(() => import("./RubyText").then((r) => r.RubyText), {
   ssr: false,
@@ -100,7 +95,7 @@ export function ChineseWithPopover({
           characterIndexInLine != null
             ? termComponents?.[characterIndexInLine]
             : null;
-        const glossLemma = characterGloss?.parent.getLemma() || null;
+        const glossLemma = characterGloss?.term.getLemma() || null;
 
         const highlightRange = characterGloss
           ? {
