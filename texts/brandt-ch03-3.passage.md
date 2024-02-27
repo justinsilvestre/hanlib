@@ -42,7 +42,7 @@ Still more; further.
 ③ 愈速愈妙
 The sooner, the better.
 
-④ 愈多愈不
+④ 愈多愈不知足
 The more he has, the more dissatisfied he is.
 
 ⑤ 更要

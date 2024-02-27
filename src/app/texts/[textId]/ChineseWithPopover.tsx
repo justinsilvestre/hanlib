@@ -108,7 +108,7 @@ export function ChineseWithPopover({
                 ]
               )!,
             }
-          : {};
+          : null;
 
         const soleEntry = entries.length === 1 ? entries[0] : null;
         const matchingEntry = glossLemma
@@ -146,9 +146,10 @@ export function ChineseWithPopover({
                 setChar(char);
                 setCharGloss(glossLemma);
               },
-              onMouseEnter: setHighlightedCharactersRange
-                ? () => setHighlightedCharactersRange(highlightRange)
-                : undefined,
+              onMouseEnter:
+                setHighlightedCharactersRange && highlightRange
+                  ? () => setHighlightedCharactersRange(highlightRange)
+                  : undefined,
             })}
             onMouseLeave={
               setHighlightedCharactersRange
