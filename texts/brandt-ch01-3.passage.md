@@ -30,6 +30,6 @@ It is important to speak at the proper time, and that is all.
 
 多言何。
 What is the good of talking much?"
-`3much 2words[:talking] 1^what [is the good of]?`
+`3much 2words[:talking] 1^what [is the good of]?"`
 
 ---

@@ -30,8 +30,9 @@ if (!fs.existsSync(prebuildDirectoryPath)) {
   fs.mkdirSync(prebuildDirectoryPath);
 }
 
+const lexicon = aggregateVocabulary();
+
 fillInMissingReadingsInTsvs().then(() => {
-  const lexicon = aggregateVocabulary();
   fs.writeFileSync(lexiconFilePath, JSON.stringify(lexicon, null, 2));
   console.log(`Wrote lexicon to ${lexiconFilePath}`);
   writePassageVocabularyJsons(lexicon);

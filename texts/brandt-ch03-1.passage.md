@@ -24,7 +24,7 @@ Upon his head he wears the comb (lit. wearing the comb upon the head), (that is)
 On his feet are stretched spurs, (that is) chivalry.
 `[^his] 3[on his] feet stretch_out[:stretch] 2[the] bird\'s_spur[:spurs] 1~ing 2military[:chivalry] 1final_particle (is).`
 
-敵在前而敢鬭者。勇也。
+敵在前而敢鬪者。勇也。
 (When) an enemy is in front (of him), (he) (then) dares to fight, (that is) valor.
 `[^his] 4[an] enemy 5in 6front [of him] 3conjunctive_particle (with) dare[:dar] 2[to] fight 1~ing 2courage (valor) 1final_particle (is).`
 

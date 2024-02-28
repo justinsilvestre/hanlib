@@ -35,38 +35,50 @@ These particles are:
 
 ① 愈久
 Still longer.
+`more (^still) long[er].`
 
 ② 愈加
 Still more; further.
+`more (^still) add[:more].`
 
 ③ 愈速愈妙
 The sooner, the better.
+`[^the] 2more[:~er] 1quick[:soon], [the] more-excellent (better).`
 
 ④ 愈多愈不知足
 The more he has, the more dissatisfied he is.
+`[^the] more-much (more) [he has], [the] more not[:dis] know-enough ([~]satisfied) [he is].`
 
 ⑤ 更要
 Still more important.
+`more (^still_more) important.`
 
 ⑥ 更有一件
 There is still one more point.
+`2more exist[:^there_is] [still] 1one item[:point].`
 
 ⑦ 益多
 Still more.
+`still_more[:^still] much[:more].`
 
 ⑧ 多多益善
 The more the better.
+`[^the] much-much (more) [the] still_more-good (better).`
 
 ⑨ 尤異
 More strange.
+`^more strange.`
 
 ⑩ 尤可怪
 Still more extraordinary.
+`^still_more can[:able] [to be considered] strange.`
 
 ⑪ 尤爲緊要
 Still more important.
+`[^to] 2still_more 1be important-important (important).`
 
 ⑫ 尤不足觀
 Still more unworthy to be looked at.
+`^still_more not-enough (unworthy) [to be] look[ed_at].`
 
 ---

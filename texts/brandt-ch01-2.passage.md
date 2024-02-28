@@ -24,11 +24,11 @@ The boy did not dare to look back.
 
 急入告姊。
 Hurriedly he entered (the house), (and) told (his) elder sister.
-`h[-H]urry[-iedly] [he] enter[:went_inside] [and] tell[:told] [his] elder_sister.`
+`^hurry[-iedly] [he] enter[:went_inside] [and] tell[:told] [his] elder_sister.`
 
 姊曰。此{a:汝身之影}也。
 (His) sister said, "It (is) the shadow of your body.
-`[His] sister speak[:said], [\"]i[-I]t 2your 3body 4~'s 5shadow 1is.`
+`[His] sister speak[:said], "^it 2your 3body 4~'s 5shadow 1is.`
 
 汝立燈前。行日下。{b:皆有影}。
 (When) you are standing before a lamp, (or) going under the sun, there always is a shadow.
@@ -36,7 +36,7 @@ Hurriedly he entered (the house), (and) told (his) elder sister.
 
 何忘之耶。
 How is it that you forget it?"
-`h[-H]ow [is it that you] forget it interrogative_particle (~\?)`
+`^how [is it that you] forget it interrogative_particle (~\?) [~\"]`
 
 {c:兒乃悟}。
 The boy then understood.

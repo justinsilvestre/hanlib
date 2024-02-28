@@ -182,7 +182,8 @@ export class GlossedTerm {
         .flatMap((c) => c.segments)
         .filter((s) => s.segmentType === LEMMA_SEGMENT)
         .map((s) => s.text)
-        .join("")
+        .join(""),
+      false
     );
   }
 
@@ -192,7 +193,8 @@ export class GlossedTerm {
           this.idiomatic.segments
             .filter((s) => s.segmentType === LEMMA_SEGMENT)
             .map((s) => s.text)
-            .join("")
+            .join(""),
+          false
         )
       : null;
   }
@@ -206,7 +208,8 @@ export class GlossedTermComponent {
       this.segments
         .filter((s) => s.segmentType === LEMMA_SEGMENT)
         .map((s) => s.text)
-        .join("")
+        .join(""),
+      false
     );
   }
 }
@@ -302,10 +305,16 @@ const endPunctuationAtStart = /^[.!?,;\n\r]|^--/;
 const underscoresAnywhere = /(?<!\\)_/g;
 const capsCaratsAnywhere = /(?<!\\)\^([a-z])/g;
 const backslashesAnywhere = /\\/g;
-function renderWithoutUnderscoresCaratsAndBackslashes(string: string) {
+function renderWithoutUnderscoresCaratsAndBackslashes(
+  string: string,
+  capitalize = true
+) {
   return string
     .replace(underscoresAnywhere, " ")
-    .replace(capsCaratsAnywhere, (_, c) => c.toUpperCase())
+    .replace(
+      capsCaratsAnywhere,
+      capitalize ? (_, c) => c.toUpperCase() : (_, c) => c
+    )
     .replace(backslashesAnywhere, "");
 }
 
