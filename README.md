@@ -4,7 +4,12 @@ This is a project to make a library of free interactive texts for learners of cl
 
 # current focus
 
-The current focus is to transcribe + format the content of the 1927 textbook _Introduction to Literary Chinese_ by J. Brandt. This book is in the public domain in the US. You can access a digitized copy from a US IP address here: https://babel.hathitrust.org/cgi/pt?id=ucbk.ark:/28722/h23r0qb76
+The current focus is to transcribe + format the content of the 1927 textbook _Introduction to Literary Chinese_ by J. Brandt. This book is in the public domain in the US. You can access a digitized copy from a US IP address here:
+
+- This copy hosted on archive.org is missing some pages and has some early pages cut off, but the pages are generally with fewer manual markings. https://archive.org/details/introductiontoli00branuoft
+- This scanned copy from HathiTrust is complete but has lots of pencil notes, which make OCR more difficult. https://babel.hathitrust.org/cgi/pt?id=ucbk.ark:/28722/h23r0qb76
+
+The biggest challenge at the moment is transcribing the portions in mixed Chinese/Latin script. OCR tools can automate some of the process, but not all of it. If you have time, please consider helping out by transcribing the remaining "Vocabulary" and "Notes" chapters listed [here](./docs/brandt.md).
 
 ## texts &nbsp;&nbsp;[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 

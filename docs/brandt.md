@@ -37,7 +37,7 @@ progress: 174 / 1384 tasks complete (~12.6%)
   - [x] transcribe text from Chapter 1
   - [x] build MVP (prototype) using transcribed text
 - [ ] document toolset for transcribing content with help of automation
-  - [ ] document free OCR tools to allow collaborators to easily contribute
+  - [x] document free OCR tools to allow collaborators to easily contribute
   - [ ] document file formats
 - user interface
   - [x] display text with English translation and gloss (Feb 9)
