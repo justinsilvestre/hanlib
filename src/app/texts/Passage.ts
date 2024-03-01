@@ -80,8 +80,10 @@ export function parsePassageVocabList(
 }
 
 export function parsePassage(passageFileContents: string) {
-  const [frontmatterText, body, notesText] =
-    passageFileContents.split(/\s*\n\s*---+\s*\n\s*/);
+  const sections = passageFileContents.split(/\s*\n\s*---+\s*\n\s*/);
+  if (sections.length < 2)
+    throw new Error("Invalid passage file " + passageFileContents);
+  const [frontmatterText, body, notesText] = sections;
   const lines = body.split(/\n\n+/).map((line) => {
     const [chinese, english, gloss] = line.split("\n");
     return {

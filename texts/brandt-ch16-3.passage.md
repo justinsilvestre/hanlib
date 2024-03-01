@@ -1,4 +1,4 @@
-# Introduction to Literary Chinese - Lesson XX, Text XX
+# Introduction to Literary Chinese - Lesson 16, Text 3
 
 <center>Adapted from the 1927 book by J. Brandt</center>
 
@@ -13,6 +13,8 @@ The particles indicating cause or reason are:
 When 因 is put at the beginning of a sentence, 而 or 故 in the principal clause usually complete the structure (examples 7, 8).
 
 ## Examples of using the causal particles:
+
+---
 
 ① 因何不可照舊辦理
 Why can one not deal with it according to the old (plan)?
@@ -76,3 +78,5 @@ Birds die for the sake of food, men perish for the sake of wealth.
 
 ㉑ 爲不順於父母。如窮人無所歸。
 Because he was not in accord with his parents, he like a a poor man had no place to which to turn.
+
+---
