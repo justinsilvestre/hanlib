@@ -16,91 +16,91 @@ These particles are:
 
 ---
 
-斷不忍爲此也
+① 斷不忍爲此也
 I certainly cannot bear to do this.
 
-斷難相允
+② 斷難相允
 It is really impossible to accede to your request.
 
-斷不承認
+③ 斷不承認
 To deny emphatically.
 
-定爲此事
+④ 定爲此事
 It was certainly on account of this.
 
-定當懲辦
+⑤ 定當懲辦
 Certainly must be punished.
 
-決意不往
+⑥ 決意不往
 I am determined not to go.
 
-决不寬貸
+⑦ 决不寬貸
 On no account will leniency be shown.
 
-必有此事
+⑧ 必有此事
 The thing must have happened.
 
-大難不死。必有後福。
+⑨ 大難不死。必有後福。
 He who escapes (lit. does not die) from a great calamity, must have in the future a good fortune.
 
-君子必慎其獨也
+⑩ 君子必慎其獨也
 The superior man must be watchful over himself when he is alone.
 
-實爲公便
+⑪ 實爲公便
 Truly both just and expedient.
 
-事雖議定。實屬難行。
+⑫ 事雖議定。實屬難行。
 Though the affair has been discussed and settled, it really is difficult to carry out.
 
-實屬胆大妄爲
+⑬ 實屬胆大妄爲
 It really shows great audacity and disorderly be- haviour.
 
-官清民自安
+⑭ 官清民自安
 If the officials be pure, the people naturally will be tranquil.
 
-爲惡無不報。遲速自有時。
+⑮ 爲惡無不報。遲速自有時。
 The doing of evil is never without its reward. Sooner or later the time will surely come.
 
-絕無更改
+⑯ 絕無更改
 I shall certainly not change (it).
 
-絕無好處
+⑰ 絕無好處
 No advantage whatever.
 
-並無不合
+⑱ 並無不合
 There is really no disagreement.
 
-並非如此
+⑲ 並非如此
 It is really not so.
 
-洋錢並不必禁
+⑳ 洋錢並不必禁
 Foreign coin must on no account be prohibited.
 
-毫無疑義
+㉑ 毫無疑義
 There is not the slightest doubt.
 
-毫無過犯
+㉒ 毫無過犯
 I have not transgressed in the least.
 
-總無功效
+㉓ 總無功效
 Never showing any improvement.
 
-借債終須償還
+㉔ 借債終須償還
 If you make a loan, you certainly must repay.
 
-此種辦法。終非善策。
+㉕ 此種辦法。終非善策。
 This way of action is by no means a good scheme.
 
-萬勿推辭
+㉖ 萬勿推辭
 Refuse on no account.
 
-萬無此理
+㉗ 萬無此理
 There is absolutely no such principle.
 
-固所願也
+㉘ 固所願也
 Indeed, it is what I desire.
 
-固宜
+㉙ 固宜
 It most decidedly ought to be.
 
 ---
