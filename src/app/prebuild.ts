@@ -72,7 +72,7 @@ async function fillInMissingReadingsInTsvs() {
 
     for (const char of featuredChars) {
       if (
-        !vocab[char] ||
+        !lexicon[char] ||
         vocab[char]?.some((e) => vocabFileColumns.some((k) => !e[k.key]))
       ) {
         const unihanResult = await getUnihan(char);
@@ -90,36 +90,44 @@ async function fillInMissingReadingsInTsvs() {
           en: e.en || null,
           jyutping:
             e.jyutping ||
-            unihanResult?.kCantonese
-              ?.split(/\s/)
-              .map((r, _, segments) =>
-                segments.length > 1
-                  ? `${convertToneNumbersToSuperscript(r)}?`
-                  : convertToneNumbersToSuperscript(r)
-              )
+            (lexicon[char]
+              ? null
+              : unihanResult?.kCantonese
+                  ?.split(/\s/)
+                  .map((r, _, segments) =>
+                    segments.length > 1
+                      ? `${convertToneNumbersToSuperscript(r)}?`
+                      : convertToneNumbersToSuperscript(r)
+                  )
 
-              .join(", ") ||
+                  .join(", ")) ||
             null,
           pinyin:
             e.pinyin ||
-            getMandarinReadings(char, unihanResult)
-              .map((r, _, segments) => (segments.length > 1 ? `${r}?` : r))
-              .join(", ") ||
+            (lexicon[char]
+              ? null
+              : getMandarinReadings(char, unihanResult)
+                  .map((r, _, segments) => (segments.length > 1 ? `${r}?` : r))
+                  .join(", ")) ||
             null,
           vi:
             e.vi ||
-            unihanResult?.kVietnamese
-              ?.split(/\s/)
-              .map((r, _, segments) => (segments.length > 1 ? `${r}?` : r))
-              .join(", ") ||
+            (lexicon[char]
+              ? null
+              : unihanResult?.kVietnamese
+                  ?.split(/\s/)
+                  .map((r, _, segments) => (segments.length > 1 ? `${r}?` : r))
+                  .join(", ")) ||
             null,
           kr:
             e.kr ||
-            unihanResult?.kHangul
-              ?.split(/\s/)
-              .map((r) => r.split(":")[0])
-              .map((r, _, segments) => (segments.length > 1 ? `${r}?` : r))
-              .join(", ") ||
+            (lexicon[char]
+              ? null
+              : unihanResult?.kHangul
+                  ?.split(/\s/)
+                  .map((r) => r.split(":")[0])
+                  .map((r, _, segments) => (segments.length > 1 ? `${r}?` : r))
+                  .join(", ")) ||
             null,
         }));
       }
@@ -177,8 +185,11 @@ function writePassageVocabularyJsons(lexicon: PassageVocab) {
     );
     const passageChars = getPassageChars(passage);
 
+    if (textId === "brandt-ch01-1") console.log(vocab, passageChars);
+
     for (const char of passageChars) {
       if (!vocab[char]) {
+        if (textId === "brandt-ch01-1") console.log(char, lexicon[char]);
         vocab[char] = lexicon[char];
       }
     }
