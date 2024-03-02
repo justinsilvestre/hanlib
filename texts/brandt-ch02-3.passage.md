@@ -18,7 +18,7 @@ Suddenly his son ran up in haste and cried (lit. said),
 
 吾家爲人所刧。家具盡喪。
 "Our house has been robbed by somebody, (and) the household effects are all gone!"
-`"^our house 2become[:by] 3person[:somebody] passive_particle[:has_been] 1rob[bed], [and the] house[hold] implements [are] all lose[:gone]!"`
+`"^our house become[:has_been] 3[by] person[:somebody] 2passive_particle[:~ed] 1rob[b], [and the] house[hold] implements [are] all lose[:gone]!"`
 
 卜者倉惶失措。
 The fortune-teller was quite taken aback (by the news).

@@ -85,7 +85,7 @@ export function parsePassage(passageFileContents: string) {
     throw new Error("Invalid passage file " + passageFileContents);
   const [frontmatterText, body, notesText] = sections;
   const lines = body.split(/\n\n+/).map((line) => {
-    const [chinese, english, gloss] = line.split("\n");
+    const [chinese, english = "", gloss = ""] = line.split("\n");
     return {
       chinese,
       english,
