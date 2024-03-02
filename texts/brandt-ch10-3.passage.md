@@ -53,7 +53,7 @@ Truly both just and expedient.
 Though the affair has been discussed and settled, it really is difficult to carry out.
 
 ⑬ 實屬胆大妄爲
-It really shows great audacity and disorderly be- haviour.
+It really shows great audacity and disorderly behaviour.
 
 ⑭ 官清民自安
 If the officials be pure, the people naturally will be tranquil.

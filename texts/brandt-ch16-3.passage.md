@@ -12,7 +12,7 @@ The particles indicating cause or reason are:
 
 When 因 is put at the beginning of a sentence, 而 or 故 in the principal clause usually complete the structure (examples 7, 8).
 
-## Examples of using the causal particles:
+#### Examples of using the causal particles:
 
 ---
 

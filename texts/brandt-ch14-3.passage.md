@@ -15,7 +15,7 @@ The Chao State was going to attack the Yen State. Su-tai on behalf of Yen said t
 The kingfisher said, "To-day it will not rain; to-morrow it will not rain, and there will be a dead oyster".
 
 兩者不肯相舍。漁者得而并擒之。
-The oyster said in reply, "To-day you will not get off, to- morrow you will not get off, and there will be a dead kingfisher." Neither would let go of the other, and a fisherman took (that opportunity) and seized them both together.
+The oyster said in reply, "To-day you will not get off, tomorrow you will not get off, and there will be a dead kingfisher." Neither would let go of the other, and a fisherman took (that opportunity) and seized them both together.
 
 今趙且伐燕。燕趙久相支。以弊大眾臣恐强秦之爲漁父也。故願王之熟計之也。
 Now Chao intends to attack Yen. After a long fight both peoples will be exhausted (lit. Yen and Chao will fight a long time, so that all will be 'exhausted), and (then) I am afraid the strong State of Ch'in may prove to be the fisherman. I wish therefore that Your Majesty would think it over carefully".

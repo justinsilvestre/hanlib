@@ -19,7 +19,7 @@ When a bird is about to die, its notes are mournful. When a man is about to die,
 When a country is about to flourish, there are sure to be happy omens; and when it is about to perish, there are sure to be unlucky omens.
 
 ③ 天將以夫子爲木鐸
-Heaven is going to use (your) Master as a bell with a wooden tongue. Note. The 木鐸 was a metal bell with a wooden ton- gue, shaken in making announcements, or to call the people together. Like that bell, Heaven would employ Confucius to proclaim the truth and right.
+Heaven is going to use (your) Master as a bell with a wooden tongue. Note. The 木鐸 was a metal bell with a wooden tongue, shaken in making announcements, or to call the people together. Like that bell, Heaven would employ Confucius to proclaim the truth and right.
 
 ④ 夫子何以知其將見殺
 How do you know, Master, that he is going to be killed?

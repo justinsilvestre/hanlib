@@ -59,8 +59,13 @@ export function getTextsIdsAndTitles() {
         "utf8"
       );
       const title = parseFrontmatterText(passageFileContents).title;
-      const firstLine =
-        parsePassage(passageFileContents).lines[0]?.chinese || "";
+      let firstLine = "";
+      try {
+        firstLine = parsePassage(passageFileContents).lines[0]?.chinese || "";
+      } catch (err) {
+        console.error(`Error parsing passage ${textId}`);
+        console.error(err);
+      }
       return {
         textId,
         title,

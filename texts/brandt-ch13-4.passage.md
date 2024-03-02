@@ -6,7 +6,7 @@
 
 ### THE INTENSIFYING-CONJUNCTIVE PARTICLES
 
-The intensifying-conjunctive particles, like the conjunctive particles, serve to join individual words and sentences. And yet there is a considerable difference between these two groups. The intensifying-conjunctive particles are used when only one subject is discussed, and when the words that follow after an intensifying- conjunctive particle introduce a new quality of the subject or a new development of the matter in question. These particles can be translated by the expressions: "and also", "moreover", etc.
+The intensifying-conjunctive particles, like the conjunctive particles, serve to join individual words and sentences. And yet there is a considerable difference between these two groups. The intensifying-conjunctive particles are used when only one subject is discussed, and when the words that follow after an intensifying-conjunctive particle introduce a new quality of the subject or a new development of the matter in question. These particles can be translated by the expressions: "and also", "moreover", etc.
 
 These particles are:
 
@@ -38,7 +38,7 @@ Heterodox doctrines are like robbers and brigands or fire and water. Moreover in
 Not only is it of no benefit, but also it is harmful.
 
 ⑧ 且該員於洋務情形。最爲熟悉
-Moreover the said officer is very well acquainted with con- ditions of foreign affairs.
+Moreover the said officer is very well acquainted with conditions of foreign affairs.
 
 ⑨ 本大臣當經照會該領事官。並派委員向其當面告知。
 I thereupon wrote officially to the said consul, and at the same time sent a deputy to inform him (of the matter) personally。

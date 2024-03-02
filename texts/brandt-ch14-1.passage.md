@@ -17,6 +17,6 @@ The ministers could not reply. (Then) Chiang-i said," (Once upon a time) a tiger
 The tiger agreed and went with the fox. All the beasts, when they saw them, ran away (in terror). But the tiger did not know that the beasts were afraid of him, and thought that it was the fox they feared.
 
 王之地五千里。帶甲百萬。而專屬之昭奚恤。故北方之畏昭奚恤也。其實畏王之甲兵也。猶百獸之畏虎也。
-Your Majesty's kingdom (occupies an area) of five thousand square "li", and there are one million soldiers exclusively sub- ordinated to Chao-hsi-hsii. Therefore (although) the northerners are afraid of Chao-hsi-lisi, in reality they are afraid of Your Majesty's troops, just the same as the beasts were afraid of the tiger."
+Your Majesty's kingdom (occupies an area) of five thousand square "li", and there are one million soldiers exclusively subordinated to Chao-hsi-hsii. Therefore (although) the northerners are afraid of Chao-hsi-lisi, in reality they are afraid of Your Majesty's troops, just the same as the beasts were afraid of the tiger."
 
 ---

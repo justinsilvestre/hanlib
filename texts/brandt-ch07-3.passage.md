@@ -34,7 +34,7 @@ mean: "as compared with... it is better (or 'there is nothing equal' etc.)"
 
 When it is only stated that an object, state or action is more preferable without comparing it with any other, the particles: 不如 不若, 寧, are used. These particles correspond to the English expressions: "better", "it is better".
 
-### Examples of using the comparative particles
+#### Examples of using the comparative particles
 
 ---
 
