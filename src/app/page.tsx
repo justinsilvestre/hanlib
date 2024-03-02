@@ -23,17 +23,24 @@ export default function Home() {
       </p>
 
       <ul className="ml-4 list-disc">
-        {textsIdsAndTitles.map((text) => (
-          <li key={text.textId}>
-            <Link
-              href={`/texts/${text.textId}`}
-              className="underline hover:no-underline"
-            >
-              {text.title}
-              {!GLOSSED.includes(text.textId) && "*"}
-            </Link>
-          </li>
-        ))}
+        {textsIdsAndTitles
+          .filter((text) => text.preview)
+          .map((text) => {
+            const [, , brandtChapter, textNumber] = text.textId.split(/-|ch/);
+            return (
+              <li key={text.textId}>
+                <Link
+                  href={`/texts/${text.textId}`}
+                  className="underline hover:no-underline"
+                >
+                  Lesson {parseInt(brandtChapter, 10)}, Text {textNumber}
+                  {!GLOSSED.includes(text.textId) && "*"}
+                  {" - "}
+                  {text.preview}
+                </Link>
+              </li>
+            );
+          })}
       </ul>
     </main>
   );

@@ -80,18 +80,21 @@ export function parsePassageVocabList(
 }
 
 export function parsePassage(passageFileContents: string) {
-  const sections = passageFileContents.split(/\s*\n\s*---+\s*\n\s*/);
+  const sections = passageFileContents.split(/\n---+\n/);
   if (sections.length < 2)
     throw new Error("Invalid passage file " + passageFileContents);
   const [frontmatterText, body, notesText] = sections;
-  const lines = body.split(/\n\n+/).map((line) => {
-    const [chinese, english = "", gloss = ""] = line.split("\n");
-    return {
-      chinese,
-      english,
-      gloss: gloss || null,
-    };
-  });
+  const lines = body
+    .trim()
+    .split(/\n\n+/)
+    .map((line) => {
+      const [chinese, english = "", gloss = ""] = line.split("\n");
+      return {
+        chinese,
+        english,
+        gloss: gloss || null,
+      };
+    });
   const notes: Record<string, string> = {};
   if (notesText) {
     const noteSections = [

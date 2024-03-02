@@ -59,7 +59,14 @@ export function getTextsIdsAndTitles() {
         "utf8"
       );
       const title = parseFrontmatterText(passageFileContents).title;
-      return { textId, title };
+      const firstLine =
+        parsePassage(passageFileContents).lines[0]?.chinese || "";
+      return {
+        textId,
+        title,
+        preview:
+          firstLine.length > 7 ? firstLine.slice(0, 7) + "..." : firstLine,
+      };
     });
   return textIdsAndTitles;
 }
