@@ -185,11 +185,8 @@ function writePassageVocabularyJsons(lexicon: PassageVocab) {
     );
     const passageChars = getPassageChars(passage);
 
-    if (textId === "brandt-ch01-1") console.log(vocab, passageChars);
-
     for (const char of passageChars) {
       if (!vocab[char]) {
-        if (textId === "brandt-ch01-1") console.log(char, lexicon[char]);
         vocab[char] = lexicon[char];
       }
     }
