@@ -7,6 +7,7 @@ const GLOSSED = [
   'brandt-ch02-1', 'brandt-ch02-2', 'brandt-ch02-3',
   'brandt-ch03-1', 'brandt-ch03-2', 'brandt-ch03-3',
   'brandt-ch04-1', 'brandt-ch04-2', 'brandt-ch04-3',
+  'brandt-ch05-1', 'brandt-ch05-2',
 ]
 
 export default function Home() {
