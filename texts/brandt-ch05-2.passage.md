@@ -26,11 +26,11 @@ The rattle (of hail) against the roof tiles and eaves bells was deafening.
 
 一兒驚問曰。天方熱。何以有雪。
 A boy was startled (by it) and asked (his father). "The day was just (so) hot, how (then) (can we) have snow?"
-`[^a] boy be_startled[:was_startled] [and] speak[:asked], "[^the] weather [was] just [so] hot, what-by (how) [can] be[:there_be] snow?"`
+`^a boy be_startled[:was_startled] [and] ask[ed] speak[:~], "[^the] weather [was] just [so] hot, what-by (how) [can] be[:there_be] snow?"`
 
 父曰。非雪也。是名爲雹。
 His father said, "(It is) not snow; it is called hail".
-`[^his] father speak[:said], "[it] is_not snow final_particle[:~]; [it] be_named[:is_called] hail."`
+`[^his] father speak[:said], "[^it] is_not snow final_particle[:~]; [it] be_named[:is_called] hail."`
 
 兒曰。雹何自來。
 "Where does hail come from?" asked the boy.
