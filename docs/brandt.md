@@ -27,8 +27,8 @@ If you know how to make pull requests Git/GitHub, you are welcome to make your c
 ## remaining tasks
 
 ```
-progress: 269 / 1309 tasks complete (~20.55%)
-[==========                                        ]
+progress: 302 / 1310 tasks complete (~23%)
+[============                                      ]
 ```
 
 - [x] confirm copyright status of original work (def public domain in US because it was published in 1928) (Feb 9)
@@ -76,7 +76,7 @@ progress: 269 / 1309 tasks complete (~20.55%)
     - [x] use OCR on cropped images
     - [x] proofread OCR results
     - [x] transcribe English definitions in Vocabulary section (Feb 14 Võ Khắc Phú Cường)
-    - [ ] transcribe Notes section
+    - [x] transcribe Notes section (Feb 11)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](./texts/brandt-ch01-1.passage.md))
@@ -85,14 +85,14 @@ progress: 269 / 1309 tasks complete (~20.55%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [x] align transcribed Chinese + English sentences
-    - [ ] write Chinese -> English gloss
+    - [x] align transcribed Chinese + English sentences (Feb 10)
+    - [x] write Chinese -> English gloss (Feb 28)
 - Lesson 1, Text 3
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
     - [x] use OCR on cropped images
     - [x] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
@@ -109,7 +109,7 @@ progress: 269 / 1309 tasks complete (~20.55%)
     - [x] prepare images of Chinese text + English translation for OCR
     - [x] use OCR on cropped images
     - [x] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] transcribe English definitions in Vocabulary section (Feb 15 Võ Khắc Phú Cường)
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
@@ -126,7 +126,7 @@ progress: 269 / 1309 tasks complete (~20.55%)
     - [x] prepare images of Chinese text + English translation for OCR
     - [x] use OCR on cropped images
     - [x] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] transcribe English definitions in Vocabulary section (Feb 15 Võ Khắc Phú Cường)
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
@@ -143,7 +143,7 @@ progress: 269 / 1309 tasks complete (~20.55%)
     - [x] prepare images of Chinese text + English translation for OCR
     - [x] use OCR on cropped images
     - [x] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] transcribe English definitions in Vocabulary section (Feb 15 Võ Khắc Phú Cường)
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
@@ -160,7 +160,7 @@ progress: 269 / 1309 tasks complete (~20.55%)
     - [x] prepare images of Chinese text + English translation for OCR
     - [x] use OCR on cropped images
     - [x] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] transcribe English definitions in Vocabulary section (Feb 15 Võ Khắc Phú Cường)
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
@@ -171,13 +171,13 @@ progress: 269 / 1309 tasks complete (~20.55%)
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
     - [x] align transcribed Chinese + English sentences
-    - [ ] write Chinese -> English gloss
+    - [x] write Chinese -> English gloss
 - Lesson 3, Text 2
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
     - [x] use OCR on cropped images
     - [x] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] transcribe English definitions in Vocabulary section (Feb 15 Võ Khắc Phú Cường)
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
@@ -188,13 +188,13 @@ progress: 269 / 1309 tasks complete (~20.55%)
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
     - [x] align transcribed Chinese + English sentences
-    - [ ] write Chinese -> English gloss
+    - [x] write Chinese -> English gloss
 - Lesson 3, Text 3
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
     - [x] use OCR on cropped images
     - [x] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] transcribe English definitions in Vocabulary section (Feb 15 Võ Khắc Phú Cường)
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
@@ -205,13 +205,13 @@ progress: 269 / 1309 tasks complete (~20.55%)
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
     - [x] align transcribed Chinese + English sentences
-    - [ ] write Chinese -> English gloss
+    - [x] write Chinese -> English gloss
 - Lesson 4, Text 1
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
     - [x] use OCR on cropped images
     - [x] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
@@ -222,13 +222,13 @@ progress: 269 / 1309 tasks complete (~20.55%)
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
     - [x] align transcribed Chinese + English sentences
-    - [ ] write Chinese -> English gloss
+    - [x] write Chinese -> English gloss
 - Lesson 4, Text 2
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
     - [x] use OCR on cropped images
     - [x] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] transcribe English definitions in Vocabulary section (Feb 15 Võ Khắc Phú Cường)
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
@@ -239,13 +239,13 @@ progress: 269 / 1309 tasks complete (~20.55%)
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
     - [x] align transcribed Chinese + English sentences
-    - [ ] write Chinese -> English gloss
+    - [x] write Chinese -> English gloss
 - Lesson 4, Text 3
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
     - [x] use OCR on cropped images
     - [x] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] transcribe English definitions in Vocabulary section (Feb 15 Võ Khắc Phú Cường)
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
@@ -256,7 +256,7 @@ progress: 269 / 1309 tasks complete (~20.55%)
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
     - [x] align transcribed Chinese + English sentences
-    - [ ] write Chinese -> English gloss
+    - [x] write Chinese -> English gloss
 - Lesson 5, Text 1
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
@@ -273,7 +273,7 @@ progress: 269 / 1309 tasks complete (~20.55%)
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
     - [x] align transcribed Chinese + English sentences
-    - [ ] write Chinese -> English gloss
+    - [x] write Chinese -> English gloss
 - Lesson 5, Text 2
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
@@ -290,7 +290,7 @@ progress: 269 / 1309 tasks complete (~20.55%)
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
     - [x] align transcribed Chinese + English sentences
-    - [ ] write Chinese -> English gloss
+    - [x] write Chinese -> English gloss
 - Lesson 5, Text 3
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR
@@ -307,7 +307,7 @@ progress: 269 / 1309 tasks complete (~20.55%)
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
     - [x] align transcribed Chinese + English sentences
-    - [ ] write Chinese -> English gloss
+    - [x] write Chinese -> English gloss
 - Lesson 6, Text 1
   - transcribe content
     - [x] prepare images of Chinese text + English translation for OCR

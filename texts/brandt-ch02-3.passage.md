@@ -2,6 +2,8 @@
 
 <center>Adapted from the 1927 book by J. Brandt</center>
 
+<center>Vocabulary section transcribed with help from  with help from 武克富強/Võ Khắc Phú Cường</center>
+
 ---
 
 卜
