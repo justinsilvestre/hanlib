@@ -272,12 +272,12 @@ export function transcribe(
   function get聲調() {
     return (
       {
-        // 上聲	꜂□	去聲	□꜄
-        // 平聲	꜀□	入聲	□꜆
-        平: (x: string) => "꜀" + x,
+        // 平: (x: string) => "꜀" + x,
+        平: (x: string) => x,
         上: (x: string) => "꜂" + x,
         去: (x: string) => x + "꜄",
-        入: (x: string) => x + "꜆",
+        // 入: (x: string) => x + "꜆",
+        入: (x: string) => x,
       } as const
     )[聲];
   }
