@@ -219,6 +219,7 @@ export function transcribe(
         return "u";
       if (
         syllable.qieyunCycleHead韻 === "眞" &&
+        syllable.is合口 &&
         (syllable.contrastiveRow等 === "A" ||
           (!鈍音.has(syllable.canonical母) && initialGroup !== "莊"))
       )
