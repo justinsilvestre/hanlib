@@ -21,6 +21,8 @@ import {
   toEnMatchKeyword,
 } from "./lexiconEntryEnKeywords";
 
+import * as qieyun from "qieyun";
+
 // @ts-expect-error no typings
 import unihan from "@silvestre/cjk-unihan";
 import { normalizeText } from "./texts/[textId]/punctuation";
@@ -76,6 +78,7 @@ async function fillInMissingReadingsInTsvs() {
         vocab[char]?.some((e) => vocabFileColumns.some((k) => !e[k.key]))
       ) {
         const unihanResult = await getUnihan(char);
+        const qieyunResult = qieyun.資料.query字頭(char);
         vocab[char] = (
           vocab[char] || [
             {
@@ -84,6 +87,7 @@ async function fillInMissingReadingsInTsvs() {
               kr: null,
               pinyin: null,
               vi: null,
+              qieyun: null,
             },
           ]
         ).map((e) => ({
@@ -128,6 +132,14 @@ async function fillInMissingReadingsInTsvs() {
                   .map((r) => r.split(":")[0])
                   .map((r, _, segments) => (segments.length > 1 ? `${r}?` : r))
                   .join(", ")) ||
+            null,
+          qieyun:
+            e.qieyun ||
+            qieyunResult
+              ?.map((r, _, results) =>
+                results.length > 1 ? `${r.音韻地位.描述}?` : r.音韻地位.描述
+              )
+              .join(", ") ||
             null,
         }));
       }
@@ -213,11 +225,11 @@ function makeVocabTsvContent(
   vocab: Partial<Record<string, LexiconEntry[]>>
 ): string | NodeJS.ArrayBufferView {
   return [
-    `Traditional\tHanyu Pinyin\tJyutping\tKorean\tVietnamese\tEnglish`,
+    `Traditional\tQieyun\tHanyu Pinyin\tJyutping\tKorean\tVietnamese\tEnglish`,
     ...Object.entries(vocab).flatMap(
       ([char, ee]) =>
         ee?.map((e) =>
-          [char, e.pinyin, e.jyutping, e.kr, e.vi, e.en].join("\t")
+          [char, e.qieyun, e.pinyin, e.jyutping, e.kr, e.vi, e.en].join("\t")
         ) || []
     ),
   ].join("\n");

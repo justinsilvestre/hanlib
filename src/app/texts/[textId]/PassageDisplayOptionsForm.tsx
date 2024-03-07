@@ -12,10 +12,35 @@ export function PassageDisplayOptionsForm({
   displayOptions: DisplayOptions;
   setDisplayOptions: React.Dispatch<React.SetStateAction<DisplayOptions>>;
 }) {
+  const [isOpen, setIsOpen] = useState(true);
+
+  if (!isOpen) {
+    return (
+      <section
+        className="mb-4  border-1 border border-foreground/25 rounded p-2 cursor-pointer text-center"
+        onClick={() => setIsOpen(true)}
+      >
+        {displayOptions.ruby === "jyutping" && <>Cantonese Jyutping</>}
+        {displayOptions.ruby === "pinyin" && <>Hanyu Pinyin</>}
+        {displayOptions.ruby === "kr" && <>Sino-Korean</>}
+        {displayOptions.ruby === "vi" && <>Sino-Vietnamese</>}
+        {displayOptions.ruby === "en" && <>English gloss</>}
+        {displayOptions.ruby === null && <>no gloss</>}
+        {" / "}
+        {displayOptions.translation === "gloss" && <>gloss translation</>}
+        {displayOptions.translation === "idiomatic" && (
+          <>idiomatic translation</>
+        )}
+        {displayOptions.translation === null && <>no translation</>}
+      </section>
+    );
+  }
+
   return (
     <form className="mb-4  border-1 border border-foreground/25 rounded p-2 ">
       <div className="mb-2 flex-row flex-wrap justify-around gap-2 flex">
-        <RubyRadioInputAndLabel
+        <RadioInputAndLabel
+          name="ruby"
           id="ruby-jyutping"
           value="jyutping"
           checked={displayOptions.ruby === "jyutping"}
@@ -24,7 +49,8 @@ export function PassageDisplayOptionsForm({
           }
           label="Cantonese Jyutping"
         />
-        <RubyRadioInputAndLabel
+        <RadioInputAndLabel
+          name="ruby"
           id="ruby-pinyin"
           value="pinyin"
           checked={displayOptions.ruby === "pinyin"}
@@ -33,7 +59,8 @@ export function PassageDisplayOptionsForm({
           }
           label="Hanyu Pinyin"
         />
-        <RubyRadioInputAndLabel
+        <RadioInputAndLabel
+          name="ruby"
           id="ruby-kr"
           value="kr"
           checked={displayOptions.ruby === "kr"}
@@ -42,7 +69,8 @@ export function PassageDisplayOptionsForm({
           }
           label="Sino-Korean"
         />
-        <RubyRadioInputAndLabel
+        <RadioInputAndLabel
+          name="ruby"
           id="ruby-vi"
           value="vi"
           checked={displayOptions.ruby === "vi"}
@@ -51,7 +79,18 @@ export function PassageDisplayOptionsForm({
           }
           label="Sino-Vietnamese"
         />
-        <RubyRadioInputAndLabel
+        <RadioInputAndLabel
+          name="ruby"
+          id="ruby-qieyun"
+          value="qieyun"
+          checked={displayOptions.ruby === "qieyun"}
+          onChange={() =>
+            setDisplayOptions((opts) => ({ ...opts, ruby: "qieyun" }))
+          }
+          label="Middle Chinese"
+        />
+        <RadioInputAndLabel
+          name="ruby"
           id="ruby-en"
           value="en"
           checked={displayOptions.ruby === "en"}
@@ -60,7 +99,8 @@ export function PassageDisplayOptionsForm({
           }
           label="English gloss"
         />
-        <RubyRadioInputAndLabel
+        <RadioInputAndLabel
+          name="ruby"
           id="ruby-null"
           value="null"
           checked={displayOptions.ruby === null}
@@ -70,6 +110,34 @@ export function PassageDisplayOptionsForm({
           label="none"
         />
       </div>
+
+      {displayOptions.ruby === "qieyun" && (
+        <div className="mb-2 flex-row flex-wrap justify-around gap-2 flex border-solid border-t border-foreground/25 pt-2">
+          <RadioInputAndLabel
+            name="qieyun"
+            id="qieyun-karlgren"
+            value="karlgren"
+            checked={displayOptions.qieyun === "karlgren"}
+            onChange={() =>
+              setDisplayOptions((opts) => ({ ...opts, qieyun: "karlgren" }))
+            }
+            label="reconstructed Middle Chinese (Karlgren)"
+          />
+          <RadioInputAndLabel
+            name="qieyun"
+            id="qieyun-decorated-onyomi"
+            value="decorated-onyomi"
+            checked={displayOptions.qieyun === "decorated-onyomi"}
+            onChange={() =>
+              setDisplayOptions((opts) => ({
+                ...opts,
+                qieyun: "decorated-onyomi",
+              }))
+            }
+            label={'"Decorated On\'yomi" romanization'}
+          />
+        </div>
+      )}
       <div className="mb-2 flex-row flex-wrap justify-around gap-2 flex border-solid border-t border-foreground/25 pt-2">
         <span>
           <input
@@ -123,6 +191,11 @@ export function PassageDisplayOptionsForm({
           </label>
         </span>
       </div>
+      <div className="mb-2 pt-2 flex justify-center border-solid border-t border-foreground/25">
+        <button className="" onClick={() => setIsOpen(false)}>
+          hide display settings
+        </button>
+      </div>
     </form>
   );
 }
@@ -157,15 +230,17 @@ export function useDisplayOptions() {
   return [displayOptions, setDisplayOptions] as const;
 }
 
-export function RubyRadioInputAndLabel({
+export function RadioInputAndLabel({
   id,
   value,
+  name,
   checked,
   onChange,
   label,
 }: {
   id: string;
   value: string;
+  name: string;
   checked: boolean;
   onChange: () => void;
   label: string;
@@ -175,7 +250,7 @@ export function RubyRadioInputAndLabel({
       <input
         type="radio"
         id={id}
-        name="ruby"
+        name={name}
         value={value}
         checked={checked}
         onChange={onChange}

@@ -19,13 +19,15 @@ export type VocabEntryPronunciationKey =
   | "jyutping"
   | "pinyin"
   | "en"
-  | "kr";
+  | "kr"
+  | "qieyun";
 export const vocabFileColumns = [
   { heading: "Vietnamese", key: "vi" },
   { heading: "Jyutping", key: "jyutping" },
   { heading: "English", key: "en" },
   { heading: "Hanyu Pinyin", key: "pinyin" },
   { heading: "Korean", key: "kr" },
+  { heading: "Qieyun", key: "qieyun" },
 ] as const;
 
 export function parsePassageVocabList(
