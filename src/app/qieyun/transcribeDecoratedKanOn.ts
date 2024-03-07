@@ -60,6 +60,7 @@ const asciiFinals = {
   wạ: "rwa",
   ạ: "ra",
   wâng: "wvang",
+  ŷang: "vyang",
   wẹng: "rweng",
   ẹng: "reng",
   wạng: "rwang",
@@ -122,7 +123,6 @@ const asciiFinals = {
   ėn: "ien",
   âng: "vang",
   yang: "yang",
-  vyang: "ŷang",
   ẁeng: "yweng",
   wėng: "wieng",
   yeng: "yeng",
@@ -352,7 +352,12 @@ const rhymes: Record<
       : "ėn";
   },
   陽: (s) => {
-    if (s.is合口) return "wâng";
+    if (s.is合口)
+      return s.canonical母 === "影" ||
+        s.canonical母 === "以" ||
+        s.canonical母 === "云"
+        ? "wâng"
+        : "ŷang";
     return initialGroups["幫"].has(s.canonical母) ||
       initialGroups["莊"].has(s.canonical母)
       ? "âng"
