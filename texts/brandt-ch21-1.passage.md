@@ -5,7 +5,7 @@
 ---
 
 聊齋誌異 勞山道士 (續)
-Strange Stories from the Liao Studio - The Taoist Priest of Lao-shan Mountain. The Taoist Priest of Lao-shan Mountain (continued)
+Strange Stories from the Liao Studio - The Taoist Priest of Lao-shan Mountain (continued)
 
 俄一客曰。蒙賜月明之照。乃爾寂飲。何不呼嫦娥來。
 Suddenly one of the guests said, "We sit here enjoying the moonlight. But we drink alone. Why not call up Ch'ang-E?"

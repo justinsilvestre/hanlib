@@ -2,7 +2,9 @@
 
 <center>Adapted from the 1927 book by J. Brandt</center>
 
-## THE FINAL PARTICLES (`歇語字`)
+## Grammatical section
+
+### THE FINAL PARTICLES (`歇語字`)
 
 The Wenli-style abounds with so called final particles. These particles usually have no individual meaning, and are used only to show the end of a clause, a pause or a respite in a sentence.
 
@@ -39,6 +41,8 @@ Of these particles 也 and 矣 are most frequently used, and the way of their us
 也已矣 gives a strong emphasis to the preceding statement (ex. 39, 40, 41).
 
 已矣夫 has a force of exclamation of grief: "all over!" "alas!" (see 已矣乎, less XXII, grammatical section, ex. 11, 12).
+
+#### Examples of using the final particles:
 
 ---
 
@@ -151,7 +155,7 @@ So it is, and that is all.
 Only (these) two.
 
 ㊲ 君子於其言無所苟而已矣。
-(What) the superior man (requires) is just that in his words there may be nothing incorrect (荷).
+(What) the superior man (requires) is just that in his words there may be nothing incorrect.
 
 ㊳ 古之愚也直今之愚也詐而已矣。
 The stupidity of antiquity (showed itself) in straight-forwardness; the stupidity of the present day (shows itself) in sheer deceit.
@@ -162,7 +166,7 @@ The virtue of the house of Chou may be said to have reached the highest point in
 ㊵ 日知其所亡。月無忘其所能。可謂好學也已矣。
 He, who from day to day recognises what he has not, and from month to month does not forget what he has attained (lit. can), may be said indeed to love to learn.
 
-㊶ 子日不日如之何如之何者。吾未如之何也已矣。
+㊶ 子曰不曰如之何如之何者。吾未如之何也已矣。
 The Master said, "When a man is not (in the habit of) saying, " What shall I think of this? What shall I think of this?" I can indeed do nothing with him!"
 
 ㊷ {a:鳳鳥}不至。河不出圖吾已矣夫。
@@ -174,4 +178,4 @@ The Master said, "The "Feng" bird does not come; the river sends forth no map: i
 
 鳳 is the male of a fabulous bird, which is said to appear when a sage ascends the throne or when right principles are going to triumph in the world.
 
-In the time of Emperor Fu-hsi (伏羲) a monster, with the head of a dragon, and the body of a horse, rose from the water, being marked on the back so as to give the first of the sages the dea of his diagrams.
+In the time of Emperor Fu-hsi (伏羲) a monster, with the head of a dragon, and the body of a horse, rose from the water, being marked on the back so as to give the first of the sages the idea of his diagrams.
