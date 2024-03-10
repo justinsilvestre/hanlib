@@ -47,6 +47,8 @@ progress: 302 / 1310 tasks complete (~23%)
   - [x] display correct character readings via gloss, if present
   - [x] enable character definitions for characters first seen in other passages
   - [ ] make build script to aggregate lexicon + make text file to be checked into repo to track changes
+  - [ ] include English definitions from glosses in aggregated lexicon
+  - [ ] aggregated lexicon page
   - [x] use curly quotes in main text
   - [ ] print formatting
   - [ ] display compounds in glosses
@@ -1763,3 +1765,5 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
     - [ ] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
+
+<!-- ([①-⑳㉑-㊷]) -->
