@@ -172,10 +172,10 @@ Note. The name 明 was given to the palaces occupied in different parts of the c
 ㊾ 伊胡爲者。
 ㊿ 弗爲胡成。
 51 弗慮胡獲。
-52 　彼惡知之。
-53 　彼惡敢當我哉。
-54 　惡在其爲民父母也。
-55 　居惡在仁是也。
+52 彼惡知之。
+53 彼惡敢當我哉。
+54 惡在其爲民父母也。
+55 居惡在仁是也。
 56 天下惡平定。
 57 君子去仁。惡乎成名。
 
