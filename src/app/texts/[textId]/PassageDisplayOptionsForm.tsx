@@ -25,6 +25,19 @@ export function PassageDisplayOptionsForm({
         {displayOptions.ruby === "kr" && <>Sino-Korean</>}
         {displayOptions.ruby === "vi" && <>Sino-Vietnamese</>}
         {displayOptions.ruby === "en" && <>English gloss</>}
+        {displayOptions.ruby === "qieyun" && (
+          <>
+            Middle Chinese /{" "}
+            {displayOptions.qieyun === "karlgren" && "Karlgren (1957)"}
+            {displayOptions.qieyun === "pulleyblank-emc" &&
+              "Pulleyblank (1991) Early Middle Chinese"}
+            {displayOptions.qieyun === "pulleyblank-lmc" &&
+              "Pulleyblank (1991) Late Middle Chinese"}
+            {displayOptions.qieyun === "pan" && "Pan Wuyun (2013)"}
+            {displayOptions.qieyun === "decorated-onyomi" &&
+              '"Decorated On\'yomi" romanization'}
+          </>
+        )}
         {displayOptions.ruby === null && <>no gloss</>}
         {" / "}
         {displayOptions.translation === "gloss" && <>gloss translation</>}
@@ -121,7 +134,7 @@ export function PassageDisplayOptionsForm({
             onChange={() =>
               setDisplayOptions((opts) => ({ ...opts, qieyun: "karlgren" }))
             }
-            label="reconstructed Middle Chinese (Karlgren)"
+            label="reconstructed Middle Chinese (Karlgren 1957)"
           />
           <RadioInputAndLabel
             name="qieyun"
