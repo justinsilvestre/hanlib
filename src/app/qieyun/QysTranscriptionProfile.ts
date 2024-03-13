@@ -7,8 +7,9 @@ export interface QysTranscriptionProfile {
   canonical母: QysInitial;
   tone聲: "平" | "上" | "去" | "入";
   is重紐A類: boolean;
+  is重紐B類: boolean;
   qieyunCycleHead韻: QieyunRhymeCycleHead;
-  contrastiveRow等: DengOrChongniu | null;
+  row等: DengOrChongniu | null;
 }
 
 // below adapted from https://github.com/nk2028/qieyun-js/blob/main/src/lib/%E9%9F%B3%E9%9F%BB%E5%9C%B0%E4%BD%8D.ts
@@ -74,7 +75,8 @@ export function getQysTranscriptionProfile(
     canonical母: 母 as QysInitial,
     tone聲: 聲 as "平" | "上" | "去" | "入",
     is重紐A類: 重紐 === "A",
+    is重紐B類: 重紐 === "B",
     qieyunCycleHead韻: 韻 as QieyunRhymeCycleHead,
-    contrastiveRow等: 等 as DengOrChongniu | null,
+    row等: 等 as DengOrChongniu | null,
   };
 }

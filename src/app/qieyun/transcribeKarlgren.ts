@@ -50,7 +50,7 @@ export function transcribe(
     央次低元音?: "ɐ" | "ɒ";
     濁送氣?: "ʰ" | "ʱ";
   } = {
-    音標體系: "原書音標",
+    音標體系: "國際音標（通用）",
   }
 ) {
   const { canonical母, tone聲: 聲, qieyunCycleHead韻: 韻 } = syllable;
@@ -197,13 +197,11 @@ export function transcribe(
     )
       介音 += "j"; // 云母已經是 j，無需加
     if (
-      (syllable.contrastiveRow等 === "三" ||
-        syllable.contrastiveRow等 === "B") &&
+      (syllable.row等 === "三" || syllable.row等 === "B") &&
       !止攝.has(syllable.qieyunCycleHead韻)
     )
       介音 += "i̯";
-    if (syllable.contrastiveRow等 === "四" || syllable.contrastiveRow等 === "A")
-      介音 += "i";
+    if (syllable.row等 === "四" || syllable.row等 === "A") 介音 += "i";
 
     const alwaysUMedial = new Set<QieyunRhymeCycleHead>([
       "模",
@@ -220,7 +218,7 @@ export function transcribe(
       if (
         syllable.qieyunCycleHead韻 === "眞" &&
         syllable.is合口 &&
-        (syllable.contrastiveRow等 === "A" ||
+        (syllable.row等 === "A" ||
           (!鈍音.has(syllable.canonical母) && initialGroup !== "莊"))
       )
         return "u";
@@ -237,8 +235,7 @@ export function transcribe(
         if (
           syllable.qieyunCycleHead韻 === "廢" ||
           syllable.qieyunCycleHead韻 === "元" ||
-          (syllable.qieyunCycleHead韻 === "庚" &&
-            syllable.contrastiveRow等 === "三")
+          (syllable.qieyunCycleHead韻 === "庚" && syllable.row等 === "三")
         )
           return "w";
         if (

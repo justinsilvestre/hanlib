@@ -125,6 +125,42 @@ export function PassageDisplayOptionsForm({
           />
           <RadioInputAndLabel
             name="qieyun"
+            id="qieyun-pulleyblank-emc"
+            value="pulleyblank-emc"
+            checked={displayOptions.qieyun === "pulleyblank-emc"}
+            onChange={() =>
+              setDisplayOptions((opts) => ({
+                ...opts,
+                qieyun: "pulleyblank-emc",
+              }))
+            }
+            label="reconstructed Early Middle Chinese (Pulleyblank 1991)"
+          />
+          <RadioInputAndLabel
+            name="qieyun"
+            id="qieyun-pulleyblank-lmc"
+            value="pulleyblank-lmc"
+            checked={displayOptions.qieyun === "pulleyblank-lmc"}
+            onChange={() =>
+              setDisplayOptions((opts) => ({
+                ...opts,
+                qieyun: "pulleyblank-lmc",
+              }))
+            }
+            label="reconstructed Late Middle Chinese (Pulleyblank 1991)"
+          />
+          <RadioInputAndLabel
+            name="qieyun"
+            id="qieyun-pan"
+            value="pan"
+            checked={displayOptions.qieyun === "pan"}
+            onChange={() =>
+              setDisplayOptions((opts) => ({ ...opts, qieyun: "pan" }))
+            }
+            label="reconstructed Middle Chinese (Pan Wuyun 2013)"
+          />
+          <RadioInputAndLabel
+            name="qieyun"
             id="qieyun-decorated-onyomi"
             value="decorated-onyomi"
             checked={displayOptions.qieyun === "decorated-onyomi"}

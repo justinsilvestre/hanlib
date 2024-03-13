@@ -116,10 +116,10 @@ export function PassageBody({
                   );
                 }
               )}
-              {(!gloss.result ||
-                displayOptions.translation === "idiomatic") && (
+              {(displayOptions.translation && !gloss.result) ||
+              displayOptions.translation === "idiomatic" ? (
                 <div className="">{toCurlyQuotes(line.english)}</div>
-              )}
+              ) : null}
               {displayOptions.translation === "gloss" && gloss.result && (
                 <div className="text-lg">
                   {gloss.result

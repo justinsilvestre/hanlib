@@ -25,7 +25,12 @@ export const LATEST_DISPLAY_OPTIONS_VERSION = 1;
 export type DisplayOptions = {
   ruby: null | VocabEntryPronunciationKey;
   translation: null | "gloss" | "idiomatic";
-  qieyun?: "karlgren" | "decorated-onyomi";
+  qieyun?:
+    | "karlgren"
+    | "pan"
+    | "pulleyblank-emc"
+    | "pulleyblank-lmc"
+    | "decorated-onyomi";
   version: number;
 };
 

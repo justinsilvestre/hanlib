@@ -144,7 +144,7 @@ const rhymes: Record<
   | ((syllable: QysTranscriptionProfile) => keyof typeof asciiFinals)
 > = {
   東: (s) => {
-    if (s.tone聲 === "入" && s.contrastiveRow等 === "三") {
+    if (s.tone聲 === "入" && s.row等 === "三") {
       if (initialGroups["幫"].has(s.canonical母)) return "ūk";
       if (s.canonical母 === "以") return "ẁīk";
       return initialGroups["莊"].has(s.canonical母) ||
@@ -153,7 +153,7 @@ const rhymes: Record<
         ? "yūk"
         : "wīk";
     }
-    if (s.contrastiveRow等 === "三") {
+    if (s.row等 === "三") {
       return initialGroups["幫"].has(s.canonical母) ? "ūng" : "iūng";
     }
     return s.canonical母 === "影" ? "wōng" : "ōng";
@@ -168,8 +168,8 @@ const rhymes: Record<
   寒: (s) => (s.is合口 ? "wan" : "an"),
   豪: "au",
   歌: (s) => {
-    if (s.is合口) return s.contrastiveRow等 === "三" ? "wȧ" : "wa";
-    return s.contrastiveRow等 === "三" ? "ya" : "a";
+    if (s.is合口) return s.row等 === "三" ? "wȧ" : "wa";
+    return s.row等 === "三" ? "ya" : "a";
   },
   唐: (s) => (s.is合口 ? "wang" : "ang"),
   登: (s) => (s.is合口 ? "wŏng" : "ŏng"),
@@ -186,11 +186,11 @@ const rhymes: Record<
   山: (s) => (s.is合口 ? "wạ̈n" : "ạ̈n"),
   肴: "ạu",
   麻: (s) => {
-    if (s.contrastiveRow等 === "三") return "yạ";
+    if (s.row等 === "三") return "yạ";
     return s.is合口 ? "wạ" : "ạ";
   },
   庚: (s) => {
-    if (s.contrastiveRow等 === "三") return s.is合口 ? "wẹng" : "ẹng";
+    if (s.row等 === "三") return s.is合口 ? "wẹng" : "ẹng";
     return s.is合口 ? "wạng" : "ạng";
   },
   耕: (s) => (s.is合口 ? "wạ̈ng" : "ạ̈ng"),
@@ -476,22 +476,6 @@ export function transcribe(
     changeRuShengCoda(聲 === "入", 韻母) +
     separator +
     聲調
-  );
-}
-export function transcribeSyllableProfile(
-  syllableProfile: QysSyllableProfile,
-  options?: TranscriptionOptions
-) {
-  return transcribe(
-    {
-      is合口: syllableProfile.kaihe === Kaihe.Closed,
-      canonical母: syllableProfile.initial,
-      tone聲: syllableProfile.tone,
-      is重紐A類: syllableProfile.dengOrChongniu === "A",
-      qieyunCycleHead韻: syllableProfile.cycleHead,
-      contrastiveRow等: syllableProfile.dengOrChongniu,
-    },
-    options
   );
 }
 

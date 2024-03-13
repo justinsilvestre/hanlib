@@ -56,8 +56,8 @@ export const initialGroups = {
 };
 const initialToGroup = Object.fromEntries(
   Object.entries(initialGroups).flatMap(([group, initials]) =>
-    Array.from(initials, (initial) => [initial, group]),
-  ),
+    Array.from(initials, (initial) => [initial, group])
+  )
 );
 export const getInitialGroup = (initial: string) =>
-  initialToGroup[initial] || null;
+  (initialToGroup[initial] as keyof typeof initialGroups) || null;
