@@ -10,7 +10,7 @@ Uselessness of Many Words
 
 或問墨子曰。
 Someone asked Mo-tzu,
-`someone ask[ed] a_surname-philosopher (Mo-tzu), speak[:saying],`
+`someone ask[ed] a_surname-philosopher (Mo\-tzu), speak[:saying],`
 
 言以多爲貴乎。
 "Is it from quantity that words become precious?"
@@ -18,7 +18,7 @@ Someone asked Mo-tzu,
 
 墨子曰。蝦蟆日夜鳴。而人厭之。
 Mo-tzu said, "Frogs croak day and night, yet men loathe them.
-`a_surname-philosopher (Mo-tzu) speak[:said], "frog-frog ([~]^frog[s]) 2day [and] 3night 1cry[:croak], yet men loathe them.`
+`a_surname-philosopher (Mo\-tzu) speak[:said], "frog-frog ([~]^frog[s]) 2day [and] 3night 1cry[:croak], yet men loathe them.`
 
 雄鷄一鳴。天下振動。
 (But when) the cock crows (only) once, every thing (lit. under the sky) comes into motion.

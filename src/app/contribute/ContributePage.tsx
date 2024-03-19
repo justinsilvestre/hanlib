@@ -145,6 +145,7 @@ export function ContributePage({
             setDisplayOptions={setDisplayOptions}
           />
           <PassageBody
+            passageId={passageId || "NEW"}
             passage={passage}
             vocab={lexicon}
             displayOptions={displayOptions}

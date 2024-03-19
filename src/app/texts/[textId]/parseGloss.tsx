@@ -7,7 +7,6 @@ export function parseGloss(glossText: string | null) {
   try {
     return { ok: true, result: parse(glossText) as GlossDocument };
   } catch (e) {
-    console.error("Error parsing gloss", e);
     return { ok: false, result: null, error: e };
   }
 }

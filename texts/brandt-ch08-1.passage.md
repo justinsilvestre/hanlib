@@ -23,8 +23,7 @@ Parents love their children without limit, yet they inflict upon (their) daughte
 Do they not love their daughters? It is because they stick to the old custom.
 
 衛生之道。運動爲上。纏足則艱於行步矣。
-(According to) the principles of hygiene, motion is a most important thing.
-(But) if the feet are bound up, walking is difficult.
+(According to) the principles of hygiene, motion is a most important thing. (But) if the feet are bound up, walking is difficult.
 
 治家之道勤勞爲貴。纏足則憚於操作矣。
 In house-keeping the activity (of the house-wife) is the most precious (quality). (But a woman whose) feet are bound up dislikes to be active.

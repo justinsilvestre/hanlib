@@ -6,9 +6,8 @@
 
 趙且伐燕
 The Intention of the Chao State to attack the State of Yen
-趙且伐燕。蘇代爲燕謂惠王曰。今者臣來。過易水。蚌方出爆而鷸啄其肉。蚌合而箝其喙。
 
-鷸曰。今日不雨。明日不雨。即有死蚝。
+趙且伐燕。蘇代爲燕謂惠王曰。今者臣來。過易水。蚌方出爆而鷸啄其肉。蚌合而箝其喙。鷸曰。今日不雨。明日不雨。即有死蚝。
 The Chao State was going to attack the Yen State. Su-tai on behalf of Yen said to prince Hui, "To-day, when coming (here), I crossed the river I, and saw an oyster which had just come out to warm itself in the sun. A kingfisher pecked at it (lit. its flesh). The oyster closed up its shell and jammed its beak.
 
 蚌亦謂鷸曰。今日不出。明日不出。即有死鷸。

@@ -31,6 +31,7 @@ export default function TextPage({
         setDisplayOptions={setDisplayOptions}
       />
       <PassageBody
+        passageId={passageId}
         passage={passage}
         vocab={vocab}
         displayOptions={displayOptions}

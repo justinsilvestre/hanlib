@@ -1,7 +1,6 @@
 // https://nk2028.shn.hk/qieyun-js/classes/____.html
 
 import { initialGroups, getInitialGroup } from "./QysInitial";
-import { Kaihe, QysSyllableProfile } from "./QysSyllableProfile";
 import { QysTranscriptionProfile } from "./QysTranscriptionProfile";
 
 function changeRuShengCoda(isRuSheng: boolean, final: string) {

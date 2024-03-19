@@ -7,8 +7,7 @@
 晏嬰便楚
 Yen-ying goes as Envoy to the Ch'u State
 
-晏子使楚。晏子短。楚人爲小門於大。門之側。而延晏子。晏子不入。
-曰。
+晏子使楚。晏子短。楚人爲小門於大。門之側。而延晏子。晏子不入。曰。
 Yen-tzu was sent as envoy to the Ch'u State. He was (very) short. The people of Ch'u had erected a small door beside the big gate, and asked Yen-tzu (to pass through it). But Yen-tzu refused to do it (lit. did not enter).
 
 使至狗國者。從狗門入。今臣使楚。不當從此門。

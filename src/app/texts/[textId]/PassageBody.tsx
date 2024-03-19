@@ -8,11 +8,13 @@ import { GlossDocument, TranslationElement } from "@/app/glossUtils";
 import { PassageNotes } from "./PassageNotes";
 
 export function PassageBody({
+  passageId: passageId,
   passage,
   vocab,
   displayOptions,
 }: {
   passage: Passage;
+  passageId: string;
   vocab: PassageVocab;
   displayOptions: DisplayOptions;
 }) {
@@ -42,6 +44,12 @@ export function PassageBody({
           const glossText = line.gloss?.replaceAll(/^`|`$/g, "") || null;
 
           const gloss = parseGloss(glossText);
+          if (!gloss.ok)
+            console.error(
+              `Error parsing gloss for ${passageId} line ${lineIndex + 1}`,
+              gloss.error
+            );
+
           const glossComponents = gloss.result?.getTermComponents();
           let charactersProcessed = 0;
           const chineseSegments = line.chinese
