@@ -20,7 +20,6 @@ Kao-ch'iung (began) to argue with him (very) hotly. The prime minister Feng-chen
 "You have secured the office of minister by (your) essays", replied Kao-ch'iung angrily, "now, when there are so many enemies (lit. mounted brigands), you blame me for lack of etiquette.
 
 君何不賦詩一章。以退虜耶。馮拯語塞。
-
 Why (then) do you not compose some (lit. a piece） verses in order to rout them?"
 
 眞宗乃從瓊言。

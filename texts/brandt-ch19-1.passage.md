@@ -49,7 +49,7 @@ Yü held the candle in his hand till dawn, and then he realized that the demons 
 次日偏告交知。與共詣卜所。
 The next day Yü told the story to all his friends and went with them to the diviner's house.
 
-ト人遙見公。瞥不可見。
+卜人遙見公。瞥不可見。
 The latter saw him coming from a distance and made himself invisible.
 
 或曰。此翳形術也。犬血可破。
@@ -61,7 +61,7 @@ Yü accordingly procured some dog's blood and went back (to the diviner's house)
 卜人又匿如前。急以犬血沃立處。
 Again the diviner disappeared as before, but Yü scattered the blood on the place where he had been standing.
 
-但見ト人頭面。皆爲犬血模糊。目灼灼如鬼立。
+但見卜人頭面。皆爲犬血模糊。目灼灼如鬼立。
 The diviner's head and face appeared blurred with blood, his eyes glaring like a demon's.
 
 乃執付有司而殺之。
