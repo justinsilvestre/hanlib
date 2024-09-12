@@ -176,7 +176,7 @@ export function PassageDisplayOptionsForm({
             name="qieyun"
             id="qieyun-decorated-onyomi"
             value="decorated-onyomi"
-            checked={displayOptions.qieyun === "decorated-onyomi"}
+            checked={!displayOptions.qieyun || displayOptions.qieyun === "decorated-onyomi"}
             onChange={() =>
               setDisplayOptions((opts) => ({
                 ...opts,
@@ -250,7 +250,7 @@ export function PassageDisplayOptionsForm({
 }
 
 export function useDisplayOptions() {
-  const [displayOptions, setDisplayOptions] = useState<DisplayOptions>(() => {
+  const [displayOptions, setDisplayOptions] = useState<DisplayOptions>((): DisplayOptions => {
     const storedString =
       globalThis.window && localStorage.getItem("displayOptions");
     const parsed = storedString ? JSON.parse(storedString) : null;
@@ -258,9 +258,10 @@ export function useDisplayOptions() {
       return parsed;
     }
     return {
-      ruby: "vi",
+      ruby: "pinyin",
       translation: "gloss",
       version: LATEST_DISPLAY_OPTIONS_VERSION,
+      qieyun: "decorated-onyomi"
     };
   });
   const initialized = useRef(false);
