@@ -23,7 +23,6 @@ A Telegram from Mr. Hu-wei-te, the Chinese Minister at Paris, to the Ministry of
 Your telegram of the 29th regarding the Tariff question was noted.
 
 面商外部。切請按約速議。告以如法能先他國開議。方見格外交誼。豈可藉此。別有要求。
-
 In my interview with the French Minister of Foreign Affairs I earnestly requested him to consent to the negotiations in accordance with treaty stipulations as soon as possible, stating that if France should begin negotiations with China ahead of all the other Powers, she would show her special friendship towards China, and she should not (lit. how could she) take this as an excuse for extra demands.
 
 伊稱伊必竭力贊成。但焙欸未結。恐被議院詰問。

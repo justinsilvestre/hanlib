@@ -27,7 +27,7 @@ If you know how to make pull requests Git/GitHub, you are welcome to make your c
 ## remaining tasks
 
 ```
-progress: 302 / 1310 tasks complete (~23%)
+progress: 359 / 1310 tasks complete (~27%)
 [============                                      ]
 ```
 
@@ -478,7 +478,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 9, Text 2
   - transcribe content
@@ -495,7 +495,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 9, Text 3
   - transcribe content
@@ -512,7 +512,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 10, Text 1
   - transcribe content
@@ -529,7 +529,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 10, Text 2
   - transcribe content
@@ -546,7 +546,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 10, Text 3
   - transcribe content
@@ -563,7 +563,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 11, Text 1
   - transcribe content
@@ -579,7 +579,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 11, Text 2
   - transcribe content
@@ -595,7 +595,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 11, Text 3
   - transcribe content
@@ -611,7 +611,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 12, Text 1
   - transcribe content
@@ -627,7 +627,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 12, Text 2
   - transcribe content
@@ -643,7 +643,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 12, Text 3
   - transcribe content
@@ -659,7 +659,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 12, Text 4
   - transcribe content
@@ -675,7 +675,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 13, Text 1
   - transcribe content
@@ -691,7 +691,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 13, Text 2
   - transcribe content
@@ -707,7 +707,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 13, Text 3
   - transcribe content
@@ -723,7 +723,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 13, Text 4
   - transcribe content
@@ -739,7 +739,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 14, Text 1
   - transcribe content
@@ -755,7 +755,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 14, Text 2
   - transcribe content
@@ -771,7 +771,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 14, Text 3
   - transcribe content
@@ -787,7 +787,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 14, Text 4
   - transcribe content
@@ -803,7 +803,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 15, Text 1
   - transcribe content
@@ -819,7 +819,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 15, Text 2
   - transcribe content
@@ -835,7 +835,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 15, Text 3
   - transcribe content
@@ -851,7 +851,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 16, Text 1
   - transcribe content
@@ -867,7 +867,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 16, Text 2
   - transcribe content
@@ -883,7 +883,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 16, Text 3
   - transcribe content
@@ -899,7 +899,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 17, Text 1
   - transcribe content
@@ -915,7 +915,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 17, Text 2
   - transcribe content
@@ -931,7 +931,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 17, Text 3
   - transcribe content
@@ -947,7 +947,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 18, Text 1
   - transcribe content
@@ -963,7 +963,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 18, Text 2
   - transcribe content
@@ -979,7 +979,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 18, Text 3
   - transcribe content
@@ -995,7 +995,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 19, Text 1
   - transcribe content
@@ -1011,7 +1011,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 19, Text 2
   - transcribe content
@@ -1027,7 +1027,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 19, Text 3
   - transcribe content
@@ -1043,7 +1043,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 20, Text 1
   - transcribe content
@@ -1059,7 +1059,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 20, Text 2
   - transcribe content
@@ -1075,7 +1075,7 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 20, Text 3
   - transcribe content
@@ -1091,103 +1091,103 @@ progress: 302 / 1310 tasks complete (~23%)
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 21, Text 1
   - transcribe content
-    - [ ] use OCR on text
+    - [x] use OCR on text
     - [ ] proofread OCR results
     - [ ] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
-    - [ ] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
+    - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
     - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 21, Text 2
   - transcribe content
-    - [ ] use OCR on text
+    - [x] use OCR on text
     - [ ] proofread OCR results
     - [ ] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
-    - [ ] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
+    - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
     - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 21, Text 3
   - transcribe content
-    - [ ] use OCR on text
+    - [x] use OCR on text
     - [ ] proofread OCR results
     - [ ] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
-    - [ ] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
+    - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
     - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 22, Text 1
   - transcribe content
-    - [ ] use OCR on text
+    - [x] use OCR on text
     - [ ] proofread OCR results
     - [ ] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
-    - [ ] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
+    - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
     - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 22, Text 2
   - transcribe content
-    - [ ] use OCR on text
+    - [x] use OCR on text
     - [ ] proofread OCR results
     - [ ] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
-    - [ ] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
+    - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
     - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 22, Text 3
   - transcribe content
-    - [ ] use OCR on text
+    - [x] use OCR on text
     - [ ] proofread OCR results
     - [ ] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
   - format content
-    - [ ] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
+    - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
     - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Cantonese readings in `.vocab.tsv`
-    - [ ] align transcribed Chinese + English sentences
+    - [x] align transcribed Chinese + English sentences
     - [ ] write Chinese -> English gloss
 - Lesson 23, Text 1
   - transcribe content
