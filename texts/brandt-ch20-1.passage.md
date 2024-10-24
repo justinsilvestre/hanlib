@@ -11,7 +11,6 @@ Strange Stories from the Liao Studio - The Taoist Priest of Lao-shan Mountain.
 In (our) village lived a man named Wang, the seventh son of an old family. From youth he had been interested in Taoism. and hearing that on Lao-shan mountain there were many immortals, he shouldered his pack and set out to make the journey (thither).
 
 登一頂有觀宇。甚幽一道十坐蒲團上。素髮垂頸。而神觀爽邁。
-
 He ascended a peak where there was a secluded monastery. (There he found) sitting on a mat, a monk with long white hair reaching to his neck, a man of very vigorous aspect.
 
 叩而與語。理甚元妙。請師之。
