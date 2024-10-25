@@ -37,10 +37,10 @@ RULES FOR THE APPLICATION OF LAWS (continued).
 Article 18. Guardianship is governed by the national law of the ward. But the guardianship of a foreigner who is domiciled or resident in China and is subject to one of the following conditions is governed by Chinese law:
 
 (一)依其本國法有須置監護人之原因。而無人行監護事務者。
+1\. According to his national law there are reasons necessitating the appointment of a guardian, but there is nobody to exercise the function of guardianship.
 
-1. According to his national law there are reasons necessitating the appointment of a guardian, but there is nobody to exercise the function of guardianship.
-
-(二)在中國受禁治產之宣告者。 2. He is interdicted in China.
+(二)在中國受禁治產之宣告者
+2\. He is interdicted in China.
 
 第十九條。前條之規定於保佐準用之。
 Article 19. The provisions of the last preceding article apply to curatorship.

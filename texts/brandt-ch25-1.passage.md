@@ -50,10 +50,10 @@ flecting that it was a mere trick the magistrate had played on the old woman in 
 Strange Stories from the Liao Studio - The Tiger of Chao-Ch'eng
 
 趙城嫗。年七十餘。止一子。一日入山。爲虎所噬。
-There lived at Chao-ch'eng an old woman more than seventy years of age She had an only son. One day he went up into the mountains and was devoured by a tiger.
+There lived at Chao-ch'eng an old woman more than seventy years of age. She had an only son. One day he went up into the mountains and was devoured by a tiger.
 
 嫗悲痛。幾不欲活。號啼而訴於宰。宰笑曰。虎何可以官法制之乎。
-The sorrow of his mother was so great that she almostwished to die (lit. did not wish to live). Weeping and wailing she (went) to the local district magistrate and brought an accusation (against the tiger). The magistrate laughed and said, "How could a tiger be controlled by the law!"
+The sorrow of his mother was so great that she almost wished to die (lit. did not wish to live). Weeping and wailing she (went) to the local district magistrate and brought an accusation (against the tiger). The magistrate laughed and said, "How could a tiger be controlled by the law!"
 
 嫗愈號跳不能制止。率叱之。亦不畏懼。又憐其老。不忍加威怒。遂諾爲捉虎。
 But the old woman went on weeping and it was impossible to stop (her lamentations). The magistrate hooted at her, but she did not pay any attention (lit. was not afraid). Then the magistrate in compassion for her great age did not wish to intimidate her and promised her to have the tiger arrested.

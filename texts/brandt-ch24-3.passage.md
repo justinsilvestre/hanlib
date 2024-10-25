@@ -164,125 +164,183 @@ The philosopher (7) Kao said, "(Man's) nature is like a stream of water. Open a 
 ---
 
 ① 於同治三年。
-② 於彼時。
-③ 於今。
-④ 於進口之時。
-⑤ 於是日。
-⑥ 於斯三者何先。
-⑦ 於該處。
-⑧ 於稅餉無甚出入。
-⑨ 於商人有便。
-⑩ 不求於人。
-⑪ 問於我。
-⑫ 異於常年。
-⑬ 無異於良民。
-⑭ 難於虛始。易於圖終。
-⑮ 易於上岸。
-⑯ 不足於耕。
-⑰ 死之於刀。
-⑱ 無常職。而賜於上者。以爲不恭也。
-⑲ 水高於岸。
-⑳ 莫大於天。
-㉑ 生亦我所欲。所欲有甚於生者。故不爲苟得也。
-㉒ 爲人所知。
-㉓ 爲火所燬。
-㉔ 爲捕役執去。
-㉕ 爲今之計。
-㉖ 爲國致命。
-㉗ 爲人爲。
-㉘ 非夫人之爲慟。而誰爲。
-㉙ 自古至今。
-㉚ 自今日起。
-㉛ 自始至終。
-㉜ 此人來自內地。
-㉝ 自接函之時。
-㉞ 從今而後。
-㉟ 病從口入。
-㊱ 自頭至尾。
-㊲ 諸將皆從壁上觀。
-㊳ 自淺入深。
-㊴ 由此門進。
-㊵ 子日。誰能出不由戶何。何莫由斯道也。
-㊶ 由水道。
-㊷ 由陸路。
-㊸ 由天而降。
-㊹ 不由人算。
-㊺ 由領事官筋該商。
-㊻ 遇諸路。
-㊼ 子貢曰。我不欲人之加諸我也。吾亦欲無加諸人。
-㊽ 告諸其父。
-㊾ 吾聞諸夫子。
-㊿ 有不知問諸人。
-51 子曰。君子求諸己。小人求諸人。
-52 告子曰。性猶湍水也。决諸東方。則東流。决諸西方則西流。
-53 吾一日長乎爾。
-54 不敬。莫大平是。
-55 在乎彼。
-56 合乎此。
-57 異平此。
-58 我在此。
-59 罪不在我。
-60 懷恨在心。
+In the 3rd year of T'ung-chih.
 
-1. In the 3rd year of T'ung-chih.
-2. At that time.
-3. At present.
-4. At the time of entering the port.
-5. On that day.
-6. Which is the first of these three?
-7. At the said place.
-8. It makes no great difference in the revenue.
-9. Convenient for merchants.
-10. Not to ask from others.
-11. (He) learned (it) from me.
-12. Different from ordinary years.
-13. Not to be distinguished from respectable citizens.
-14. It is difficult to make arrangements for the beginning. It is easy to make plans for the completion.
-15. Easy to land.
-16. Not sufficient for cultivation.
-17. Killed him with a sword.
-18. He who without a regular office receives the pay of the prince must be deemed disrespectful.
-19. The water is higher than the bank.
-20. There is nothing greater than God.
-21. I also like life, but there is that which I like more than life, and therefore I will not seek to possess it by any improper way.
-22. To be known by others.
-23. Destroyed by fire.
-24. Arrested by constables.
-25. A plan for the present juncture.
-26. To die for one's country.
-27. To act on behalf of others.
-28. If I am not to mourn for this man, from whom should I mourn?
-29. From of old until now.
-30. Beginning from to-day.
-31. From beginning to end.
-32. This man comes from the interior.
-33. Ever since the receipt of the letter.
-34. Henceforth.
-35. Disease enters by the mouth.
-36. From first to last.
-37. All generals were looking from the wall.
-38. From shallow to deep.
-39. Go in by this door.
-40. The Master said, "Who can go out but by the door? How is it that (men) will not walk according to these ways?"
-41. By water.
-42. By land.
-43. To come down from heaven.
-44. Not within the calculations of mortals.
-45. The consul instructed the said merchant.
-46. To meet on the road.
-47. Tzu-kung said, "What I do not wish men to do to me, I also do not wish to do to men."
-48. Told (it) to his father.
-49. I heard (this) from our Master.
-50. If you do not know, ask others.
-51. The Master said, "The superior man seeks from himself; the mean man seeks from others."
-52. The philosopher Kao said, "(Man's) nature is like a stream of water. Open a passage for it to the east, and it will flow to the east; open a passage for it to the west, and it will flow to the west."
-53. I am a day older than you.
-54. There is nothing worse than irreverence (lit. irreverence--there is nothing worse than that).
-55. It consists in that.
-56. Agreeing with this.
-57. Differing from this.
-58. I am here.
-59. It is not my fault.
-60. To harbor resentment in one's heart.
+② 於彼時。
+At that time.
+
+③ 於今。
+At present.
+
+④ 於進口之時。
+At the time of entering the port.
+
+⑤ 於是日。
+On that day.
+
+⑥ 於斯三者何先。
+Which is the first of these three?
+
+⑦ 於該處。
+At the said place.
+
+⑧ 於稅餉無甚出入。
+It makes no great difference in the revenue.
+
+⑨ 於商人有便。
+Convenient for merchants.
+
+⑩ 不求於人。
+Not to ask from others.
+
+⑪ 問於我。
+(He) learned (it) from me.
+
+⑫ 異於常年。
+Different from ordinary years.
+
+⑬ 無異於良民。
+Not to be distinguished from respectable citizens.
+
+⑭ 難於虛始。易於圖終。
+It is difficult to make arrangements for the beginning. It is easy to make plans for the completion.
+
+⑮ 易於上岸。
+Easy to land.
+
+⑯ 不足於耕。
+Not sufficient for cultivation.
+
+⑰ 死之於刀。
+Killed him with a sword.
+
+⑱ 無常職。而賜於上者。以爲不恭也。
+He who without a regular office receives the pay of the prince must be deemed disrespectful.
+
+⑲ 水高於岸。
+The water is higher than the bank.
+
+⑳ 莫大於天。
+There is nothing greater than God.
+
+㉑ 生亦我所欲。所欲有甚於生者。故不爲苟得也。
+I also like life, but there is that which I like more than life, and therefore I will not seek to possess it by any improper way.
+
+㉒ 爲人所知。
+To be known by others.
+
+㉓ 爲火所燬。
+Destroyed by fire.
+
+㉔ 爲捕役執去。
+Arrested by constables.
+
+㉕ 爲今之計。
+A plan for the present juncture.
+
+㉖ 爲國致命。
+To die for one's country.
+
+㉗ 爲人爲。
+To act on behalf of others.
+
+㉘ 非夫人之爲慟。而誰爲。
+If I am not to mourn for this man, from whom should I mourn?
+
+㉙ 自古至今。
+From of old until now.
+
+㉚ 自今日起。
+Beginning from today.
+
+㉛ 自始至終。
+From beginning to end.
+
+㉜ 此人來自內地。
+This man comes from the interior.
+
+㉝ 自接函之時。
+Ever since the receipt of the letter.
+
+㉞ 從今而後。
+Henceforth.
+
+㉟ 病從口入。
+Disease enters by the mouth.
+
+㊱ 自頭至尾。
+From first to last.
+
+㊲ 諸將皆從壁上觀。
+All generals were looking from the wall.
+
+㊳ 自淺入深。
+From shallow to deep.
+
+㊴ 由此門進。
+Go in by this door.
+
+㊵ 子曰。誰能出不由戶何。何莫由斯道也。
+The Master said, "Who can go out but by the door? How is it that (men) will not walk according to these ways?"
+
+㊶ 由水道。
+By water.
+
+㊷ 由陸路。
+By land.
+
+㊸ 由天而降。
+To come down from heaven.
+
+㊹ 不由人算。
+Not within the calculations of mortals.
+
+㊺ 由領事官筋該商。
+The consul instructed the said merchant.
+
+㊻ 遇諸路。
+To meet on the road.
+
+㊼ 子貢曰。我不欲人之加諸我也。吾亦欲無加諸人。
+Tzu-kung said, "What I do not wish men to do to me, I also do not wish to do to men."
+
+㊽ 告諸其父。
+Told (it) to his father.
+
+㊾ 吾聞諸夫子。
+I heard (this) from our Master.
+
+㊿ 有不知問諸人。
+If you do not know, ask others.
+
+51 子曰。君子求諸己。小人求諸人。
+The Master said, "The superior man seeks from himself; the mean man seeks from others."
+
+52 告子曰。性猶湍水也。决諸東方。則東流。决諸西方則西流。
+The philosopher Kao said, "(Man's) nature is like a stream of water. Open a passage for it to the east, and it will flow to the east; open a passage for it to the west, and it will flow to the west."
+
+53 吾一日長乎爾。
+I am a day older than you.
+
+54 不敬。莫大平是。
+There is nothing worse than irreverence (lit. irreverence—-there is nothing worse than that).
+
+55 在乎彼。
+It consists in that.
+
+56 合乎此。
+Agreeing with this.
+
+57 異平此。
+Differing from this.
+
+58 我在此。
+I am here.
+
+59 罪不在我。
+It is not my fault.
+
+60 懷恨在心。
+To harbor resentment in one's heart.
 
 ---

@@ -72,10 +72,10 @@ Sung said, "The provincial examiner has not yet arrived. Why should I hurry to b
 The messenger did not reply, but pressed him (to go).
 
 公力疾乘馬從去。路甚生疏。至一城郭。如王者都。
-Sung overcame his sickness, got on the horse and followed after. The road was quite strange. They reached a city resembling the capital of a prince.
+Sung overcame his sickness, got on the horse, and followed after. The road was quite strange. They reached a city resembling the capital of a prince.
 
 移時入府廨。宮室壯麗。上坐十餘官。都不知何人。惟關壯繆可識。
-They shortly entered a palace the buildings of which were very beautiful and imposing. Ten or more officials were seated at the upper end, all strangers to him, except Kuan-Chuang-mu whom he recognized.
+They shortly entered a palace, the buildings of which were very beautiful and imposing. Ten or more officials were seated at the upper end, all strangers to him, except Kuan-Chuang-mu whom he recognized.
 
 簷下設几墩各二。先有一秀才坐其末。公便與連肩。
 Below, under the eaves, were put two tables and two chairs. There was a graduate already seated at the end. Sung then sat down shoulder to shoulder with him.
@@ -87,7 +87,7 @@ Writing materials were prepared on the tables, and a piece of paper with a theme
 "One man; two men. With intention; without intention."
 
 二公文成。呈殿上。公文中有云。
-When they both finished their essays, they passed them up. In Sung's essay there was the following passage.
+When they both finished their essays, they passed them up. In Sung's essay, there was the following passage.
 
 有心爲善。雖善不賞。無心爲惡。雖惡不罰。
 "For intended good, although it is good, there is no reward. For unintended wrong, although it is wrong, there is no punishment."
