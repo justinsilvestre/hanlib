@@ -62,7 +62,7 @@ Strange Stories from the Liao Studio - Examination for the Post of Guardian God
 予姊夫之祖。宋公。諱羲。邑廪生。
 My eldest sister's husband's grandfather, the late Mr. Sung-Tao, was a salaried licentiate in (our) city.
 
-一日病臥。見吏持牒。牽日顚馬來云。請赴試。
+一日病臥。見吏持牒。牽白顚馬來云。請赴試。
 One day while lying ill, he saw an official servant with a document, leading a horse with a white forehead, approach him with a message that he was summoned to the examination.
 
 公言文宗未臨。何遽得考。

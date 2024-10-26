@@ -13,7 +13,7 @@ In the time of the Sung emperor, Chen-tsung, the Kitans attacked (lit. entered t
 瓊爭之甚力。時宰臣馮拯。在旁呵之曰。
 Kao-ch'iung (began) to argue with him (very) hotly. The prime minister Feng-cheng, who was standing beside (him), shouted at him:
 
-高瓊何得無理。
+高瓊何得無禮。
 "Kao-ch'iung, how dare you disregard all etiquette!"
 
 瓊怒曰。君以文章爲大臣。今虜騎充斥如此。猶責瓊無禮。

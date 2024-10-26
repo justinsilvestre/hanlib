@@ -35,7 +35,7 @@ Article 14. The essentials of adoption are governed by the respective laws of th
 養子之效力。依養父母之本國法。
 The effect of adoption is governed by the national law of the adopting parents.
 
-第十五條。父母與子之法律關係。係依父之本國法。無父者依母之本國法。
+第十五條。父母與子之法律關係。依父之本國法。無父者依母之本國法。
 The legal relations between parents and child are governed by the national law of the father, and, if it has no father, by the national law of the mother.
 
 第十六條。扶養之義務。依扶養義務者之本國法。但扶養權利之請求。爲中國法所不許者不在此限。

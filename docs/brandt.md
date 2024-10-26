@@ -24,6 +24,111 @@ Please have a look below to see what tasks are remaining. The bulk of the work i
 The next biggest task is **formatting the content**. The lesson pages [like this](https://justinsilvestre.github.io/hanlib/texts/brandt-ch01-1) are generated automatically using specially formatted text files (for the [main lesson text/notes](../texts/brandt-ch01-1.passage.md) and [the vocabulary sections](../texts/brandt-ch01-1.vocab.tsv))
 If you know how to make pull requests Git/GitHub, you are welcome to make your contribution via a pull request. Otherwise, feel free to send me an email with any new/updated files at justinsilvestre AT gmail DOT com. Don't forget to include the name you would like me to use in order to give you proper credit. I will try to integrate your changes next time I am free.
 
+## table of contents for the book
+
+Mainly for tracking errata incorporation.
+
+- p. 1 - Text 1.1
+- p. 7 - Text 1.2
+- p. 10 - Text 1.3
+- p. 14 - Text 2.1
+- p. 18 - Text 2.2
+- p. 22 - Text 2.3
+- p. 26 - Text 3.1
+- p. 30 - Text 3.2
+- p. 36 - Text 3.3
+- p. 38 - Text 4.1
+- p. 43 - Text 4.2
+- p. 46 - Text 4.3
+- p. 50 - Text 5.1
+- p. 55 - Text 5.2
+- p. 59 - Text 5.3
+- p. 63 - Text 6.1
+- p. 68 - Text 6.2
+- p. 71 - Text 6.3
+- p. 74 - Text 7.1
+- p. 77 - Text 7.2
+- p. 81 - Text 7.3
+- p. 86 - Text 8.1
+- p. 92 - Text 8.2
+- p. 97 - Text 8.3
+- p. 101 - Text 9.1
+- p. 107 - Text 9.2
+- p. 111 - Text 9.3
+- p. 114 - Text 10.1
+- p. 118 - Text 10.2
+- p. 122 - Text 10.3
+- p. 126 - Text 11.1
+- p. 130 - Text 11.2
+- p. 134 - Text 11.3
+- p. 140 - Text 12.1
+- p. 143 - Text 12.2
+- p. 149 - Text 12.3
+- p. 152 - Text 12.4
+- p. 155 - Text 13.1
+- p. 160 - Text 13.2
+- p. 163 - Text 13.3
+- p. 166 - Text 13.4
+- p. 169 - Text 14.1
+- p. 172 - Text 14.2
+- p. 176 - Text 14.3
+- p. 179 - Text 14.4
+- p. 181 - Text 15.1
+- p. 186 - Text 15.2
+- p. 190 - Text 15.3
+- p. 193 - Text 16.1
+- p. 196 - Text 16.2
+- p. 200 - Text 16.3
+- p. 204 - Text 17.1
+- p. 207 - Text 17.2
+- p. 211 - Text 17.3
+- p. 217 - Text 18.1
+- p. 220 - Text 18.2
+- p. 224 - Text 18.3
+- p. 229 - Text 19.1
+- p. 233 - Text 19.2
+- p. 236 - Text 19.3
+- p. 238 - Text 20.1
+- p. 243 - Text 20.2
+- p. 245 - Text 20.3
+- p. 248 - Text 21.1
+- p. 252 - Text 21.2
+- p. 255 - Text 21.3
+- p. 262 - Text 22.1
+- p. 265 - Text 22.2
+- p. 267 - Text 22.3
+- p. 272 - Text 23.1
+- p. 275 - Text 23.2
+- p. 277 - Text 23.3
+- p. 284 - Text 24.1
+- p. 289 - Text 24.2
+- p. 291 - Text 24.3
+- p. 298 - Text 25.1
+- p. 301 - Text 25.2
+- p. 304 - Text 25.3
+- p. 309 - Text 26.1
+- p. 313 - Text 26.2
+- p. 316 - Text 26.3
+- p. 325 - Text 27.1
+- p. 328 - Text 27.2
+- p. 338 - Text 27.3
+- p. 344 - Text 28.1
+- p. 347 - Text 28.2
+- p. 352 - Text 28.3
+-
+
+Errata in Texts sections not yet incorporated:
+
+- p. 374, 1st line 出步 should be 初步
+- p. 389, 2nd line 己 should be 已
+- p. 397, 2nd line 己...己 should be 已...已
+- p. 412, 4th line 主議 should be 主義
+- p. 440, (ー八) should be 元
+
+In translations:
+
+- p. 400, 17th line from below, factious -> factitious
+
 ## remaining tasks
 
 ```

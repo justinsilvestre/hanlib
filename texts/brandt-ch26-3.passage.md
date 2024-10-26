@@ -129,7 +129,7 @@ The particle `以` is used in the following senses:
 18. Or (ex. 55).
 19. Being joined with the expressions of place and time forms compound expressions, like: `以上`, `以下`, `以往`, `以後`, `以來`, `以內`, `以外`, (ex. 56, 57, 58, 59, 60).
 
-#### Examples of using the particle `以`
+##### Examples of using the particle `以`
 
 ---
 
@@ -262,7 +262,7 @@ Observe what he does and mark his motives.
 ㊸ 一朝之忿。忘其身以及其親。非惑與。
 For a morning's anger to disregard one's own life and so involve that of his parents,--is not this a case of delusion?
 
-㊹ 其以人也。發憤忘食。樂以忘憂。
+㊹ 其爲人也。發憤忘食。樂以忘憂。
 He is a man, who in his eager pursuit (of knowledge) forgets his food and so rejoices at (its attainment) that he forgets his sorrows.
 
 ㊺ 以致如此。
