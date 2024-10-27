@@ -115,19 +115,37 @@ Mainly for tracking errata incorporation.
 - p. 344 - Text 28.1
 - p. 347 - Text 28.2
 - p. 352 - Text 28.3
--
-
-Errata in Texts sections not yet incorporated:
-
-- p. 374, 1st line 出步 should be 初步
-- p. 389, 2nd line 己 should be 已
-- p. 397, 2nd line 己...己 should be 已...已
-- p. 412, 4th line 主議 should be 主義
-- p. 440, (ー八) should be 元
-
-In translations:
-
-- p. 400, 17th line from below, factious -> factitious
+- p. 358 - Text 29.1
+- p. 361 - Text 29.2
+- p. 364 - Text 29.3
+- p. 368 - Text 30.1
+- p. 371 - Text 30.2
+- p. 374 - Text 31.1
+  - p. 374, 1st line 出步 should be 初步
+- p. 377 - Text 31.2
+- p. 382 - Text 32.1
+- p. 385 - Text 32.2
+- p. 389 - Text 33.1
+  - p. 389, 2nd line 己 should be 已
+- p. 393 - Text 33.2
+- p. 397 - Text 34.1
+  - p. 397, 2nd line 己...己 should be 已...已
+  - p. 400, 17th line from below, factious -> factitious
+- p. 402 - Text 34.2
+- p. 405 - Text 35.1
+- p. 407 - Text 35.2
+- p. 412 - Text 36.1
+  - p. 412, 4th line 主議 should be 主義
+- p. 415 - Text 36.2
+- p. 418 - Text 37.1
+- p. 421 - Text 37.2
+- p. 424 - Text 38.1
+- p. 426 - Text 38.2
+- p. 430 - Text 39.1
+- p. 434 - Text 39.2
+- p. 440 - Text 40.1
+  - p. 440, (ー八) should be 元
+- p. 444 - Text 40.2
 
 ## remaining tasks
 

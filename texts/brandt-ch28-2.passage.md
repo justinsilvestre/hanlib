@@ -74,6 +74,6 @@ When we meet, we can talk more. I think of you fondly as I write this.
 Additionally, I hope you will forgive me. I shall be most grateful.
 
 弟某某鞠躬
-Your little brother, So-And-So, bows to you.
+I, So-And-So, bow to you.
 
 ---
