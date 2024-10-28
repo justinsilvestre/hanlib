@@ -43,7 +43,7 @@ At first I did not believe but now I know it.
 ⑧ 經目之事猶恐未真
 Things which have passed before the eyes, one still fears that they are not true.
 
-⑨ 寡人之園方四十里。民猶以爲大。何也。
+⑨ 寡人之囿方四十里。民猶以爲大。何也。
 My park contains (only) forty square "li", and people still look on it as large. How is this?
 
 ⑩ 天作孽猶可違。自作孽不可活。
@@ -52,7 +52,7 @@ When Heaven sends down calamities, it it still possible to escape them. When we 
 ⑪ 明知故犯
 To be quite aware (of what one is doing) and yet to commit crime.
 
-⑫ 故蹈前徹
+⑫ 故蹈前轍
 Still to walk in the old ways (of wickedness).
 
 ⑬ 有酒食先生饌。會是以爲孝乎。

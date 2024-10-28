@@ -16,7 +16,7 @@ If the limbs are hurt, (the man) gets sick. Crippled and sick men inspire genera
 故有戕人之肢體者。衆必斥之。法必刑之。惡其不仁耳。
 Therefore those who hurt the limbs of men must be blamed by everybody and punished by the law for (lit. loathing) their cruelty.
 
-父母愛子。無所不至。万以纏足之虐。施於女子。便之終身病廢。
+父母愛子。無所不至。乃以纏足之虐。施於女子。便之終身病廢。
 Parents love their children without limit, yet they inflict upon (their) daughters the cruelty of foot-binding, and make them sick and crippled for life.
 
 豈不愛其女哉。亦狃於世俗之故耳。
