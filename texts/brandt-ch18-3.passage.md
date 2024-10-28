@@ -36,7 +36,7 @@ If he goes beyond the limit without reporting, he will be fined fifty taels for 
 ⑥ 此貨如再完半稅卽可運往內地
 If these goods pay a further half duty, they may then be conveyed into the interior.
 
-⑦ 如有不嗜殺人者則天下之民皆引領而望之突
+⑦ 如有不嗜殺人者則天下之民皆引領而望之矣
 If there were one (prince) who did not find pleasure in killing men, all the people in the empire would look towards him eagerly (lit. with outstretched necks).
 
 ⑧ 倘其不願
@@ -63,7 +63,7 @@ If Kuan knew the rules of propriety, who does not know them?
 ⑮ 子日富而可求也難執鞭之士吾亦爲之
 The Master said, "If the search for riches were sure to be successful, though I should become a groom with whip in hand (to get them). I still would try it."
 
-⑯ 子日如有周公之才之美便驕且客其餘不足觀也突
+⑯ 子日如有周公之才之美便驕且客其餘不足觀也矣
 The Master said, "If (a man) have abilities as admirable as those of the duke of Chou, yet if he be proud and niggardly, those other things are not worth being looked at."
 
 ⑰ 使天而雨珠

@@ -28,7 +28,7 @@ That girl is clever and beautiful.
 ④ 學而時習之
 To learn (a thing) and constantly practise it.
 
-⑤ 其意善且深突
+⑤ 其意善且深矣
 This idea is excellent and also profound.
 
 ⑥ 異端如盜賊水火凡盜賊水火害止及身異端之害害及人心

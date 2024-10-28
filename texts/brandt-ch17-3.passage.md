@@ -70,7 +70,7 @@ Not to stop until death (lit. when death comes, then stop).
 ⑱ 方始放心
 Upon which he began to feel at ease in his mind.
 
-⑲ 必須設一善法應可安生突
+⑲ 必須設一善法應可安生矣
 We must devise a good plan, so that we can live in peace.
 
 ⑳ 盜匪無從進步。良民應可安居
@@ -82,7 +82,7 @@ Let Your Majesty cease to lay the blame on the year, and then from all the empir
 ㉒ 子日仁遠平哉我欲仁斯仁至兔
 The Master said, "Is virtue a thing remote? I wish to be virtuous, and then--virtue is at hand".
 
-㉓ 得天下有道得其民斯得天下突
+㉓ 得天下有道得其民斯得天下矣
 There is a way to get the empire,get the people, and then the empire is secured.
 
 ㉔ 舉直錯諸枉則民服
@@ -97,7 +97,7 @@ Take uprightness to be (your) profit, and then your wealth will be always suffic
 ㉗ 日出而作日入而息
 When the sun comes up, to work; when the sun then goes down, then to rest .
 
-㉘ 水火吾見蹈而死者突未見蹈仁而死者也
+㉘ 水火吾見蹈而死者矣未見蹈仁而死者也
 I have seen men die from treading on water and fire (lit. treading on water and fire and then dying), but I have never seen a man die from treading the course of virtue.
 
 ㉙ 士窮不失義達不離道故民不失望

@@ -34,7 +34,7 @@ When it is dusk, then rest.
 ⑥ 子既系而食之
 I had cooked and eaten it.
 
-⑦ 鷄旣嗚究朝既盈突
+⑦ 鷄旣嗚究朝既盈矣
 The cock lhas already crowed, and the Court is already in full swing.
 
 ⑧ 既死不能復生
