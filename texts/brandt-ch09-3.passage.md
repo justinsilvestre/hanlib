@@ -16,7 +16,7 @@ These particles are:
 
 ---
 
-① 不寶遠物。印遠人格。
+① 不寶遠物。卽遠人格。
 Prize not far-fetched commodities (lit. far-off things) and people from remote parts will come (and submit).
 
 ② 無名草木年年發。不信男兒一世窮。

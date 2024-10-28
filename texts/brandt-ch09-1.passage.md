@@ -37,7 +37,7 @@ On account of that all use of machinery (lit. all who use machinery) is dependen
 我國多產煤之地。
 In our country there are many coal fields.
 
-然礦學未興。故開探者尚少。
+然礦學未興。故開採者尚少。
 But our mining is not yet developed, and therefore coal is still worked but little.
 
 夫天然之美利。我不自開。而待人爲我開之。

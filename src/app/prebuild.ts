@@ -94,44 +94,36 @@ async function fillInMissingReadingsInTsvs() {
           en: e.en || null,
           jyutping:
             e.jyutping ||
-            (lexicon[char]
-              ? null
-              : unihanResult?.kCantonese
-                  ?.split(/\s/)
-                  .map((r, _, segments) =>
-                    segments.length > 1
-                      ? `${convertToneNumbersToSuperscript(r)}?`
-                      : convertToneNumbersToSuperscript(r)
-                  )
+            unihanResult?.kCantonese
+              ?.split(/\s/)
+              .map((r, _, segments) =>
+                segments.length > 1
+                  ? `${convertToneNumbersToSuperscript(r)}?`
+                  : convertToneNumbersToSuperscript(r)
+              )
 
-                  .join(", ")) ||
+              .join(", ") ||
             null,
           pinyin:
             e.pinyin ||
-            (lexicon[char]
-              ? null
-              : getMandarinReadings(char, unihanResult)
-                  .map((r, _, segments) => (segments.length > 1 ? `${r}?` : r))
-                  .join(", ")) ||
+            getMandarinReadings(char, unihanResult)
+              .map((r, _, segments) => (segments.length > 1 ? `${r}?` : r))
+              .join(", ") ||
             null,
           vi:
             e.vi ||
-            (lexicon[char]
-              ? null
-              : unihanResult?.kVietnamese
-                  ?.split(/\s/)
-                  .map((r, _, segments) => (segments.length > 1 ? `${r}?` : r))
-                  .join(", ")) ||
+            unihanResult?.kVietnamese
+              ?.split(/\s/)
+              .map((r, _, segments) => (segments.length > 1 ? `${r}?` : r))
+              .join(", ") ||
             null,
           kr:
             e.kr ||
-            (lexicon[char]
-              ? null
-              : unihanResult?.kHangul
-                  ?.split(/\s/)
-                  .map((r) => r.split(":")[0])
-                  .map((r, _, segments) => (segments.length > 1 ? `${r}?` : r))
-                  .join(", ")) ||
+            unihanResult?.kHangul
+              ?.split(/\s/)
+              .map((r) => r.split(":")[0])
+              .map((r, _, segments) => (segments.length > 1 ? `${r}?` : r))
+              .join(", ") ||
             null,
           qieyun:
             e.qieyun ||
