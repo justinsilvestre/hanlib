@@ -22,7 +22,7 @@ Yen-tzu replied," The north wind is violent; the people are in grief and are sta
 嬰聞古之賢君。飽而知人之飢。溫而知人之寒。逸而知人之勞。
 I have heard that the ancient virtuous princes being filled still knew about the people's hunger, being warm still knew about people's cold, being at ease still knew about people's hardships.
 
-今君不知也。失君道突。
+今君不知也。失君道矣。
 And you know nothing about it. (It is evident that) you have lost the ruler's virtue".
 
 公曰善。寡人聞命矣。乃令出裘發粟與飢寒者。
