@@ -22,7 +22,7 @@ A year has barely elapsed.
 ② 僅幸得免
 I have only luckily escaped.
 
-③ 僅足白給
+③ 僅足自給
 Barely enough to support oneself.
 
 ④ 但願如此
@@ -46,7 +46,7 @@ Only do not know.
 ⑩ 惟當如此
 It must only be thus.
 
-⑪ 登惟一人
+⑪ 豈惟一人
 How is it only one person?
 
 ⑫ 惟汝是問

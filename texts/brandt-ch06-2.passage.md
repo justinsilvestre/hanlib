@@ -7,7 +7,7 @@
 雨
 Rain
 
-春雨連綿。浹旬不己。
+春雨連綿。浹旬不已。
 It rained in spring for ten days without interruption.
 
 兒問母曰。雨從何來。
