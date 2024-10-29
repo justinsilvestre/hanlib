@@ -32,7 +32,7 @@ The combinations:
 
 mean: "as compared with... it is better (or 'there is nothing equal' etc.)"
 
-When it is only stated that an object, state or action is more preferable without comparing it with any other, the particles: 不如 不若, 寧, are used. These particles correspond to the English expressions: "better", "it is better".
+When it is only stated that an object, state or action is more preferable without comparing it with any other, the particles: `不如` `不若`, `寧`, are used. These particles correspond to the English expressions: "better", "it is better".
 
 #### Examples of using the comparative particles
 
@@ -45,10 +45,10 @@ The ships built by foreigners are more solid than the Chinese ships (lit. China)
 The timber from the foreign hills is more substantial than (the timber) from the interior.
 
 ③ 漢之爲患較江爲尤甚
-The trouble caused by the Han is still greater (尤芒) than (c) (that caused by) the Yang-tzu (is an expletive).
+The trouble caused by the Han is still greater than (that caused by) the Yang-tzu (is an expletive).
 
 ④ 此時進口之船較之岸邊房屋則高
-At this time the vessels that enter the port are higher than the houses on the banks. (☑ is a sign of the participle),
+At this time the vessels that enter the port are higher than the houses on the banks.
 
 ⑤ 死亦我所惡。所惡有甚於死者。
 I dislike death indeed, but there is that which I dislike more than death.

@@ -12,7 +12,7 @@ Words and set expressions **consisting of multiple characters** are glossed as w
 
 ![alt text](docs/multi_character_word_gloss.png)
 
-This all works through a **domain-specific language** for glossing Chinese texts. It is inspired by the conventions of [*kanbun kundoku*](https://en.wikipedia.org/wiki/Kanbun), a traditional Japanese technique for translating and glossing classical/literary Chinese texts.
+This all works through a **domain-specific language** for glossing Chinese texts. It is inspired by the conventions of [_kanbun kundoku_](https://en.wikipedia.org/wiki/Kanbun), a traditional Japanese technique for translating and glossing classical/literary Chinese texts.
 
 ![demonstrating the gloss-editing UI](docs/editing_source.png)
 
@@ -27,17 +27,17 @@ The current focus is to transcribe + format the content of the 1927 textbook _In
 
 The biggest challenge at the moment is transcribing the portions in mixed Chinese/Latin script. OCR tools can automate some of the process, but not all of it. If you have time, please consider helping out by transcribing the remaining "Vocabulary" and "Notes" chapters listed [here](./docs/brandt.md).
 
-## texts &nbsp;&nbsp;[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+## texts &nbsp;&nbsp;[![CC BY-NC-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 The following license information applies to the texts in the [texts](./texts) folder.
 
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+[![CC BY-NC-SA 4.0][cc-by-sa-image]][cc-by-sa]
 
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 ## development
 

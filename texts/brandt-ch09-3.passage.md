@@ -47,7 +47,7 @@ Do not disobey this proclamation.
 Do not leave cause for regret.
 
 ⑪ 子曰。無欲速。無見小利。
-The Master said," Do not be desirous to have things done quickly, do not look at small advantages.
+The Master said, "Do not be desirous to have things done quickly, do not look at small advantages.
 
 ⑫ 王請無好小勇
 I beg your Majesty not to have small valour.
