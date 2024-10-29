@@ -6,10 +6,10 @@
 
 ### THE ASSIMILATIVE PARTICLES
 
-The assimilative particles indicate the resemblance of one object to another, and are similar to the expressions: like, as, as if, as though, just as, etc。
+The assimilative particles indicate the resemblance of one object to another, and are similar to the expressions: like, as, as if, as though, just as, etc.
 These particles are:
 
-<center>`若` `如` `如。。。然` `猶` `由` `似` `而` `儼如` `儼然` `儼若` `若` `然`</center>
+<center>`若` `如` `如...然` `猶` `由` `似` `而` `儼如` `儼然` `儼若` `若` `然`</center>
 
 #### Examples of using the assimilative particles:
 
