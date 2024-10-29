@@ -8,7 +8,6 @@ A 公使致外交總長函
 A Letter from a Foreign Minister to the Minister of Foreign Affairs.
 
 逕啟者。前經面談各節俱係緊要事件。本公使恐言語之間或有誤會之處茲將。前日互談各事。
-
 The various subjects we discussed together recently, all concerned matters of great importance. I feared lest there might be some misunderstanding in our conversation, and (therefore) have composed a memorandum of the subjects about which we talked.
 
 另繕節略一紙途上。即請貴總長查閱其間。有無舛誤之處即
@@ -24,7 +23,6 @@ A Letter from the Minister of Foreign Affairs to a Foreign Minister.
 I received yesterday your letter, with a memorandum enclosed, with which I have fully acquainted myself. From this it can be seen how zealously Your Excellency performs your business. I cannot find words to express my respect to you.
 
 本總長檢查節略所開。均係前日互談各事。其間並無舛誤之處。
-
 I have examined the memorandum. It contains the questions we discussed several days ago, and I find no mistakes therein.
 
 相應將。節略一張附還。即請貴公使查照可也。此覆即頌時祉。

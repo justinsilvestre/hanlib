@@ -7,11 +7,10 @@
 聊齋誌異 勞山道士
 Strange Stories from the Liao Studio - The Taoist Priest of Lao-shan Mountain.
 
-邑有王生。行七。故家子。少慕道聞山多仙人。負笈往遊。
+邑有王生。行七。故家子。少慕道聞勞山多仙人。負笈往遊。
 In (our) village lived a man named Wang, the seventh son of an old family. From youth he had been interested in Taoism. and hearing that on Lao-shan mountain there were many immortals, he shouldered his pack and set out to make the journey (thither).
 
 登一頂有觀宇。甚幽一道十坐蒲團上。素髮垂頸。而神觀爽邁。
-
 He ascended a peak where there was a secluded monastery. (There he found) sitting on a mat, a monk with long white hair reaching to his neck, a man of very vigorous aspect.
 
 叩而與語。理甚元妙。請師之。
