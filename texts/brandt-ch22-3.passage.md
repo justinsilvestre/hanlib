@@ -18,6 +18,8 @@ These particles are: `與` (or `歟`) `也與` `乎` `乎哉` `哉` `豈`.
 
 ### Examples of using the exclamatory particles:
 
+---
+
 ① 孝弟也者。其爲仁之本與。
 Filial piety and fraternal submission!-are they not the root of all benevolent actions?
 
@@ -98,7 +100,5 @@ How can this be right?
 
 ㉗ 豈不大與。
 Is it not great?
-
----
 
 ---

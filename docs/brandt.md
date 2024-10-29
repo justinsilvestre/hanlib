@@ -150,8 +150,8 @@ Mainly for tracking errata incorporation.
 ## remaining tasks
 
 ```
-total progress: 479 / 1384 tasks complete (~34%)
-[=================                                 ]
+total progress: 535 / 1384 tasks complete (~38%)
+[===================                               ]
 ```
 
 - [x] confirm copyright status of original work (def public domain in US because it was published in 1928) (Feb 9)
@@ -985,7 +985,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1001,7 +1001,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1017,7 +1017,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1033,7 +1033,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1049,7 +1049,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1065,7 +1065,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1081,7 +1081,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1097,7 +1097,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1113,7 +1113,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1129,7 +1129,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1145,7 +1145,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1161,7 +1161,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1177,7 +1177,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1193,7 +1193,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1209,7 +1209,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1225,7 +1225,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1241,7 +1241,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1257,7 +1257,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1273,7 +1273,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1289,7 +1289,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1305,7 +1305,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1321,7 +1321,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1337,7 +1337,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1353,7 +1353,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1369,7 +1369,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1385,7 +1385,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1401,7 +1401,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1417,7 +1417,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1433,7 +1433,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1449,7 +1449,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1465,7 +1465,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1481,7 +1481,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1497,7 +1497,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1513,7 +1513,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1529,7 +1529,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1545,7 +1545,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1561,7 +1561,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1577,7 +1577,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1593,7 +1593,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1609,7 +1609,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1625,7 +1625,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1641,7 +1641,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1657,7 +1657,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1673,7 +1673,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1689,7 +1689,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1705,7 +1705,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1721,7 +1721,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1737,7 +1737,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1753,7 +1753,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1769,7 +1769,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1785,7 +1785,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1801,7 +1801,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1817,7 +1817,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1833,7 +1833,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1849,7 +1849,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`
@@ -1865,7 +1865,7 @@ total progress: 479 / 1384 tasks complete (~34%)
     - [ ] proofread
   - format content
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
-    - [ ] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
+    - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
   - add content
     - [ ] check/proofread/fill in missing Mandarin pinyin readings in `.vocab.tsv`
     - [ ] check/proofread/fill in missing Vietnamese readings in `.vocab.tsv`

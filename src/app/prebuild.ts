@@ -39,6 +39,13 @@ fillInMissingReadingsInTsvs().then(() => {
   console.log(`Wrote lexicon to ${lexiconFilePath}`);
   writePassageVocabularyJsons(lexicon);
   console.log(`Done writing vocab jsons`);
+  const termsCount = Object.keys(lexicon).length;
+  const charactersCount = Object.keys(lexicon).reduce(
+    (count, term) => count + (term.length === 1 ? 1 : 0),
+    0
+  );
+  console.log(`Total terms: ${termsCount}`);
+  console.log(`Total characters: ${charactersCount}`);
 });
 
 function aggregateVocabulary() {
