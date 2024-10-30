@@ -12,7 +12,7 @@ President Ts'ao-Ku'n's Telegram of Resignation
 公鑒。
 To the Peking Cabinet of the 10th month, 13th year of the Republic, to the Senate and the House of Representatives, to high military and civil authorities of all provinces and special administrative areas, to all provincial assemblies, to all legal organizations and all newspapers for information of all citizens:
 
-錕泰膺重托。德薄能鲜。致令部曲橋貳紀綱失墜。
+錕泰膺重托。德薄能鮮。致令部曲橋貳紀綱失墜。
 I, K'un, was entrusted with the heavy burden (of the presidency). My virtue and ability however were so poor that a conflict among my followers broke out and all laws became ineffective (lit. fell down).
 
 十三年十月二十三日。馮玉祥倒戈。錕受閉錮。
@@ -36,7 +36,7 @@ I earnestly hope that all my former colleagues will do their utmost to bring abo
 錕優遊林下。獲睹承平。欣幸曷極。
 And in the quietness and freedom of my private life I will be able to witness peaceful times which will be for me the highest happiness.
 
-特電佈達。願共察之。曹锟。
+特電佈達。願共察之。曹錕。
 I specially send forth this telegram for general information. Ts'ao-Ku'n.
 
 ---
