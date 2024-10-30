@@ -150,8 +150,8 @@ Mainly for tracking errata incorporation.
 ## remaining tasks
 
 ```
-total progress: 535 / 1384 tasks complete (~38%)
-[===================                               ]
+total progress: 561 / 1384 tasks complete (~40%)
+[====================                              ]
 ```
 
 - [x] confirm copyright status of original work (def public domain in US because it was published in 1928) (Feb 9)
