@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "prebuild": "ts-node --project ./tsconfig.scripts.json ./src/app/prebuild.ts",
+    "brandt": "ts-node --project ./tsconfig.scripts.json ./docs/progress.ts",
     "ts-node": "ts-node"
   },
   "dependencies": {
