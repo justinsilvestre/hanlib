@@ -5,6 +5,7 @@ import { Passage, PassageVocab } from "../Passage";
 import { DisplayOptions } from "./ChineseWithPopover";
 import { NotesChinese } from "./NotesChinese";
 import { toCurlyQuotes } from "./PassageBody";
+import { PassageVocabWithVariants } from "@/app/prebuild";
 
 export function PassageFrontmatter({
   text,
@@ -12,7 +13,7 @@ export function PassageFrontmatter({
   displayOptions,
 }: {
   text: Passage;
-  vocab: PassageVocab;
+  vocab: PassageVocabWithVariants;
   displayOptions: DisplayOptions;
 }) {
   return (

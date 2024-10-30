@@ -1,10 +1,11 @@
 "use client";
 import Markdown from "markdown-to-jsx";
 import markdownCss from "./markdown.module.css";
-import { Passage, PassageVocab } from "../Passage";
+import { Passage } from "../Passage";
 import { DisplayOptions } from "./ChineseWithPopover";
 import { ReactNode } from "react";
 import { NotesChinese } from "./NotesChinese";
+import { PassageVocabWithVariants } from "@/app/prebuild";
 
 export function PassageNotes({
   notesWithHeadings,
@@ -13,7 +14,7 @@ export function PassageNotes({
   passage,
 }: {
   notesWithHeadings: { id: string; heading: string }[];
-  vocab: PassageVocab;
+  vocab: PassageVocabWithVariants;
   displayOptions: DisplayOptions;
   passage: Passage;
 }): ReactNode {

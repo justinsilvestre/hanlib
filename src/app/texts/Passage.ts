@@ -12,6 +12,12 @@ export type Passage = {
 };
 export type LexiconEntry = Record<VocabEntryPronunciationKey, string | null>;
 
+export type PassageVocabWithVariants = {
+  vocab: PassageVocab;
+  variants: PassageTermVariants;
+};
+
+export type PassageTermVariants = Record<string, string[]>;
 export type PassageVocab = Partial<Record<string, LexiconEntry[]>>;
 
 export type VocabEntryPronunciationKey =
@@ -35,6 +41,7 @@ export function parsePassageVocabList(
   vocabFileContents: string | null
 ) {
   const vocab: PassageVocab = {};
+  const variants: PassageTermVariants = {};
   if (vocabFileContents) {
     const lines = vocabFileContents.split("\n");
 
@@ -74,11 +81,18 @@ export function parsePassageVocabList(
         vocabEntry[key] = value || null;
       }
 
-      vocab[chinese] ||= [];
-      vocab[chinese]!.push(vocabEntry);
+      const chineseVariants = chinese.split(",");
+      const [mainVariant, ...secondaryVariants] = chineseVariants;
+
+      vocab[mainVariant] ||= [];
+      vocab[mainVariant]!.push(vocabEntry);
+      for (const variant of secondaryVariants) {
+        variants[variant] ||= [];
+        variants[variant].push(mainVariant);
+      }
     }
   }
-  return vocab;
+  return { vocab, variants };
 }
 
 export function parsePassage(passageFileContents: string) {

@@ -9,6 +9,7 @@ import {
 import { PassageBody } from "../texts/[textId]/PassageBody";
 import { PassageFrontmatter } from "../texts/[textId]/PassageFrontmatter";
 import Link from "next/link";
+import { PassageVocabWithVariants } from "../prebuild";
 
 export function ContributePage({
   passageId,
@@ -17,7 +18,7 @@ export function ContributePage({
 }: {
   passageId?: string;
   initialText?: string;
-  lexicon: PassageVocab;
+  lexicon: PassageVocabWithVariants;
 }) {
   const storageKey = `contribute-${passageId || "NEW"}`;
   const [passage, setPassage] = useState<Passage>(() => {

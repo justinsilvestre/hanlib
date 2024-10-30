@@ -8,7 +8,7 @@
 
 The particles indicating cause or reason are:
 
-<center>`因` `以` 以...`故` `蓋` `既` `爲`</center>
+<center>`因` `以` `以`...`故` `蓋` `既` `爲`</center>
 
 When 因 is put at the beginning of a sentence, 而 or 故 in the principal clause usually complete the structure (examples 7, 8).
 

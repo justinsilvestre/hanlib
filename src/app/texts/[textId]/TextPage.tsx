@@ -7,6 +7,7 @@ import { PassageFrontmatter } from "./PassageFrontmatter";
 import { PassageDisplayOptionsForm } from "./PassageDisplayOptionsForm";
 import { useDisplayOptions } from "./PassageDisplayOptionsForm";
 import Link from "next/link";
+import { PassageVocabWithVariants } from "@/app/prebuild";
 
 export default function TextPage({
   passageId,
@@ -15,7 +16,7 @@ export default function TextPage({
 }: {
   passageId: string;
   passage: Passage;
-  vocab: PassageVocab;
+  vocab: PassageVocabWithVariants;
 }) {
   const [displayOptions, setDisplayOptions] = useDisplayOptions();
 

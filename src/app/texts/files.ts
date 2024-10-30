@@ -3,6 +3,7 @@ import path from "path";
 
 import { Passage as Passage, PassageVocab } from "./Passage";
 import { parsePassage, parseFrontmatterText } from "./Passage";
+import { PassageVocabWithVariants } from "../prebuild";
 
 const textsDirectory = path.resolve(process.cwd(), "texts");
 
@@ -25,7 +26,7 @@ export function getPassageVocab(textId: string) {
     "prebuild",
     `${textId}.vocab.json`
   );
-  const vocab: PassageVocab = JSON.parse(
+  const vocab: PassageVocabWithVariants = JSON.parse(
     fs.readFileSync(vocabJsonPath, "utf8")
   );
   return vocab;
@@ -35,7 +36,7 @@ export const getPassage = (textId: string) => {
   const passageFileContents = getPassageFileContents(textId);
   const passage: Passage = parsePassage(passageFileContents);
 
-  const vocab: PassageVocab = getPassageVocab(textId);
+  const vocab = getPassageVocab(textId);
 
   return { text: passage, vocab };
 };

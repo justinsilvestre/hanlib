@@ -6,6 +6,7 @@ import { normalizeText } from "./punctuation";
 import { parseGloss } from "./parseGloss";
 import { GlossDocument, TranslationElement } from "@/app/glossUtils";
 import { PassageNotes } from "./PassageNotes";
+import { PassageVocabWithVariants } from "@/app/prebuild";
 
 export function PassageBody({
   passageId: passageId,
@@ -15,7 +16,7 @@ export function PassageBody({
 }: {
   passage: Passage;
   passageId: string;
-  vocab: PassageVocab;
+  vocab: PassageVocabWithVariants;
   displayOptions: DisplayOptions;
 }) {
   const notesWithHeadings: { id: string; heading: string }[] = [];

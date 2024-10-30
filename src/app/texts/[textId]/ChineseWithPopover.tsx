@@ -15,6 +15,7 @@ import {
 } from "@/app/lexiconEntryEnKeywords";
 import dynamic from "next/dynamic";
 import { GlossDocument, GlossedTermComponent } from "@/app/glossUtils";
+import { PassageVocabWithVariants } from "@/app/prebuild";
 
 const RubyText = dynamic(() => import("./RubyText").then((r) => r.RubyText), {
   ssr: false,
@@ -44,7 +45,7 @@ export function ChineseWithPopover({
   segmentStartingCharacterIndexInLine,
 }: {
   text: string;
-  vocab: PassageVocab;
+  vocab: PassageVocabWithVariants;
   displayOptions: DisplayOptions;
   gloss: GlossDocument | null;
   highlightedCharactersRange?: {
@@ -87,7 +88,7 @@ export function ChineseWithPopover({
           characterIndexInLine >=
             highlightedCharactersRange.startCharacterIndex &&
           characterIndexInLine <= highlightedCharactersRange.endCharacterIndex;
-        const entries = vocab[char];
+        const entries = lookUpChar(vocab, char);
 
         if (!entries?.length) {
           return (
@@ -177,14 +178,16 @@ export function ChineseWithPopover({
           </span>
         );
       })}
-      {popover.open && popoverChar && vocab[popoverChar] && (
-        <PopoverDictionaryContent
-          popover={popover}
-          popoverChar={popoverChar}
-          vocab={vocab}
-          enGloss={popoverCharGloss}
-        />
-      )}
+      {popover.open &&
+        popoverChar &&
+        lookUpChar(vocab, popoverChar)?.length && (
+          <PopoverDictionaryContent
+            popover={popover}
+            popoverChar={popoverChar}
+            vocab={vocab}
+            enGloss={popoverCharGloss}
+          />
+        )}
     </span>
   );
 }
@@ -197,7 +200,7 @@ function PopoverDictionaryContent({
 }: {
   popover: ReturnType<typeof usePopover>;
   popoverChar: string;
-  vocab: PassageVocab;
+  vocab: PassageVocabWithVariants;
   enGloss: string | null;
 }) {
   return (
@@ -223,7 +226,7 @@ function PopoverDictionaryContent({
           />
           <div className="bg-background max-w-[10rem]">
             {popoverChar &&
-              vocab[popoverChar]?.map((entry, i, entries) => {
+              lookUpChar(vocab, popoverChar)?.map((entry, i, entries) => {
                 const enDefinitionSegmentsCount =
                   entry.en?.split(/[,;]/).length || 0;
 
@@ -284,4 +287,19 @@ function PopoverDictionaryContent({
       </FloatingFocusManager>
     </FloatingPortal>
   );
+}
+
+function lookUpChar(
+  { vocab, variants }: PassageVocabWithVariants,
+  char: string
+) {
+  const exactMatch = vocab[char];
+  if (exactMatch) return exactMatch;
+  const mainVariantsForChar = variants[char];
+  if (mainVariantsForChar) {
+    const entries = mainVariantsForChar.flatMap(
+      (variant) => vocab[variant] || []
+    );
+    return entries;
+  }
 }

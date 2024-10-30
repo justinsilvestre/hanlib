@@ -1,6 +1,7 @@
 import {
   LexiconEntry,
   Passage,
+  PassageTermVariants,
   PassageVocab,
   VocabEntryPronunciationKey,
   parsePassage,
@@ -39,8 +40,8 @@ fillInMissingReadingsInTsvs().then(() => {
   console.log(`Wrote lexicon to ${lexiconFilePath}`);
   writePassageVocabularyJsons(lexicon);
   console.log(`Done writing vocab jsons`);
-  const termsCount = Object.keys(lexicon).length;
-  const charactersCount = Object.keys(lexicon).reduce(
+  const termsCount = Object.keys(lexicon.vocab).length;
+  const charactersCount = Object.keys(lexicon.vocab).reduce(
     (count, term) => count + (term.length === 1 ? 1 : 0),
     0
   );
@@ -51,12 +52,21 @@ fillInMissingReadingsInTsvs().then(() => {
 function aggregateVocabulary() {
   const textsIds = getTextsIds();
 
-  const lexicon = textsIds.reduce((lexicon, textId) => {
-    const vocabFileContents = getPassageVocabFileContents(textId);
+  const lexicon = textsIds.reduce(
+    (acc, textId) => {
+      const vocabFileContents = getPassageVocabFileContents(textId);
 
-    const vocab = parsePassageVocabList(textId, vocabFileContents);
-    return mergeVocab(lexicon, vocab);
-  }, {} as PassageVocab);
+      const vocabWithVariants = parsePassageVocabList(
+        textId,
+        vocabFileContents
+      );
+      return mergeVocab(acc, vocabWithVariants);
+    },
+    {
+      vocab: {},
+      variants: {},
+    } as PassageVocabWithVariants
+  );
   return lexicon;
 }
 
@@ -67,7 +77,22 @@ async function fillInMissingReadingsInTsvs() {
     const isBrandtPassage = textId.startsWith("brandt-");
     if (isBrandtPassage) brandtPassagesVisited += 1;
     const vocabFileContents = getPassageVocabFileContents(textId);
-    const vocab = parsePassageVocabList(textId, vocabFileContents);
+    const { vocab, variants } = parsePassageVocabList(
+      textId,
+      vocabFileContents
+    );
+    const mainToSecondaryVariants: {
+      [mainVariant: string]: string[];
+    } = Object.entries(variants).reduce(
+      (acc, [secondaryVariant, mainVariants]) => {
+        for (const mainVariant of mainVariants) {
+          acc[mainVariant] = acc[mainVariant] || [];
+          acc[mainVariant]!.push(secondaryVariant);
+        }
+        return acc;
+      },
+      {} as { [mainVariant: string]: string[] }
+    );
     const passage = parsePassage(getPassageFileContents(textId));
     const passageChars = getPassageChars(passage);
 
@@ -81,7 +106,7 @@ async function fillInMissingReadingsInTsvs() {
 
     for (const char of featuredChars) {
       if (
-        !lexicon[char] ||
+        !lexicon.vocab[char] ||
         vocab[char]?.some((e) => vocabFileColumns.some((k) => !e[k.key]))
       ) {
         const unihanResult = await getUnihan(char);
@@ -143,8 +168,7 @@ async function fillInMissingReadingsInTsvs() {
         }));
       }
     }
-
-    const newVocabFileContents = makeVocabTsvContent(vocab);
+    const newVocabFileContents = makeVocabTsvContent(vocab, variants);
 
     if (
       Object.keys(vocab).length &&
@@ -160,6 +184,13 @@ async function fillInMissingReadingsInTsvs() {
     if (isBrandtPassage)
       for (const char of passageChars) {
         registeredChars.add(char);
+        const variants = lexicon.variants[char] || [];
+        for (const mainVariant of variants) {
+          registeredChars.add(mainVariant);
+        }
+        for (const secondaryVariant of mainToSecondaryVariants[char] || []) {
+          registeredChars.add(secondaryVariant);
+        }
       }
   }
 }
@@ -184,10 +215,10 @@ function getEmbeddedChineseSegments(text: string) {
   );
 }
 
-function writePassageVocabularyJsons(lexicon: PassageVocab) {
+function writePassageVocabularyJsons(lexicon: PassageVocabWithVariants) {
   for (const textId of getTextsIds()) {
     const vocabFileContents = getPassageVocabFileContents(textId);
-    const vocab = parsePassageVocabList(textId, vocabFileContents);
+    const { vocab } = parsePassageVocabList(textId, vocabFileContents);
     const passage = parsePassage(getPassageFileContents(textId));
 
     const vocabJsonPath = path.join(
@@ -196,13 +227,27 @@ function writePassageVocabularyJsons(lexicon: PassageVocab) {
     );
     const passageChars = getPassageChars(passage);
 
+    const variants: PassageTermVariants = {};
     for (const char of passageChars) {
       if (!vocab[char]) {
-        vocab[char] = lexicon[char];
+        vocab[char] = lexicon.vocab[char];
+      }
+      const mainVariants = lexicon.variants[char];
+      if (mainVariants) {
+        variants[char] = mainVariants;
+        for (const mainVariant of mainVariants) {
+          if (!vocab[mainVariant]) {
+            vocab[mainVariant] = lexicon.vocab[mainVariant];
+          }
+        }
       }
     }
 
-    fs.writeFileSync(vocabJsonPath, JSON.stringify(vocab, null, 2), "utf-8");
+    fs.writeFileSync(
+      vocabJsonPath,
+      JSON.stringify({ vocab, variants }, null, 2),
+      "utf-8"
+    );
     console.log(`Wrote vocab for ${textId} to ${vocabJsonPath}`);
   }
 }
@@ -221,29 +266,76 @@ function getMandarinReadings(
 }
 
 function makeVocabTsvContent(
-  vocab: Partial<Record<string, LexiconEntry[]>>
+  vocab: Partial<Record<string, LexiconEntry[]>>,
+  variants: PassageTermVariants
 ): string | NodeJS.ArrayBufferView {
   return [
     `Traditional\tQieyun\tHanyu Pinyin\tJyutping\tKorean\tVietnamese\tEnglish`,
     ...Object.entries(vocab).flatMap(
       ([char, ee]) =>
-        ee?.map((e) =>
-          [char, e.qieyun, e.pinyin, e.jyutping, e.kr, e.vi, e.en].join("\t")
-        ) || []
+        ee?.map((e) => {
+          const variantsForChar = getVariantsForChar(char, variants);
+          const variantsString = variantsForChar?.length
+            ? `,${variantsForChar.join(",")}`
+            : "";
+          return [
+            char + variantsString,
+            e.qieyun,
+            e.pinyin,
+            e.jyutping,
+            e.kr,
+            e.vi,
+            e.en,
+          ].join("\t");
+        }) || []
     ),
   ].join("\n");
 }
 
-function mergeVocab(a: PassageVocab, b: PassageVocab): PassageVocab {
-  const merged: PassageVocab = { ...a };
-  for (const chinese in b) {
-    if (merged[chinese]) {
-      merged[chinese] = mergeLexiconEntries(merged[chinese]!, b[chinese]!);
-    } else {
-      merged[chinese] = b[chinese];
+function getVariantsForChar(char: string, variants: PassageTermVariants) {
+  const secondaryVariants: string[] = [];
+  for (const secondaryVariant in variants) {
+    if (variants[secondaryVariant]!.includes(char)) {
+      secondaryVariants.push(secondaryVariant);
     }
   }
-  return merged;
+  return secondaryVariants;
+}
+
+export type PassageVocabWithVariants = {
+  vocab: PassageVocab;
+  variants: Record<string, string[]>;
+};
+
+function mergeVocab(
+  a: PassageVocabWithVariants,
+  b: PassageVocabWithVariants
+): PassageVocabWithVariants {
+  const mergedVocab: PassageVocab = { ...a.vocab };
+  const mergedVariants: PassageTermVariants = { ...a.variants };
+  for (const char in b.vocab) {
+    if (mergedVocab[char]) {
+      mergedVocab[char] = mergeLexiconEntries(
+        mergedVocab[char],
+        b.vocab[char]! // currently guaranteed
+      );
+    } else {
+      mergedVocab[char] = b.vocab[char];
+    }
+  }
+  for (const secondaryVariant in b.variants) {
+    if (mergedVariants[secondaryVariant]) {
+      mergedVariants[secondaryVariant] = [
+        ...new Set([
+          ...mergedVariants[secondaryVariant],
+          ...b.variants[secondaryVariant],
+        ]),
+      ];
+    } else {
+      mergedVariants[secondaryVariant] = b.variants[secondaryVariant];
+    }
+  }
+  return { vocab: mergedVocab, variants: mergedVariants };
 }
 function mergeLexiconEntries(
   a: LexiconEntry[],

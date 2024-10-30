@@ -1,4 +1,5 @@
 "use client";
+import { PassageVocabWithVariants } from "@/app/prebuild";
 import { PassageVocab } from "../Passage";
 import { ChineseWithPopover, DisplayOptions } from "./ChineseWithPopover";
 import { GlossDocument } from "@/app/glossUtils";
@@ -10,7 +11,7 @@ export function NotesChinese({
   gloss,
 }: {
   children: string;
-  vocab: PassageVocab;
+  vocab: PassageVocabWithVariants;
   displayOptions: DisplayOptions;
   gloss: GlossDocument | null;
 }) {

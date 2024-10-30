@@ -175,7 +175,7 @@ total progress: 535 / 1384 tasks complete (~38%)
   - [x] use curly quotes in main text
   - [ ] print formatting
   - [ ] display compounds in glosses
-  - [ ] accommodate variant characters
+  - [x] accommodate variant characters
 - data entry automation
   - [ ] when generating a new `.vocab.tsv`, account for characters previously met but potentially being used with a new reading in a given passaage
 - Lesson 1, Text 1
