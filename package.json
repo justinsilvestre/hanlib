@@ -12,11 +12,12 @@
   },
   "dependencies": {
     "@floating-ui/react": "^0.26.9",
-    "@silvestre/cjk-unihan": "^0.0.3-0",
+    "@silvestre/cjk-unihan": "^0.0.3-4",
     "markdown-to-jsx": "7.3.2",
-    "next": "14.1.0",
+    "next": "^14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "@types/node": "^20",
