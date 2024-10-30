@@ -2,31 +2,6 @@
 
 <center>Adapted from the 1927 book by J. Brandt</center>
 
-<!-- 用 yung-by; with; from.
-與 yü-with; for; to.
-將 chiang-a sign of the ob- ject.
-被 pei-by.
-tai-in place of; on behalf of.
-hsiang-toward; to.
-同tung with; together
-with.
-距ch-from; at a distance.
-from.
-代按 an-in accordance with. E
-tsai-at; on; in. -->
-
-<!-- Used after the object
-內nei-within; in; among.
-開 chien-during; in; among
-外 - without; beyond; 前 ch'ien-before; wai outside. in front of.
-shang-on; above; upon.
-hsia - below; beneath; under.
-後hout-behind; after.
-chung-within; in; among pang-near; by; beside.
-Note 1. The particles fil and I as a sign of the object sometimes are used without the object leaving the latter to be surmised (see lesson XXV, gram. section, ex. 8, 9, 18, 19, 20).
-Note 2. The particle ☑ sometimes is used after the object (see lesson XXV, gr. section, ex. 3).
-Note 3. The prepositional particles used after the object sometimes are combined with put before the object (see lesson XXV, gr. section, ex. 39, 41, 47, 53). -->
-
 ## Grammatical section
 
 ### THE PREPOSITIONAL PARTICLES.
@@ -76,90 +51,6 @@ So called prepositional particles play the same part in the Wen-li style as prep
 **Note 3**. The prepositional particles used after the object sometimes are combined with `於` put before the object (see lesson XXV, gr. section, ex. 39, 41, 47, 53).
 
 #### Examples of using the prepositional particles:
-
-<!-- “於同治三年於彼時3於今+於進口之時5於是日6於斯三
-者何先於該處於稅餉無甚出入,於商人有便不求於人
-問於我異於常年3無異於良民難於虛始易於圖終5易於上
-岸 6不足於耕死之於刀&無常職而賜於上者以爲不恭也,水 高於岸24莫大於天生亦我所欲所欲有甚於生者故不爲苟得也
-2爲人所知 233爲火所燬4爲捕役執去 35爲今之計 $46.爲國致命 27
-爲人爲非夫人之爲慟而誰爲434 自古至今300自今日起3.自始至 終此人來自內地33自接函之時從今而後35病從口入 344 從頭
-至尾33諸將皆從壁上觀 至尾諸將皆從壁上觀由淺入深,由此門進 383由淺入深 39 由此門進子日誰能出不
-由戶何莫由斯道也由水道由陸路由天而降不由人算 5
-由領事官筋該商 44遇諸路子貢曰我不欲人之加諸我也吾亦欲
-無加諸人告諸其父 $40
-吾聞諸夫子 35.有不知問
-諸人子日君子求諸己
-小人求諸人告子日性
-猶湍水也决諸東方則東
-流决諸西方則西流 53吾
-一日長乎爾不敬莫大
-平是355在乎彼 55合乎此 .
-異平此有我在此 59
-罪不在我懷恨在心
-
--->
-
-<!-- I. In the 3rd year of T'ung-chih.
-2. At that time.
-3. At present.
-4. At the time of entering the port.
-5. On that day.
-6. Which is the first of these three ?
-7. At the said place.
-8. It makes no great difference in the revenue.
-9. Convenient for merchants.
-10. Not to ask from others.
-11. (He) learned (it) from me.
-12. Different from ordinary years.
-13. Not to be distinguished from respectable citizens.
-14. It is difficult to make arrangements for the beginning. It is easy to make plans for the completion.
-15. Easy to land.
-16. Not sufficient for cultivation.
-/ 17. Killed him with a sword.
-18. He who without a regular office receives the pay of the prince() must be deemed disrespectful.
-19. The water is higher than the bank.
-20. There is nothing greater than God.
-21. I also like life, but there is that which I like more than () life, and therefore (☑) I will not seek to possess it by any improper way (lit. I won't do improper (苟) getting).
-22. To be known by others.
-23. Destroyed by fire.
-24. Arrested by constables.
-25. A plan for the present juncture.
-26. 26. To die for one's country.
-27. To act on behalf of others.
-28. If I am not to mourn for this man should I mourn? (夫人), for whom
-29. From of old until now.
-30. Beginning from to-day.
-31. From beginning to end.
-32. This man comes from the interior.
-33. Ever since the receipt of the letter.
-34. Henceforth.
-35. Disease enters by the mouth.
-36. From first to last.
-37. All generals were looking from the wall
-38. From shallow to deep.
-39. Go in by this door.
-40. The Master said, "Who can go out but by the door? How is it that (men) will not walk according to these ways?"
-41. By water.
-42. By land.
-43. To come down from heaven.
-44. Not within the calculations of mortals.
-45. The consul instructed the said merchant (lit. from the con- sul there was instruction to the said merchant).
-46. To meet on the road.
-47. Tzu-kung said, "What I do not wish men to do (加) to me, I also do not wish to do to men."
-48. Told (it) to his father.
-49. 49. I heard (this) from our Master.
-50. If you do not know, ask others.
-51. The Master said, "The superior man seeks from himself; the mean man seeks 'from others."
-The philosopher (7) Kao said, "(Man's) nature is like a stream of water. Open a passage for it to the east, and it will flow to the east; open a passage for it to the west, and it will flow to the west."
-53. I am a day older than () you.
-54. There is nothing worse than irreverence (lit. irreverence,- there is nothing worse than that).
-55. It consists in that.
-56. Agreeing with this.
-57. Differing from this.
-58. I am here.
-59. It is not my fault.
-50. To harbor resentment in one's heart.
-(to be continued)-->
 
 ---
 

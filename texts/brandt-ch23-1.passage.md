@@ -2,58 +2,6 @@
 
 <center>Adapted from the 1927 book by J. Brandt</center>
 
-<!--
-聊齋誌異 考城隍
-予姊夫之祖宋公諱羲邑廪生一日病臥見吏持
-牒牽日顚馬來云請赴試公言文宗未臨何遽得
-考吏不言但敦促之公力疾乘馬從去路甚生疏
-至一城郭如王者都移時入府廨宮室壯麗上坐
-十餘官都不知何人惟關壯繆可識簷下設几墩
-各二先有一秀才坐其末公便與連肩几上各有
-筆札俄題紙飛下視之八字云一人二人有心無
-心二公文成呈殿上公文中有云有心爲善雖善
-不賞無心爲惡雖惡不罰諸神傳贊不已召公上
-諭日河南缺一城隍君稱其職(未完) -->
-
-<!-- 予姊夫之祖。宋公。諱羲。邑廪生。一日病臥。見吏持
-牒。牽日顚馬來云。請赴試。公言文宗未臨。何遽得
-考。吏不言。但敦促之。公力疾乘馬從去。路甚生疏。
-至一城郭。如王者都。移時入府廨。宮室壯麗。上坐
-十餘官。都不知何人。惟關壯繆可識。簷下設几墩
-各二。先有一秀才坐其末。公便與連肩。几上各有
-筆札。俄題紙飛下。視之八字云。一人二人。有心無
-心。二公文成。呈殿上。公文中有云。有心爲善。雖善
-不賞。無心爲惡。雖惡不罰。諸神傳贊不已。召公上。
-諭曰。河南缺一城隍。君稱其職。(未完) -->
-
-<!-- Examination for the Post of Guardian God.
-My eldest sister's husband's grandfather, the late Mr. Sung-
-Tao, was a salaried licentiate in (our) city (呂). One day while
-lying ill, he saw an official servant with a document, leading a
-horse with a white forehead, approach him with a message that
-he was summoned to the examination. Sung said, "The pro-
-vincial examiner has not yet arrived (F). Why should I hurry
-to be examined?" The messenger did not reply, but pressed
-him (to go).
-Sung overcame his sickness (力疾), got on the
-horse and followed after. The road was quite strange. They
-reached a city resembling the capital of a prince. They shortly
-entered a palace the buildings of which were very beautiful
-and imposing. Ten or more officials were seated at the
-upper end(), all strangers to him, except Kuan-Chuang-mu
-whom he recognized. Below, under the eaves, were put two
-tables and two chairs. There was a graduate already seated at
-the end. Sung then (1) sat down shoulder to shoulder with
-him. Writing materials were prepared on the tables, and a piece
-of paper with a theme on it fluttered down (from above). Look-
-ing at it, they saw the eight following words, "One man; two
-men. With intention; without intention". When they both
-finished their essays (★), they passed them up. In Sung's
-essay there was the following passage, "For intended good,
-although it is good, there is no reward. For unintended wrong,
-although it is wrong, there is no punishment." It was unani- mously praised as it was circulated (1) among the deities, and Sung was summoned into their presence and thus ordered ( B). "Honan lacks a Guardian God. You are designated to this post."
-(to be continued)-->
-
 ---
 
 聊齋誌異 考城隍

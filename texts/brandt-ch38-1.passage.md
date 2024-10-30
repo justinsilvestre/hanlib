@@ -2,44 +2,6 @@
 
 <center>Adapted from the 1927 book by J. Brandt</center>
 
-<!--
-
-國會政治之危險(續)
-
-最後觀察德國其國中有立於兩極端之社會黨國權黨
-亦有介於中間之舊教黨人民黨民主黨此外尙有共產
-黨資本黨無論何種內閣若非聯立此二黨派以上則不
-能組織內閣故僅關於外交略得一致之外關於內政常
-欠協調依以上所略述可謂歐洲列强之代議政治今已
-頻於危機此次英國之大罷工尤達於危機之極點也吾
-人並非因歐洲代議政治頻於危機而遂論中國應放棄
-國會政治不過鑒於國會政治之現狀欲力言在中國於
-模倣上應有多大之考慮而己祝中國有數千年獨特之
-文明與特殊之民性者哉
-
--->
-
-<!--
-國會政治之危險(續)
-最後觀察德國。其國中有立於兩極端之社會黨國權黨
-亦有介於中間之舊教黨人民黨民主黨。此外尙有共產
-黨資本黨。無論何種內閣。若非聯立此二黨派以上。則不
-能組織內閣。故僅關於外交略得一致之外。關於內政常
-欠協調。依以上所略述。可謂歐洲列强之代議政治。今已
-頻於危機。此次英國之大罷工。尤達於危機之極點也。吾
-人並非因歐洲代議政治頻於危機。而遂論中國應放棄
-國會政治。不過鑒於國會政治之現狀。欲力言在中國於
-模倣上。應有多大之考慮而己。祝中國有數千年獨特之
-文明與特殊之民性者哉。
--->
-
-<!--
-國會政治之危險(續)
-最後觀察德國。其國中有立於兩極端之社會黨國權黨亦有介於中間之舊教黨人民黨民主黨。此外尙有共產黨資本黨。無論何種內閣。若非聯立此二黨派以上。則不能組織內閣。故僅關於外交略得一致之外。關於內政常欠協調。依以上所略述。可謂歐洲列强之代議政治。今已頻於危機。此次英國之大罷工。尤達於危機之極點也。吾人並非因歐洲代議政治頻於危機。而遂論中國應放棄國會政治。不過鑒於國會政治之現狀。欲力言在中國於模倣上。應有多大之考慮而己。祝中國有數千年獨特之文明與特殊之民性者哉。
--->
-
-<!-- TRANSLATION. THE DANGER FOR THE PARLIAMENTARY SYSTEM (continued). Finally, let us examine Germany. In this country there are two extreme parties: the socialistic party and the governmental party. There are also, between these two, the clericals, the nationalists and the democrats. Outside of these there are, in addition, the communistic party and the capitalistic party. It is impossible for any cabinet to be formed without the alliance of at least two of these parties. They manage to keep a more or less() united front (一致) at least in their foreign policy, but in their internal administration there is always a lack of harmony. From the account given above one may say that the repre- sentative form of government of the European Powers is now in a very dangerous position. The recent great strike in England puts it in even more extreme danger. However just because the European representative form of government is now in a critical 426 condition, we would not state therefore(遂謂) that China ought to abandon parliamentary government. But rather in examining the present condition of parliamentary governments we would only state strongly that if China is to follow their example (於模倣上), we must investigate (this question) most thoroughly and carefully. This is especially necessary since China has behind her many thousand years of peculiar culture, and her people have their own special characteristics. -->
-
 ---
 
 國會政治之危險(續)

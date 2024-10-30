@@ -2,41 +2,6 @@
 
 <center>Adapted from the 1927 book by J. Brandt</center>
 
-<!--
-中國與列強對於修改條約之心理(續) (未完)
-自列强方面觀之凡與中國有關係之強國均以中國須先實地履
-行其條約上所規定之責任爲修改不平等條約之先行條件且一
-切修改之程序及彼此所應負之責任亦宜以華盛頓會議所規定
-者爲標準換而言之實列强欲以不能取消不平等條約之責加諸
-中國人之身謂中國在國際上實有與各國享受平等待遇之資格
-但所以不能者蓋由中國自取之也關於取消治外法權一項各國
-之覆文頗不無相當之理由彼云當一九零二二九零三年締結通
-商條約之時彼已表示願放棄治外法權之意倘中國之法律狀況
-與執行辦法皆可以使彼等滿意則領事裁判權固早已廢棄突
--->
-
-<!-- 中國與列強對於修改條約之心理 (續)
-
-自列强方面觀之。凡與中國有關係之強國。均以中國須先實地履
-行其條約上所規定之責任。爲修改不平等條約之先行條件。且一
-切修改之程序。及彼此所應負之責任。亦宜以華盛頓會議所規定
-者爲標準。換而言之。實列强欲以不能取消不平等條約之責加諸
-中國人之身。謂中國在國際上實有與各國享受平等待遇之資格。
-但所以不能者。蓋由中國自取之也。關於取消治外法權一項。各國
-之覆文。頗不無相當之理由。彼云當一九零二。二九零三年締結通
-商條約之時。彼已表示願放棄治外法權之意。倘中國之法律狀況。
-與執行辦法。皆可以使彼等滿意。則領事裁判權固早已廢棄矣。
-
-(未完) -->
-
-<!-- 中國與列強對於修改條約之心理 (續)
-
-自列强方面觀之。凡與中國有關係之強國。均以中國須先實地履行其條約上所規定之責任。爲修改不平等條約之先行條件。且一切修改之程序。及彼此所應負之責任。亦宜以華盛頓會議所規定者爲標準。換而言之。實列强欲以不能取消不平等條約之責加諸中國人之身。謂中國在國際上實有與各國享受平等待遇之資格。但所以不能者。蓋由中國自取之也。關於取消治外法權一項。各國之覆文。頗不無相當之理由。彼云當一九零二。二九零三年締結通商條約之時。彼已表示願放棄治外法權之意。倘中國之法律狀況。與執行辦法。皆可以使彼等滿意。則領事裁判權固早已廢棄矣。
-
-(未完) -->
-
-<!-- 346 TRANSLATION. THE ATTITUDE OF CHINA AND THE POWERS TOWARDS THE REVISION OF TREATIES (continued). From the point of view of the Powers, all interested coun- tries consider China's fulfillment of the obligations fixed by those treaties as preliminary conditions for the revision of the unequal treaties. Moreover both the procedure in making this revision and the obligations to be taken up mutually (彼 此) should be in accordance with (以…為標準)the provisions of the Washington Conferece. In other words, the Powers wish to put responsibility for not abolishing the unequal treaties upon the Chinese, saying that in international rela- tions(在國際上) China really has the qualifications for enjoying equal treatment with the other nations; but the fact that she is unable to enjoy it rests with China herself. In connection with the abolition of extraterritoriality there are very reasonable (lit. suitable) arguments in the reply of the Powers. They say that in 1902 and 1903, when the Treaty of Commerce was concluded, they had already expressed their intention to give up extraterritoriality, and if the conditions of the Chinese laws and the procedure (辦法) of the execution (of the judicial decisions) had been such as to satisfy them, they would have long ago abandoned consular jurisdiction. (to be continued) -->
-
 ---
 
 中國與列強對於修改條約之心理 (續)

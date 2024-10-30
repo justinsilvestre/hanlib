@@ -6,9 +6,6 @@
 
 ### 轉折字 The adversative particles.
 
-<!-- (轉折 chuan-cho-to turn round; to change). -->
- <!-- (寡人 kua-jen² 1. my-a sovereign of himself). -->
-
 The adversative particles connect individual words or sentences one of which is contrasted with, or set against, another. This kind of structure is very similar to so called adversative coordinate conjunctions, and the adversative particles very much correspond to the expressions: _but_, _still_, _yet_, _however_ etc.
 
 These particles are:
@@ -59,7 +56,7 @@ Still to walk in the old ways (of wickedness).
 When (the young) have wine and food, they set (them) before their elders. But is this to be considered filial piety?
 
 ⑭ 吾以子爲異之問。會由與求之問。
-I thought you would ask about some extraordinary individuals. But you only ask about Yu and Ch'iu. <!--(之 in both cases is expletive.)-->
+I thought you would ask about some extraordinary individuals. But you only ask about Yu and Ch'iu.
 
 ⑮ 事雖小。然不作不成。
 Though a matter be small, yet if one does not do it, it will not be accomplished.
