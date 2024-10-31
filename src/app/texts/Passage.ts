@@ -42,8 +42,14 @@ export function parsePassageVocabList(
 ) {
   const vocab: PassageVocab = {};
   const variants: PassageTermVariants = {};
+  let comment: string | null = null;
+
   if (vocabFileContents) {
-    const lines = vocabFileContents.split("\n");
+    const [, commentText, body] =
+      vocabFileContents?.match(/^(#.*\n)?([\s\S]*)$/) || [];
+    comment = commentText || null;
+
+    const lines = body.split("\n");
 
     const [, ...columnHeaders] = lines[0].trim().split("\t");
     const invalidColumnHeaders = columnHeaders.filter(
@@ -92,7 +98,7 @@ export function parsePassageVocabList(
       }
     }
   }
-  return { vocab, variants };
+  return { vocab, variants, comment };
 }
 
 export function parsePassage(passageFileContents: string) {

@@ -77,10 +77,12 @@ async function fillInMissingReadingsInTsvs() {
     const isBrandtPassage = textId.startsWith("brandt-");
     if (isBrandtPassage) brandtPassagesVisited += 1;
     const vocabFileContents = getPassageVocabFileContents(textId);
-    const { vocab, variants } = parsePassageVocabList(
+
+    const { vocab, variants, comment } = parsePassageVocabList(
       textId,
       vocabFileContents
     );
+
     const mainToSecondaryVariants: {
       [mainVariant: string]: string[];
     } = Object.entries(variants).reduce(
@@ -104,7 +106,20 @@ async function fillInMissingReadingsInTsvs() {
       Object.keys(vocab).concat(isBrandtPassage ? newCharsInPassage : [])
     );
 
-    for (const char of featuredChars) {
+    if (textId.includes("10-3")) {
+      console.log({ variants, vocab, newCharsInPassage, featuredChars });
+    }
+
+    const featuredCharsMainVariants = new Set(
+      [...featuredChars].flatMap((char) => {
+        const mainVariants = [
+          ...(lexicon.variants[char] || []),
+          ...(variants[char] || []),
+        ];
+        return mainVariants.length ? mainVariants : [char];
+      })
+    );
+    for (const char of featuredCharsMainVariants) {
       if (
         !lexicon.vocab[char] ||
         vocab[char]?.some((e) => vocabFileColumns.some((k) => !e[k.key]))
@@ -168,7 +183,7 @@ async function fillInMissingReadingsInTsvs() {
         }));
       }
     }
-    const newVocabFileContents = makeVocabTsvContent(vocab, variants);
+    const newVocabFileContents = makeVocabTsvContent(comment, vocab, variants);
 
     if (
       Object.keys(vocab).length &&
@@ -218,7 +233,10 @@ function getEmbeddedChineseSegments(text: string) {
 function writePassageVocabularyJsons(lexicon: PassageVocabWithVariants) {
   for (const textId of getTextsIds()) {
     const vocabFileContents = getPassageVocabFileContents(textId);
-    const { vocab } = parsePassageVocabList(textId, vocabFileContents);
+    const { vocab, variants: _passageVariants } = parsePassageVocabList(
+      textId,
+      vocabFileContents
+    );
     const passage = parsePassage(getPassageFileContents(textId));
 
     const vocabJsonPath = path.join(
@@ -229,9 +247,7 @@ function writePassageVocabularyJsons(lexicon: PassageVocabWithVariants) {
 
     const variants: PassageTermVariants = {};
     for (const char of passageChars) {
-      if (!vocab[char]) {
-        vocab[char] = lexicon.vocab[char];
-      }
+      vocab[char] ||= lexicon.vocab[char];
       const mainVariants = lexicon.variants[char];
       if (mainVariants) {
         variants[char] = mainVariants;
@@ -266,10 +282,12 @@ function getMandarinReadings(
 }
 
 function makeVocabTsvContent(
+  comment: string | null,
   vocab: Partial<Record<string, LexiconEntry[]>>,
   variants: PassageTermVariants
 ): string | NodeJS.ArrayBufferView {
   return [
+    ...(comment ? [comment.trim()] : []),
     `Traditional\tQieyun\tHanyu Pinyin\tJyutping\tKorean\tVietnamese\tEnglish`,
     ...Object.entries(vocab).flatMap(
       ([char, ee]) =>

@@ -34,7 +34,7 @@ How could I for cupidity and for dread of death (lit. because I see the interest
 吾不能生。而使公子獨死矣。
 I cannot remain alive and let the prince die alone.
 
-突遂與公子俱逃澤中。
+遂與公子俱逃澤中。
 And then she, holding the prince in her arms (lit. together with the prince), jumped into a pool.
 
 秦軍見而射之。

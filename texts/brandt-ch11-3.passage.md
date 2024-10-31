@@ -39,7 +39,7 @@ To look upon virtue as (something to which one) cannot attain.
 ⑧ 視死如歸
 To look upon death as going home.
 
-⑨ 一日不見。如三月突
+⑨ 一日不見。如三月矣。
 One day without seeing (her) is like three months.
 
 ⑩ 如魚得水。如鳥得林。
