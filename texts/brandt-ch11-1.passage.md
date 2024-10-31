@@ -7,7 +7,7 @@
 合力
 Unity
 
-人之生也。飛不如禽。走不如獸而。卒爲世界之主者。
+人之生也。飛不如禽。走不如獸。而卒爲世界之主者。
 Man by nature is unable to fly like the birds, or travel like the wild animals nevertheless he is after all master of the world.
 
 則以人能合衆人之力。以爲力。而禽獸不能故也。
