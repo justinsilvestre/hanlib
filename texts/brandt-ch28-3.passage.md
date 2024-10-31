@@ -2,6 +2,32 @@
 
 <center>Adapted from the 1927 book by J. Brandt</center>
 
+## Grammatical Section
+
+### INDIVIDUAL PARTICLES.
+
+#### The particle `者`
+
+The particle `者` is used in the following ways:
+
+1. `者` is often joined to individual words in order to emphasize them. In such cases `者` is sometimes preceded by `也`:
+   - a) joined to adjectives (ex. 1, 2, 3, 4, 5, 6, 7).
+   - b) joined to nouns (ex. 8, 9, 10, 11, 12).
+   - c) joined to proper names (ex. 13, 14).
+   - d) joined to adverbs (ex. 15, 16, 17, 18, 19).
+   - e) joined to numerals (ex. 20, 21, 22).
+   - f) joined to negatives (ex. 23).
+   - g) joined to pronouns (ex. 27).
+2. Joined to verbs `者` forms:
+   - a) gerunds or verbal nouns (ex. 25, 26, 27, 28).
+   - b) participles (ex. 29, 30, 31, 32, 33, 34, 35, 36).
+3. The combination `所` ... `者` with a verb put between, forms an adjective clause: "that which "those who ", and also verbal nouns. (ex. 37, 38, 39, 40, 41, 42, 43, 44).
+4. `者` is also used in some conventional phrases which serve as headings in letters, petitions and official communications, and as concluding phrases in official despatches (ex. 45, 46, 47, 48, 49).
+
+##### Examples of using the particle `者`
+
+---
+
 ① 事有難者易者。
 There are difficult affairs, and there are easy ones.
 
@@ -148,7 +174,5 @@ A necessary-to-be-sent despatch (a conventional phrase used at the end of offici
 
 ㊾ 須至照復者。
 A necessary-to-be-sent reply.
-
----
 
 ---

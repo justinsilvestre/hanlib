@@ -2,7 +2,7 @@
 
 <center>Adapted from the 1927 book by J. Brandt</center>
 
-##
+---
 
 國會政治之危險 (續)
 The Danger for the Parliamentary System (continued)
