@@ -56,8 +56,10 @@ export function ChineseWithPopover({
   ) => void;
   segmentStartingCharacterIndexInLine?: number;
 }) {
+  const lookups = getLookups(text, vocab);
+
   const popover = usePopover();
-  const [popoverChar, setChar] = useState<string | null>(null);
+  const [popoverCharIndex, setCharIndex] = useState<number | null>(null);
   const [popoverCharGloss, setCharGloss] = useState<string | null>(null);
 
   let glossedChars = 0;
@@ -70,12 +72,12 @@ export function ChineseWithPopover({
 
   return (
     <span className="relative">
-      {Array.from(text, (char, i) => {
+      {Array.from(text, (char, charIndex) => {
         const isExpectedInGloss = !textIsPunctuation(char);
         const glossIndex = glossedChars;
         glossedChars += isExpectedInGloss ? 1 : 0;
 
-        const id = `text-${char}-${i}`;
+        const id = `text-${char}-${charIndex}`;
 
         const characterIndexInLine =
           segmentStartingCharacterIndexInLine != null
@@ -87,11 +89,11 @@ export function ChineseWithPopover({
           characterIndexInLine >=
             highlightedCharactersRange.startCharacterIndex &&
           characterIndexInLine <= highlightedCharactersRange.endCharacterIndex;
-        const entries = lookUpChar(vocab, char);
+        const entries = lookUpTermsAt(vocab, lookups, charIndex);
 
         if (!entries.length) {
           return (
-            <span key={i} className={`font-sans `}>
+            <span key={charIndex} className={`font-sans `}>
               {char}
             </span>
           );
@@ -137,7 +139,7 @@ export function ChineseWithPopover({
         }`;
         return (
           <span
-            key={i}
+            key={charIndex}
             className={`relative cursor:pointer hover:bg-yellow-400/40 ${
               characterIsHighlighted ? "bg-blue-400/40" : ""
             }`}
@@ -149,7 +151,7 @@ export function ChineseWithPopover({
               }`,
               onClick: (e) => {
                 popover.refs.setReference(e.currentTarget);
-                setChar(char);
+                setCharIndex(charIndex);
                 setCharGloss(glossLemma);
               },
               onMouseEnter:
@@ -177,31 +179,43 @@ export function ChineseWithPopover({
           </span>
         );
       })}
-      {popover.open &&
-        popoverChar &&
-        lookUpChar(vocab, popoverChar)?.length && (
-          <PopoverDictionaryContent
-            popover={popover}
-            popoverChar={popoverChar}
-            vocab={vocab}
-            enGloss={popoverCharGloss}
-          />
-        )}
+      {popover.open && popoverCharIndex != null && (
+        <PopoverDictionaryContent
+          text={text}
+          popover={popover}
+          popoverCharIndex={popoverCharIndex}
+          vocab={vocab}
+          enGloss={popoverCharGloss}
+          lookups={lookups}
+        />
+      )}
     </span>
   );
 }
 
 function PopoverDictionaryContent({
+  text,
   popover,
-  popoverChar,
+  popoverCharIndex,
   vocab,
   enGloss,
+  lookups,
 }: {
+  text: string;
   popover: ReturnType<typeof usePopover>;
-  popoverChar: string;
+  popoverCharIndex: number;
   vocab: LexiconJson;
   enGloss: string | null;
+  lookups: TextLookups;
 }) {
+  const lookupResult = lookUpTermsAt(
+    vocab,
+    lookups,
+    // text,
+    popoverCharIndex
+  );
+  const popoverChar = text[popoverCharIndex];
+  if (!lookupResult.length) return null;
   return (
     <FloatingPortal>
       <FloatingFocusManager context={popover.context} modal={popover.modal}>
@@ -224,64 +238,63 @@ function PopoverDictionaryContent({
             fill="blue"
           />
           <div className="bg-background max-w-[10rem]">
-            {popoverChar &&
-              lookUpChar(vocab, popoverChar)?.map((entry, i, entries) => {
-                const enDefinitionSegmentsCount =
-                  entry.en?.split(/[,;]/).length || 0;
+            {lookupResult.map((entry, i, entries) => {
+              const enDefinitionSegmentsCount =
+                entry.en?.split(/[,;]/).length || 0;
 
-                return (
-                  <div key={i} className="p-1 rounded">
-                    {entry.head !== popoverChar && <>{entry.head} </>}
-                    {[entry.jyutping, entry.pinyin, entry.kr, entry.vi]
-                      .filter((e) => e)
-                      .map((e, i, readings) => (
-                        <span key={i}>
-                          <b>{e}</b>
-                          {i < readings.length - 1 ? " / " : " "}
-                        </span>
-                      ))}
-                    <span className="">
-                      {entry.en
-                        ?.split("; ")
-                        .map(
-                          (semicolonSegment, semicolonI, semicolonSegments) => {
-                            const commaSegments = semicolonSegment.split(", ");
-                            return (
-                              <span key={semicolonSegment}>
-                                {commaSegments.map(
-                                  (commaSegment, commaI, commaSegments) => {
-                                    const segmentKeyword =
-                                      toEnMatchKeyword(commaSegment);
+              return (
+                <div key={i} className="p-1 rounded">
+                  {entry.head !== popoverChar && <>{entry.head} </>}
+                  {[entry.jyutping, entry.pinyin, entry.kr, entry.vi]
+                    .filter((e) => e)
+                    .map((e, i, readings) => (
+                      <span key={i}>
+                        <b>{e}</b>
+                        {i < readings.length - 1 ? " / " : " "}
+                      </span>
+                    ))}
+                  <span className="">
+                    {entry.en
+                      ?.split("; ")
+                      .map(
+                        (semicolonSegment, semicolonI, semicolonSegments) => {
+                          const commaSegments = semicolonSegment.split(", ");
+                          return (
+                            <span key={semicolonSegment}>
+                              {commaSegments.map(
+                                (commaSegment, commaI, commaSegments) => {
+                                  const segmentKeyword =
+                                    toEnMatchKeyword(commaSegment);
 
-                                    return (
-                                      <span
-                                        key={commaSegment}
-                                        className={`${
-                                          segmentKeyword === enGloss &&
-                                          enDefinitionSegmentsCount > 1
-                                            ? "bg-yellow-400/10 border-yellow-400/50 border text-foreground"
-                                            : ""
-                                        }`}
-                                      >
-                                        {commaSegment}
-                                        {commaI < commaSegments.length - 1
-                                          ? ", "
-                                          : ""}
-                                      </span>
-                                    );
-                                  }
-                                )}
-                                {semicolonI < semicolonSegments.length - 1
-                                  ? "; "
-                                  : ""}
-                              </span>
-                            );
-                          }
-                        )}
-                    </span>
-                  </div>
-                );
-              })}
+                                  return (
+                                    <span
+                                      key={commaSegment}
+                                      className={`${
+                                        segmentKeyword === enGloss &&
+                                        enDefinitionSegmentsCount > 1
+                                          ? "bg-yellow-400/10 border-yellow-400/50 border text-foreground"
+                                          : ""
+                                      }`}
+                                    >
+                                      {commaSegment}
+                                      {commaI < commaSegments.length - 1
+                                        ? ", "
+                                        : ""}
+                                    </span>
+                                  );
+                                }
+                              )}
+                              {semicolonI < semicolonSegments.length - 1
+                                ? "; "
+                                : ""}
+                            </span>
+                          );
+                        }
+                      )}
+                  </span>
+                </div>
+              );
+            })}
           </div>
         </div>
       </FloatingFocusManager>
@@ -289,14 +302,97 @@ function PopoverDictionaryContent({
   );
 }
 
-function lookUpChar({ vocab, variants }: LexiconJson, char: string) {
-  const exactMatches = vocab[char] || [];
+function lookUpTermsAt(
+  { vocab }: LexiconJson,
+  lookups: TextLookups,
+  index: number
+) {
+  const matches = lookups[index];
+  return matches.flatMap((match) => vocab[match] || []);
+}
 
-  const mainVariantsForChar = variants[char];
-  if (mainVariantsForChar) {
-    return exactMatches.concat(
-      mainVariantsForChar.flatMap((variant) => vocab[variant] || [])
-    );
+function getCompoundsAt(
+  compoundTermsLookupTree: CompoundTermsLookupTree,
+  text: string,
+  index: number
+): string[] {
+  const matches: string[] = [];
+  let visitedChars = [];
+  let node = compoundTermsLookupTree;
+  for (let i = index; i < text.length; i++) {
+    const char = text[i];
+    visitedChars.push(char);
+    if (!node.next[char]) break;
+    node = node.next[char];
+    if (node.matches.length) {
+      const matchedTerm = visitedChars.join("");
+      console.log("matchedTerm", matchedTerm);
+      matches.push(matchedTerm);
+    }
   }
-  return exactMatches;
+
+  return matches;
+}
+
+/** character index to matched terms */
+type TextLookups = {
+  [index: number]: string[];
+};
+
+type CompoundTermsLookupTree = {
+  /** currently only one member, keeping as array to accommodate character variants eventually.
+   * the root node will have zero matches */
+  matches: string[];
+  next: {
+    [character: string]: CompoundTermsLookupTree;
+  };
+};
+function getCompoundTermsLookupTree(
+  { vocab }: LexiconJson,
+  tree: CompoundTermsLookupTree = { matches: [], next: {} }
+) {
+  for (const term in vocab) {
+    if (term.length > 1) {
+      addCompoundTermToLookupTree(tree, term);
+    }
+  }
+  return tree;
+}
+function addCompoundTermToLookupTree(
+  tree: CompoundTermsLookupTree,
+  term: string
+) {
+  let node = tree;
+  for (let i = 0; i < term.length; i++) {
+    const char = term[i];
+    node.next[char] ||= { matches: [], next: {} };
+    node = node.next[char];
+  }
+  node.matches.push(term[term.length - 1]);
+}
+
+function getLookups(text: string, lexicon: LexiconJson): TextLookups {
+  const lookups: TextLookups = {};
+  const compoundTermsLookupTree = getCompoundTermsLookupTree(lexicon);
+  for (let i = 0; i < text.length; i++) {
+    const compounds = getCompoundsAt(compoundTermsLookupTree, text, i);
+    const character = text[i];
+    const mainVariantsForChar = lexicon.variants[character];
+    const matches = [
+      ...compounds,
+      ...(lexicon.vocab[character] ? [character] : []),
+      ...(mainVariantsForChar || []).filter(
+        (variant) => lexicon.vocab[variant]
+      ),
+    ];
+    lookups[i] = lookups[i] ? [...matches, ...lookups[i]] : matches;
+    for (const compound of compounds) {
+      for (let j = 0; j < compound.length; j++) {
+        lookups[i + j] = lookups[i + j]
+          ? [...lookups[i + j], compound]
+          : [compound];
+      }
+    }
+  }
+  return lookups;
 }
