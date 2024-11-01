@@ -99,6 +99,10 @@ export function ChineseWithPopover({
           );
         }
 
+        const rubyCandidateEntries = entries.filter(
+          (e) => [...e.head].length === 1
+        );
+
         const characterGloss =
           characterIndexInLine != null
             ? termComponents?.[characterIndexInLine]
@@ -118,9 +122,10 @@ export function ChineseWithPopover({
             }
           : null;
 
-        const soleEntry = entries.length === 1 ? entries[0] : null;
+        const soleEntry =
+          rubyCandidateEntries.length === 1 ? rubyCandidateEntries[0] : null;
         const matchingEntry = glossLemma
-          ? findEntryMatchingEnKeywords(entries, [glossLemma])
+          ? findEntryMatchingEnKeywords(rubyCandidateEntries, [glossLemma])
           : null;
 
         let rubyText: string | null = null;
@@ -128,8 +133,8 @@ export function ChineseWithPopover({
         else
           rubyText =
             displayOptions?.ruby &&
-            (matchingEntry || soleEntry || entries.length)
-              ? (matchingEntry || soleEntry || entries[0])?.[
+            (matchingEntry || soleEntry || rubyCandidateEntries.length)
+              ? (matchingEntry || soleEntry || rubyCandidateEntries[0])?.[
                   displayOptions.ruby!
                 ]
               : null;
@@ -173,7 +178,7 @@ export function ChineseWithPopover({
                 soleEntry={soleEntry}
                 matchingEntry={matchingEntry || null}
                 displayOptions={displayOptions}
-                firstEntry={entries[0] || null}
+                firstEntry={rubyCandidateEntries[0] || null}
               />
             </ruby>
           </span>
