@@ -1,9 +1,9 @@
 import fs from "fs";
 import path from "path";
 
-import { Passage as Passage, PassageVocab } from "./Passage";
+import { Passage } from "./Passage";
+import { LexiconJson } from "./lexicon";
 import { parsePassage, parseFrontmatterText } from "./Passage";
-import { PassageVocabWithVariants } from "../prebuild";
 
 const textsDirectory = path.resolve(process.cwd(), "texts");
 
@@ -26,9 +26,7 @@ export function getPassageVocab(textId: string) {
     "prebuild",
     `${textId}.vocab.json`
   );
-  const vocab: PassageVocabWithVariants = JSON.parse(
-    fs.readFileSync(vocabJsonPath, "utf8")
-  );
+  const vocab: LexiconJson = JSON.parse(fs.readFileSync(vocabJsonPath, "utf8"));
   return vocab;
 }
 
@@ -79,7 +77,5 @@ export function getTextsIdsAndTitles() {
 export const prebuildDirectoryPath = path.join(process.cwd(), "prebuild");
 export const lexiconFilePath = path.join(prebuildDirectoryPath, "lexicon.json");
 export const getLexiconFileContents = () => {
-  return JSON.parse(
-    fs.readFileSync(lexiconFilePath, "utf8")
-  ) as PassageVocabWithVariants;
+  return JSON.parse(fs.readFileSync(lexiconFilePath, "utf8")) as LexiconJson;
 };

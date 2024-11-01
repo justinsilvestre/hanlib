@@ -5,7 +5,7 @@ import { Passage } from "../Passage";
 import { DisplayOptions } from "./ChineseWithPopover";
 import { ReactNode } from "react";
 import { NotesChinese } from "./NotesChinese";
-import { PassageVocabWithVariants } from "@/app/prebuild";
+import { LexiconJson } from "@/app/texts/lexicon";
 
 export function PassageNotes({
   notesWithHeadings,
@@ -14,7 +14,7 @@ export function PassageNotes({
   passage,
 }: {
   notesWithHeadings: { id: string; heading: string }[];
-  vocab: PassageVocabWithVariants;
+  vocab: LexiconJson;
   displayOptions: DisplayOptions;
   passage: Passage;
 }): ReactNode {

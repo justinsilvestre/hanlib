@@ -1,4 +1,4 @@
-import { LexiconEntry } from "@/app/texts/Passage";
+import { LexiconEntry } from "./texts/lexicon";
 
 export function findEntryMatchingEnKeywords(
   entries: LexiconEntry[],

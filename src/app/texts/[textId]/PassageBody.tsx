@@ -1,12 +1,12 @@
 "use client";
-import { Passage, PassageVocab } from "../Passage";
+import { Passage } from "../Passage";
 import { ChineseWithPopover, DisplayOptions } from "./ChineseWithPopover";
 import { useState } from "react";
 import { normalizeText } from "./punctuation";
 import { parseGloss } from "./parseGloss";
 import { GlossDocument, TranslationElement } from "@/app/glossUtils";
 import { PassageNotes } from "./PassageNotes";
-import { PassageVocabWithVariants } from "@/app/prebuild";
+import { LexiconJson } from "../lexicon";
 
 export function PassageBody({
   passageId: passageId,
@@ -16,7 +16,7 @@ export function PassageBody({
 }: {
   passage: Passage;
   passageId: string;
-  vocab: PassageVocabWithVariants;
+  vocab: LexiconJson;
   displayOptions: DisplayOptions;
 }) {
   const notesWithHeadings: { id: string; heading: string }[] = [];

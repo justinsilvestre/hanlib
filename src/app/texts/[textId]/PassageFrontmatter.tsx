@@ -1,11 +1,11 @@
 "use client";
 import Markdown from "markdown-to-jsx";
 import markdownCss from "./markdown.module.css";
-import { Passage, PassageVocab } from "../Passage";
+import { Passage } from "../Passage";
 import { DisplayOptions } from "./ChineseWithPopover";
 import { NotesChinese } from "./NotesChinese";
 import { toCurlyQuotes } from "./PassageBody";
-import { PassageVocabWithVariants } from "@/app/prebuild";
+import { LexiconJson } from "../lexicon";
 
 export function PassageFrontmatter({
   text,
@@ -13,7 +13,7 @@ export function PassageFrontmatter({
   displayOptions,
 }: {
   text: Passage;
-  vocab: PassageVocabWithVariants;
+  vocab: LexiconJson;
   displayOptions: DisplayOptions;
 }) {
   return (

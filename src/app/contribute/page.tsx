@@ -1,12 +1,12 @@
 import { lexiconFilePath } from "@/app/texts/files";
 import { readFile } from "fs/promises";
 import { ContributePage } from "./ContributePage";
-import { PassageVocabWithVariants } from "../prebuild";
+import { LexiconJson } from "../texts/lexicon";
 
 export default async function ContributeRoute() {
   const lexicon = JSON.parse(
     await readFile(lexiconFilePath, "utf-8")
-  ) as PassageVocabWithVariants;
+  ) as LexiconJson;
 
   return <ContributePage lexicon={lexicon} />;
 }

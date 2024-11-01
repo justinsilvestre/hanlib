@@ -5,7 +5,7 @@ import {
   FloatingFocusManager,
   FloatingPortal,
 } from "@floating-ui/react";
-import { PassageVocab, VocabEntryPronunciationKey } from "../Passage";
+import { LexiconEntryFieldKey, LexiconJson } from "../lexicon";
 import { usePopover } from "./Popover";
 import { useState } from "react";
 import { textIsPunctuation } from "./punctuation";
@@ -15,7 +15,6 @@ import {
 } from "@/app/lexiconEntryEnKeywords";
 import dynamic from "next/dynamic";
 import { GlossDocument, GlossedTermComponent } from "@/app/glossUtils";
-import { PassageVocabWithVariants } from "@/app/prebuild";
 
 const RubyText = dynamic(() => import("./RubyText").then((r) => r.RubyText), {
   ssr: false,
@@ -24,7 +23,7 @@ const RubyText = dynamic(() => import("./RubyText").then((r) => r.RubyText), {
 export const LATEST_DISPLAY_OPTIONS_VERSION = 1;
 
 export type DisplayOptions = {
-  ruby: null | VocabEntryPronunciationKey;
+  ruby: null | LexiconEntryFieldKey;
   translation: null | "gloss" | "idiomatic";
   qieyun?:
     | "karlgren"
@@ -45,7 +44,7 @@ export function ChineseWithPopover({
   segmentStartingCharacterIndexInLine,
 }: {
   text: string;
-  vocab: PassageVocabWithVariants;
+  vocab: LexiconJson;
   displayOptions: DisplayOptions;
   gloss: GlossDocument | null;
   highlightedCharactersRange?: {
@@ -200,7 +199,7 @@ function PopoverDictionaryContent({
 }: {
   popover: ReturnType<typeof usePopover>;
   popoverChar: string;
-  vocab: PassageVocabWithVariants;
+  vocab: LexiconJson;
   enGloss: string | null;
 }) {
   return (
@@ -289,10 +288,7 @@ function PopoverDictionaryContent({
   );
 }
 
-function lookUpChar(
-  { vocab, variants }: PassageVocabWithVariants,
-  char: string
-) {
+function lookUpChar({ vocab, variants }: LexiconJson, char: string) {
   const exactMatch = vocab[char];
   if (exactMatch) return exactMatch;
   const mainVariantsForChar = variants[char];

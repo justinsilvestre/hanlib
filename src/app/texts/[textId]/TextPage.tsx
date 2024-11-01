@@ -1,13 +1,12 @@
 "use client";
 
-import { Passage, PassageVocab } from "../Passage";
+import { Passage } from "../Passage";
 import { PassageBody } from "./PassageBody";
-import { PassageNotes } from "./PassageNotes";
 import { PassageFrontmatter } from "./PassageFrontmatter";
 import { PassageDisplayOptionsForm } from "./PassageDisplayOptionsForm";
 import { useDisplayOptions } from "./PassageDisplayOptionsForm";
 import Link from "next/link";
-import { PassageVocabWithVariants } from "@/app/prebuild";
+import { LexiconJson } from "@/app/texts/lexicon";
 
 export default function TextPage({
   passageId,
@@ -16,7 +15,7 @@ export default function TextPage({
 }: {
   passageId: string;
   passage: Passage;
-  vocab: PassageVocabWithVariants;
+  vocab: LexiconJson;
 }) {
   const [displayOptions, setDisplayOptions] = useDisplayOptions();
 

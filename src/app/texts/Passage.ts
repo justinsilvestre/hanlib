@@ -1,3 +1,9 @@
+import {
+  CorpusVocab,
+  CorpusTermVariants,
+  LexiconEntryFieldKey,
+} from "./lexicon";
+
 export type Passage = {
   frontmatter: {
     title: string;
@@ -10,23 +16,7 @@ export type Passage = {
   }[];
   notes: Record<string, string>;
 };
-export type LexiconEntry = Record<VocabEntryPronunciationKey, string | null>;
 
-export type PassageVocabWithVariants = {
-  vocab: PassageVocab;
-  variants: PassageTermVariants;
-};
-
-export type PassageTermVariants = Record<string, string[]>;
-export type PassageVocab = Partial<Record<string, LexiconEntry[]>>;
-
-export type VocabEntryPronunciationKey =
-  | "vi"
-  | "jyutping"
-  | "pinyin"
-  | "en"
-  | "kr"
-  | "qieyun";
 export const vocabFileColumns = [
   { heading: "Vietnamese", key: "vi" },
   { heading: "Jyutping", key: "jyutping" },
@@ -34,14 +24,14 @@ export const vocabFileColumns = [
   { heading: "Hanyu Pinyin", key: "pinyin" },
   { heading: "Korean", key: "kr" },
   { heading: "Qieyun", key: "qieyun" },
-] as const;
+] as const satisfies { heading: string; key: LexiconEntryFieldKey }[];
 
-export function parsePassageVocabList(
+export function parsePassageVocabListTsv(
   textId: string,
   vocabFileContents: string | null
 ) {
-  const vocab: PassageVocab = {};
-  const variants: PassageTermVariants = {};
+  const vocab: CorpusVocab = {};
+  const variants: CorpusTermVariants = {};
   let comment: string | null = null;
 
   if (vocabFileContents) {
@@ -69,7 +59,7 @@ export function parsePassageVocabList(
       );
     }
 
-    const columnsOrder: { key: VocabEntryPronunciationKey; index: number }[] =
+    const columnsOrder: { key: LexiconEntryFieldKey; index: number }[] =
       vocabFileColumns.map((vocabFileColumn) => {
         const index = columnHeaders.indexOf(vocabFileColumn.heading);
         return { key: vocabFileColumn.key, index };
@@ -78,10 +68,7 @@ export function parsePassageVocabList(
     for (const rawLine of lines.slice(1)) {
       const line = rawLine.trim();
       const [chinese, ...columns] = line.split("\t");
-      const vocabEntry = {} as Record<
-        VocabEntryPronunciationKey,
-        string | null
-      >;
+      const vocabEntry = {} as Record<LexiconEntryFieldKey, string | null>;
       for (const { key, index } of columnsOrder) {
         const value = columns[index];
         vocabEntry[key] = value || null;

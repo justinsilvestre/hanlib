@@ -1,5 +1,5 @@
 "use client";
-import { LexiconEntry } from "../Passage";
+import { LexiconEntry } from "../lexicon";
 import { DisplayOptions } from "./ChineseWithPopover";
 import { transcribe as transcribeDecoratedKanOn } from "../../qieyun/transcribeDecoratedKanOn";
 import { transcribe as transcribeKarlgren } from "../../qieyun/transcribeKarlgren";

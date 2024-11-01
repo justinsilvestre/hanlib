@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import TextPage from "../texts/[textId]/TextPage";
-import { Passage, PassageVocab, parsePassage } from "../texts/Passage";
+import { Passage, parsePassage } from "../texts/Passage";
+import { LexiconJson } from "../texts/lexicon";
 import {
   PassageDisplayOptionsForm,
   useDisplayOptions,
@@ -9,7 +9,6 @@ import {
 import { PassageBody } from "../texts/[textId]/PassageBody";
 import { PassageFrontmatter } from "../texts/[textId]/PassageFrontmatter";
 import Link from "next/link";
-import { PassageVocabWithVariants } from "../prebuild";
 
 export function ContributePage({
   passageId,
@@ -18,7 +17,7 @@ export function ContributePage({
 }: {
   passageId?: string;
   initialText?: string;
-  lexicon: PassageVocabWithVariants;
+  lexicon: LexiconJson;
 }) {
   const storageKey = `contribute-${passageId || "NEW"}`;
   const [passage, setPassage] = useState<Passage>(() => {
