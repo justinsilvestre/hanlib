@@ -10,6 +10,9 @@ const GLOSSED = [
   'brandt-ch05-1', 'brandt-ch05-2',
 ]
 
+// prettier-ignore
+const LESSONS_AND_TEXTS = [[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3,4],[1,2,3,4],[1,2,3,4],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2,3],[1,2],[1,2],[1,2],[1,2],[1,2],[1,2],[1,2],[1,2],[1,2],[1,2],[1,2]]
+
 export default function Home() {
   const textsIdsAndTitles = getTextsIdsAndTitles();
   return (
@@ -23,25 +26,37 @@ export default function Home() {
         Passages marked with * have been transcribed but not yet glossed.
       </p>
 
-      <ul className="ml-4 list-disc">
-        {textsIdsAndTitles
-          .filter((text) => text.preview)
-          .map((text) => {
-            const [, , brandtChapter, textNumber] = text.textId.split(/-|ch/);
-            return (
-              <li key={text.textId}>
-                <Link
-                  href={`/texts/${text.textId}`}
-                  className="underline hover:no-underline"
-                >
-                  Lesson {parseInt(brandtChapter, 10)}, Text {textNumber}
-                  {!GLOSSED.includes(text.textId) && "*"}
-                  {" - "}
-                  {text.preview}
-                </Link>
-              </li>
-            );
-          })}
+      <ul className="ml-4">
+        {LESSONS_AND_TEXTS.map((lesson, i) => {
+          const lessonNumber = i + 1;
+          return (
+            <li key={i}>
+              <h2 className="font-bold">Lesson {lessonNumber}</h2>
+              <span className="">
+                {lesson.map((textNumber) => {
+                  const textId = `brandt-ch${lessonNumber
+                    .toString()
+                    .padStart(2, "0")}-${textNumber}`;
+                  const text = textsIdsAndTitles.find(
+                    (t) => t.textId === textId
+                  )!;
+                  return (
+                    <span key={textId} className="inline-block mx-2">
+                      {" "}
+                      <Link
+                        href={`/texts/${textId}`}
+                        className="underline hover:no-underline"
+                      >
+                        {text.preview}
+                        {!GLOSSED.includes(textId) && "*"}
+                      </Link>
+                    </span>
+                  );
+                })}
+              </span>
+            </li>
+          );
+        })}
       </ul>
     </main>
   );
