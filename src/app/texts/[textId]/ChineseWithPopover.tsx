@@ -326,7 +326,6 @@ function getCompoundsAt(
     node = node.next[char];
     if (node.matches.length) {
       const matchedTerm = visitedChars.join("");
-      console.log("matchedTerm", matchedTerm);
       matches.push(matchedTerm);
     }
   }
@@ -387,7 +386,7 @@ function getLookups(text: string, lexicon: LexiconJson): TextLookups {
     ];
     lookups[i] = lookups[i] ? [...matches, ...lookups[i]] : matches;
     for (const compound of compounds) {
-      for (let j = 0; j < compound.length; j++) {
+      for (let j = 1; j < compound.length; j++) {
         lookups[i + j] = lookups[i + j]
           ? [...lookups[i + j], compound]
           : [compound];
