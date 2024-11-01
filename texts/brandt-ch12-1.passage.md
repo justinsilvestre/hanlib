@@ -20,12 +20,9 @@ Kao-ch'iung (began) to argue with him (very) hotly. The prime minister Feng-chen
 "You have secured the office of minister by (your) essays", replied Kao-ch'iung angrily, "now, when there are so many enemies (lit. mounted brigands), you blame me for lack of etiquette.
 
 君何不賦詩一章。以退虜耶。馮拯語塞。
-Why (then) do you not compose some (lit. a piece） verses in order to rout them?"
+Why (then) do you not compose some (lit. a piece） verses in order to rout them?" Feng-cheng was struck speechless (with that reply).
 
-眞宗乃從瓊言。
-Feng-cheng was struck speechless (with that reply).
-
-至河北登城。張黃龍旗。
+眞宗乃從瓊言。至河北登城。張黃龍旗。
 The emperor followed Kao-ch'iung's advice (lit. words), proceeded to the northern side of the river, ascended the wall, and (ordered) the yellow imperial (lit. dragon) banners to be displayed.
 
 城下將士望見之。皆呼萬歲。氣勢百倍。遂擊契丹走之。
