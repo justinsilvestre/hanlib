@@ -28,7 +28,7 @@ Feng-cheng was struck speechless (with that reply).
 至河北登城。張黃龍旗。
 The emperor followed Kao-ch'iung's advice (lit. words), proceeded to the northern side of the river, ascended the wall, and (ordered) the yellow imperial (lit. dragon) banners to be displayed.
 
-城下將士望見之。皆呼萬歲。氣勢百倍。遂擊契丹运之。
+城下將士望見之。皆呼萬歲。氣勢百倍。遂擊契丹走之。
 Officers and soldiers who were under the wall saw the emperor and greeted him enthusiastically. Their courage increased a hundred fold; they attacked the Kitans and drove them away.
 
 ---

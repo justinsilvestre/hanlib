@@ -106,10 +106,6 @@ async function fillInMissingReadingsInTsvs() {
       Object.keys(vocab).concat(isBrandtPassage ? newCharsInPassage : [])
     );
 
-    if (textId.includes("10-3")) {
-      console.log({ variants, vocab, newCharsInPassage, featuredChars });
-    }
-
     const featuredCharsMainVariants = new Set(
       [...featuredChars].flatMap((char) => {
         const mainVariants = [

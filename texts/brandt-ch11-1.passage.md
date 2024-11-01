@@ -34,7 +34,7 @@ The people of our country are called "the 400 millions" which number no other co
 使能上下合力。可以雄視五洲。莫之能禦。
 If they high and low were able to combine their strength, they would be able to face fearlessly the five continents, and no one could oppose them.
 
-顧屢戰屢敗。割地賠欸。國勢岌岌。若不終日。
+顧屢戰屢敗。割地賠欵。國勢岌岌。若不終日。
 And yet as often as we have fought, just so often have we lost. Our territory is cut up, and an indemnity (is imposed on us). The country is in a desperate state, as though she would not see the end of the day.
 
 則以徒有四萬萬人。而不能合四萬萬人之力。故也。
