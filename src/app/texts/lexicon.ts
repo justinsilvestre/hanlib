@@ -1,4 +1,6 @@
-export type LexiconEntry = Record<LexiconEntryFieldKey, string | null>;
+export type LexiconEntry = Record<LexiconEntryFieldKey, string | null> & {
+  head: string;
+};
 
 export type LexiconJson = {
   vocab: CorpusVocab;

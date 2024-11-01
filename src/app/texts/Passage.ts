@@ -2,6 +2,7 @@ import {
   CorpusVocab,
   CorpusTermVariants,
   LexiconEntryFieldKey,
+  LexiconEntry,
 } from "./lexicon";
 
 export type Passage = {
@@ -68,14 +69,15 @@ export function parsePassageVocabListTsv(
     for (const rawLine of lines.slice(1)) {
       const line = rawLine.trim();
       const [chinese, ...columns] = line.split("\t");
-      const vocabEntry = {} as Record<LexiconEntryFieldKey, string | null>;
+      const chineseVariants = chinese.split(",");
+      const [mainVariant, ...secondaryVariants] = chineseVariants;
+      const vocabEntry = {
+        head: mainVariant,
+      } as LexiconEntry;
       for (const { key, index } of columnsOrder) {
         const value = columns[index];
         vocabEntry[key] = value || null;
       }
-
-      const chineseVariants = chinese.split(",");
-      const [mainVariant, ...secondaryVariants] = chineseVariants;
 
       vocab[mainVariant] ||= [];
       vocab[mainVariant]!.push(vocabEntry);

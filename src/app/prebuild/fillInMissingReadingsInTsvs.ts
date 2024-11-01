@@ -75,6 +75,7 @@ export async function fillInMissingReadingsInTsvs(lexicon: LexiconJson) {
         vocab[char] = (
           vocab[char] || [
             {
+              head: char,
               en: null,
               jyutping: null,
               kr: null,
@@ -84,6 +85,7 @@ export async function fillInMissingReadingsInTsvs(lexicon: LexiconJson) {
             },
           ]
         ).map((e) => ({
+          head: e.head,
           en: e.en || null,
           jyutping:
             e.jyutping ||

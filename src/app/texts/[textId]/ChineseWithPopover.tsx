@@ -89,7 +89,7 @@ export function ChineseWithPopover({
           characterIndexInLine <= highlightedCharactersRange.endCharacterIndex;
         const entries = lookUpChar(vocab, char);
 
-        if (!entries?.length) {
+        if (!entries.length) {
           return (
             <span key={i} className={`font-sans `}>
               {char}
@@ -231,6 +231,7 @@ function PopoverDictionaryContent({
 
                 return (
                   <div key={i} className="p-1 rounded">
+                    {entry.head !== popoverChar && <>{entry.head} </>}
                     {[entry.jyutping, entry.pinyin, entry.kr, entry.vi]
                       .filter((e) => e)
                       .map((e, i, readings) => (
@@ -289,13 +290,13 @@ function PopoverDictionaryContent({
 }
 
 function lookUpChar({ vocab, variants }: LexiconJson, char: string) {
-  const exactMatch = vocab[char];
-  if (exactMatch) return exactMatch;
+  const exactMatches = vocab[char] || [];
+
   const mainVariantsForChar = variants[char];
   if (mainVariantsForChar) {
-    const entries = mainVariantsForChar.flatMap(
-      (variant) => vocab[variant] || []
+    return exactMatches.concat(
+      mainVariantsForChar.flatMap((variant) => vocab[variant] || [])
     );
-    return entries;
   }
+  return exactMatches;
 }
