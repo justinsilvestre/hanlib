@@ -17,8 +17,9 @@ export default function Home() {
   const textsIdsAndTitles = getTextsIdsAndTitles();
   return (
     <main className="min-h-screen max-w-screen-xl m-auto p-4">
+      <h1 className="text-xl text-center mb-4">Hanlib</h1>
       <div className="mb-4 text-center">
-        <h1 className="font-bold">Introduction to Literary Chinese</h1>
+        <h2 className="font-bold">Introduction to Literary Chinese</h2>
         <p className="text-sm">Adapted from the 1927 book by J. Brandt</p>
       </div>
 
