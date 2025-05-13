@@ -1,6 +1,7 @@
-const peggy = require("peggy");
-const fs = require("fs");
-const path = require("path");
+import * as peggy from "peggy";
+import * as fs from "fs";
+import * as path from "path";
+
 const parser = peggy.generate(
   fs.readFileSync(path.join(__dirname, "glossGrammar.pegjs"), "utf8"),
   {
@@ -9,7 +10,7 @@ const parser = peggy.generate(
   }
 );
 fs.mkdirSync(path.join(__dirname, "build"), { recursive: true });
-const outputPath = path.join(__dirname, "build", "glossParser.ts");
+const outputPath = path.join(__dirname, "build", "glossParser.js");
 fs.writeFileSync(outputPath, parser, "utf8");
 
 console.log(`Wrote to ${outputPath}`);
