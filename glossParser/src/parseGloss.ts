@@ -1,3 +1,4 @@
+// @ts-expect-error
 import { parse } from "../build/glossParser";
 import { GlossDocument, GlossElement } from "./glossUtils";
 
