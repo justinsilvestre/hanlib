@@ -2,11 +2,12 @@
 import { Passage } from "../Passage";
 import { ChineseWithPopover, DisplayOptions } from "./ChineseWithPopover";
 import { useState } from "react";
-import { normalizeText } from "./punctuation";
+import { normalizeText, textIsEndPunctuation } from "./punctuation";
 import { parseGloss } from "./parseGloss";
 import { GlossDocument, TranslationElement } from "@/app/glossUtils";
 import { PassageNotes } from "./PassageNotes";
 import { LexiconJson } from "../lexicon";
+import clsx from "clsx";
 
 export function PassageBody({
   passageId: passageId,
@@ -82,10 +83,13 @@ export function PassageBody({
                   { noteId, text, gloss, segmentStartingCharacterIndexInLine },
                   segmentIndex
                 ) => {
+                  if (segmentIndex > 0 && textIsEndPunctuation(text))
+                    return null;
+                  const nextText = chineseSegments[segmentIndex + 1]?.text;
                   return (
                     <div
                       key={segmentIndex}
-                      className="text-4xl inline leading-relaxed"
+                      className={clsx("text-4xl inline-block leading-relaxed")}
                     >
                       <span
                         className={
@@ -111,15 +115,18 @@ export function PassageBody({
                             lineIndex
                           )}
                         />
+                        {noteId && (
+                          <a
+                            className="text-blue-500/50 align-super text-sm"
+                            href={`#note-${noteId}`}
+                            id={`noteref-${noteId}`}
+                          >
+                            [{noteId}]
+                          </a>
+                        )}
                       </span>
-                      {noteId && (
-                        <a
-                          className="text-blue-500/50 align-super text-sm"
-                          href={`#note-${noteId}`}
-                          id={`noteref-${noteId}`}
-                        >
-                          [{noteId}]
-                        </a>
+                      {nextText && textIsEndPunctuation(nextText) && (
+                        <>{nextText}</>
                       )}
                     </div>
                   );

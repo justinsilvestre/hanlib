@@ -17,6 +17,7 @@
   "dependencies": {
     "@floating-ui/react": "^0.26.9",
     "@silvestre/cjk-unihan": "^0.0.3-4",
+    "clsx": "^2.1.1",
     "markdown-to-jsx": "7.3.2",
     "next": "^14.1.0",
     "peggy": "^5.0.2",
