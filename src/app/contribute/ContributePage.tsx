@@ -9,6 +9,7 @@ import {
 import { PassageBody } from "../texts/[textId]/PassageBody";
 import { PassageFrontmatter } from "../texts/[textId]/PassageFrontmatter";
 import Link from "next/link";
+import GlossEditor from "../texts/GlossEditor";
 
 export function ContributePage({
   passageId,
@@ -84,16 +85,18 @@ export function ContributePage({
             </div>
           ))}
         </div>
-        <textarea
-          name="text"
-          id="text"
+        <GlossEditor
           className={`w-full h-full ${
-            initialText === text ? "text-gray-500" : "text-black"
+            initialText === text
+              ? "opacity-90"
+              : "border-teal-800 border-solid border-2"
           }`}
-          value={text}
-          onChange={handleTextChange}
-          placeholder="Enter text here"
-        ></textarea>
+          initialValue={initialText}
+          onChange={(value) => {
+            updateTextAndParse(value);
+          }}
+          // placeholder="Enter text here"
+        />
         {passageId && (
           <div className="flex flex-row justify-between">
             <Link

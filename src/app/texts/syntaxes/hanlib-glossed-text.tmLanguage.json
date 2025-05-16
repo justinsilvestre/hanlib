@@ -1,0 +1,18 @@
+{
+  "scopeName": "source.hanlib",
+  "name": "Hanlib Glossed Text",
+  "patterns": [
+    {
+      "name": "meta.embedded.block.hanlib",
+      "begin": "`",
+      "end": "`",
+      "contentName": "source.hgl",
+      "patterns": [
+        { "include": "source.hgl" }
+      ]
+    }
+  ],
+  "repository": {},
+  "fileTypes": ["hanlib"],
+  "uuid": "hanlib-glossed-text"
+}

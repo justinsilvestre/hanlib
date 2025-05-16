@@ -1,0 +1,7 @@
+{
+  "scopeName": "hgl.injection",
+  "injectionSelector": "L:meta.embedded.block.hgt",
+  "patterns": [
+    { "include": "source.hgl" }
+  ]
+}
