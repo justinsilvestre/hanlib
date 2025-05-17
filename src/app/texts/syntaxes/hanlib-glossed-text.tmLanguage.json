@@ -10,6 +10,32 @@
       "patterns": [
         { "include": "source.hgl" }
       ]
+    },
+    {
+      "name": "markup.markdown.frontmatter.hanlib",
+      "begin": "\\A",
+      "end": "^-{3,}$",
+      "contentName": "text.html.markdown",
+      "patterns": [
+        { "include": "text.html.markdown" }
+      ]
+    },
+    {
+      "name": "source.hanlib.body",
+      "begin": "^-{3,}$",
+      "end": "^-{3,}$",
+      "patterns": [
+        { "include": "#your-dsl-grammar" }
+      ]
+    },
+    {
+      "name": "markup.markdown.footnotes.hanlib",
+      "begin": "^-{3,}$",
+      "end": "\\z",
+      "contentName": "text.html.markdown",
+      "patterns": [
+        { "include": "text.html.markdown" }
+      ]
     }
   ],
   "repository": {},

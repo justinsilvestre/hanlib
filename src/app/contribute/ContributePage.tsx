@@ -64,7 +64,7 @@ export function ContributePage({
     } else {
       localStorage.setItem(storageKey, text);
     }
-  }, [text]);
+  }, [text, storageKey]);
 
   const [errors, setErrors] = useState<string[]>([]);
   const [displayOptions, setDisplayOptions] = useDisplayOptions();
@@ -79,18 +79,19 @@ export function ContributePage({
             </div>
           ))}
         </div>
-        <GlossEditor
-          className={`w-full h-full ${
-            initialText === text
-              ? "opacity-90"
-              : "border-teal-800 border-solid border-2"
-          }`}
-          initialValue={initialText}
-          text={text}
-          onChange={(value) => {
-            updateTextAndParse(value);
-          }}
-        />
+        {initialized.current ? (
+          <GlossEditor
+            className={`w-full h-full ${
+              initialText === text
+                ? "opacity-90"
+                : "border-teal-800 border-solid border-2"
+            }`}
+            text={text}
+            onChange={(value) => {
+              updateTextAndParse(value);
+            }}
+          />
+        ) : null}
         {passageId && (
           <div className="flex flex-row justify-between">
             <Link
