@@ -1,25 +1,26 @@
 "use client";
+
 import { shikiToMonaco } from "@shikijs/monaco";
 import * as monaco from "monaco-editor";
 import { createHighlighter } from "shiki";
 import loader from "@monaco-editor/loader";
 import hanlibGlossedText from "./syntaxes/hanlib-glossed-text.tmLanguage.json";
 import hgl from "./syntaxes/hgl.tmLanguage.json";
-import { useState, useCallback, useContext, useEffect, useRef } from "react";
-import { ThemeContext } from "@/app/ThemeProvider";
+import { useState, useContext, useEffect, useRef } from "react";
+import { ThemeContext } from "../ThemeContext";
 
-// TODO: fix behavior when resizing window smaller
-
-export default function GlossEditor({
+export function GlossEditor({
   onChange,
   initialValue = "",
   className,
+  text,
 }: {
   onChange?: (value: string) => void;
   initialValue?: string;
+  text: string;
   className?: string;
 }) {
-  const { mode } = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
 
   const editorRef = useRef<monaco.editor.IStandaloneCodeEditor | null>(null);
   const resizeObserverRef = useRef<ResizeObserver | null>(null);
@@ -30,7 +31,6 @@ export default function GlossEditor({
     if (!highlighter)
       createHighlighter({
         themes: ["github-dark", "github-light"],
-        // langs: ["hgl", "hanlib"],
         langs: [hanlibGlossedText, hgl],
       }).then((highlighter) => {
         setHighlighter(highlighter);
@@ -65,7 +65,7 @@ export default function GlossEditor({
       const editor = monaco.editor.create(containerRef.current, {
         value: initialValue,
         language: "Hanlib Glossed Text",
-        theme: mode === "dark" ? "github-dark" : "github-light",
+        theme: theme === "dark" ? "github-dark" : "github-light",
         wordWrap: "on",
       });
       editorRef.current = editor;
@@ -82,7 +82,7 @@ export default function GlossEditor({
         if (onChangeRef.current) onChangeRef.current(value);
       });
     }
-    // should not have mode here
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [monaco, highlighter, initialValue]);
   useEffect(() => {
     // Cleanup the editor on unmount
@@ -104,10 +104,16 @@ export default function GlossEditor({
   useEffect(() => {
     if (editorRef.current) {
       editorRef.current.updateOptions({
-        theme: mode === "dark" ? "github-dark" : "github-light",
+        theme: theme === "dark" ? "github-dark" : "github-light",
       });
     }
-  }, [mode]);
+  }, [theme]);
+
+  useEffect(() => {
+    if (editorRef.current && text !== editorRef.current.getValue()) {
+      editorRef.current.setValue(text);
+    }
+  }, [text]);
 
   return (
     <div

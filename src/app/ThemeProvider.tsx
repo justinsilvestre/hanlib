@@ -1,27 +1,14 @@
 "use client";
-import { createContext, PropsWithChildren } from "react";
 
-export const ThemeContext = createContext<
-  | {
-      mode: "light" | "dark";
-      setMode: (mode: "light" | "dark") => void;
-    }
-  | {
-      mode?: undefined;
-      setMode?: undefined;
-    }
->({});
-
-import { useEffect, useState } from "react";
+import { useEffect, useState, type PropsWithChildren } from "react";
+import { ThemeContext } from "./ThemeContext";
 
 export default function ThemeProvider({ children }: PropsWithChildren<{}>) {
   const [mode, setModeState] = useState<"light" | "dark">("light");
-  console.log("theme:", localStorage.theme);
   useEffect(() => {
     const osMode = window.matchMedia("(prefers-color-scheme: dark)").matches
       ? "dark"
       : "light";
-    console.log("OS MODE:", osMode);
     if (localStorage.theme === "dark") {
       document.body.classList.add("dark");
       setModeState("dark");
@@ -44,7 +31,6 @@ export default function ThemeProvider({ children }: PropsWithChildren<{}>) {
       const osMode = window.matchMedia("(prefers-color-scheme: dark)").matches
         ? "dark"
         : "light";
-      console.log("switched", osMode);
       setMode(osMode);
     };
     query.addEventListener("change", listenForModeSwitch);
@@ -80,11 +66,10 @@ export default function ThemeProvider({ children }: PropsWithChildren<{}>) {
   return (
     <ThemeContext.Provider
       value={{
-        mode,
-        setMode,
+        theme: mode,
+        setTheme: setMode,
       }}
     >
-      {mode}
       {children}
     </ThemeContext.Provider>
   );
