@@ -43,7 +43,6 @@ export function ContributePage({
       const passage = parsePassage(newText);
       setPassage(passage);
       setErrors([]);
-      console.log(newText);
     } catch (e) {
       console.error(e);
 
