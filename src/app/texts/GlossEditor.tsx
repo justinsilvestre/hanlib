@@ -11,12 +11,10 @@ import { ThemeContext } from "../ThemeContext";
 
 export function GlossEditor({
   onChange,
-  initialValue = "",
   className,
   text,
 }: {
   onChange?: (value: string) => void;
-  initialValue?: string;
   text: string;
   className?: string;
 }) {
@@ -32,7 +30,7 @@ export function GlossEditor({
     if (!highlighter)
       createHighlighter({
         themes: ["github-dark", "github-light"],
-        langs: [hanlibGlossedText, hgl],
+        langs: [hanlibGlossedText, hgl, "markdown"],
       }).then((highlighter) => {
         setHighlighter(highlighter);
       });
@@ -55,11 +53,14 @@ export function GlossEditor({
     onChangeRef.current = onChange;
   }, [onChange]);
   const containerRef = useRef<HTMLDivElement>(null);
+  const initialText = useRef<string>(text);
+  const initialTheme = useRef<string>(theme);
   useEffect(() => {
-    if (monaco && highlighter && containerRef.current) {
+    if (!editorRef.current && monaco && highlighter && containerRef.current) {
       // Register the languageIds first. Only registered languages will be highlighted.
       monaco.languages.register({ id: "hgl" });
       monaco.languages.register({ id: "Hanlib Glossed Text" });
+      monaco.languages.register({ id: "markdown" });
       // Create the highlighter, it can be reused
 
       // Register the themes from Shiki, and provide syntax highlighting for Monaco.
@@ -67,9 +68,9 @@ export function GlossEditor({
 
       // Create the editor
       const editor = monaco.editor.create(containerRef.current, {
-        value: initialValue,
+        value: initialText.current,
         language: "Hanlib Glossed Text",
-        theme: theme === "dark" ? "github-dark" : "github-light",
+        theme: initialTheme.current === "dark" ? "github-dark" : "github-light",
         wordWrap: "on",
       });
       editorRef.current = editor;
@@ -86,8 +87,7 @@ export function GlossEditor({
         if (onChangeRef.current) onChangeRef.current(value);
       });
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [monaco, highlighter, initialValue]);
+  }, [monaco, highlighter]);
   useEffect(() => {
     // Cleanup the editor on unmount
     return () => {
