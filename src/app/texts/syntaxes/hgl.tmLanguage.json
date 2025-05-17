@@ -1,0 +1,64 @@
+{
+  "scopeName": "source.hgl",
+  "name": "Gloss DSL",
+  "patterns": [
+    {
+      "match": "\\b[1-9]",
+      "name": "keyword.control.reorder.hgl"
+    },
+    {
+      "match": "\\^?[a-zA-Z'_~\\-]+(?:\\[[a-zA-Z'_~\\-]+\\])?",
+      "name": "variable.language.gloss.hgl"
+    },
+    {
+      "match": "\\[\\^[a-zA-Z'_~\\- ]+\\]",
+      "name": "comment.padding.strong.hgl"
+    },
+    {
+      "match": "\\[[a-zA-Z'_~\\- ]+\\]",
+      "name": "comment.padding.hgl"
+    },
+    {
+      "match": "\\(([^\\)]+)\\)",
+      "name": "meta.idiomatic.hgl"
+    },
+    {
+      "match": "\\b[a-zA-Z'_~\\-]+\\[:[a-zA-Z'_~\\-]+\\]",
+      "name": "support.function.inflected.hgl"
+    },
+    {
+      "match": "\"[^\"]*\"",
+      "name": "string.quoted.double.hgl"
+    },
+    {
+      "match": "[\\.\\?!,;]+",
+      "name": "punctuation.terminator.hgl"
+    },
+    {
+      "match": "//.*$",
+      "name": "comment.line.double-slash.hgl"
+    }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.qs",
+          "match": "\\b(if|while|for|return)\\b"
+        }
+      ]
+    },
+    "strings": {
+      "name": "string.quoted.double.qs",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.qs",
+          "match": "\\\\."
+        }
+      ]
+    }
+  },
+  "fileTypes": ["hgl"]
+}

@@ -1,5 +1,5 @@
 "use client";
-import { parse } from "@/app/glossParser";
+import { parse } from "../../../../glossParser/build/glossParser";
 import { GlossDocument } from "@/app/glossUtils";
 
 export function parseGloss(glossText: string | null) {

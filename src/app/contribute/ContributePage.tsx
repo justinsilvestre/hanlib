@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import { Passage, parsePassage } from "../texts/Passage";
 import { LexiconJson } from "../texts/lexicon";
 import {
@@ -8,7 +9,7 @@ import {
 } from "../texts/[textId]/PassageDisplayOptionsForm";
 import { PassageBody } from "../texts/[textId]/PassageBody";
 import { PassageFrontmatter } from "../texts/[textId]/PassageFrontmatter";
-import Link from "next/link";
+import { GlossEditor } from "../texts/GlossEditor";
 
 export function ContributePage({
   passageId,
@@ -67,16 +68,11 @@ export function ContributePage({
   }, [text]);
 
   const [errors, setErrors] = useState<string[]>([]);
-  const handleTextChange: React.ChangeEventHandler<HTMLTextAreaElement> = (
-    e
-  ) => {
-    updateTextAndParse(e.target.value);
-  };
   const [displayOptions, setDisplayOptions] = useDisplayOptions();
 
   return (
     <div className="flex flex-row p-4 gap-4 max-h-[calc(100vh-5rem)]">
-      <form className="basis-1/2" onSubmit={(e) => e.preventDefault()}>
+      <form className="basis-1/2 w-1/2" onSubmit={(e) => e.preventDefault()}>
         <div className="border-b-2 border-gray-300 mb-4">
           {errors.map((error, i) => (
             <div key={i} className="text-red-500">
@@ -84,16 +80,18 @@ export function ContributePage({
             </div>
           ))}
         </div>
-        <textarea
-          name="text"
-          id="text"
+        <GlossEditor
           className={`w-full h-full ${
-            initialText === text ? "text-gray-500" : "text-black"
+            initialText === text
+              ? "opacity-90"
+              : "border-teal-800 border-solid border-2"
           }`}
-          value={text}
-          onChange={handleTextChange}
-          placeholder="Enter text here"
-        ></textarea>
+          initialValue={initialText}
+          text={text}
+          onChange={(value) => {
+            updateTextAndParse(value);
+          }}
+        />
         {passageId && (
           <div className="flex flex-row justify-between">
             <Link
