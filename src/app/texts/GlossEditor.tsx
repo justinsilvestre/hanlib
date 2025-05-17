@@ -27,6 +27,7 @@ export function GlossEditor({
   const onChangeRef = useRef(onChange);
   const [highlighter, setHighlighter] =
     useState<Awaited<ReturnType<typeof createHighlighter> | null>>(null);
+
   useEffect(() => {
     if (!highlighter)
       createHighlighter({
@@ -35,10 +36,13 @@ export function GlossEditor({
       }).then((highlighter) => {
         setHighlighter(highlighter);
       });
+  }, [highlighter]);
+  useEffect(() => {
     return () => {
       highlighter?.dispose();
+      console.log("disposing highlighter");
     };
-  }, [highlighter]);
+  }, []);
   const [monaco, setMonaco] =
     useState<Awaited<ReturnType<typeof loader.init> | null>>(null);
   useEffect(() => {
