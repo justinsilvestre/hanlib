@@ -4,13 +4,13 @@
 
 ---
 
-A 公便致外交總長函
+A 公使致外交總長函
 A Letter from a Foreign Minister to the Minister of Foreign Affairs.
 
 逕啟者。前准來函。並新訂稅務章程八條。當經本公使將該新章抄送本國外交部核辦。
 I received your letter several days ago with the eight clauses of the newly fixed customs regulations. I then sent a copy of these regulations to my Foreign Office for their approval.
 
-現接准吝覆。以所訂新章內有三條。于商情少有未便。請再斟酌盡善。以歸妥當。等因前來。
+現接准咨覆。以所訂新章內有三條。于商情少有未便。請再斟酌盡善。以歸妥當。等因前來。
 I have now received a reply (to the effect that) as there are in the newly fixed regulations three clauses that are slightly inconvenient for commerce, I am asked to reconsider them carefully (with you) so that (they may be made) quite satisfactory.
 
 准此。本公便擬於本月二十日。前往貴署。面議酌辦。俾垂久遠。是爲至要。此達。順頌日祉。
