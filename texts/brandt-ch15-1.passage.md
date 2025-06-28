@@ -10,7 +10,7 @@ Strange Stories from the Liao Studio - Planting a Pear-tree.
 有鄉人貨梨於市。頗甘芳。價騰貴。
 A peasant was selling pears in the market-place. They were very sweet and fragrant, (but) the price was very high.
 
-有道士破巾架衣丐於車前。
+有道士破巾絮衣丐於車前。
 A Taoist priest in a ragged cap and coarse garments was begging before the cart.
 
 鄉人咄之而不去。
@@ -43,7 +43,7 @@ Somebody remarked, "Since you have it, why do you not eat it yourself?
 曰。吾特需此核。作種。
 "I particularly wanted the seeds to plant them," he replied.
 
-於是掬梨大陌且盡。把核於手。解肩上鐵。坎地上深數寸。納之而覆以土。
+於是掬梨大㗖且盡。把核於手。解肩上鑱。坎地上深數寸。納之而覆以土。
 Thereupon he seized the pear in both hands, took a large bite and finished it. He took the seeds in his hand, unfastened the pick from his shoulder, dug a hole several inches deep and put the seeds in, covering them over with earth.
 
 向市人索湯。沃湯。
