@@ -14,7 +14,7 @@ The Revised Import Tariff of the twenty-eighth year of Kuang-Hsü (1902) has, up
 It is agreed in the Commercial Treaty (1902) between China and Great Britain (1) that if a revision of the said Tariff be wanted, a notification (to this effect) must be made within six months after the end of (the first) ten years.
 
 又查此項稅則。係照辛丑各國和約增至切實一千八百九十七八値百抽五。其估算貨價之基。以九三年卸貨時各貨牽算價值。
-Again, the rate of this Tariff was raised, in accordance with the International Protocol of 1901, to an effective 5% "ad valorem" whose basis of valuation was taken from the mean value of the merchandise at the moment of its debarkation in the three years of 1897. 1898 and 1899.
+Again, the rate of this Tariff was raised, in accordance with the International Protocol of 1901, to an effective 5% "ad valorem" whose basis of valuation was taken from the mean value of the merchandise at the moment of its debarkation in the three years of 1897, 1898 and 1899.
 
 今已閱十年。各貨價值多有增減。自應及時修改。以符切實值百抽五之原約。
 Now ten years have elapsed and in view of the fluctuations in values of the various kinds of merchandise, it should be revised in due time so as to make it conformable to the original agreement of an effective 5% "ad valorem".

@@ -28,7 +28,7 @@ It would be no great loss to you. Why then are you angry?"
 觀者勸置劣者一枚令去。鄉人執不肯。
 The onlookers urged the peasant to get rid of an inferior pear and let him go. But the peasant was obstinate and refused.
 
-肆中傭保者.見喋聒不堪。遂出錢市一枚.付道士。
+肆中傭保者.見喋聒不堪。遂出錢市一枚。付道士。
 The shopmen in the market-place seeing that the commotion was growing unbearable thereupon contributed a few cash, bought a pear and gave it to the priest.
 
 道士拜謝。謂眾曰。日出家人不解吝惜。

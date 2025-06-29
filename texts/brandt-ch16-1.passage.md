@@ -13,7 +13,7 @@ The priest took it and soaked the place which he had dug. Every eye (lit. ten th
 見有句萌出。漸大。俄成樹。枝葉扶疎。
 A hooked sprout appeared; quickly became a tree, branches and leaves spread out.
 
-修倐而花。倐而實。
+倐而花。倐而實。
 Suddenly it flowered, suddenly fruited.
 
 碩大芳馥。纍纍滿樹。

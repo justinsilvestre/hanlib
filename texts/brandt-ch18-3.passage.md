@@ -42,7 +42,7 @@ If there were one (prince) who did not find pleasure in killing men, all the peo
 ⑧ 倘其不願
 If he is not willing.
 
-⑨ 倫致故違定行拏辦
+⑨ 倘致故違定行拏辦
 If they dare to disobey intentionally, I certainly shall proceed to arrest and punish them.
 
 ⑩ 苟有過人必知之
