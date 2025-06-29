@@ -20,7 +20,7 @@ The man of perfect virtue, wishing to be established himself, seeks (also) to es
 ② 夫國君好仁。天下無敵焉。
 When the prince is merciful, the country has no enemies.
 
-③ 夫兵猶火也。弗戰將自焚也。
+③ 夫兵猶火也。弗戢將自焚也。
 War is like fire, if not stopped, it will spread itself.
 
 ④ 今由與求也。可謂具臣矣。

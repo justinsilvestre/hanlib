@@ -150,14 +150,14 @@ Mainly for tracking errata incorporation.
 ## remaining tasks
 
 ```
-total progress: 613/1499 (40.89%)
-[====================                              ]
+total progress: 631/1499 (42.09%)
+[=====================                             ]
 
 user interface: 7/13 (53.85%)
 [===========================                       ]
 
-transcribe/format content: 576/913 (63.09%)
-[================================                  ]
+transcribe/format content: 594/913 (65.06%)
+[=================================                 ]
 
 add content: 30/573 (5.24%)
 [===                                               ]
@@ -1086,8 +1086,8 @@ add content: 30/573 (5.24%)
 - Lesson 18, Text 1
   - transcribe/format content
     - [x] use OCR on text
-    - [ ] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] proofread OCR results
+    - [x] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
@@ -1102,8 +1102,8 @@ add content: 30/573 (5.24%)
 - Lesson 18, Text 2
   - transcribe/format content
     - [x] use OCR on text
-    - [ ] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] proofread OCR results
+    - [x] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
@@ -1118,8 +1118,8 @@ add content: 30/573 (5.24%)
 - Lesson 18, Text 3
   - transcribe/format content
     - [x] use OCR on text
-    - [ ] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] proofread OCR results
+    - [x] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
@@ -1134,8 +1134,8 @@ add content: 30/573 (5.24%)
 - Lesson 19, Text 1
   - transcribe/format content
     - [x] use OCR on text
-    - [ ] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] proofread OCR results
+    - [x] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
@@ -1150,8 +1150,8 @@ add content: 30/573 (5.24%)
 - Lesson 19, Text 2
   - transcribe/format content
     - [x] use OCR on text
-    - [ ] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] proofread OCR results
+    - [x] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
@@ -1166,8 +1166,8 @@ add content: 30/573 (5.24%)
 - Lesson 19, Text 3
   - transcribe/format content
     - [x] use OCR on text
-    - [ ] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] proofread OCR results
+    - [x] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
@@ -1182,8 +1182,8 @@ add content: 30/573 (5.24%)
 - Lesson 20, Text 1
   - transcribe/format content
     - [x] use OCR on text
-    - [ ] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] proofread OCR results
+    - [x] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
@@ -1198,8 +1198,8 @@ add content: 30/573 (5.24%)
 - Lesson 20, Text 2
   - transcribe/format content
     - [x] use OCR on text
-    - [ ] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] proofread OCR results
+    - [x] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
@@ -1214,8 +1214,8 @@ add content: 30/573 (5.24%)
 - Lesson 20, Text 3
   - transcribe/format content
     - [x] use OCR on text
-    - [ ] proofread OCR results
-    - [ ] transcribe English definitions in Vocabulary section
+    - [x] proofread OCR results
+    - [x] transcribe English definitions in Vocabulary section
     - [ ] transcribe Notes section
     - [ ] proofread
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))

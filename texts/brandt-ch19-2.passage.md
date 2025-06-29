@@ -7,7 +7,7 @@
 法律適用條例
 RULES FOR THE APPLICATION OF LAWS
 
-第一章。總網。
+第一章。總綱。
 Chapter 1. General provisions.
 
 第一條。依本條例適用外國法時。其規定有背於中國公共秩序。或善良風俗者。仍不適用之。
