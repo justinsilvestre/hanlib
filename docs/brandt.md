@@ -189,6 +189,7 @@ add content: 30/573 (5.24%)
     - [ ] print formatting
     - [ ] display compounds in glosses
     - [x] accommodate variant characters
+    - [ ] before manual checking, test that all readings in `.vocab.tsv` do not contradict source data (so as to prevent typos etc.)
 - Lesson 1, Text 1
   - transcribe/format content
     - [x] prepare images of Chinese text + English translation for OCR (Feb 9)
@@ -1616,7 +1617,7 @@ add content: 30/573 (5.24%)
     - [x] use OCR on text
     - [x] proofread OCR results
     - [x] transcribe English definitions in Vocabulary section
-    - [x] transcribe Notes section
+    - [ ] transcribe Notes section
     - [ ] proofread
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
     - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
@@ -1632,7 +1633,7 @@ add content: 30/573 (5.24%)
     - [x] use OCR on text
     - [x] proofread OCR results
     - [x] transcribe English definitions in Vocabulary section
-    - [ ] transcribe Notes section
+    - [x] transcribe Notes section
     - [ ] proofread
     - [x] create `.passage.md` according to established format ([example](../texts/brandt-ch01-1.passage.md))
     - [x] create `.vocab.tsv` according to established format ([example](../texts/brandt-ch01-1.vocab.tsv))
