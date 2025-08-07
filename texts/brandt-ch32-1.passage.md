@@ -9,7 +9,7 @@ The Impropriety of the American Invitation to Germany to Adhere to the Washingto
 
 須知中美兩國政府及人民關係。向極親密。故美國在華之商務。蒸
 蒸日上。
-Owing to intimate and friendly relations between the Govern- ments of China and the United States and between the Chinese and the American people, American trade in China has grown by leaps and bounds.
+Owing to intimate and friendly relations between the Governments of China and the United States and between the Chinese and the American people, American trade in China has grown by leaps and bounds.
 
 近年來進步尤速。蓋華人素好和平。富於情感。
 This is particularly the case within recent years as a result of the peaceful nature and friendly feelings of the Chinese people.
@@ -26,7 +26,7 @@ The American invitation to Germany to adhere to the Nine-Power Treaty is therefo
 美國此舉無異變更其十餘年來助華之政策。而爲牽制中國進步。反對中國恢復自由之國家。主張人道正義者。所不為也。
 Such a step on the part of the American Government is tantamount to a complete reversal of the American policy for helping China which was in effect for over ten years, and it places the United States among those Powers which embarrass China's progress and oppose the recovery of her freedom. It is (surely) not the thing for a Power known to be exponent of right and justice to do.
 
-使德國加入九國條約。果成事實。則中德協定無形取消。即中國在德國方面。既得之平等地位。亦将爲美國所破壞矣。
+使德國加入九國條約。果成事實。則中德協定無形取消。即中國在德國方面。既得之平等地位。亦將爲美國所破壞矣。
 If Germany's adherence to the Nine-Power Treaty becomes a fact, it will amount to nullifying the Sino-German Agreement. Furthermore the international standing of equality which China has obtained by her agreement with Germany will be annulled by the United States.
 
 以前之仁義道德公理正義果何在乎。
