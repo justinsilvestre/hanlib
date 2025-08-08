@@ -16,7 +16,7 @@ Such is the result of a selfish policy under pretense of doing the people's will
 書曰。天視自我民視。天聽自我民聽。是天意亦以民意爲歸宿。
 There is (in the works of Mencius) the saying, "Heaven sees according as the people see; Heaven hears according as the people hear." It means that Heaven's will is also based on the people's will.
 
-荒誕小人。平素竊據高官厚祿。利用無知識及童錶之輩。覬覦富貴。破人家國。
+荒誕小人。平素竊據高官厚祿。利用無知識及童騃之輩。覬覦富貴。破人家國。
 As mean factitious people, they usually seize high official posts, appropriate large emoluments, and use to their advantage men of no intelligence and foolish youngsters. They set their hearts upon wealth and honor and ruin the country.
 
 心術臭壞。犬馬不食。貪天功以爲己利。將釀無窮之禍端。置中國於滅種而後已。
@@ -43,7 +43,7 @@ People have become venomous wasps, and all this makes one sad at heart.
 有何有法。非正人心。則不能自强。
 What plan is there left open to us? Excepting the rectifying of the people's heart, there is no other way for us to become strong.
 
-放著此論。狂言之甚。知不免明哲之護。大雅之龍。
+放著此論。狂言之甚。知不免明哲之譏。大雅之誚。
 And it is for this reason that I have written the present article. My words have been drawn at random, and I realize that I have incurred the scorn of the wise and the ridicule of the refined.
 
 然則中國現狀。非正人心則不能自强。邦人君子以爲如何乎。
