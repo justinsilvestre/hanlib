@@ -48,7 +48,7 @@ This expression is derived from the following sen-tence written by the famous po
 
 From the following sentence in the `左側`:
 
-`履端於始…`
+`履端於始`…
 
 "begin with uprightness". (vid. Ch. Q., p. 34,-1).
 
