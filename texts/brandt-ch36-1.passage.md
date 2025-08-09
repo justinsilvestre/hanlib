@@ -18,7 +18,7 @@ The parliamentary government of England was a stronghold of the European represe
 何則。蓋英國勞動黨。决不至使共產主義者。在黨內跋扈故也。雖然。保守黨對於蟠居黨內之頑迷派。能否抑制之使不至趨於法西斯起主義。不能不爲一疑問也。
 Why so? It is because the English labor party will tnever allow the communists within their ranks to resort to violence. Nevertheless it is still a question whether the conservative party will be able to restrain the reactionary elements of the party so that they do not run to fascism.
 
-故英國雖無爲共產主義政治之憂。然恐有爲義國的獨裁政治之處。其影響於國會政治。則一也。
+故英國雖無爲共產主義政治之憂。然恐有爲義國的獨裁政治之虞。其影響於國會政治則一也。
 Therefore, although England may have no anxiety concerning communistic rule (of the country), still there is for her danger of a dictatorial government like that of Italy. It would also affect the parliamentary system.
 
 (未完)
