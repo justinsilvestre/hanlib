@@ -10,7 +10,7 @@ The Danger for the Parliamentary System (continued)
 次觀察義國。獨裁首相莫索利尼何故出現乎。
 Let us look next at Italy. Why has dictator Mussolini appeared (there)?
 
-是無他。蓋義國國民見其國會政治之麻痺萎頓。達至失望。
+是無他。蓋義國國民見其國會政治之痲痺萎頓。達至失望。
 It was for no other reason than that the Italian people seeing their parliamentary government lifeless and broken down came to lose all hope in it.
 
 國王政黨官僚。均茫然自失。一時將陷於無政府狀態。
@@ -19,7 +19,7 @@ The king, the political parties and officials were all perplexed and completely 
 惟此際因國民不喜赤化。途至歡迎莫索利尼之獨裁政治。
 Just at this time, since the people did not desire bolshevism, they (accordingly) welcomed the dictatorship of Mussolini.
 
-郎德國與法國亦決非擇獨裁政治者。不過因惑於國會政治之失敗。欲藉獨裁政治以免無政府狀態已耳。
+即德國與法國亦決非擇獨裁政治者。不過因惑於國會政治之失敗。欲藉獨裁政治以免無政府狀態已耳。
 Now Germany and France certainly do not prefer dictatorship and only on account of the failure of the parliamentary government would they accept dictatorship in order to avoid anarchy.
 
 再觀察法國。其內閣在二年間曾四度更迭。基礎常動搖。小黨林立。政策不得安定其財政政策。尤爲內閣動搖之大原因。
