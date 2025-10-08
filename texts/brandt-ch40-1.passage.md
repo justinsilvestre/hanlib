@@ -23,16 +23,16 @@ I have more than once expressed my desire to resign from office, but the reason 
 內審時艱。外崇國信。且目睹赤化之禍流於首都。不敢遽爲無責任之放棄耳。
 When I saw the internal difficulties of the country, the necessity of maintaining the national faith with the foreign Powers and the "red" danger to which the metropolitan district was exposed, I could not bear (lit. did not dare) to give up my office suddenly without a feeling of responsibility.
 
-本月九日之亂。所關於國家紀綱軍人職責者絕鉅。遴茲奇變。內疚尤深。
+本月九日之亂。所關於國家紀綱軍人職責者絕鉅。遘茲奇變。內疚尤深。
 The "coup d'etat" of the 9th of this month seriously affects the laws of the country and the duty of military men, and my heart is filled with sorrow at this sudden change.
 
-義者臨時政府開始之日。曾規定應辦者若干事。一年之中。事勢扞格。
+曩者臨時政府開始之日。曾規定應辦者若干事。一年之中。事勢扞格。
 Formerly, when the Provisional Government was first established, I planned a number of affairs to be carried out, but in the course of one year I was hindered (in my plans) by the force of circumstances.
 
 今後是否按程繼進。聽諸公意。
 Whether (the Government) will proceed (with these plans) in the future depends upon public opinion.
 
-遡來宗國元功。方隅諸帥。壓以大計相與詢謀。國家之福有目共見。
+邇來宗國元功。方隅諸帥。壓以大計相與詢謀。國家之福有目共見。
 It is significant for the future prosperity of the country that recently many elder statesmen and military leaders have begun to talk over among themselves fundamental plans (for the salvation of the country).
 
 當此亂極思治之秋。不無貞下起元之會。
