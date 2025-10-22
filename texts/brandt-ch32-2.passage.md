@@ -48,13 +48,3 @@ the Nine Similitudes which the Chinese very often use when expressing good wishe
 7. `如日之升` - as high as the sun
 8. `如南山之壽` - as durable as the Southern Mountain
 9. `如松柏之茂` - as luxuriant as pine and cypress leaves
-
-<!-- I. like 1. 如山 ju-shan mountain.
-2. 如阜 ju-fu-like a mount.
-3. 如岡 ju-kang like a hill.
-4. 如陵 juling? mound. like a
-5. 如川 ju-chuan stream. -like a
-6. 如月之恒ju-yueh-chih-heng2 - as con-stant as the moon.
-a 7.如日之升 - jih - chih-sheng high as the sun. - as
-8. 如南山之壽 - nan-shan-chih-shou-as durable as the Southern Moun-tain.
-9.如松柏之茂ju-sung-pai - chih-mao-as luxuriant as pine and cypress leaves. -->

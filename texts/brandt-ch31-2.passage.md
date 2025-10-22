@@ -42,22 +42,6 @@ The first part of this sentence is from the following sentence of Mencius:
 - `南極星輝大德必壽`
 - `松齡衍慶鶴算同長`
 
-<!--
-天下有達尊三,爵一,齒一,德一
-"In the empire there are three things universally acknowledged to be honorable-nobility, age, virtue." (vid. Ch. Q., p. 204,-5).
-Similar expressions.
-壽福
-大南
-鶴松
-比如
-德極
-算齡
-南東
-必星
-同衍
-山海。
-壽輝。
-長慶。 -->
 
 # c
 
@@ -134,31 +118,3 @@ In articles:
 
 - `香資`
 
-<!-- Conformably to the occasions when presents are offered, they are differently called.
-1. Birthday presents.
-祝敬……in money.
-壽物 in articles
-桃儀(桃 t' * a * o ^ 2 - the
-1. Presents to newly born chil-dren.
-.. 彌敬 --- in money.
-Note. here means the Completion of the first month of a child's age kept as a festive accasion.
-1. Wedding presents.
-喜敬 --- in money.
-喜禮賀禮 in articles.
-1. New-year presents.
-年禮 in articles.
-1. Funeral donations.
-奠敬格敬
-in money. (貧tien-offer. ings sac-rifice).
-奠儀楮儀賻儀
-in articles. tribute to-wards fu-neral expen-ses; f * u ^ 4
-1. Holiday presents. in articles.
-節禮 ...
-1. Parting presents.
-程儀行儀臚儀
-in articles or in money.
-(chin-pre-sents to de. parting fri-ends).
-on-feng
--to give aid to-wards funer-al expenses).
-1. Donations to Buddhist or Taoist monasteries.
-香資 -->

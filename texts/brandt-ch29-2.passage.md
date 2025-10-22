@@ -45,17 +45,6 @@ I, So-And-So, give you my regards.
 
 ## Similar expressions
 
-<!-- 接奉尊札
-恭披鈞函
-蒙
-蒙賜朵雲
-盟
-通
-諭翰
-展捧
-棒讀
-閱讀
-雲箋 -->
 
 1. `捧讀雲箋`
 2. `展閱華翰`
@@ -69,11 +58,6 @@ I, So-And-So, give you my regards.
 
 ## Similar expressions
 
-<!-- 拜
-收
-Similar expressions.
-拜領
-拜受 -->
 
 1. `拜受`
 2. `拜領`
@@ -85,18 +69,6 @@ Similar expressions.
 
 ## Similar expressions
 
-<!-- 特
-此
-泐函
-級
-感激
-實深銘感
-銘感
-五內
-致謝
-鳴謝
-佩隆情
-不盡 -->
 
 1. `銘感五內`
 2. `實深銘感`
@@ -111,11 +83,6 @@ A conventional phrase used at the end of letters, meaning that the subject-matte
 
 ## Similar expressions
 
-<!-- Similar expressions.
-縷戩罄具盡備宣一
-chien to exhaust; finish.
-to to縷
-lu³--a thread; in detail. -->
 
 1. `不一`
 2. `不宣`

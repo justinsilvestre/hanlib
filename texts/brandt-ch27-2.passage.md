@@ -111,9 +111,6 @@ I
 * `愚晚`, `侍` "servant”
 * `小弟`, `愚弟`
 
-<!-- You - 鈞鑒,賜鑒,拿前,座前 (only in the beginning of letters),閣下,足下(in the beginning as well as in the middle of letters),會駕,台駕(only in the middle of letters).
-1. In letters to teachers.
-I- 受業(“receiving instructions”), 門生(disciple), 人(disciple),門下(disciple),學生 -->
 
 You
 * `鈞鑒`, `賜鑒`, `尊前`, `座前` (only in the beginning of letters)
@@ -121,23 +118,6 @@ You
 * `尊駕`, `台駕` (only in the middle of letters)
 
 ## 2. In letters to teachers.
-
-<!-- 2. In letters to teachers.
-1-受業(“receiving instructions"), 門生(disciple),門人(disciple),門下(disciple),學生
-334
-You-函丈,絳帳 (only in the beginning of letters),夫子, 老師,恩師,師傅 (in the beginning as well as in the middle of letters). (傅 futla tutor; to teach).
-3. In letters to the persons of the same age.
-1-弟,兄,小弟,小兄,愚弟,愚兄,予,余,鄙人 You一台電,台照,如晤,如握,如面(only in the begin-ning of letters).
-閣下,足下,仁兄,老兄,老弟,弟台(in the beginning as well as in the middle of letters). (台電 t'ai-tien,台照 t'ai-chao glance; you). your lightning -->
-<!-- You-函丈,絳帳 (only in the beginning of letters),夫子, 老師,恩師,師傅 (in the beginning as well as in the middle of letters). (傅 futla tutor; to teach).
-3. In letters to the persons of the same age.
-1-弟,兄,小弟,小兄,愚弟,愚兄,予,余,鄙人 You一台電,台照,如晤,如握,如面(only in the begin-
-ning of letters).
-閣下,足下,仁兄,老兄,老弟,弟台(in the beginning as well as in the middle of letters).
-(台電 t'ai-tien,台照 t'ai-chao glance; you). your lightning
-4. In letters to juniors
-1-予,余,兄,弟,鄙人,世弟 You一如晤,如握,如面(only in the beginning of letters)
-世兄,世弟,仁弟,賢弟,賢契 (in the beginning as well as in the middle of letters). -->
 
 I
 * `受業` "receiving instructions"
@@ -162,42 +142,6 @@ You
 # c
 
 my mother
-
-<!-- There exist in the Chinese epistolary style definite expres. sions for "my" and "your"
-The following are the most usual:
-My father -家嚴家父
-Your father-令尊尊翁, 尊大人 (weng-an old man)
-,,mother-家慈,家母
-,,mother-令堂,尊堂 -->
-
-<!-- My wife 一內子,內人,拙荆,寒荆
-Your wife -令正,尊夫人, 寶眷,尊闢,嫂夫人
-(拙cho-stupid;ching -a bramble; a thorn)
-,, son 一小兒
-,,daughter-小女
-" friend -做友 (做 pit-poor; unworthy)
-" place 一處,敘鄉 home 一般寓,寒舍,舍下,敝舍
-(chuant to love; fa-mily; k'un³ - а door leading to the women's' apartments)
-,, son 君一令郎,實郎少
-,daughter - 令愛貴小姐令媛 (媛yuan-beauty)
-,,friend -令友
-place -貴處,仙鄉 ,home 一算寓,貴府,潭府, (寓yütto dwell; t'an-a pool; vast) 潭
-body; my person - 軀,,,body; your person一貴體,
-賤體,屠體 (ch' the body; 孱 ch'uan-feeble; unfit)
-present-菲儀,戔儀,微儀,薄儀 (fei-mean; unworthy; 儀 etiquette; a present; chien small)
-玉體福躬 (躬 kung--the body)
-,present-佳品,珍品,美品 (佳 chia-beautiful; 珍chen-precious) -->
-<!-- My letter -蕪函,蕪箋,草函
-Your letter-瑤函,尊翰·朵雲,瑤箋
-( wu²-jungle; confused; chien-a letter).
-(翰han-a pen; a letter; 瑤 yao a jewel; 朶 1 to a cluster of flo-wers.)
-opinion-鄙見,愚意,拙見
-,opinion-算意,鈞意,明見
-...feelings-下懷,私懷,微心
-,. feelings-雅誼,高情隆情
-(雅ya-elegant; 隆 lung² -high; eminent)
-,,servant一小价,愚僕 (价 chicha servant)
-,,servant一貴价 -->
 
 There exist in the Chinese epistolary style definite expressions for "my" and "your".
 
