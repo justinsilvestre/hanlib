@@ -34,7 +34,7 @@ Something pushed against the window frame, and the walls of the building tremble
 途砉然脫扃。奔而出。見一巨鬼。高與簷齊。
 With a crash he tore off the bolt and jumped out. There he saw a huge demon as high as the eaves of the roof.
 
-昏月中。見其面黑如煤。眼閃爍有黄光。上無衣。下無履。手弓而腰矢。
+昏月中。見其面黑如煤。眼閃爍有黃光。上無衣。下無履。手弓而腰矢。
 In the dim light of the moon he saw that its face was as black as coal, and its eyes were flashing with a yellow light. There were no clothes on the upper part of its body nor shoes on its feet. It was holding a bow in its hand, and some arrows were fastened at its waist.
 
 (未完)

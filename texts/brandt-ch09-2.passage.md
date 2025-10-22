@@ -31,7 +31,7 @@ If we take a hundred ounces of silver and a millet cake and offer (lit. show) to
 以龢氏之璧與百金。以示鄙人。鄙人必取百金矣。
 If we offer a Ho-shih jade and a hundred ounces of silver to an uncultured man, he will surely take silver.
 
-以龢氏之壁與道德以示賢者。賢者必取道德矣。
+以龢氏之璧與道德以示賢者。賢者必取道德矣。
 If we offer a Ho-shih jade and the virtue to a sage, he certainly will prefer the virtue.
 
 其知彌精。其所取彌精。其知彌粗。其所取彌粗。

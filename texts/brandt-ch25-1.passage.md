@@ -22,7 +22,7 @@ But the old woman went on weeping and it was impossible to stop (her lamentation
 隷醒而悔之。猶謂宰之偽局。姑以解嫗擾耳。因亦不甚爲意。持牒報繳。
 When Li-Neng got sober he was sorry for what had happened. But reflecting that it was a mere trick the magistrate had played on the old woman in order to get rid of her, he did not care much about it and handed back the warrant to the magistrate.
 
-率怒曰。固言能之。何容復侮。隷窘甚。請牒拘獵戶。宰從之。款集諸獵人。日夜伏山谷。冀得一虎。庶可塞責。
+率怒曰。固言能之。何容復悔。隷窘甚。請牒拘獵戶。宰從之。隷集諸獵人。日夜伏山谷。冀得一虎。庶可塞責。
 The latter cried angrily, "You said you could do this, and now I will not allow you to return the warrant." Li-Neng very much annoyed asked him for a warrant ordering to impress the (local) huntsmen. The magistrate granted it to him, and Li-Neng, having collected the huntsmen, lay in ambush day and night in the hills hoping to catch a tiger and thus to make an appearance of having performed his duty.
 
 ---

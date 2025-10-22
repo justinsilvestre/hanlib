@@ -2,8 +2,6 @@
 
 <center>Adapted from the 1927 book by J. Brandt</center>
 
-<center>Vocabulary section transcribed with help from  with help from 武克富強/Võ Khắc Phú Cường</center>
-
 ---
 
 田仲
@@ -18,7 +16,7 @@ There was in the Ch'i state a retired scholar T'ien-chung (by name).
 The ruler of Ch'i paid (lit. supported) (him) a liberal salary, but did not entrust (him) with (any) work, and on account of that T'ien-chung felt himself quite at his ease.
 `2[of] Ch'i_state 1[^the] ruler support[ed] [him] with [a] substantial (liberal) salary, but [did] not lay_a_charge_on (entrust) [him] with [any] work, [and] 2a_name-a_name (T'ien\-chung) 3[felt himself quite] at_ease 1that[:on_account_of_that].`
 
-屈榖往見而謂之曰。
+屈穀往見而謂之曰。
 Ch'ü-ku came to see (him) and said to him,
 `a_name-a_name (Ch'\ü\-ku) go[:came] [to] see [him] [and] speak[:said] him[:to_him] speak[:~],`
 

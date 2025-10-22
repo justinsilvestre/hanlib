@@ -47,28 +47,28 @@ Of these particles 也 and 矣 are most frequently used, and the way of their us
 ---
 
 ① 見義不爲。無勇也。
-To see what is right and not to do (it) is want of courage. He who offends against Heaven has none to whom he can pray.
+To see what is right and not to do (it) is want of courage. 
 
 ② 獲罪於天。無所禧也。
-Riches and honors are what men desire.
+He who offends against Heaven has none to whom he can pray.
 
 ③ 富與貴。是人之所欲也。
-When we see men of worth we should think of equalling them. When we see men of a contrary character we should turn inwards and examine ourselves.
+Riches and honors are what men desire.
 
 ④ 見賢思齊焉。見不賢。而內自省也。
-And now there is not (such another).
+When we see men of worth we should think of equalling them. When we see men of a contrary character we should turn inwards and examine ourselves.
 
 ⑤ 今也則亡。
-With one like Tz'u, I can begin to talk about the odes.
+And now there is not (such another).
 
 ⑥ 賜也。始可與言詩已矣。
-While he (Confucius) lived, he was glorious. When he died, he was bitterly lamented. How is it possible to attain unto him?
+With one like Tz'u, I can begin to talk about the odes.
 
 ⑦ 其生也榮。其死也哀。如之何其可及也。
-The Master said, "The faults of men are characteristic of the class to which they belong.
+While he (Confucius) lived, he was glorious. When he died, he was bitterly lamented. How is it possible to attain unto him?
 
 ⑧ 子曰。人之過也。各於其黨。觀過。斯知仁矣。
-By observing a man's faults, it may be known that he is virtuous.
+The Master said, "The faults of men are characteristic of the class to which they belong. By observing a man's faults, it may be known that he is virtuous.
 
 ⑨ 朝聞道夕死可矣。
 If a man in the morning hear the right way, he may die in the evening (without regret).

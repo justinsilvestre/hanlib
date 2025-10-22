@@ -43,7 +43,7 @@ Moreover the said officer is very well acquainted with conditions of foreign aff
 ⑨ 本大臣當經照會該領事官。並派委員向其當面告知。
 I thereupon wrote officially to the said consul, and at the same time sent a deputy to inform him (of the matter) personally。
 
-⑩ 並飾該道前赴各屬親查
+⑩ 並飭該道。前赴各屬親查
 At the same time I ordered the said Tao-t'ai to proceed to each place in his jurisdiction and to make personal investigation (道 for 道台 tao-t'ai, an official ranking during the Manchu dynasty).
 
 ⑪ 已蒙賜面又蒙駕臨

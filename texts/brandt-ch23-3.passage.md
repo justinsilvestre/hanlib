@@ -29,7 +29,7 @@ Since your Majesty deems them excellent, why do you not practise them?
 ③ 吾何以識其不才。而舍之。
 How shall I know that they have no ability and so avoid employing them (lit. to set aside)?
 
-④ 子曰。天生德於予。桓態其如予何。
+④ 子曰。天生德於予。桓魋其如予何。
 The Master said, "Heaven produced the virtue that is in me. Huan-T'ui—what can he do to me?"
 
 ⑤ 夫何爲哉。

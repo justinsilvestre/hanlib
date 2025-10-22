@@ -10,7 +10,7 @@ A Letter on Sending Local Products to a Friend
 某某仁兄大人閣下敬啟者。
 To the Honorable Mr. So-And-So, from So-And-So.
 
-梧桐葉落。天下知秋。
+{a:梧桐葉落。天下知秋。}
 The leaves of the parasol tree fall, and all under heaven know it is autumn.
 
 弟昨日蒞都。滿擬造府拜晤。
@@ -28,7 +28,7 @@ As soon as I recover a little, I will come to visit.
 茲遣小價送上土產數種。聊表私懷。
 For now, I am sending several local products, just as a token of my feelings.
 
-即希莞納。勿却是荷。
+即希{b:莞納}。勿却是荷。
 I hope you will happily accept them, and please do not decline them.
 
 專泐肅柬。敬候福安。
@@ -44,3 +44,65 @@ Additionally, I hope you will forgive me. I shall be most grateful.
 I, So-And-So, bow to you.
 
 ---
+
+# a
+
+One of the so called "seasonal expressions" (`時令語`) with which the Chinese letters usually begin.
+
+## Similar expressions
+
+### For the spring-time
+
+
+1. `冰消南岸。草萌東郊。`
+2. `柳眉舒暢。春暖漸加。`
+3. `春光和暢。花鳥宜人。`
+4. `柳暗花明。鶯啼蝶舞。`
+5. `風傳花信。雨濯芳塵。`
+6. `春雨釀花。和風送暖。`
+
+### For the summer-time
+
+
+1. `陰雨濛濛。新綠如洗。`
+2. `荷風送暑。梅雨方晴。`
+3. `暑氣逼人。炎威侵體。`
+4. `葵傾烈日。槐動薫風。`
+5. `蟬聲送暑。雨後蛙鳴。`
+6. `霖雨方息。暑氣將張。`
+
+### For the autumn-time
+
+
+1. `新凉滌暑。爽氣迎人。`
+2. `秋風去暑。玉露初凉。`
+3. `金風初起。滿目秋光。`
+4. `滿天秋色。萬林呈黃。`
+5. `秋風搖落。氣候漸寒。`
+6. `寒菊香艷。落葉飄搖。`
+
+### For the winter-time
+
+
+1. `寒燈夜雪。眷念維殷。`
+2. `梅花香泛。瑞雪飄白。`
+3. `朔風凛冽。皎雪迷離。`
+4. `雪花六出。豫兆豐年。`
+5. `擁爐聽雪。把酒驅寒。`
+6. `梅傳春意。菊傲霜枝。`
+
+# b
+
+"to accept with a smile"
+
+## Similar expressions
+
+
+1. `莞存`
+2. `莞收`
+3. `晒存`
+4. `晒納`
+5. `晒收`
+6. `笑存`
+7. `笑納`
+8. `笑收`

@@ -16,7 +16,7 @@ Prince Hsuan of the Ch'u State asks his Ministers
 狐曰。子無敢食我也。天帝使我長百獸。今子食我。是逆天帝命也。
 The ministers could not reply. (Then) Chiang-i said," (Once upon a time) a tiger went out in quest of prey and caught a fox.
 
-予以我爲不信。我爲子先行。子隨我後。觀巨獸之見我。而敢不走平。
+予以我爲不信。我爲子先行。子隨我後。觀百獸之見我。而敢不走平。
 If you do not believe me. I will walk on ahead of you, and you will follow me, and then you shall see whether the beasts dare do other than run away as soon as they see me."
 
 虎以爲然。故遂與之行。獸見之皆老虎不知獸。畏已而走。也以爲畏狐也今。

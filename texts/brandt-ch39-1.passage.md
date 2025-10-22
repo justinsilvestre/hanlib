@@ -12,16 +12,16 @@ President Ts'ao-Ku'n's Telegram of Resignation
 公鑒。
 To the Peking Cabinet of the 10th month, 13th year of the Republic, to the Senate and the House of Representatives, to high military and civil authorities of all provinces and special administrative areas, to all provincial assemblies, to all legal organizations and all newspapers for information of all citizens:
 
-錕泰膺重托。德薄能鮮。致令部曲橋貳紀綱失墜。
+錕泰膺重托。德薄能鮮。致令部曲攜貳。紀綱失墜。
 I, K'un, was entrusted with the heavy burden (of the presidency). My virtue and ability however were so poor that a conflict among my followers broke out and all laws became ineffective (lit. fell down).
 
 十三年十月二十三日。馮玉祥倒戈。錕受閉錮。
 On October 23rd in the 13th year of the Republic, Feng Yü-hsiang carried out a "coup d'etat", and I was imprisoned.
 
-自是法毀亂。遊國無元首。迄今一載有半。良用疚心。
+自是法毀亂滋。遊國無元首。迄今一載有半。良用疚心。
 From that time all law has been set aside, disturbances have arisen, and there has been no real head of the country. A year and a half have now passed, and my heart is aching with sorrow.
 
-今聯軍討逆。巨憨己除。大法可復。
+今聯軍討逆。巨憝己除。大法可復。
 Now the allied troops have started to suppress the traitor, and with the removal of (this object) of our great wrath can be reinstated.
 
 國務院自當復政。依法攝行大總統職務。

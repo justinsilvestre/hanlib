@@ -186,7 +186,7 @@ To come down from heaven.
 ㊹ 不由人算。
 Not within the calculations of mortals.
 
-㊺ 由領事官筋該商。
+㊺ 由領事官飭該商。
 The consul instructed the said merchant.
 
 ㊻ 遇諸路。

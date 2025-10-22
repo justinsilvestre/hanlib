@@ -55,7 +55,7 @@ In a few years the old woman died, and the tiger came and roared in the hall. Wi
 墳壘方成。虎驟奔來。賓客盡逃。虎直赴冢前。嘷鳴雷動。移時始去。
 The grave-mound had just been completed when a tiger rushed in, and every one who was at the funeral fled away in fear. The tiger approached the mound, roared like thunder and disappeared.
 
-土人立義虎洞於東郊。至今猶存。
+土人立義虎祠於東郊。至今猶存。
 The people of that place built in the eastern suburb a temple in honor of the Faithful Tiger which remains there till this day.
 
 ---

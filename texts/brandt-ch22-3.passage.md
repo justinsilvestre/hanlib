@@ -50,16 +50,16 @@ The Master said, "Is virtue a thing remote? I wish to be virtuous, and virtue is
 ⑩ 予縱不得大葬。予死於道路乎。
 Though I may not get a great burial, shall I die upon the road?
 
-⑪ 子曰。已矣乎。吾未見好德如好色者也。
+⑪ 子曰。已矣乎。吾未見能見其過。而內自訟者也。
 The Master said, "It is all over! I have not yet seen one who could perceive his faults, and inwardly accuse himself."
 
-⑫ 子曰。苟正其身矣。於從政乎何有。
+⑫ 子曰。已矣乎。吾未見好德如好色者也。
 The Master said, "It is all over! I have not seen one who loves virtue as he loves beauty."
 
-⑬ 如其善。而莫之違也。不亦善乎。
+⑬ 子曰。苟正其身矣。於從政乎何有。
 The Master said, "If (a minister) makes his own conduct correct, what difficulty will he have in assisting in government?"
 
-⑭ 如善乎。而莫之違也。不幾乎一言而喪邦乎。
+⑭ 如其善。而莫之違也。不亦善乎。如善乎。而莫之違也。不幾乎一言而喪邦乎。
 If the words (of a ruler) be good, is it not also good that no one opposes them? But if they are not good, and no one opposes them, is it not (then) that a single sentence may bring the ruin of the country?
 
 ⑮ 予無樂乎爲君。

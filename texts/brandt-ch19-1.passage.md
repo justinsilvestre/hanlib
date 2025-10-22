@@ -19,7 +19,7 @@ Yü quickly jumped aside to avoid it, and the arrow struck the wall where it stu
 鬼怒甚。拔佩刀揮如風。望公力劈。
 The demon became furious, pulled out his sword and whirled it like the wind intending to give him a tremendous blow.
 
-公揉進。刀中庭石。石立斷。
+公猱進。刀中庭石。石立斷。
 Yü ducked, and the sword struck the stone ledge cutting it in two.
 
 公出其股間。削鬼中踝。鏗然有聲。
