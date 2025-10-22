@@ -2,13 +2,11 @@
 
 <center>Adapted from the 1927 book by J. Brandt</center>
 
-<center>Vocabulary section transcribed with help from  with help from 武克富強/Võ Khắc Phú Cường</center>
-
 ## Grammatical section.
 
 <center>PARTICLES OF THE WENLI STYLE.</center>
 
-Even in the perusal of the first three lessons of the present course the reader could hardly have failed to notice the variety of so called "empty words" (`虚字`) let us call them "particles") and the important part they play in the structure of the written style.
+Even in the perusal of the first three lessons of the present course the reader could hardly have failed to notice the variety of so called "empty words" (`虛字`) let us call them "particles") and the important part they play in the structure of the written style.
 
 The Chinese themselves pay no little attention to these particles, and there are many manuals on this subject in use in Chinese schools.
 
