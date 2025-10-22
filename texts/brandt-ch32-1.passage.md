@@ -7,8 +7,7 @@
 美國邀請德國加入華約之不當 (續)
 The Impropriety of the American Invitation to Germany to Adhere to the Washington Treaty (continued)
 
-須知中美兩國政府及人民關係。向極親密。故美國在華之商務。蒸
-蒸日上。
+須知中美兩國政府及人民關係。向極親密。故美國在華之商務。蒸蒸日上。
 Owing to intimate and friendly relations between the Governments of China and the United States and between the Chinese and the American people, American trade in China has grown by leaps and bounds.
 
 近年來進步尤速。蓋華人素好和平。富於情感。

@@ -16,8 +16,7 @@ Since I assumed office as Chief Executive I have been striving my best to lead (
 不圖德未足以感人。才未足以濟變。力不從心事俱違願。
 Unfortunately (lit. unexpectedly) my virtues fail to win the respect of others, my ability is not sufficient to stop the rebellion, my strength is not equal to my will, and I have not been able to realize my expectations.
 
-迭經聲述。期於退休。然猶不辭謗議。忍辱至今者。徒以民
-國締構。本執政心力所存。休戚與共。
+迭經聲述。期於退休。然猶不辭謗議。忍辱至今者。徒以民國締構。本執政心力所存。休戚與共。
 I have more than once expressed my desire to resign from office, but the reason why I still (do not retire) in spite of all abuses and insults, is that I have played no small part in the establishment of the Republic sharing all joys and sorrows with it.
 
 內審時艱。外崇國信。且目睹赤化之禍流於首都。不敢遽爲無責任之放棄耳。
