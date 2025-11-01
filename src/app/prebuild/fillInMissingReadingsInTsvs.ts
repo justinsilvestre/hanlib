@@ -20,15 +20,22 @@ import { getPassageChars } from "./getPassageChars";
 // @ts-expect-error no typings
 import unihan from "@silvestre/cjk-unihan";
 
+const VERBOSE = false;
+
 export async function fillInMissingReadingsInTsvs(lexicon: LexiconJson) {
   let brandtPassagesVisited = 0;
   let registeredChars = new Set<string>();
   for (const textId of getTextsIds()) {
+    if (VERBOSE)
+      console.log(
+        `Filling in missing readings for ${textId} (${brandtPassagesVisited} Brandt passages visited so far)...`
+      );
     const isBrandtPassage = textId.startsWith("brandt-");
     if (isBrandtPassage) brandtPassagesVisited += 1;
     const vocabFileContents = getPassageVocabFileContents(textId);
 
-    const { vocab, variants, comment } = parsePassageVocabListTsv(
+    if (VERBOSE) console.log(`Parsing vocab tsv for passage ${textId}...`);
+    const { vocab, variants, comment, terms } = parsePassageVocabListTsv(
       textId,
       vocabFileContents
     );
@@ -45,6 +52,7 @@ export async function fillInMissingReadingsInTsvs(lexicon: LexiconJson) {
       },
       {} as { [mainVariant: string]: string[] }
     );
+    if (VERBOSE) console.log(`Parsing passage ${textId}...`);
     const passage = parsePassage(getPassageFileContents(textId));
     const passageChars = getPassageChars(passage);
 
@@ -52,19 +60,26 @@ export async function fillInMissingReadingsInTsvs(lexicon: LexiconJson) {
       (char) => !registeredChars.has(char)
     );
 
-    const featuredChars = new Set(
-      Object.keys(vocab).concat(isBrandtPassage ? newCharsInPassage : [])
-    );
+    const featuredChars = new Set(terms);
+    if (isBrandtPassage)
+      for (const char of newCharsInPassage) featuredChars.add(char);
 
-    const featuredCharsMainVariants = new Set(
-      [...featuredChars].flatMap((char) => {
-        const mainVariants = [
-          ...(lexicon.variants[char] || []),
-          ...(variants[char] || []),
-        ];
-        return mainVariants.length ? mainVariants : [char];
-      })
-    );
+    const featuredCharsMainVariants = new Set<string>();
+    for (const char of featuredChars) {
+      if (
+        (lexicon.variants[char]?.length ?? 0) + (variants[char]?.length ?? 0)
+      ) {
+        if (lexicon.variants[char])
+          for (const mainVariant of lexicon.variants[char])
+            featuredCharsMainVariants.add(mainVariant);
+        if (variants[char])
+          for (const mainVariant of variants[char])
+            featuredCharsMainVariants.add(mainVariant);
+      } else {
+        featuredCharsMainVariants.add(char);
+      }
+    }
+
     for (const char of featuredCharsMainVariants) {
       if (
         !lexicon.vocab[char] ||
@@ -155,6 +170,9 @@ export async function fillInMissingReadingsInTsvs(lexicon: LexiconJson) {
           registeredChars.add(secondaryVariant);
         }
       }
+
+    if (VERBOSE)
+      console.log(`Finished filling in missing readings for ${textId}`);
   }
 }
 

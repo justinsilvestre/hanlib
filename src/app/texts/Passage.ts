@@ -31,6 +31,7 @@ export function parsePassageVocabListTsv(
   textId: string,
   vocabFileContents: string | null
 ) {
+  const terms = new Set<string>();
   const vocab: CorpusVocab = {};
   const variants: CorpusTermVariants = {};
   let comment: string | null = null;
@@ -79,6 +80,8 @@ export function parsePassageVocabListTsv(
         vocabEntry[key] = value || null;
       }
 
+      terms.add(mainVariant);
+
       vocab[mainVariant] ||= [];
       vocab[mainVariant]!.push(vocabEntry);
       for (const variant of secondaryVariants) {
@@ -87,7 +90,12 @@ export function parsePassageVocabListTsv(
       }
     }
   }
-  return { vocab, variants, comment };
+  return {
+    terms,
+    vocab,
+    variants,
+    comment,
+  };
 }
 
 export function parsePassage(passageFileContents: string) {

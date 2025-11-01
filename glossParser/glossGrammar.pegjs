@@ -3,21 +3,27 @@ import * as g from '../src/glossUtils'
 }}
 
 Expression =
-  phrases:Phrase+ {
-    return new g.GlossDocument(phrases);
+  elements:GlossElement* {
+    return new g.GlossDocument(elements);
   }
 
-Phrase =
-  pre:"\""? head:GlossElement tail:(___ el:GlossElement { return el })* post:EndPunctuation {
-    return new g.Phrase(location(), [head, ...tail], pre, post)
-  }
+
+GlossElementDelimiter =
+  ___? '/' ___? { return '' }
+  / ___? t1:'~'? p:EndPunctuation+ t2:'~'? ___? { return (t1||'') + p.join('') + (t2||'') }
+  / ___? !. { return '' }
+
 
 GlossElement =
-  number:Number pre:(p:Padding ___ {return p})? term:GlossedTerm post:(___ p:Padding &(___/EndPunctuation) {return p})? {
-    return new g.ReorderedGlossSegment(location(), +number, pre, term, post)
+   number:Number? pre:(p:Padding ___ {return p})? original:OriginalTerm ___ term:GlossedTerm post:(___ p:Padding {return p})? delimiter:GlossElementDelimiter {
+    return new g.GlossElement(location(), number && +number, original, pre, term, post, delimiter);
   }
-  / GlossedTerm
-  / Padding
+
+OriginalTerm =
+  chars:$[^ \t\n\r]+ {
+    return chars;
+  }
+
 
 GlossedTerm =
   lemma:LemmaSegment "[:" inflected:IdentifierCharactersAllowingHyphens "]" {
@@ -43,12 +49,12 @@ IdiomaticGlossedTerm =
     return new g.IdiomaticGlossedTerm(location(), segments)
   }
 
-InflectionSegment =
+InflectionSegment "inflection segment" =
   "[" chars:IdentifierCharactersAllowingHyphens "]" {
     return new g.InflectionSegment(location(), chars)
   }
 
-LemmaSegment =
+LemmaSegment "lemma segment" =
   chars:IdentifierCharacters {
     return new g.LemmaSegment(location(), chars)
   }
@@ -57,6 +63,7 @@ Padding =
   "[" chars:IdentifierCharactersAllowingSpaces "]" {
     return new g.Padding(location(), chars)
   }
+
 
 IdentifierCharacters "identifier characters"
   = $("\\" . / $[a-zA-Z'*_\^~])+
@@ -67,17 +74,17 @@ IdentifierCharactersAllowingHyphens
 IdentifierCharactersAllowingSpaces
   = $("\\" . / $[a-zA-Z'*_\^~\- ])+
 
-EndPunctuation =
-  $(s1:Space* p:NonSpaceEndPunctuation+ s2:Space*) / !. {
-    return ''
-  }
 
 
 Space "space" = ' '
-NonSpaceEndPunctuation "end punctuation" = ($(pre:[.!?,;\n\r] q:'"'?) / '--')
+EndPunctuation "end punctuation" = ([.!?,;"] 
+  / $("\\n") { return `\n`; }
+  / '_'
+  / '--')
 
 Number =
   [1-9]
 
 ___ "mandatorywhitespace" =
-  x:$' '+
+  $([ \n\r]+)
+

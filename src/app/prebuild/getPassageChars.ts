@@ -16,7 +16,7 @@ export function getPassageChars(passage: Passage) {
 }
 
 function getEmbeddedChineseSegments(text: string) {
-  return [...text.matchAll(/(?<=`)[^`\s\n]+(?=`)/g)].map((t) =>
+  return Array.from(text.matchAll(/(?<=`)[^`\s\n]+(?=`)/g), (t) =>
     normalizeText(t[0])
   );
 }

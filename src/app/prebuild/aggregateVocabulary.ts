@@ -24,6 +24,7 @@ export function aggregateVocabulary() {
         textId,
         vocabFileContents
       );
+      console.log(`Parsed vocab for ${textId}`);
       return mergeVocab(acc, vocabWithVariants);
     },
     {

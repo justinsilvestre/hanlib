@@ -4,13 +4,24 @@ import { aggregateVocabulary } from "./aggregateVocabulary";
 import { fillInMissingReadingsInTsvs } from "./fillInMissingReadingsInTsvs";
 import { writePassageVocabularyJsons } from "./writePassageVocabularyJsons";
 
+const startTime = Date.now();
+
 if (!fs.existsSync(prebuildDirectoryPath)) {
   fs.mkdirSync(prebuildDirectoryPath);
 }
 
+console.log(`Aggregating vocabulary...`);
 const lexicon = aggregateVocabulary();
+console.log(
+  `Aggregated vocabulary in ${(Date.now() - startTime) / 1000} seconds`
+);
+
+console.log(`Filling in missing readings in passage vocab tsvs...`);
 
 fillInMissingReadingsInTsvs(lexicon).then(() => {
+  console.log(
+    `Filled in missing readings in ${(Date.now() - startTime) / 1000} seconds`
+  );
   fs.writeFileSync(lexiconFilePath, JSON.stringify(lexicon, null, 2));
   console.log(`Wrote lexicon to ${lexiconFilePath}`);
   writePassageVocabularyJsons(lexicon);
@@ -20,6 +31,9 @@ fillInMissingReadingsInTsvs(lexicon).then(() => {
     (count, term) => count + (term.length === 1 ? 1 : 0),
     0
   );
+
+  console.log(`Finished in ${(Date.now() - startTime) / 1000} seconds`);
+
   console.log(`Total terms: ${termsCount}`);
   console.log(`Total characters: ${charactersCount}`);
 });
