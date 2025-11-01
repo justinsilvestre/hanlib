@@ -8,39 +8,39 @@
 
 人影
 Man's Shadow
-`person[:Man's] s[-S]hadow`
+`人 person[:^man's] / 影 shadow`
 
 新月初上。
 The new moon had just risen.
-`[The] new moon [had] just rise[n].`
+`[^the] 新 new / 月 moon / [had] 初 just / 上 rise[n].`
 
 兒行廊下。似有一人隨其後。
 A boy was passing under a veranda, (and) it seemed (to him) that somebody (lit. one man) was following him.
-`[A] boy [was] go[:passing] 2[a] veranda 1under, [and it] seem[ed] [to him that] one-man (somebody) [was_]following 2him 1after.`
+`[A] 兒 boy / 行 go ([was_]pass[ing]) / >[a] 廊 veranda / 下 under , [and it] 似 seem[ed] [to him] / [that] 一人 one-person (somebody) / 隨 [was_]following / >其 him / 後 after .`
 
 不敢回顧。
 The boy did not dare to look back.
-`[The boy] [did_]not dare [to] 2back 1look.`
+`[The boy did] 不 not / 敢 dare [to] / >回 back  / 顧 look.`
 
 急入告姊。
 Hurriedly he entered (the house), (and) told (his) elder sister.
-`^hurry[-iedly] [he] enter[:went_inside] [and] tell[:told] [his] elder_sister.`
+`急 ^hurry[-iedly] / [he] 入 enter[:went_inside] / [and] 告 tell[:told] / [his] 姊 elder_sister .`
 
 姊曰。此{a:汝身之影}也。
 (His) sister said, "It (is) the shadow of your body.
-`[His] sister speak[:said], "^it 2your 3body 4~'s 5shadow 1is.`
+`[His] 姊 elder_sister / 曰 speak[:said] ,_" 此 ^it / >汝 your - 身 body - 之 of[:~'s] - 影 shadow / 也 final_particle (is)."`
 
 汝立燈前。行日下。{b:皆有影}。
 (When) you are standing before a lamp, (or) going under the sun, there always is a shadow.
-`[When] you [are_]stand[ing] 2[a] lamp 1before, [or] go[ing] 2[the] sun 1under, 2every[where] be[:there_is] 1[a] shadow.`
+`[When] 汝 you / 立 [are_]stand[ing] / >[a] 燈 lamp / 前 before , [or] 行 go[ing] / >[the] 日 sun / 下 under , 皆 every[where] / 有 be[:there_is] / [a] 影 shadow.`
 
 何忘之耶。
 How is it that you forget it?"
-`^how [is it that you] forget it interrogative_particle (~\?) [~\"]`
+`何 ^how [is it that] / [you] 忘 forget / 之 it / 耶 interrogative_particle (~\?) [~\"]`
 
 {c:兒乃悟}。
 The boy then understood.
-`[The] boy then understan[--oo]d.`
+`[^the] 兒 boy / 乃 then / 悟 under[stood:]stand.`
 
 ---
 

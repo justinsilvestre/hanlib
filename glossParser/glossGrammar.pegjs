@@ -3,20 +3,28 @@ import * as g from '../src/glossUtils'
 }}
 
 Expression =
-  elements:GlossElement* {
-    return new g.GlossDocument(elements);
+  sequences:GlossElementSequence* {
+    return new g.GlossDocument(sequences);
   }
 
 
-GlossElementDelimiter =
+GlossElementSequenceDelimiter =
   ___? '/' ___? { return '' }
   / ___? t1:'~'? p:EndPunctuation+ t2:'~'? ___? { return (t1||'') + p.join('') + (t2||'') }
   / ___? !. { return '' }
 
 
 GlossElement =
-   number:Number? pre:(p:Padding ___ {return p})? original:OriginalTerm ___ term:GlossedTerm post:(___ p:Padding {return p})? delimiter:GlossElementDelimiter {
-    return new g.GlossElement(location(), number && +number, original, pre, term, post, delimiter);
+   pre:(p:Padding ___ {return p})? original:OriginalTerm ___ term:GlossedTerm post:(___ p:Padding {return p})? {
+    return new g.GlossElement(location(), original, pre, term, post);
+  }
+
+GlossElementSequence =
+  '>' head:GlossElement tail:( ___ '-' ___  g:GlossElement { return g })*  delimiter:GlossElementSequenceDelimiter {
+    return new g.GlossElementSequence(location(), [head, ...tail], delimiter, '>');
+  }
+  / order:OrderNumberAnnotation? head:GlossElement tail:( ___ '-' ___  g:GlossElement { return g })*  delimiter:GlossElementSequenceDelimiter {
+    return new g.GlossElementSequence(location(), [head, ...tail], delimiter, order ? +order : undefined);
   }
 
 OriginalTerm =
@@ -82,7 +90,7 @@ EndPunctuation "end punctuation" = ([.!?,;"]
   / '_'
   / '--')
 
-Number =
+OrderNumberAnnotation =
   [1-9]
 
 ___ "mandatorywhitespace" =

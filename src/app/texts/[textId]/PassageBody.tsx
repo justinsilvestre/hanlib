@@ -4,7 +4,10 @@ import { ChineseWithPopover, DisplayOptions } from "./ChineseWithPopover";
 import { useState } from "react";
 import { normalizeText, textIsEndPunctuation } from "./punctuation";
 import { parseGloss } from "./parseGloss";
-import { GlossDocument, TranslationElement } from "@/app/glossUtils";
+import {
+  GlossDocument,
+  TranslationElement,
+} from "../../../../glossParser/src/glossUtils";
 import { PassageNotes } from "./PassageNotes";
 import { LexiconJson } from "../lexicon";
 import clsx from "clsx";

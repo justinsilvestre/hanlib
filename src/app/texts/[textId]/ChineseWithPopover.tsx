@@ -14,7 +14,10 @@ import {
   toEnMatchKeyword,
 } from "@/app/lexiconEntryEnKeywords";
 import dynamic from "next/dynamic";
-import { GlossDocument, GlossedTermComponent } from "@/app/glossUtils";
+import {
+  GlossDocument,
+  GlossedTermComponent,
+} from "../../../../glossParser/src/glossUtils";
 
 const RubyText = dynamic(() => import("./RubyText").then((r) => r.RubyText), {
   ssr: false,

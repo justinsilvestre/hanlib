@@ -4,6 +4,8 @@ const INFLECTION_SEGMENT = "InflectionSegment" as const;
 const PADDING = "Padding" as const;
 const GLOSS_ELEMENT = "GlossElement" as const;
 
+// TODO: initial quotes/delimiter and carat
+
 type Location = {
   start: {
     line: number;
@@ -18,16 +20,21 @@ type Location = {
 };
 
 export class GlossDocument {
-  public delimitersAfterReordering: Map<GlossElement, string> = new Map();
+  public delimitersAfterReordering: Map<GlossElementSequence, string> =
+    new Map();
 
-  constructor(public elements: GlossElement[]) {}
+  constructor(public sequences: GlossElementSequence[]) {}
 
   getTermComponents() {
-    const components = this.elements.flatMap((e) => {
-      return e.term.components.map((c) => ({
-        parent: e.term,
-        term: c,
-      }));
+    const components = this.sequences.flatMap((s) => {
+      return s.elements
+        .map((e) => {
+          return e.term.components.map((c) => ({
+            parent: e.term,
+            term: c,
+          }));
+        })
+        .flat();
     });
 
     return {
@@ -37,49 +44,72 @@ export class GlossDocument {
   }
 
   orderByTranslation() {
-    const translationElements: GlossElement[] = [];
-    let pendingNumberedGlosses: ReorderedGlossElement[] = [];
+    const translationElements: GlossElementSequence[] = [];
 
-    for (const element of this.elements) {
-      if (isReorderedGlossElement(element)) {
-        pendingNumberedGlosses.push(element);
+    let pendingNumberedSequences: NumberedGlossElementSequence[] = [];
+    // let pendingArrowSequences: {first:GlossElementSequence, second: GlossElementSequence}[] = [];
+    /** First to second */
+    const pendingArrowSequences = new Map<
+      GlossElementSequence,
+      GlossElementSequence
+    >();
+    const resolveSequenceAndArrows = (
+      element: GlossElementSequence,
+      endingDelimiterSource: GlossElementSequence
+    ) => {
+      translationElements.push(element);
 
-        if (element.number === 1) {
-          console.log(`REORDERING ${pendingNumberedGlosses.length} ELEMENTS`);
-          pendingNumberedGlosses.sort((a, b) => {
-            return a.number - b.number;
-          });
+      const next = pendingArrowSequences.get(element);
+      if (next) {
+        pendingArrowSequences.delete(element);
+        resolveSequenceAndArrows(next, endingDelimiterSource);
+      } else if (
+        element !== endingDelimiterSource &&
+        endingDelimiterSource.delimiterBeforeReordering
+      ) {
+        this.delimitersAfterReordering.set(endingDelimiterSource, "");
+        this.delimitersAfterReordering.set(
+          element,
+          endingDelimiterSource.delimiterBeforeReordering
+        );
+      }
+    };
 
-          this.delimitersAfterReordering.set(pendingNumberedGlosses[0], "");
+    for (let i = 0; i < this.sequences.length; i++) {
+      const sequence = this.sequences[i];
+      if (isReorderedGlossElementSequence(sequence)) {
+        pendingNumberedSequences.push(sequence);
+
+        if (sequence.order === 1) {
+          pendingNumberedSequences.sort((a, b) => a.order - b.order);
+
+          this.delimitersAfterReordering.set(pendingNumberedSequences[0], "");
           this.delimitersAfterReordering.set(
-            pendingNumberedGlosses[pendingNumberedGlosses.length - 1],
-            pendingNumberedGlosses[0].delimiterBeforeReordering
+            pendingNumberedSequences[pendingNumberedSequences.length - 1],
+            pendingNumberedSequences[0].delimiterBeforeReordering
           );
 
-          console.log(
-            `FIRST DELIMITER: ${pendingNumberedGlosses[0].delimiterBeforeReordering}`
-          );
-          console.log(
-            `LAST DELIMITER: ${
-              pendingNumberedGlosses[pendingNumberedGlosses.length - 1]
-                .delimiterBeforeReordering
-            }`
-          );
-
-          translationElements.push(...pendingNumberedGlosses);
-
-          pendingNumberedGlosses = [];
+          for (const p of pendingNumberedSequences) {
+            resolveSequenceAndArrows(p, p);
+          }
+          pendingNumberedSequences = [];
+        }
+      } else if (sequence.order === ">") {
+        const nextSequence = this.sequences[i + 1];
+        if (nextSequence) pendingArrowSequences.set(nextSequence, sequence);
+        else {
+          resolveSequenceAndArrows(sequence, sequence);
         }
       } else {
-        translationElements.push(element);
+        resolveSequenceAndArrows(sequence, sequence);
       }
     }
 
-    if (pendingNumberedGlosses.length) {
-      pendingNumberedGlosses.sort((a, b) => {
-        return a.number - b.number;
-      });
-      translationElements.push(...pendingNumberedGlosses);
+    if (pendingNumberedSequences.length) {
+      pendingNumberedSequences.sort((a, b) => a.order - b.order);
+      for (const p of pendingNumberedSequences) {
+        translationElements.push(p);
+      }
     }
 
     return translationElements;
@@ -87,15 +117,17 @@ export class GlossDocument {
 
   renderTranslation() {
     const translationElements: (Padding | GlossedTerm)[] = [];
-    for (const e of this.orderByTranslation()) {
-      if (e.prePadding) translationElements.push(e.prePadding);
+    for (const sequence of this.orderByTranslation()) {
+      for (const e of sequence.elements) {
+        if (e.prePadding) translationElements.push(e.prePadding);
 
-      translationElements.push(e.term);
+        translationElements.push(e.term);
 
-      if (e.postPadding?.text) translationElements.push(e.postPadding);
-
+        if (e.postPadding?.text) translationElements.push(e.postPadding);
+      }
       const delimiter =
-        this.delimitersAfterReordering.get(e) ?? e.delimiterBeforeReordering;
+        this.delimitersAfterReordering.get(sequence) ??
+        sequence.delimiterBeforeReordering;
 
       if (delimiter) {
         const delimiterPadding = new Padding(null, delimiter);
@@ -121,11 +153,11 @@ export class GlossDocument {
   }
 }
 
-type ReorderedGlossElement = GlossElement & { number: number };
-function isReorderedGlossElement(
-  element: GlossElement
-): element is ReorderedGlossElement {
-  return element.elementType === GLOSS_ELEMENT && element.number !== null;
+type NumberedGlossElementSequence = GlossElementSequence & { order: number };
+function isReorderedGlossElementSequence(
+  sequence: GlossElementSequence
+): sequence is NumberedGlossElementSequence {
+  return typeof sequence.order === "number";
 }
 
 export class GlossElement {
@@ -133,12 +165,19 @@ export class GlossElement {
 
   constructor(
     public location: Location,
-    public number: number | null,
     public originalTerm: string,
     public prePadding: Padding | null,
     public term: GlossedTerm,
-    public postPadding: Padding | null,
-    public delimiterBeforeReordering: string
+    public postPadding: Padding | null
+  ) {}
+}
+
+export class GlossElementSequence {
+  constructor(
+    public location: Location,
+    public elements: GlossElement[],
+    public delimiterBeforeReordering: string,
+    public order: number | ">" | null = null
   ) {}
 }
 

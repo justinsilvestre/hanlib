@@ -1,7 +1,7 @@
 "use client";
 import { LexiconJson } from "../lexicon";
 import { ChineseWithPopover, DisplayOptions } from "./ChineseWithPopover";
-import { GlossDocument } from "@/app/glossUtils";
+import { GlossDocument } from "../../../../glossParser/src/glossUtils";
 
 export function NotesChinese({
   children,

@@ -6,6 +6,7 @@ export type ParsedGloss =
       ok: true;
       ast: GlossDocument;
       translation: GlossElement[];
+      original: string;
       error?: undefined;
     }
   | {
@@ -32,14 +33,25 @@ export default function parseGloss(gloss: string): ParsedGloss {
 
   try {
     ast = parse(gloss) as GlossDocument;
-    let _translation: ReturnType<GlossDocument["orderByTranslation"]>;
+    let _translation: GlossElement[];
+    let _original: string;
     return {
       ast,
       get translation() {
         if (!_translation) {
-          _translation = ast!.orderByTranslation();
+          _translation = ast!.orderByTranslation().flatMap((el) => el.elements);
         }
         return _translation;
+      },
+
+      get original() {
+        if (!_original) {
+          _original =
+            ast?.sequences
+              .flatMap((s) => s.elements.flatMap((e) => e.originalTerm))
+              .join("") || "";
+        }
+        return _original;
       },
 
       ok: true,
